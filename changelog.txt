@@ -6,3 +6,4 @@ Official WinUAE Help Changelog
 * Fixed up internal hyperlinks and insane external ones
 * Made all pages HTML4 compliant, optimized HTML structure
 * New screenshots, saving 200kB overall filesize
+* Various fixes in texts and layout changes
