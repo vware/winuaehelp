@@ -7,23 +7,24 @@
 </head>
 <body class="site">
 <p class="headline1">Transdisk</p>
-<p class="text">A disk file is an image of the raw data on an Amiga floppy disk, it contains 
-  901120 bytes (880K), which is the standard capacity of an Amiga disk. Transdisk 
-  will dump an image of a floppy in one of the drives.</p>
+<p class="text">A disk file is an image of the raw data on an Amiga floppy disk,
+  it contains 901120 bytes (880K), which is the standard capacity of an Amiga
+  disk. Transdisk will dump an image of a floppy in one of the drives.</p>
 <p>&nbsp;</p>
-<p class="text">To create an image of a disk in your Amiga floppy drive, the syntax is:</p>
+<p class="text">To create an image of a disk in your Amiga floppy drive, the
+  syntax is:</p>
 <p class="textmenu">transdisk &gt;RAM:df0.adf</p>
-<p class="text">This command will create a file called &quot;df0.adf&quot; in the RAM disk. 
-  Such a file is 901120 bytes of size for one disk.</p>
-<p class="text">You can also create disk images in several parts. To create 4 parts of the 
-  disk in DF0: do the following:</p>
-  <p class="textmenu">transdisk &gt;ram:df0_1.adf -s 0 -e 19<br>
-transdisk &gt;ram:df0_2.adf -s 20 -e 39<br>
-transdisk &gt;ram:df0_3.adf -s 40 -e 59<br>
-transdisk &gt;ram:df0_4.adf -s 60 -e 79<br>
-  </p>
-  After you copied the files to your PC, you have to merge them again. To do so 
-  in the DOS - prompt:
-  <p class="textmenu">COPY /B df0_1.adf+df0_2.adf+df0_3.adf+df0_4.adf df0.adf</p>
+<p class="text">This command will create a file called &quot;df0.adf&quot; in
+  the RAM disk. Such a file is 901120 bytes of size for one disk.</p>
+<p class="text">You can also create disk images in several parts. To create 4
+  parts of the disk in DF0: do the following:</p>
+<p class="textmenu">transdisk &gt;ram:df0_1.adf -s 0 -e 19<br>
+  transdisk &gt;ram:df0_2.adf -s 20 -e 39<br>
+  transdisk &gt;ram:df0_3.adf -s 40 -e 59<br>
+  transdisk &gt;ram:df0_4.adf -s 60 -e 79<br>
+</p>
+After you copied the files to your PC, you have to merge them again. To do so
+in the DOS - prompt:
+<p class="textmenu">COPY /B df0_1.adf+df0_2.adf+df0_3.adf+df0_4.adf df0.adf</p>
 </body>
 </html>
