@@ -38,26 +38,16 @@
 <p class="text">&nbsp;</p>
 <p class="headline2">Misc chipset options</p>
 <ul>
-  <li class="text"><strong>Fast Copper</strong> is the short name for a &quot;Coprocessor&quot; which
-    is integrated into the Amiga custom chips. It makes fast action games possible,
-    as well as unbelievable color effects, and the capability to drag down a
-    screen partially on the Amiga's display and thus show several screens at
-    once. Technically, the Copper is a highly specialized microprocessor which
-    knows only three different commands, but can process these extremely fast
-    and efficiently. It provides the ability to change e.g. graphics mode, color
-    values, or sprite definitions somewhere at a well defined location within
-    the screen. This way the Amiga can display many different actions on one
-    screen simultaneously without activity by the main CPU.</li>
-  <li class="text"><strong>Immediate Blits</strong>. The Blitter is the short
-    name for another graphics coprocessor which is part of the Amiga custom chips.
-    With it you can copy rectangular image parts extremely fast to other areas.
-    During this, you can take up to three source data areas and perform logical
-    operations on them. This allows e.g. to define certain color values of the
-    copied object as transparent, thus not modifying the destination area. As
-    an add-on, the Blitter can also draw lines and fill areas fast. All in all
-    it serves to provide extremely fast, animated graphics that can be designed
-    to be especially realistic. </li>
-  <li class="text"><strong>Cycle exact CPU and Blitter.</strong> This is an experimental
+  <li class="text"><strong>Fast Copper</strong> enables emulation of the special
+    Coprocessor which provides the ability to change e.g. graphics mode, color
+    values, or sprite definitions extremely fast. This way the Amiga can display
+    many different actions on one screen simultaneously without activity by the
+    main CPU. If you want to get more information about the Copper, please refer
+    to the <a href="../background/custchips.htm">Custom Chips</a> section.</li>
+  <li class="text"><strong>Immediate Blits</strong> Does requested blits immediately.
+    The Blitter serves to provide extremely fast, animated graphics that can
+    be designed to be especially realistic. </li>
+  <li class="text"><strong>Cycle exact CPU and Blitter</strong> This is an experimental
     feature to cycle exact cpu and blitter emulation mode. Is slower than normal
     mode.</li>
 </ul>
@@ -70,6 +60,7 @@
   <li class="text"><strong>Sprites and Sprites vs Playfield</strong> Collison
     detection between Sprites and background graphics.</li>
   <li class="text"><strong>Full</strong> enables all levels of collision detection.<br>
+    <br>
     <strong>HINT:</strong> Full is not recommended because it causes unnecessary
     performance loss, and is just very rarely needed.</li>
 </ul>
@@ -79,11 +70,11 @@
   <li class="text"><strong>Disabled. </strong>No sound</li>
   <li class="text"><strong>Emulated.</strong> Sound is emulated but not 100%
     accurate.</li>
-  <li class="text"><strong>Emulated. 100% accurate.</strong> As accurate sound
-    emulation as possible but my use up more CPU time<br>
+  <li class="text"><strong>Emulated. 100% accurate.</strong> As accurate
+    as possible but may use up more CPU time<br>
     <br>
     For information about the custom chip responsible for sound output, view
-    the <a href="sound.htm">Sound</a> Page. </li>
+    the <a href="sound.htm">Sound</a> Page.</li>
 </ul>
 </body>
 </html>
