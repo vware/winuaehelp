@@ -91,70 +91,82 @@
 				<param name="Local" value="gui\quickstart.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Configuration">
+				<param name="Name" value="Configurations">
 				<param name="Local" value="gui\configurations.htm">
 				<param name="URL" value="main.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="CPU">
-				<param name="Local" value="gui/cpu.htm">
+				<param name="Name" value="Hardware">
+				<param name="Local" value="gui\hardware.htm">
 				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="CPU">
+					<param name="Local" value="gui/cpu.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Chipset">
+					<param name="Local" value="gui/chipset.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="ROM">
+					<param name="Local" value="gui/rom.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="RAM">
+					<param name="Local" value="gui/ram.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Disk Drives">
+					<param name="Local" value="gui/floppies.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Hard Drives">
+					<param name="Local" value="gui/hard-drives.htm">
+					</OBJECT>
+			</UL>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Chipset">
-				<param name="Local" value="gui/chipset.htm">
+				<param name="Name" value="Host">
+				<param name="Local" value="gui\host.htm">
 				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="ROM">
-				<param name="Local" value="gui/rom.htm">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="RAM">
-				<param name="Local" value="gui/ram.htm">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Disk Drives">
-				<param name="Local" value="gui/floppies.htm">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Hard Drives">
-				<param name="Local" value="gui/hard-drives.htm">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Display">
-				<param name="Local" value="gui/display.htm">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Sound">
-				<param name="Local" value="gui/sound.htm">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Game and I/O Ports">
-				<param name="Local" value="gui/ports.htm">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Input">
-				<param name="Local" value="gui/input.htm">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Output">
-				<param name="Local" value="gui/output.htm">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Filter">
-				<param name="Local" value="gui/opengl.htm">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Disk Swapper">
-				<param name="Local" value="gui\diskswapper.htm">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Misc.">
-				<param name="Local" value="gui/misc.htm">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Priority">
-				<param name="Local" value="gui\priority.htm">
-				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Display">
+					<param name="Local" value="gui/display.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Sound">
+					<param name="Local" value="gui/sound.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Game and I/O Ports">
+					<param name="Local" value="gui/ports.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Input">
+					<param name="Local" value="gui/input.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Output">
+					<param name="Local" value="gui/output.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Filter">
+					<param name="Local" value="gui/opengl.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Disk Swapper">
+					<param name="Local" value="gui\diskswapper.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Misc">
+					<param name="Local" value="gui/misc.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Priority">
+					<param name="Local" value="gui\priority.htm">
+					</OBJECT>
+			</UL>
 		</UL>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="The Emulation">
