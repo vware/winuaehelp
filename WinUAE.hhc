@@ -250,6 +250,10 @@
 				<param name="Local" value="tips\faq.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Installing AmigaOS 3.5/3.9">
+				<param name="Local" value="tips\newos.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Command-Line Parameters">
 				<param name="Local" value="tips/comline.htm">
 				</OBJECT>
