@@ -85,9 +85,9 @@
 <ol>
   <li class="text">Boot from AIAB</li>
   <li class="text">Insert the OS3.9 CD</li>
-  <li class="text">Start the OS3.9 Installer and choose "Make emergency floppy"<br>
-    The installer will create an emergency floppy with correct CD-ROM support
-      and P96 support with correct rtg.library</li>
+  <li class="text">Start the OS3.9 Installer and choose &quot;Make emergency floppy&quot;<br>
+  The installer will create an emergency floppy with correct CD-ROM support
+  and P96 support with correct rtg.library</li>
   <li class="text">Boot from the emergency floppy</li>
   <li class="text">You are ready to install OS3.9</li>
 </ol>
@@ -123,11 +123,11 @@
   <li class="text">Insert the emergency floppy in your old Amiga</li>
   <li class="text">Use <a href="../started/transdisk.htm">Transdisk</a> to create
     an ADF and <a href="../started/pcamitrans.htm">transfer</a> it to your PC</li>
-  <li class="text">Boot your emulated Amiga with WinUAE and "insert" the ADF
-    in a floppy drive </li>
+  <li class="text">Boot your emulated Amiga with WinUAE and &quot;insert&quot; the
+    ADF in a floppy drive </li>
   <li class="text">Open the file devs/dosdrivers/emergency_CD on the disk with
     a texteditor</li>
-  <li class="text">Change the line device ="xxxxxx to device ="uaescsi.device"</li>
+  <li class="text">Change the line device =&quot;xxxxxx&quot; to device = &quot;uaescsi.device&quot;</li>
   <li class="text">Change UnitNum if needed</li>
   <li class="text">Change the text MaxTransfer = xxxxxxx to MaxTransfer =0xffff<br>
     If you get read/write errors from CD use a value of 0x1fff instead</li>
@@ -154,7 +154,7 @@
 <p class="text">&nbsp;</p>
 <p class="headline3"> The mouse pointer freezes sometimes and I have to reboot</p>
 <p class="text">Make sure you have the serial port enabled and correctly configured.
-  Also, make sure the "Shared" checkbox is checked to loose no speed.</p>
+  Also, make sure the &quot;Shared&quot; checkbox is checked to loose no speed.</p>
 <p class="text">&nbsp;</p>
 <p class="headline3">Differences of CD drivers </p>
 <p class="text">AsimCDFS:</p>
@@ -180,7 +180,7 @@
 <p class="headline3"> UAE doesn't boot due to Picasso96 failure (Picasso96 is
   extremely slow)</p>
 <p class="text">Start UAE and immediately press both Mousebuttons when the main
-  window is shown. In the Amiga Early Startup select "Boot without Startup-Sequence".
+  window is shown. In the Amiga Early Startup select &quot;Boot without Startup-Sequence&quot;.
   Now remove or move the uaegfx file in devs:monitors. Start UAE, now the Workbench
   shows up. Just select a AmigaMode Save and copy uaegfx to devs/monitors again.
   If this should fail, reinstall Picasso96.</p>
@@ -192,7 +192,7 @@
 <p class="text">OS 3.1:</p>
 <ul>
   <li class="text">Boot without aStartup-Sequence (from Amiga Early Startup menu),
-    type loadwb in the CLI, and press "Cancel" on the "ENV:" warnings</li>
+    type loadwb in the CLI, and press &quot;Cancel&quot; on the &quot;ENV:&quot; warnings</li>
   <li class="text">Start the screenmode selector</li>
   <li class="text">Select a standard PAL mode. Save it, reboot and select your
     preferred mode</li>
@@ -208,7 +208,7 @@
     -&gt; Force Settings</span> and <span class="textmenu">Indirect Mode</span> or
     disable JIT completely.</p>
 <p class="text">&nbsp;</p>
-<p class="headline3">The folder "displaydrivers"</p>
+<p class="headline3">The folder &quot;displaydrivers&quot;</p>
 <p class="text">These are the picasso96 UAE drivers. Just ignore the drawer.
   The latest Picasso96 installer has correctly working display drivers included.</p>
 <p class="text">&nbsp;</p>
