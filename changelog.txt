@@ -1,8 +1,16 @@
 Official WinUAE Help Changelog
 ==============================
 
+Version 2.0.1
+-------------
 Georg:
-------
+* Changed Bernd Roesch's email address
+* Added index and menu files for an online version
+
+
+Version 2.0.0
+-------------
+Georg:
 * Created Subversion repository to enable access for contributors
 * Fixed up internal hyperlinks and insane external ones
 * Made all pages HTML4 compliant, optimized HTML structure
@@ -26,13 +34,9 @@ Georg:
 * Added AmigaForever and Cloanto links to the links page
 * Updated developer information about Bernd Schmidt
 
-
 Peter:
-------
 * Updated FAQ page
 
-
 Bernd:
-------
 * Removed obsolete information from bugs page
 * Updated FAQ and general tips pages
