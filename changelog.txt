@@ -9,3 +9,4 @@ Official WinUAE Help Changelog
 * Various fixes in texts and layout changes
 * Moved ADF to Disk section to transdisk page
 * Updated first time users page for use with new quickstart feature
+* Cleaned up and updated GUI chipset settings description
