@@ -16,6 +16,7 @@ Georg:
 * Moved FAQ and Amiga Programs pages to tips section
 * Merged in new information from Bernd Roesch
 * Fixed page not found errors when help was called from more recent WinUAE GUI pages
+* Moved Amiga DOS commands page to background information
 
 
 Peter:
