@@ -39,7 +39,7 @@
 				<param name="Local" value="started\firsttimeuser.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Boot Disks">
+				<param name="Name" value="Creating a Boot Disk">
 				<param name="Local" value="started\bootdisk.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">

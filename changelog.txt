@@ -17,6 +17,7 @@ Georg:
 * Merged in new information from Bernd Roesch
 * Fixed page not found errors when help was called from more recent WinUAE GUI pages
 * Moved Amiga DOS commands page to background information
+* Fixed several typos, grammar mistakes, ...
 
 
 Peter:

@@ -27,7 +27,7 @@
   JIT functions.</p>
 <p class="headline2">timehack</p>
 <p class="text">This setst the correct time every second,useful when you hybernate
-  your PC when winuae is running. Copy it to the Amiga system directory c. Start
+  your PC when WinUAE is running. Copy it to the Amiga system directory c. Start
   it in your Userstartup with the command <span class="textmenu">run &gt;nil:
   timehack</span>.</p>
 <p class="headline2">transdisk</p>
@@ -73,10 +73,10 @@
   you can change floppies, sound, joystick, reset or quit the emulator from a
   simple text menu.</p>
 <p align="center"><img src="uaectrl.gif" alt="UAE-Control Shell"></p>
-<p class="headline2">winuaeclip</p>
+<p class="headline2">WinUAEclip</p>
 <p class="text">This program allows you to have access to Windows Clipboard so
   you can copy/paste files to/from WinUAE.</p>
-<p class="headline2">winuaenforcer</p>
+<p class="headline2">WinUAEnforcer</p>
 <p class="text">This program allows Enforcer support, to detect bad memory access
   when developing programs or debugging.<br>
   For 100% safety, in JIT use Indirect Mode and set Speed to 2.</p>
@@ -90,14 +90,14 @@
   run &gt;nil: c:p96_uae_tweak.<br>
   I also recommend to set P96 mem from the 4 MB AIAB config to 16 or 32 MB,because
   it works faster. If not enough gfx card space is free you see flicker as before
-  and slower move Restart whole winuae when you have increase gfx memsize and
+  and slower move Restart whole WinUAE when you have increase gfx memsize and
   save the config.<br>
   I notice crashes when only reboot.<br>
   To test it you can boot AIAB open the screenmode prefs window.<br>
   Now put the screenmode prefs window to back and move it around under other<br>
   windows.<br>
   Now if the window move fast and do not flicker all work ok. With that patch
-  it is also impossible that P96 graphic actions can block winuae,so you get
+  it is also impossible that P96 graphic actions can block WinUAE,so you get
   no AHI 16bit soundstodder when doing large graphic actions.<br>
   The patch split for this large P96 blits (&gt;60 pixel)in smaller blocks and
   check in all blocks if a 16 bit ahi buffer is free.No speedloss seen,no stodder
