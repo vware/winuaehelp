@@ -148,11 +148,11 @@
 					</OBJECT>
 				<LI> <OBJECT type="text/sitemap">
 					<param name="Name" value="Filter">
-					<param name="Local" value="gui/opengl.htm">
+					<param name="Local" value="gui/filter.htm">
 					</OBJECT>
 				<LI> <OBJECT type="text/sitemap">
 					<param name="Name" value="Disk Swapper">
-					<param name="Local" value="gui\diskswapper.htm">
+					<param name="Local" value="gui\disk.htm">
 					</OBJECT>
 				<LI> <OBJECT type="text/sitemap">
 					<param name="Name" value="Misc">
