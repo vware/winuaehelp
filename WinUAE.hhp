@@ -1,0 +1,76 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=WinUAE.chm
+Contents file=WinUAE.hhc
+Default topic=main.htm
+Display compile progress=Yes
+Error log file=Winuae.log
+Full-text search=Yes
+Index file=Index.hhk
+Language=0x409 English (United States)
+Title=WinUAE - Help 1.9.4
+
+
+[FILES]
+bugs.htm
+features.htm
+links.htm
+main.htm
+background\autoconfig.htm
+background\berndschmidt.htm
+background\brianking.htm
+background\custchips.htm
+background\hardware.htm
+background\kickst.htm
+background\main.htm
+background\mathiasortmann.htm
+background\toniwilen.htm
+background\uaepeople.htm
+background\zorro.htm
+credits\about.htm
+credits\contrib.htm
+credits\gpl.htm
+credits\main.htm
+emulation\comline.htm
+emulation\compat.htm
+emulation\jit.htm
+emulation\keyboar.htm
+emulation\main.htm
+emulation\picasso.htm
+emulation\speed.htm
+gui\chipset.htm
+gui\cpu.htm
+gui\display.htm
+gui\floppies.htm
+gui\hard-drives.htm
+gui\input.htm
+gui\main.htm
+gui\misc.htm
+gui\opengl.htm
+gui\output.htm
+gui\ports.htm
+gui\ram.htm
+gui\rom.htm
+gui\sound.htm
+started\adftodisk.htm
+started\amigaprogs.htm
+started\examples.htm
+started\main.htm
+started\pcamitrans.htm
+started\requfiles.htm
+started\require.htm
+started\transdisk.htm
+started\transrom.htm
+background\faq.htm
+started\amigados.htm
+started\bootdisk.htm
+gui\priority.htm
+emulation\actionreplay.htm
+started\firsttimeuser.htm
+gui\diskswapper.htm
+gui\configurations.htm
+gui\paths.htm
+gui\quickstart.htm
+
+[INFOTYPES]
+

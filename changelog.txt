@@ -1,0 +1,5 @@
+Official WinUAE Help Changelog
+==============================
+
+
+* Created Subversion repository to enable access for contributors

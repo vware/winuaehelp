@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>CPU</title>
+</head>
+<body bgcolor="Black" text="White" link="Yellow" vlink="Orange">
+<h2><u>CPU Settings</u></h2>
+<br>
+These settings control the type of Motorola 68000 CPU which will be emulated.
+<br><br>
+<center>
+<img src="cpu.gif" alt="Winuae - CPU">
+</center>
+<p><br>
+  <b><u>CPU Type:</u></b> <br>
+  <br>
+  <b>68000</b> is the basic CPU type, as found in the Amiga 500, 1000, and 2000 
+  models. <br>
+  <br>
+  <b>68010</b> is a slightly more advanced 68K member, but never actually shipped 
+  in a real Amiga. <br>
+  <br>
+  <b>68EC020</b> is the same as a 68020 CPU, but with only 24 address-lines. This 
+  is the CPU used in the Amiga 1200 model. <br>
+  <br>
+  <b>68EC020+FPU</b> is the same as a 68020 CPU, but with only 24 address-lines. 
+  This is the CPU used in the Amiga 1200 model, and does not allow for any Zorro-III 
+  expansion cards in the system. Because WinUAE uses virtual Zorro-III expansion 
+  cards to provide Picasso96 RTG support, <i>no Picasso96 support is possible 
+  with this CPU type</i>. <br>
+  <br>
+  <b>68020</b> is a much more advanced 68K CPU, with some new instructions, and 
+  a fully 32-bit engine. Used in the A2500 for brief period on the A2520 card. 
+  <br>
+  <br>
+  <b>68020+FPU</b> is similar to the above CPU type, but has a FPU. <br>
+  <br>
+  <b>68040</b> can be enabled since the JIT patches were added to WinUAE. <br>
+  <br>
+  <b>More compatible</b> is only available when the CPU type is a <b>68000</b>. 
+  Some games and demos require this setting for proper compatibility.</p>
+<p><b>JIT</b> can be enabled to access the Advanced JIT settings (See below).<br>
+  <br>
+  <b><u>CPU Emulation Speed:</u></b> <br>
+  <br>
+  <b>Fastest possible</b> lets the CPU section of the emulation run as many cycles 
+  as possible, while still maintaining emulation of the custom-chips at the appropriate 
+  rate. It is important to keep sound and graphics synchronized, no matter how 
+  fast the PC is. <br>
+  <br>
+  <b>Match A500 speed</b> limits the CPU emulation to run the same number of cycles 
+  per vertical-blank as a standard A500 would. In other words, for every 50Hz 
+  refresh of the graphics, the same number of CPU instructions will be executed 
+  as on a real A500 computer. <br>
+  <br>
+  <b>Adjustable between CPU and chipset</b> lets you tweak the balance of power 
+  between custom-chip emulation, and CPU speed. Some games and demos require this 
+  setting to be adjusted. This setting is the only CPU setting which can be changed 
+  once WinUAE is running. <br>
+</p>
+<p><b>CPU Idle </b>You can adjust the idle status of the CPU with this slider.</p>
+<p><br>
+  <b><u>JIT Settings</u></b> <br>
+  <br>
+  Due to the importance of the JIT engine and its complexity, it has its own <a href="../emulation/jit.htm">page</a> 
+  where you will find a description of its possibilities. <br>
+  <br>
+</p>
+</body>
+</html>

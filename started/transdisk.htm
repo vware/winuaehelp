@@ -1,0 +1,32 @@
+<html>
+
+<head>
+<title>Transdisk</title>
+</head>
+
+<body bgcolor="Black" text="White" link="Yellow" vlink="Orange">
+<h2><u>Transdisk</u></h2>
+<p> A disk file is an image of the raw data on an Amiga floppy disk, it contains 
+  901120 bytes (880K), which is the standard capacity of an Amiga disk. Transdisk 
+  will dump an image of a floppy in one of the drives.</p>
+<p>&nbsp;</p>
+<p>To create an image of a disk in your Amiga floppy drive, the syntax is:</p>
+<p><em>&nbsp;&nbsp; transdisk &gt;RAM:df0.adf</em></p>
+<p>This command will create a file called &quot;df0.adf&quot; in the RAM disk. 
+  Such a file is 901120 bytes of size for one disk.</p>
+<p>&nbsp;</p>
+<p>You can also create disk images in several parts. To create 4 parts of the 
+  disk in DF0: do the following:<br>
+  <br>
+  <em>&nbsp;&nbsp; transdisk &gt;ram:df0_1.adf -s 0 -e 19<br>
+  &nbsp;&nbsp; transdisk &gt;ram:df0_2.adf -s 20 -e 39<br>
+  &nbsp;&nbsp; transdisk &gt;ram:df0_3.adf -s 40 -e 59<br>
+  &nbsp;&nbsp; transdisk &gt;ram:df0_4.adf -s 60 -e 79<br>
+  </em><br>
+  After you copied the files to your PC, you have to merge them again. To do so 
+  in the DOS - prompt:<br>
+  <br>
+  &nbsp;&nbsp; <em>COPY /B df0_1.adf+df0_2.adf+df0_3.adf+df0_4.adf df0.adf</em><br>
+</p>
+</body>
+</html>

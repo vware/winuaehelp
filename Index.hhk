@@ -1,0 +1,679 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="About">
+		<param name="Name" value="About this help">
+		<param name="Local" value="credits/about.htm">
+		<param name="Name" value="Credits">
+		<param name="Local" value="credits/main.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Action Replay">
+		<param name="Name" value="Features">
+		<param name="Local" value="features.htm">
+		<param name="Name" value="ROM">
+		<param name="Local" value="gui/rom.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ADF">
+		<param name="Name" value="Transfer an ADF to an Amiga floppy">
+		<param name="Local" value="started/adftodisk.htm">
+		<param name="Name" value="Floppies">
+		<param name="Local" value="gui/floppies.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="AGA">
+		<param name="Name" value="Chipset">
+		<param name="Local" value="gui/chipset.htm">
+		<param name="Name" value="Custom Chips">
+		<param name="Local" value="background/custchips.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Amiga Inc">
+		<param name="Name" value="About this help">
+		<param name="Local" value="credits/about.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="AmigaDOS">
+		<param name="Name" value="AmigaDOS">
+		<param name="Local" value="started\amigados.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Aminet">
+		<param name="Name" value="Links">
+		<param name="Local" value="links.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Amithlon">
+		<param name="Name" value="Hard Drives">
+		<param name="Local" value="gui/hard-drives.htm">
+		<param name="Name" value="Features">
+		<param name="Local" value="features.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Autoconfig">
+		<param name="Name" value="Autoconfig">
+		<param name="Local" value="background/autoconfig.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Beginner">
+		<param name="Name" value="Winuae for First Time Users">
+		<param name="Local" value="started\firsttimeuser.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Bernd Schmidt">
+		<param name="Name" value="Bernd Schmidt">
+		<param name="Local" value="background/berndschmidt.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Blitter">
+		<param name="Name" value="Chipset">
+		<param name="Local" value="gui/chipset.htm">
+		<param name="Name" value="Custom Chips">
+		<param name="Local" value="background/custchips.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Boot disk">
+		<param name="Name" value="Making a boot disk">
+		<param name="Local" value="started\bootdisk.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Brian King">
+		<param name="Name" value="Brian King">
+		<param name="Local" value="background/brianking.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="BSD">
+		<param name="Name" value="Misc">
+		<param name="Local" value="gui/misc.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Bugs">
+		<param name="Name" value="Known Bugs">
+		<param name="Local" value="bugs.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CDROM">
+		<param name="Name" value="Features">
+		<param name="Local" value="features.htm">
+		<param name="Name" value="Hard Drives">
+		<param name="Local" value="gui/hard-drives.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Chipset">
+		<param name="Name" value="Chipset">
+		<param name="Local" value="gui/chipset.htm">
+		<param name="Name" value="CPU">
+		<param name="Local" value="gui/cpu.htm">
+		<param name="Name" value="Custom Chips">
+		<param name="Local" value="background/custchips.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Cloanto">
+		<param name="Name" value="About this help">
+		<param name="Local" value="credits/about.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Clock">
+		<param name="Name" value="Misc">
+		<param name="Local" value="gui\misc.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Command">
+		<param name="Name" value="Command-Line Parameters">
+		<param name="Local" value="emulation/comline.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Compat">
+		<param name="Name" value="Requirements">
+		<param name="Local" value="started\require.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Configuration">
+		<param name="Name" value="Command-Line Parameters">
+		<param name="Local" value="emulation/comline.htm">
+		<param name="Name" value="Input">
+		<param name="Local" value="gui/input.htm">
+		<param name="Name" value="Configurations">
+		<param name="Local" value="gui\configuration.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Configurations">
+		<param name="Name" value="Configurations">
+		<param name="Local" value="gui\configurations.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Copper">
+		<param name="Name" value="Chipset">
+		<param name="Local" value="gui/chipset.htm">
+		<param name="Name" value="Custom Chips">
+		<param name="Local" value="background/custchips.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CPU">
+		<param name="Name" value="CPU">
+		<param name="Local" value="gui/cpu.htm">
+		<param name="Name" value="Features">
+		<param name="Local" value="features.htm">
+		<param name="Name" value="Picasso96 Emulation">
+		<param name="Local" value="emulation/picasso.htm">
+		<param name="Name" value="RAM">
+		<param name="Local" value="gui/ram.htm">
+		<param name="Name" value="JIT - Just In Time">
+		<param name="Local" value="emulation/jit.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Crossdos">
+		<param name="Name" value="Transfer data between Amiga and PC">
+		<param name="Local" value="started/pcamitrans.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Direct3D">
+		<param name="Name" value="OpenGL">
+		<param name="Local" value="gui\opengl.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Directory">
+		<param name="Name" value="Hard Drives">
+		<param name="Local" value="gui/hard-drives.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DirectX">
+		<param name="Name" value="About this help">
+		<param name="Local" value="credits/about.htm">
+		<param name="Name" value="Display">
+		<param name="Local" value="gui/display.htm">
+		<param name="Name" value="Links">
+		<param name="Local" value="links.htm">
+		<param name="Name" value="Requirements">
+		<param name="Local" value="started/require.htm">
+		<param name="Name" value="Speed">
+		<param name="Local" value="emulation/speed.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Disable">
+		<param name="Name" value="Floppies">
+		<param name="Local" value="gui/floppies.htm">
+		<param name="Name" value="Sound">
+		<param name="Local" value="gui/sound.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Disk Swapper">
+		<param name="Name" value="Disk Swapper">
+		<param name="Local" value="gui\diskswapper.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Display">
+		<param name="Name" value="Display">
+		<param name="Local" value="gui/display.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ECS">
+		<param name="Name" value="Chipset">
+		<param name="Local" value="gui/chipset.htm">
+		<param name="Name" value="Custom Chips">
+		<param name="Local" value="background/custchips.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Eject">
+		<param name="Name" value="Floppies">
+		<param name="Local" value="gui/floppies.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Email">
+		<param name="Name" value="About WinUAE">
+		<param name="Local" value="credits/contrib.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Examples">
+		<param name="Name" value="Example Configurations">
+		<param name="Local" value="started/examples.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Explorer">
+		<param name="Name" value="Data Transfer Amiga <-> PC">
+		<param name="Local" value="started\pcamitrans.htm">
+		<param name="Name" value="Transdisk">
+		<param name="Local" value="started\transdisk.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="File-System">
+		<param name="Name" value="File-System Specifics">
+		<param name="Local" value="filesys.htm">
+		<param name="Name" value="Hard Drives">
+		<param name="Local" value="gui/hard-drives.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Filter">
+		<param name="Name" value="OpenGL">
+		<param name="Local" value="gui\opengl.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="First Time">
+		<param name="Name" value="Winuae for First Time Users">
+		<param name="Local" value="started\firsttimeuser.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Flash">
+		<param name="Name" value="ROM">
+		<param name="Local" value="gui/rom.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Floppy">
+		<param name="Name" value="Transfer an ADF to an Amiga floppy">
+		<param name="Local" value="started/adftodisk.htm">
+		<param name="URL" value="gui\sound.htm">
+		<param name="Name" value="Floppies">
+		<param name="Local" value="gui/floppies.htm">
+		<param name="Name" value="Required files">
+		<param name="Local" value="started/requfiles.htm">
+		<param name="Name" value="Transdisk">
+		<param name="Local" value="started/transdisk.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Flush print job">
+		<param name="Name" value="Game and I/O Ports">
+		<param name="Local" value="gui\ports.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="FPU">
+		<param name="Name" value="CPU">
+		<param name="Local" value="gui/cpu.htm">
+		<param name="Name" value="JIT - Just In Time">
+		<param name="Local" value="emulation/jit.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Getting Started">
+		<param name="Name" value="Getting Started">
+		<param name="Local" value="started/main.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GNU">
+		<param name="Name" value="GPL">
+		<param name="Local" value="credits/gpl.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GPL">
+		<param name="Name" value="GPL">
+		<param name="Local" value="credits/gpl.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GUI">
+		<param name="Name" value="Welcome to WinUAE!">
+		<param name="Local" value="main.htm">
+		<param name="Name" value="The GUI">
+		<param name="Local" value="gui/main.htm">
+		<param name="Name" value="Misc">
+		<param name="Local" value="gui/misc.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="HAM">
+		<param name="Name" value="Chipset">
+		<param name="Local" value="gui/chipset.htm">
+		<param name="Name" value="Custom Chips">
+		<param name="Local" value="background/custchips.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Hard Drive">
+		<param name="Name" value="Hard Drives">
+		<param name="Local" value="gui/hard-drives.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Harddisks">
+		<param name="Name" value="Features">
+		<param name="Local" value="features.htm">
+		<param name="Name" value="Hard Drives">
+		<param name="Local" value="gui/hard-drives.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Hardfile">
+		<param name="Name" value="Features">
+		<param name="Local" value="features.htm">
+		<param name="Name" value="Hard Drives">
+		<param name="Local" value="gui/hard-drives.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Hardware">
+		<param name="Name" value="Amiga Hardware">
+		<param name="Local" value="background/hardware.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Input">
+		<param name="Name" value="Input">
+		<param name="Local" value="gui/input.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Joypad">
+		<param name="Name" value="Keyboard Emulation">
+		<param name="Local" value="emulation\keyboar.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Joystick">
+		<param name="Name" value="Joystick and I/O Port">
+		<param name="Local" value="gui/ports.htm">
+		<param name="Name" value="Input">
+		<param name="Local" value="gui/input.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Key">
+		<param name="Name" value="ROM">
+		<param name="Local" value="gui/rom.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Keyboard">
+		<param name="Name" value="Keyboard Emulation">
+		<param name="Local" value="emulation/keyboar.htm">
+		<param name="Name" value="Misc">
+		<param name="Local" value="gui/misc.htm">
+		<param name="Name" value="Joystick and I/O Port">
+		<param name="Local" value="gui/ports.htm">
+		<param name="Name" value="Floppies">
+		<param name="Local" value="gui/floppies.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Kickstart">
+		<param name="Name" value="About this help">
+		<param name="Local" value="credits/about.htm">
+		<param name="Name" value="Compatibility">
+		<param name="Local" value="emulation/compat.htm">
+		<param name="Name" value="Hard Drives">
+		<param name="Local" value="gui/hard-drives.htm">
+		<param name="Name" value="Picasso96 Emulation">
+		<param name="Local" value="emulation/picasso.htm">
+		<param name="Name" value="Required files">
+		<param name="Local" value="started/requfiles.htm">
+		<param name="Name" value="Transrom">
+		<param name="Local" value="started/transrom.htm">
+		<param name="Name" value="Requirements">
+		<param name="Local" value="started/require.htm">
+		<param name="Name" value="ROM">
+		<param name="Local" value="gui/rom.htm">
+		<param name="Name" value="Kickstart">
+		<param name="Local" value="background/kickst.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LED">
+		<param name="Name" value="Misc">
+		<param name="Local" value="gui/misc.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Links">
+		<param name="Name" value="Links">
+		<param name="Local" value="links.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Load">
+		<param name="Name" value="Misc">
+		<param name="Local" value="gui/misc.htm">
+		<param name="Name" value="Command-Line Parameters">
+		<param name="Local" value="emulation/comline.htm">
+		<param name="Local" value="gui\configurations.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Logging">
+		<param name="Name" value="Misc">
+		<param name="Local" value="gui/misc.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Mathias Ortmann">
+		<param name="Name" value="Mathias Ortmann">
+		<param name="Local" value="background/mathiasortmann.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Messydos">
+		<param name="Name" value="Transfer data between Amiga and PC">
+		<param name="Local" value="started/pcamitrans.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Microsoft">
+		<param name="Name" value="About this help">
+		<param name="Local" value="credits/about.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="MIDI">
+		<param name="Name" value="Features">
+		<param name="Local" value="features.htm">
+		<param name="Name" value="Joystick and I/O Port">
+		<param name="Local" value="gui/ports.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Mini">
+		<param name="Name" value="Requirements">
+		<param name="Local" value="started\require.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Mouse">
+		<param name="Name" value="Misc">
+		<param name="Local" value="gui/misc.htm">
+		<param name="Name" value="Joystick and I/O Port">
+		<param name="Local" value="gui/ports.htm">
+		<param name="Name" value="Input">
+		<param name="Local" value="gui/input.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="mousehack">
+		<param name="Name" value="Amiga Programs">
+		<param name="Local" value="started/amigaprogs.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Network">
+		<param name="Name" value="Features">
+		<param name="Local" value="features.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="NTSC">
+		<param name="Name" value="Chipset">
+		<param name="Local" value="gui/chipset.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="OCS">
+		<param name="Name" value="Chipset">
+		<param name="Local" value="gui/chipset.htm">
+		<param name="Name" value="Custom Chips">
+		<param name="Local" value="background/custchips.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="OpenGL">
+		<param name="Name" value="OpenGL">
+		<param name="Local" value="gui/opengl.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Output">
+		<param name="Name" value="Output">
+		<param name="Local" value="gui/output.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="PAL">
+		<param name="Name" value="Chipset">
+		<param name="Local" value="gui/chipset.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Paths">
+		<param name="Name" value="Paths">
+		<param name="Local" value="gui\paths.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Picasso96">
+		<param name="Name" value="Known Bugs">
+		<param name="Local" value="bugs.htm">
+		<param name="Name" value="Display">
+		<param name="Local" value="gui/display.htm">
+		<param name="Name" value="Features">
+		<param name="Local" value="features.htm">
+		<param name="Name" value="Links">
+		<param name="Local" value="links.htm">
+		<param name="Name" value="Picasso96 Emulation">
+		<param name="Local" value="emulation/picasso.htm">
+		<param name="Name" value="RAM">
+		<param name="Local" value="gui/ram.htm">
+		<param name="Name" value="Speed">
+		<param name="Local" value="emulation/speed.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="picasso96fix">
+		<param name="Name" value="Amiga Programs">
+		<param name="Local" value="started/amigaprogs.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Printer">
+		<param name="Name" value="Joystick and I/O Port">
+		<param name="Local" value="gui/ports.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Priority">
+		<param name="Name" value="Priority">
+		<param name="Local" value="gui\priority.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Pro Wizard">
+		<param name="Name" value="Output">
+		<param name="Local" value="gui\output.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Quickstart">
+		<param name="Name" value="Quickstart">
+		<param name="Local" value="gui\quickstart.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="RAM">
+		<param name="Name" value="Chipset">
+		<param name="Local" value="gui/chipset.htm">
+		<param name="Name" value="Kickstart">
+		<param name="Local" value="background/kickst.htm">
+		<param name="Name" value="RAM">
+		<param name="Local" value="gui/ram.htm">
+		<param name="Name" value="ROM">
+		<param name="Local" value="gui/rom.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ROM">
+		<param name="Name" value="Kickstart">
+		<param name="Local" value="background/kickst.htm">
+		<param name="Name" value="Required files">
+		<param name="Local" value="started/requfiles.htm">
+		<param name="Name" value="Requirements">
+		<param name="Local" value="started/require.htm">
+		<param name="Name" value="ROM">
+		<param name="Local" value="gui/rom.htm">
+		<param name="Name" value="Transrom">
+		<param name="Local" value="started/transrom.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Save">
+		<param name="Name" value="Misc">
+		<param name="Local" value="gui/misc.htm">
+		<param name="Name" value="Configurations">
+		<param name="Local" value="gui\configurations.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Screenshot">
+		<param name="Name" value="Output">
+		<param name="Local" value="gui/output.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Serial">
+		<param name="Name" value="Transfer data between Amiga and PC">
+		<param name="Local" value="started/pcamitrans.htm">
+		<param name="Name" value="Joystick and I/O Port">
+		<param name="Local" value="gui/ports.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Shapeshifter">
+		<param name="Name" value="ROM">
+		<param name="Local" value="gui/rom.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Sound">
+		<param name="Name" value="Sound">
+		<param name="Local" value="gui/sound.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Speed">
+		<param name="Name" value="Speed">
+		<param name="Local" value="emulation/speed.htm">
+		<param name="Name" value="Floppies">
+		<param name="Local" value="gui/floppies.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Sprites">
+		<param name="Name" value="Known Bugs">
+		<param name="Local" value="bugs.htm">
+		<param name="Name" value="Chipset">
+		<param name="Local" value="gui/chipset.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="State">
+		<param name="Name" value="Misc">
+		<param name="Local" value="gui\misc.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Toni Wilen">
+		<param name="Name" value="Toni Wilen">
+		<param name="Local" value="background/toniwilen.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Transdisk">
+		<param name="Name" value="Transfer an ADF to an Amiga floppy">
+		<param name="Local" value="started/adftodisk.htm">
+		<param name="Name" value="Required files">
+		<param name="Local" value="started/requfiles.htm">
+		<param name="Name" value="Transdisk">
+		<param name="Local" value="started/transdisk.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Transrom">
+		<param name="Name" value="Required files">
+		<param name="Local" value="started/requfiles.htm">
+		<param name="Name" value="Transrom">
+		<param name="Local" value="started/transrom.htm">
+		<param name="Name" value="ROM">
+		<param name="Local" value="gui/rom.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="uae-control">
+		<param name="Name" value="Amiga Programs">
+		<param name="Local" value="started/amigaprogs.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="uaectrl">
+		<param name="Name" value="Amiga Programs">
+		<param name="Local" value="started/amigaprogs.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="UAEFSDB">
+		<param name="Name" value="Hard Drives">
+		<param name="Local" value="gui\hard-drives.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="winuaeclip">
+		<param name="Name" value="Amiga Programs">
+		<param name="Local" value="started/amigaprogs.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="winuaeenforcer">
+		<param name="Name" value="Amiga Programs">
+		<param name="Local" value="started/amigaprogs.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Workbench">
+		<param name="Name" value="About this help">
+		<param name="Local" value="credits/about.htm">
+		<param name="Name" value="Requirements">
+		<param name="Local" value="started/require.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Zorro">
+		<param name="Name" value="Features">
+		<param name="Local" value="features.htm">
+		<param name="Name" value="RAM">
+		<param name="Local" value="gui/ram.htm">
+		<param name="Name" value="Zorro Bus">
+		<param name="Local" value="background/zorro.htm">
+		</OBJECT>
+</UL>
+</BODY></HTML>
