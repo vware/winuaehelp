@@ -1,30 +1,25 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <title>Chipset</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="../Style.css" rel="stylesheet" type="text/css">
 </head>
-<body bgcolor="Black" text="White" link="Yellow" vlink="Orange">
-<h2><u>ChipSet</u></h2>
-<br>
-This will select which custom chipset to use for emulation:
-<br><br>
-<center>
-<img src="chipset.gif" alt="Winuae - Chipset">
-</center>
-<br><br>
-<u><b>Chipset</b></u>
+<body class="site">
+<p class="headline1">Chipset</p>
+<p class="text">This will select which custom chipset to use for emulation:</p>
+<p align="center"><img src="chipset.gif" alt="Winuae - Chipset"></p>
+<p class="headline2">Chipset type</p>
 <ul>
-  <li><b>OCS</b> (Original Chip Set): This was the first Chipset, used in the 
+  <li class="text"><strong>OCS</strong> (Original Chip Set): This was the first Chipset, used in the 
     Amiga 1000. It consists of the chips Paula, Agnus, and Denise. With these, 
     you can display graphics in resolutions up to 640x512 and in up to 4096 colors. 
   </li>
-  <li><b>ECS Agnus</b> Uses enhanced Fat Agnus which supplies 1Mb of Chip RAM.</li>
-  <li><b>Full ECS</b> (Enhanced Chip Set): This was the next generation of Amiga 
-    chipsets. The chip names remained unchanged, except some minor additions like 
-    "Fat Agnus". Only Agnus and Denise were changed. Compared to OCS, they provided 
+  <li class="text"><strong>ECS Agnus</strong> Uses enhanced Fat Agnus which supplies 1Mb of Chip RAM.</li>
+  <li class="text"><strong>Full ECS</strong> (Enhanced Chip Set): This was the next generation of Amiga 
+    chipsets. The chip names remained unchanged, except some minor additions like &quot;Fat Agnus&quot;. Only Agnus and Denise were changed. Compared to OCS, they provided 
     higher resolutions, but no expansion of the color palette so far.</li>
-  <li><b>AGA</b> (Advanced Graphics Architecture): This is the latest and most 
+  <li class="text"><strong>AGA</strong> (Advanced Graphics Architecture): This is the latest and most 
     advanced chipset. The current generation was created in the labs as AA chipset 
     (for Advanced Amiga), but in some countries it was later marketed as AGA (Advanced 
     Graphics Architecture). Agnus was replaced by Alice and Denise by Lisa. The 
@@ -34,13 +29,12 @@ This will select which custom chipset to use for emulation:
     modes is assured.<br>
     <strong>NOTE:</strong> AGA modes do not work with 8-bit color depth screen 
     modes!</li>
-  <li><b>NTSC</b> Enables US NTSC screen mode (default is PAL).</li>
+  <li class="text"><strong>NTSC</strong> Enables US NTSC screen mode (default is PAL).</li>
 </ul>
-<br>
-For extra custom chip settings, select: 
-<br><br>
+<p class="text">&nbsp;</p>
+<p class="headline2">Misc chipset options</p>
 <ul>
-  <li><b>Fast Copper</b> is the short name for a "Coprocessor" which is integrated 
+  <li class="text"><strong>Fast Copper</strong> is the short name for a &quot;Coprocessor&quot; which is integrated 
     into the Amiga custom chips. It makes fast action games possible, as well 
     as unbelievable color effects, and the capability to drag down a screen partially 
     on the Amiga's display and thus show several screens at once. Technically, 
@@ -50,7 +44,7 @@ For extra custom chip settings, select:
     somewhere at a well defined location within the screen. This way the Amiga 
     can display many different actions on one screen simultaneously without activity 
     by the main CPU.</li>
-  <li><b>Immediate Blits</b>. The Blitter is the short name for another graphics 
+  <li class="text"><strong>Immediate Blits</strong>. The Blitter is the short name for another graphics 
     coprocessor which is part of the Amiga custom chips. With it you can copy 
     rectangular image parts extremely fast to other areas. During this, you can 
     take up to three source data areas and perform logical operations on them. 
@@ -58,24 +52,25 @@ For extra custom chip settings, select:
     thus not modifying the destination area. As an add-on, the Blitter can also 
     draw lines and fill areas fast. All in all it serves to provide extremely 
     fast, animated graphics that can be designed to be especially realistic. </li>
-  <li><b>Cycle exact CPU and Blitter.</b> This is an experimental feature to cycle 
+  <li class="text"><strong>Cycle exact CPU and Blitter.</strong> This is an experimental feature to cycle 
     exact cpu and blitter emulation mode. Is slower than normal mode.</li>
 </ul>
-<u><b>Collision Level</b></u>
-<br>
+<p class="text">&nbsp;</p>
+<p class="headline2">Collision Level</p>
 <ul>
-<li><b>None</b> No collision detection used.</li>
-<li><b>Sprites Only</b> Collision detection between sprites only enabled.</li>
-<li><b>Sprites and Sprites vs Playfield</b> Collison detection between Sprites and background graphics.</li>
-<li><b>Full</b> enables all levels of collision detection.<br>
+<li class="text"><strong>None</strong> No collision detection used.</li>
+<li class="text"><strong>Sprites Only</strong> Collision detection between sprites only enabled.</li>
+<li class="text"><strong>Sprites and Sprites vs Playfield</strong> Collison detection between Sprites and background graphics.</li>
+<li class="text"><strong>Full</strong> enables all levels of collision detection.<br>
     <strong>HINT:</strong> Full is not recommended because it causes unnecessary 
     performance loss, and is just very rarely needed.</li>
 </ul>
-<p><b><u>Sound Emulation</u></b></p>
+<p class="text">&nbsp;</p>
+<p class="headline2">Sound Emulation</p>
 <ul>
-  <li><b>Disabled. </b>No sound</li>
-  <li><b>Emulated.</b> Sound is emulated but not 100% accurate.</li>
-  <li><b>Emulated. 100% accurate.</b> As accurate sound emulation as possible 
+  <li class="text"><strong>Disabled. </strong>No sound</li>
+  <li class="text"><strong>Emulated.</strong> Sound is emulated but not 100% accurate.</li>
+  <li class="text"><strong>Emulated. 100% accurate.</strong> As accurate sound emulation as possible 
     but my use up more CPU time<br>
     <br>
     For information about the custom chip responsible for sound output, view the 

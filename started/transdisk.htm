@@ -1,32 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-
 <head>
 <title>Transdisk</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="../Style.css" rel="stylesheet" type="text/css">
 </head>
-
-<body bgcolor="Black" text="White" link="Yellow" vlink="Orange">
-<h2><u>Transdisk</u></h2>
-<p> A disk file is an image of the raw data on an Amiga floppy disk, it contains 
+<body class="site">
+<p class="headline1">Transdisk</p>
+<p class="text">A disk file is an image of the raw data on an Amiga floppy disk, it contains 
   901120 bytes (880K), which is the standard capacity of an Amiga disk. Transdisk 
   will dump an image of a floppy in one of the drives.</p>
 <p>&nbsp;</p>
-<p>To create an image of a disk in your Amiga floppy drive, the syntax is:</p>
-<p><em>&nbsp;&nbsp; transdisk &gt;RAM:df0.adf</em></p>
-<p>This command will create a file called &quot;df0.adf&quot; in the RAM disk. 
+<p class="text">To create an image of a disk in your Amiga floppy drive, the syntax is:</p>
+<p class="textmenu">transdisk &gt;RAM:df0.adf</p>
+<p class="text">This command will create a file called &quot;df0.adf&quot; in the RAM disk. 
   Such a file is 901120 bytes of size for one disk.</p>
-<p>&nbsp;</p>
-<p>You can also create disk images in several parts. To create 4 parts of the 
-  disk in DF0: do the following:<br>
-  <br>
-  <em>&nbsp;&nbsp; transdisk &gt;ram:df0_1.adf -s 0 -e 19<br>
-  &nbsp;&nbsp; transdisk &gt;ram:df0_2.adf -s 20 -e 39<br>
-  &nbsp;&nbsp; transdisk &gt;ram:df0_3.adf -s 40 -e 59<br>
-  &nbsp;&nbsp; transdisk &gt;ram:df0_4.adf -s 60 -e 79<br>
-  </em><br>
+<p class="text">You can also create disk images in several parts. To create 4 parts of the 
+  disk in DF0: do the following:</p>
+  <p class="textmenu">transdisk &gt;ram:df0_1.adf -s 0 -e 19<br>
+transdisk &gt;ram:df0_2.adf -s 20 -e 39<br>
+transdisk &gt;ram:df0_3.adf -s 40 -e 59<br>
+transdisk &gt;ram:df0_4.adf -s 60 -e 79<br>
+  </p>
   After you copied the files to your PC, you have to merge them again. To do so 
-  in the DOS - prompt:<br>
-  <br>
-  &nbsp;&nbsp; <em>COPY /B df0_1.adf+df0_2.adf+df0_3.adf+df0_4.adf df0.adf</em><br>
-</p>
+  in the DOS - prompt:
+  <p class="textmenu">COPY /B df0_1.adf+df0_2.adf+df0_3.adf+df0_4.adf df0.adf</p>
 </body>
 </html>
