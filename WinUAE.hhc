@@ -59,10 +59,6 @@
 				<param name="Local" value="started/examples.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Amiga Programs">
-				<param name="Local" value="started/amigaprogs.htm">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Required files">
 				<param name="Local" value="started/requfiles.htm">
 				</OBJECT>
@@ -208,10 +204,6 @@
 			</OBJECT>
 		<UL>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="FAQ">
-				<param name="Local" value="background/faq.htm">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Amiga Hardware">
 				<param name="Local" value="background/hardware.htm">
 				</OBJECT>
@@ -255,6 +247,24 @@
 					<param name="Local" value="background/mathiasortmann.htm">
 					</OBJECT>
 			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Tips">
+			<param name="Local" value="tips\main.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="FAQ">
+				<param name="Local" value="tips\faq.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="General Tips">
+				<param name="Local" value="tips\generaltips.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Amiga Programs">
+				<param name="Local" value="tips/amigaprogs.htm">
+				</OBJECT>
 		</UL>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Credits">
