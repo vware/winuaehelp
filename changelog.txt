@@ -11,3 +11,5 @@ Official WinUAE Help Changelog
 * Updated first time users page for use with new quickstart feature
 * Cleaned up and updated GUI chipset settings description
 * Added hardware and host sections to align help layout with actual GUI style
+* Updated FAQ page. PJH
+
