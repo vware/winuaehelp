@@ -7,3 +7,5 @@ Official WinUAE Help Changelog
 * Made all pages HTML4 compliant, optimized HTML structure
 * New screenshots, saving 200kB overall filesize
 * Various fixes in texts and layout changes
+* Moved ADF to Disk section to transdisk page
+* Updated first time users page for use with new quickstart feature
