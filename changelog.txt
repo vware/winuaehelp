@@ -13,6 +13,7 @@ Georg:
 * Various grammar/spelling/typo/information corrections, suggested by Wolfgang Stoeggl
 * Various additions suggested by Wolfgang Stoeggl
 * Removed animated gif in credits section
+* Moved legal notes to a seperate page, include it in the Getting Started area
 
 
 Version 2.0.0
