@@ -9,308 +9,216 @@
 <p class="headline1">General Tips</p>
 <p class="headline2">Some tips to get happier with WINUAE</p>
 <p class="text">&nbsp;</p>
-<p class="headline3">The uae_german keymap does not support éáµ or Euro Symbols</p>
-<p>Recommend is the use of german_keymap_new.zip and set input other then 
-  compatibility Mode.This map is perfect compatible.For Euro you need of course
-  a character set that support Euro Symbol, but work not in compatibility mode.See
-  also the readme of it. Works only on 0.9.90 and above.</p>
-<p>&nbsp;</p>
-<p class="headline3">Using a Mousewheel</p>
-<p>This work same as real amiga.Use the tool Freewheel from AmiNet.</p>
-<p>&nbsp;</p>
-<p class="headline3">WinUAE does not accept my hardfiles or show only CLI with my always used
-  config</p>
-<p class="text">This happen if another winuae run. It is not allow to use the
-  hardfile  with another winuae session. In very rare situation a very bad Amiga
-  program crash can happen that WinUAE does not release the hardfile.So you cant
-  load it in when you quit and start WinUAE. Reboot in this case Windows.
-  Now all should work. If winuae take long to boot you can switch on drive leds
-  in GUI. If the Harddrive LED is on you know the hardfile is validate so you
-  must wait.</p>
+<p class="headline3">The uae_german keymap does not support &micro; or &euro; Symbols</p>
+<p class="text">Recommend is the use of german_keymap_new.zip and set input other
+  then compatibility Mode.This map is perfect compatible.For Euro you need of
+  course a character set that support Euro Symbol, but work not in compatibility
+  mode.See also the readme of it. Works only on 0.9.90 and above.</p>
 <p class="text">&nbsp;</p>
-<p class="headline3">Install OS3.9 when you have a running aiab (fastest way to get OS3.9
-  work)</p>
-<p>If you dont have AIAB i recommend to install it,its much easier than install 
-  from real amiga emergency floppy.<br>
-  <br>
-  Boot from AIAB <br>
-  1. Insert the OS3.9 CD<br>
-  2. Start the OS3.9 Installer and choose make Emergency floppy<br>
-  Now you get a emergency floppy with correct CD rom support and P96 support <br>
-  with correct rtg.library </p>
-<p>Now boot from it</p>
-<p>If you get CD readerrors you need reduce maxtransfer in Cd rom driver</p>
-<p>read under this in this file</p>
-<p> How can i install Os3.5 and 3.9 from emergency Floppy disk</p>
-<p>how to do</p>
-<p>If the emergenc&lt;y floppy have correct boot then you are ready to install
-  OS3.9</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p class="headline2">After resuming from hybernate state, the Amiga Clock shows the wrong time </p>
-<p>&nbsp;</p>
-<p>Use the program attached in winuae install in dir amigaprograms with name</p>
-<p>timehack.Copy it to Amigadir c:</p>
-<p>&nbsp;</p>
-<p>Start it in your Userstartup run &gt;nil: timehack.</p>
-<p>It have no speedloss</p>
-<p>&nbsp;</p>
-<p>This is maybe also usefull if you throttle</p>
-<p>CPU idle too much because time can then run 3-10% slower</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>****** How can i make custom screenresolutions for winuae ***********</p>
-<p> </p>
-<p>Powerstrip work ok now since Version 3.3 and nvidia &gt;40 drivers on</p>
-<p>winxp to do the Job</p>
-<p>&nbsp;</p>
-<p>Before it work only on win98.So make sure you have this versions</p>
-<p>&nbsp;</p>
-<p>You need not run powerstrip every time in startup.</p>
-<p>&nbsp;</p>
-<p>Its enough when you create the Modes in Menu displayprofile-&gt;configure</p>
-<p>&nbsp;</p>
-<p>Click advanced timing options-&gt; custom resolutions-&gt;user defined set
-  desired</p>
-<p>values and reboot windows</p>
-<p>Its also possible to create interlace doublescan resolutions here </p>
-<p>&nbsp;</p>
-<p>Now you can use this resolutions in winuae with every amigaprogram</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>**How can i install Os3.5 and 3.9 from emergency Floppy disk*************</p>
-<p>&nbsp;</p>
-<p>It is only allow to use OS3.5 or 3.9 on 1 Computer at same time</p>
-<p>Read carefully the H&amp;P license maybe H&amp;P have a note in the license
-  of newer OS3.9</p>
-<p>that it can only use on AmigaHardware.</p>
-<p> </p>
-<p>( A advokate recommend me to add this here) </p>
-<p>&nbsp;</p>
-<p>Here we go:</p>
-<p>&nbsp;</p>
-<p>Insert the emergency floppy in your old Amiga</p>
-<p>&nbsp;</p>
-<p>Type </p>
-<p>transdisk &gt;ram:emergency_disk.adf</p>
-<p>&nbsp;</p>
-<p>on shell</p>
-<p>&nbsp;</p>
-<p>Copy it now on a PC formatet floppy and insert it to your PC.</p>
-<p>&nbsp;</p>
-<p>Open the file on emergency-disk:devs/dosdrivers/emergency_CD with a texteditor:</p>
-<p>&nbsp;</p>
-<p>Change the line device =&quot;xxxxxx </p>
-<p>to </p>
-<p>device =&quot;uaescsi.device&quot;</p>
-<p>Change unitnum if need</p>
-<p>&nbsp;</p>
-<p>IMPORTANT: Change the text </p>
-<p>MaxTransfer = xxxxxxx</p>
-<p>to </p>
-<p>MaxTransfer =0xffff</p>
-<p>or you get read/write errors</p>
-<p>&nbsp;</p>
-<p>If you still get read/write errors from CD use a value of 0x1fff then</p>
-<p>&nbsp;</p>
-<p>Save this to floppy</p>
-<p>&nbsp;</p>
-<p>Now boot from your emergency_Disk.adf and make sure you have OS3.5/3.9 CD </p>
-<p>insert </p>
-<p>&nbsp;</p>
-<p>** Using a real Amiga formatet Harddrive in winuae*****************</p>
-<p>&nbsp;</p>
-<p>Select the hardrive in page harddrive with addharddrives</p>
-<p>If there is no Drive listet than it is possible that this drive has no </p>
-<p>Amiga/Amithlon Partition or</p>
-<p>you use win98-meThis feature work only with win2k-winxp </p>
-<p>&nbsp;</p>
-<p>The device name for this is uaehf.device (see next FAQ for more info)</p>
-<p>&nbsp;</p>
-<p>** I have several damaged Amigas can i use the kickstart from them**********</p>
-<p>&nbsp;</p>
-<p>You can readout the kickstart rom with the included file in Amiga Programs</p>
-<p>from a intact Amiga.</p>
-<p> </p>
-<p>transrom &gt;ram:kickstart3.1</p>
-<p>&nbsp;</p>
-<p>Read also here the licence of the kickstart </p>
-<p>If this Version is forbidden to use on other computers</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>** Using other filesystem on Hardfiles (SFS testet)****************</p>
-<p>&nbsp;</p>
-<p>Create a Hardfile (notice that you now must choose size in MBytes</p>
-<p>For use with Hdtoolbox you must set the Sector Surface and Reserved num to
-  0</p>
-<p>Now the Volume Name should show n/a.</p>
-<p>Make a hdtoolsbox Icon with device=uaehf.device.</p>
-<p>Now do all steps like real Amiga with hdtoolsbox.</p>
-<p>&nbsp;</p>
-<p>** The Mousepointer freeze sometimes and i must reboot *********</p>
-<p>&nbsp;</p>
-<p>Make sure you have the serial Port on and the correct port set</p>
-<p>Make also shure shared is checked to loose no Speed<br>
-</p>
-<p>THis happen if a program make accidently for example debug output </p>
-<p>with kprintf or so</p>
-<p>&nbsp;</p>
-<p> </p>
-<p>** Using uaescsi.device to use IDE/SCSI Hardware for CD Support like real
-  Amiga</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>Enable in Winuae tab Misc-&gt;Createlog so you see what amiga UNIT Numbers</p>
-<p>your IDE/SCSI Hardware has.</p>
-<p>&nbsp;</p>
-<p>For CD support install for ex. amicdfs (Aminet)select device uaescsi.device</p>
-<p>and insert the number you see in the log file (Tab misc create Log file)<br>
-  as UNIT Number.</p>
-<p>Example: If you have only an IDE Controller:</p>
-<p> 0=Primary Master</p>
-<p> 1=Secondary Master</p>
-<p>&nbsp;</p>
-<p> Diskchange works correct, so uaediskchange is not needed anymore.</p>
-<p>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</p>
-<p>Limits: On win98-ME (with adaptec aspi which is installed by many PC-Burn</p>
-<p> Software) you can not use CD Burning Programs like makecd etc</p>
-<p> This works only in Win2k and WinXP. Playing audio CDs analog/digital with
-  opticd work </p>
-<p> on both Win versions.<br>
-</p>
-<p> When you use winxp it is best to switch off in Page misc</p>
-<p> Use ASPI Scsi Layer</p>
-<p> Only activate it if you notice Problems without it</p>
-<p>&nbsp;</p>
-<p> AsimCDFS:</p>
-<p>&nbsp;</p>
-<p> fail if you mount more than 1 CD drives</p>
-<p> (All devices show same CD Content).</p>
-<p> This seem on real Amigas also not work maybe a bug of asimcdfs</p>
-<p>&nbsp;</p>
-<p> cacheCDFS:</p>
-<p>&nbsp;</p>
-<p> set in the mountfile the maxtransfer size to 0x10000 (65 kb)</p>
-<p> This make cachecdfs working and show not the read/write error Requesters</p>
-<p>&nbsp;</p>
-<p> I recommend the use of amicdfs it is free on Aminet and it </p>
-<p> work without special winuae changes<br>
-</p>
-<p>&nbsp;</p>
-<p>1. Use hardfiles as your main drive to avoid trouble</p>
-<p>&nbsp;</p>
-<p> </p>
-<p> Also typical Amiga drives have many files. My 270MB HD </p>
-<p> has 17000 files. This is too much for WIndows because windows needs</p>
-<p> to cache the directories, since FAT32 is slow. (Everyone who wants delete
-  the Windows from DOS</p>
-<p> dir without smartdrive will find out, that this takes several hours).</p>
-<p> Also the maximum number of files is limitet on FAT32.</p>
-<p> So I use a main 270MB Hardfile and store pictures not important </p>
-<p> programs etc. in filedisks, so that there aren't many files/directories.</p>
-<p> A good choice is keep every hardfile smaller than 500 MB, because booting
-  on a 1GB hardfile</p>
-<p> takes longer.</p>
-<p> </p>
-<p> Also a backup with hardfile is fast. 270MB takes 1 min with 1 Drive, 0.5
-  Min with two drives.</p>
-<p> So when trying a new prog you can easily make a backup of all your data.</p>
-<p> Of course, transferring from / to hardfile can done by simply copying it,
-  so you don't have</p>
-<p> to install all your Amiga stuff again.</p>
-<p>&nbsp;</p>
-<p>2. Get UAE working in every dir/drive without changing configs</p>
-<p>&nbsp;</p>
-<p> For example uae is in c:\amiga the uae prog is in c:\amiga\winuae</p>
-<p> and hardfile is and dirs are in c:\amiga</p>
-<p> Insert in kickstart path ..\kickstart </p>
-<p> ..\hardfile1.hdf</p>
-<p> You see no c:\amiga exists in the name and it work correct</p>
-<p> So you can easily copy UAE to every drive CD work also you want</p>
-<p> and use it</p>
-<p>&nbsp;</p>
-<p>3. UAE doesn't boot due to Picasso96 failure (Picasso96 is extremely slow)</p>
-<p>&nbsp;</p>
-<p> StartUAE and immediately press both Mousebuttons when the mainwindow is shown.</p>
-<p> In the Amiga Early Startup select &quot;Boot without Startup-Sequence&quot;.</p>
-<p> Now remove or move the uaegfx file in devs:monitors.</p>
-<p> Start UAE, now the Workbench shows up.</p>
-<p> Just select a AmigaMode Save and copy uaegfx to devs/monitors again</p>
-<p> If this should fail, reinstall Picasso96.</p>
-<p> Don't forget then to copy the rtg.library file, which can be found in Winuae's</p>
-<p> directory &quot;Amigaprograms&quot; to libs:picasso96, if you reinstall picasso96
-  to remove the</p>
-<p> mouse trails.</p>
-<p> </p>
-<p>4. A chipset Mode that UAE does not display makes UAE fail</p>
-<p> OS 3.1: Boot without Startup-Sequence (from Amiga Early Startup menu), type
-  Loadwb,</p>
-<p> and press &quot;Cancel&quot; on the &quot;ENV:&quot; warnings. Then start
-  the screenmode selector</p>
-<p> and select standard PAL mode. Save it, boot and select your preferred mode.</p>
-<p> OS 3.5/3.9: Copy an old Screenmode prefs program from 3.1 to your HD,</p>
-<p> because the new one will not work this way.</p>
-<p> </p>
-<p>&nbsp;</p>
-<p>7. UAE large Boottime (memusage)</p>
-<p>&nbsp;</p>
-<p> WINUAE needs 60MB+Z3+Chip+Fast+Picasso96 Mem</p>
-<p> The 0.8.17r1 uses memory dynamically. This means you can select</p>
-<p> 512MB Z3 Mem and find no difference in boot time.</p>
-<p> But if you work with UAE for a longer time, it may get very slow.</p>
-<p> So it is better that you calculate your RAM needs with the above formula
-  and make sure</p>
-<p> that it is lower than the pysical limit.</p>
-<p> Windows makes much trouble, if it runs out of RAM.</p>
-<p>&nbsp;</p>
-<p> Also try to activate &quot;Suspend to Disk&quot; mode. UAE and </p>
-<p> Windows will be ready to use within 30 seconds.</p>
-<p> </p>
-<p>8. UAE shows a green screen on boot</p>
-<p>&nbsp;</p>
-<p> Go to the CPU page and select &quot;JIT force Settings&quot; and &quot;Indirect
-  Mode&quot;</p>
-<p> or disable it completely.</p>
-<p> Does it work now? Mail this to me</p>
-<p> Why? Due to some mystic reasons it happens, that JIT cannot allocate </p>
-<p> memory between 0x0 and 0x20000000. Normaly all WIndows versions</p>
-<p> have free space by 0x11000000.</p>
-<p> </p>
-<p>9. I get no picasso screens larger than 1024 in 32bit</p>
-<p> </p>
-<p> Use picasso96fix on Startup-Sequence (before LoadWB)</p>
-<p>&nbsp;</p>
-<p>10. What is the folder &quot;Displaydrivers&quot; for?</p>
-<p>&nbsp;</p>
-<p> These are the picasso96 uae drivers. Just ignore the drawer.</p>
-<p> The latest picasso96 installer has correctly working display drivers included.</p>
-<p> </p>
-<p> </p>
-<p>Tips for stable PCs:</p>
-<p>&nbsp;</p>
-<p>1. If you have an old HD (500MB), install a pure Win for testing purposes.</p>
-<p> Does the program work ?</p>
-<p> </p>
-<p>2. (More) Overclock your PC by 10% by using the bus clock. If it works correctly</p>
-<p> your PC seems to be stable. If it work for 4 minutes, it seems to be stable,
-  too.</p>
-<p> If it doesn't work, try downclock it. Less crashes?</p>
-<p> </p>
-<p>&nbsp;</p>
-<p>A problem on non UDMA HD is that PIO4 or SCSI have no</p>
-<p>transfer error detection. So try to let your PC run on PIO3 (DMA still works)</p>
-<p>a month or so. The speed loss is not measurable in daily use, because Windows
-  normally transfers</p>
-<p>small blocks. Less crashes ?</p>
-<p>&nbsp;</p>
-<p>3. You can install Sysmon by using the Windows installer.</p>
-<p> With this tooly you can see how many KB/sec are transferred and how much
-  memory a program uses. So you see, if the the program is slow is related to
-  the memory. Normally the allocated memory should not exceed your physical memory
-  by more than 30 MB. If so, you can increase speed by using more memory.</p>
-<p>&nbsp;</p>
-<p>4. I found out that, large drives are better than drives with high RPM.</p>
-<p> A 9 GB 10000 RPM SCSI drive is slower than a 40GB 7200 RPM IDE drive, if
-  you use the same partition size.</p>
+<p class="headline3">Using a Mousewheel</p>
+<p class="text">This work same as real amiga.Use the tool Freewheel from AmiNet.</p>
+<p class="text">&nbsp;</p>
+<p class="headline3">WinUAE does not accept my hardfiles or show only CLI with
+  my always used config</p>
+<p class="text">This happen if another WinUAE run. It is not allow to use the
+  hardfile with another WinUAE session. In very rare situation a very bad Amiga
+  program crash can happen that WinUAE does not release the hardfile.So you cant
+  load it in when you quit and start WinUAE. Reboot in this case Windows. Now
+  all should work. If WinUAE take long to boot you can switch on drive leds in
+  GUI. If the Harddrive LED is on you know the hardfile is validate so you must
+  wait.</p>
+<p class="text">&nbsp;</p>
+<p class="headline3">Install OS3.9 when you have a running aiab (fastest way
+  to get OS3.9 work)</p>
+<p class="text">If you dont have <a href="../links.htm">AIAB</a> it is recommended
+  to install it, it is much easier than installing from real Amiga emergency
+  floppy.</p>
+<ol>
+  <li class="text">Boot from AIAB</li>
+  <li class="text"> Insert the OS3.9 CD</li>
+  <li class="text"> Start the OS3.9 Installer and choose &quot;Make emergency
+    floppy&quot;<br>
+    The installer will create an emergency floppy with correct CD rom support
+    and P96 support with correct rtg.library</li>
+  <li class="text">Boot from the emergency floppy</li>
+  <li class="text">You are ready to install OS3.9</li>
+</ol>
+<p class="text"><strong>Hint:</strong> If you get CD read errors you need reduce
+  the max transfer rate in your CD-ROM driver settings. </p>
+<p class="text">&nbsp;</p>
+<p class="headline3">After resuming from hybernate state, the Amiga Clock shows
+  the wrong time</p>
+<p class="text">Use the <a href="amigaprogs.htm">amiga program</a> timehack.
+  This is maybe also useful if you throttled CPU idle too much because time can
+  then run 3-10% slower.</p>
+<p class="text">&nbsp;</p>
+<p class="headline3">How can i make custom screenresolutions for WinUAE</p>
+<p class="text">Powerstrip works OK now since Version 3.3 and nVidia drivers
+  version 40 or later, so please make sure you are using the latest version of
+  Powerstrip and nVidia drivers.</p>
+<p class="text">Create the modes:</p>
+<ul>
+  <li class="text"> Change into the menu displayprofile -&gt; configure</li>
+  <li class="text">Click advanced timing options -&gt; custom resolutions -&gt; user
+    defined</li>
+  <li class="text">Set desired values and reboot windows if necessary</li>
+</ul>
+<p class="text">It is also possible to create interlaced doublescan resolutions
+  in this menu.</p>
+<p class="text">&nbsp;</p>
+<p class="headline3">How can i install Os3.5 and 3.9 from emergency Floppy disk</p>
+<p class="text">It is only allowed to use OS3.5 or 3.9 on 1 Computer at the same
+  time. Read the H&amp;P license carefully. Maybe H&amp;P placed a note in the
+  license of newer OS3.9 distributions that restricts its use to AmigaHardware.</p>
+<p class="text">Here we go:</p>
+<ol>
+  <li class="text">Insert the emergency floppy in your old Amiga</li>
+  <li class="text">Use <a href="../started/transdisk.htm">Transdisk</a> to create
+    an ADF and <a href="../started/pcamitrans.htm">transfer</a> it to your PC</li>
+  <li class="text">Boot your emulated Amiga with WinUAE and &quot;insert&quot; the
+    ADF in a floppy drive </li>
+  <li class="text">Open the file devs/dosdrivers/emergency_CD on the disk with
+    a texteditor</li>
+  <li class="text">Change the line device =&quot;xxxxxx to device =&quot;uaescsi.device&quot;</li>
+  <li class="text">Change UnitNum if needed</li>
+  <li class="text">Change the text MaxTransfer = xxxxxxx to MaxTransfer =0xffff<br>
+    If you get read/write errors from CD use a value of 0x1fff instead</li>
+  <li class="text">Save the changed file to disk</li>
+  <li class="text">Boot from the emergency disk and make sure the OS3.5/3.9 CD
+    is inserted</li>
+</ol>
+<p class="text">&nbsp;</p>
+<p class="headline3">Using a real Amiga formatTeD Harddrive in WinUAE</p>
+<p class="text">This can be done in the <a href="../gui/hard-drives.htm">harddrive
+    page</a> in the GUI. If there is no drive listed, it is possible that this
+    drive has no Amiga/Amithlon Partition. Note that this feature is not available
+    in Windows 9x/ME environments.</p>
+<p class="text">&nbsp;</p>
+<p class="headline3">I have several damaged Amigas can i use the kickstart from
+  them</p>
+<p class="text">Follow the instructions on the <a href="..started/transrom.htm">Transrom</a> page.</p>
+<p class="text">&nbsp;</p>
+<p class="headline3">Using other filesystems on Hardfiles (SFS tested)</p>
+<p class="text">Create a Hardfile. For use with HDToolbox you must set the Sector
+  Surface and Reserved numbers to 0. The volume name should show N/A. Make a
+  hdtoolsbox Icon with device=uaehf.device. Now do all steps like with a real
+  Amiga with HDToolsBox..</p>
+<p class="text">&nbsp;</p>
+<p class="headline3"> The mouse pointer freezes sometimes and I have to reboot</p>
+<p class="text">Make sure you have the serial port enabled and correctly configured.
+  Also, make sure the &quot;Shared&quot; checkbox is checked to loose no speed.</p>
+<p class="text">&nbsp;</p>
+<p class="headline3">Differences of CD drivers </p>
+<p class="text">AsimCDFS:</p>
+<ul>
+  <li class="text">Fails if you mount more than 1 CD driv (all devices show the
+    same CD content)</li>
+  <li class="text">Seems to be a bug in AsimCDFS, because it happens on real
+    Amigas as well</li>
+</ul>
+<p class="text">cacheCDFS:</p>
+<ul>
+  <li class="text">Set the MaxTransfer size to 0x10000 (65 kb) in the mountfile</li>
+  <li class="text">This make cacheCDFS working and not display the read/write
+    error Requesters</li>
+</ul>
+<p class="text">&nbsp;</p>
+<p class="headline3">Harddrive performance</p>
+<p> <span class="text">Use hardfiles as your main drive to avoid trouble, especially
+    when using Windows 9x/ME for numerous reasons:</span></p>
+<ul>
+  <li class="text">Amiga harddrives easily contain several 1000 files. This is
+    too much for Windows 9x/ME because Windows needs to cache the directories,
+    since FAT32 is slow. For example, if you try to delete the Windows directory
+    from DOS without smartdrive, you will find out that this takes several hours.</li>
+  <li class="text">The maximum number of files is limitet on FAT32.</li>
+  <li class="text">Keep every hardfile smaller than 500 MB, because booting from
+    a 1GB hardfile takes longer.</li>
+  <li class="text">Also a backup from hardfiles is fast. 270MB takes 1 min with
+    1 Drive, 0.5 Min with two drives.</li>
+</ul>
+<p class="text">It is recommended to install the AmigaOS and programs on a hardfile,
+  so the access and backup can be done quickly. To store pictures and other data,
+  you may use a Windows directory for easier data exchange with the PC.<br>
+  Transferring data from/to a hardfile can done by simply copying it, so you
+  don't have to install all your Amiga stuff again.</p>
+<p class="text">&nbsp;</p>
+<p class="headline3"> Get UAE working in every dir/drive without changing configs</p>
+<p class="text">Make use of relative pathes to realize this.</p>
+<p class="text">Example:<br>
+  WinUAE is in C:\Amiga\WinUAE, and Kickstart ROMs are in C:\Amiga\Kickstart.<br>
+  For the kickstart path, enter ..\Kickstart.</p>
+<p class="text">&nbsp;</p>
+<p class="headline3"> UAE doesn't boot due to Picasso96 failure (Picasso96 is
+  extremely slow)</p>
+<p class="text">Start UAE and immediately press both Mousebuttons when the main
+  window is shown. In the Amiga Early Startup select &quot;Boot without Startup-Sequence&quot;.
+  Now remove or move the uaegfx file in devs:monitors. Start UAE, now the Workbench
+  shows up. Just select a AmigaMode Save and copy uaegfx to devs/monitors again.
+  If this should fail, reinstall Picasso96.</p>
+<p class="text"> Don't forget to copy the rtg.library file, which can be found
+  in the AmigaPrograms directory, to libs:picasso96. This will remove mouse trails
+  after a Picasso96 installation.</p>
+<p class="text">&nbsp;</p>
+<p class="headline3">A chipset Mode that UAE does not display makes UAE fail</p>
+<p> <span class="text">OS 3.1:</span></p>
+<ul>
+  <li class="text">Boot without aStartup-Sequence (from Amiga Early Startup menu),
+    type loadwb in the CLI, and press &quot;Cancel&quot; on the &quot;ENV:&quot; warnings</li>
+  <li class="text">Start the screenmode selector</li>
+  <li class="text">Select a standard PAL mode. Save it, reboot and select your
+    preferred mode</li>
+</ul>
+<p class="text"> OS 3.5/3.9:</p>
+<ul>
+  <li class="text">Copy an old Screenmode prefs program from 3.1 to your HD,
+    because the new one will not work this way.</li>
+</ul>
+<p class="text">&nbsp;</p>
+<p class="headline3">UAE large boottime (memory usage)</p>
+<p class="text">As a rule of thumb, WinUAE needs 60+Z3+Chip+Fast+Picasso96 MB
+  of system memory.<br>
+  Since WinUAE 0.8.17r1, memory is allocated dynamically. This means you can
+  select 512MB Z3 Mem and find no difference in boot time, but if you work with
+  UAE for a longer time, it may get very slow. So it is better that you calculate
+  your RAM needs with the above formula and make sure that it is lower than the
+  pysical limit. Windows has to store the data on the harddisk if it runs out
+  of RAM, which is a gigantic performance hit.<br>
+  Also try to activate &quot;Suspend to Disk&quot; mode. UAE and Windows will
+  be ready to use within 30 seconds.</p>
+<p class="text">&nbsp;</p>
+<p class="headline3">UAE shows a green screen on boot</p>
+<p class="text">Go to the <a href="../gui/cpu.htm">CPU page</a> and select <span class="textmenu">JIT
+    -&gt; Force Settings</span> and <span class="textmenu">Indirect Mode</span> or
+    disable JIT completely.</p>
+<p class="text">&nbsp;</p>
+<p class="headline3">I get no picasso screens larger than 1024x768 in 32bit</p>
+<p class="text"> Load <a href="amigaprogs.htm">picasso96fix</a> in the startup-sequence
+  (before LoadWB).</p>
+<p class="text">&nbsp;</p>
+<p class="headline3">The folder &quot;displaydrivers&quot;</p>
+<p class="text">These are the picasso96 uae drivers. Just ignore the drawer.
+  The latest Picasso96 installer has correctly working display drivers included.</p>
+<p class="text">&nbsp;</p>
+<p class="headline3">Tips for Tuning</p>
+<ul>
+  <li class="text">If you have an old HD (500MB), install a pure Windows for
+    testing purposes. Does the program work ?</li>
+  <li class="text">Overclock your PC by 10% by using the bus clock. If it works
+    correctly your PC seems to be stable. If it works for 4 minutes, it seems
+    to be stable, too. If it doesn't work, try downclock it. Less crashes?</li>
+  <li class="text">A problem on non UDMA HD is that PIO4 or SCSI have no transfer
+    error detection. So try to let your PC run on PIO3 (DMA still works) a month
+    or so. The speed loss is not measurable in daily use, because Windows normally
+    transfers small blocks. Less crashes?</li>
+  <li class="text"> You can install Sysmon by using the Windows installer. With
+    this tooly you can see how many kB/sec are transferred and how much memory
+    a program uses. So you see if the the program is slow is related to the memory.
+    Normally the allocated memory should not exceed your physical memory by more
+    than 30 MB. If so, you can increase speed by using more memory.</li>
+  <li class="text"> I found out that, large drives are better than drives with
+    high RPM. A 9 GB 10000 RPM SCSI drive is slower than a 40GB 7200 RPM IDE
+    drive, if you use the same partition size.</li>
+</ul>
 </body>
 </html>

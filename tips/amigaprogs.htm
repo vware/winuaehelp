@@ -7,211 +7,123 @@
 </head>
 <body class="site">
 <p class="headline1">Amiga Programs</p>
-<p>Along with the WinUAE emulator program, some programs are supplied in the
-  'Amiga Programs' folder in the C:\Program Files\WinUAE folder. Here is an explaination
-  of what these files are for and where to copy them to:</p>
+<p class="text">Along with the WinUAE emulator program, some programs are supplied
+  in the 'Amiga Programs' folder in the C:\Program Files\WinUAE folder. Here
+  is an explaination of what these files are for and where to copy them to:</p>
 <p class="headline2">MouseHack</p>
-<p>Copy this program file your C directory on your Workbench disk or hard disk.
-  This program will hack your mouse connected to your PC to work with WinUAE.
-  In most cases it may not be needed. You can auto run it by adding a line to
-  the s:user-startup file on your Workbench disk.</p>
+<p class="text">Copy this program file your C directory on your Workbench disk
+  or hard disk. This program will hack your mouse connected to your PC to work
+  with WinUAE. In most cases it may not be needed. You can auto run it by adding
+  a line to the s:user-startup file on your Workbench disk.</p>
 <p class="headline2">Picasso96fix</p>
-<p>Copy this program file your C directory on your Workbench disk or hard disk.
-  This program will fix Picasso 96 RTG screens greater than 1024 pixels when
-  using your PC's graphics card with the uaegfx driver in WinUAE. Load it before
-  LoadWB in the startup-sequence. The <strong>Picasso96fix.bb</strong> file is
-  the source code to this program written in Blitz Basic.</p>
+<p class="text">Copy this program file your C directory on your Workbench disk
+  or hard disk. This program will fix Picasso 96 RTG screens greater than 1024
+  pixels when using your PC's graphics card with the uaegfx driver in WinUAE.
+  Load it before LoadWB in the startup-sequence. The <strong>Picasso96fix.bb</strong> file
+  is the source code to this program written in Blitz Basic.</p>
 <p class="headline2">rtg.library</p>
-<p>Re-targetable Graphics Library. Copy this library file your libs:picasso96.
+<p class="text">Re-targetable Graphics Library. Copy this library file your libs:picasso96.
   This library will avoid mousetrails and redraw problems in picasso96 when using
   JIT functions.</p>
 <p class="headline2">timehack</p>
-<p>This setst the correct time every second,useful when you hybernate your PC
-  when winuae is running.</p>
+<p class="text">This setst the correct time every second,useful when you hybernate
+  your PC when winuae is running. Copy it to the Amiga system directory c. Start
+  it in your Userstartup with the command <span class="textmenu">run &gt;nil:
+  timehack</span>.</p>
 <p class="headline2">transdisk</p>
-<p>Copy this program file your C directory on your Workbench disk or hard disk.
-  This can Transfer Disk images to or from floppy disk to an image or vice versa
-  in ADF (Amiga Disk Format). Type <strong>transdisk ?</strong> for more options.
-  See <a href="transdisk.htm">trandisk</a> page for more details on this program.</p>
+<p class="text">Copy this program file your C directory on your Workbench disk
+  or hard disk. This can Transfer Disk images to or from floppy disk to an image
+  or vice versa in ADF (Amiga Disk Format). Type <strong>transdisk ?</strong> for
+  more options. See <a href="transdisk.htm">trandisk</a> page for more details
+  on this program.</p>
 <p class="headline2">transrom</p>
-<p>Copy this program file your C directory on your Workbench disk or hard disk.
-  This can Transfer the Kickstart rom image from a real Amiga to an image file
-  to use with your Amiga Emulator. It will produce either a 256K or 512K sized
-  file. See <a href="transrom.htm">transrom</a> page for more details on this
-  program.</p>
+<p class="text">Copy this program file your C directory on your Workbench disk
+  or hard disk. This can Transfer the Kickstart rom image from a real Amiga to
+  an image file to use with your Amiga Emulator. It will produce either a 256K
+  or 512K sized file. See <a href="transrom.htm">transrom</a> page for more details
+  on this program.</p>
 <p class="headline2">UAE</p>
-<p>Copy this file to the AHI driver drawer in Devs on your Workbench disk or
-  hard disk. It is used to emulate the Amiga's sound system using AHI retargetable
-  sound driver system.</p>
+<p class="text">Copy this file to the AHI driver drawer in Devs on your Workbench
+  disk or hard disk. It is used to emulate the Amiga's sound system using AHI
+  retargetable sound driver system.</p>
 <p class="headline2">UAE.audio</p>
-<p>Copy this file to the Devs:AHI driver drawer in Devs on your Workbench disk
-  or hard disk. It is used to emulate the Amiga's sound system using AHI retargetable
-  sound driver system. It will support 44.1khz 16Bit and 32khz.</p>
+<p class="text">This is the AHI Driver for UAE. It enables support for recording
+  and playback with a sampling rate up to 96 kHz. Copy this file to the Devs:AHI
+  driver drawer in Devs on your Workbench disk or hard disk. It is used to emulate
+  the Amiga's sound system using AHI retargetable sound driver system. This driver
+  works fully independent from Paula sound. For a speed boost on slower systems,
+  you can set the Paula buffer to 5 or 6, and chose 11kHz Mono, which is enough
+  to hear system sounds.<br>
+  If you installed the driver correctly, it should show <span class="textmenu">Version
+  4.3 Date 22.05.02</span> and offer you only 1 mode: UAE hifi stereo++. </p>
 <p class="headline2">UAE_German</p>
-<p>This is a German keymap file for access to @\~{[]} with ALT-GR like windows.
-  Copy it to devs/keymaps and select in Input prefs.</p>
+<p class="text">This is a German keymap file for access to @\~{[]} with ALT-GR
+  like windows. Copy it to devs/keymaps and select in Input prefs.</p>
 <p class="headline2">uae_rcli</p>
-<p>Remote Cli. Usage: uae_rcli [?|-h] [-debug] [-nofifo] [&lt;delay&gt;]</p>
+<p class="text">Remote CLI. Usage: uae_rcli [?|-h] [-debug] [-nofifo] [&lt;delay&gt;]</p>
 <p class="headline2">uae-control</p>
-<p>Copy this program file to your Utilities folder or some other folder on your
-  Workbench disk or hard disk. It will provide you a user interface within the
-  emulator to control the floppy drives, reset, quit and other features without
-  having to press F12 to bring up the WinUAE interface.</p>
+<p class="text">Copy this program file to your Utilities folder or some other
+  folder on your Workbench disk or hard disk. It will provide you a user interface
+  within the emulator to control the floppy drives, reset, quit and other features
+  without having to press F12 to bring up the WinUAE interface.</p>
 <p align="center"><img src="uaecontrol.gif" alt="UAE-Control"></p>
 <p class="headline2">uaectrl</p>
-<p>Copy this program file your C directory on your Workbench disk or hard disk.
-  This is the Shell equivalent of the uae-control program which you can change
-  floppies, sound, joystick, reset or quit the emulator from a simple text menu.</p>
+<p class="text">Copy this program file your C directory on your Workbench disk
+  or hard disk. This is the Shell equivalent of the uae-control program which
+  you can change floppies, sound, joystick, reset or quit the emulator from a
+  simple text menu.</p>
 <p align="center"><img src="uaectrl.gif" alt="UAE-Control Shell"></p>
 <p class="headline2">winuaeclip</p>
-<p>This program allows you to have access to Windows Clipboard so you can copy/paste
-  files to/from WinUAE.</p>
+<p class="text">This program allows you to have access to Windows Clipboard so
+  you can copy/paste files to/from WinUAE.</p>
 <p class="headline2">winuaenforcer</p>
-<p>This program allows Enforcer support, to detect bad memory access when developing
-  programs or debugging.<br>
+<p class="text">This program allows Enforcer support, to detect bad memory access
+  when developing programs or debugging.<br>
   For 100% safety, in JIT use Indirect Mode and set Speed to 2.</p>
 <p class="headline2">winxpprinthelper</p>
-<p>Not sure what this does yet. Need printer switched on before running this.</p>
-<p class="headline2">uae_german</p>
-<p class="text">This is a German keymap to reach @\~{[]} with ALT-GR like windows.
-  Copy it in devs/keymaps and choose it in the keymap-prefs</p>
+<p class="text">Not sure what this does yet. Need printer switched on before
+  running this.</p>
 <p class="headline2">p96_uae_tweak</p>
-<p>This features need the p96_uae_tweak program attached in this mail. It must
-  run after P96 monitordrivers in userstartup<br>If you have copy this prog to
-  c:<br>
+<p class="text">This features need the p96_uae_tweak program attached in this
+  mail. It must run after P96 monitordrivers in userstartup<br>
+  If you have copy this prog to c:<br>
   run &gt;nil: c:p96_uae_tweak.<br>
   I also recommend to set P96 mem from the 4 MB AIAB config to 16 or 32 MB,because
   it works faster. If not enough gfx card space is free you see flicker as before
   and slower move Restart whole winuae when you have increase gfx memsize and
-    save the config.<br>
-    I notice crashes when only reboot.<br>To test it you can boot AIAB open the screenmode prefs window.<br>Now put the screenmode prefs window to back and move it around under other<br>windows.<br>
-    Now if the window move fast and do not flicker all work ok. With that patch
-    it is also impossible that P96 graphic actions can block winuae,so you get
-    no AHI 16bit soundstodder when doing large graphic actions.<br>
-  The patch split for this large P96 blits (&gt;60 pixel)in smaller blocks
-    and check in all blocks if a 16 bit ahi buffer is free.No speedloss seen,no
-  stodder notice with 4ms AHI Latency.<br>
-</p>
-<p>&nbsp;</p>
-<p>Swapbitmaprastport (used for solid windowmoving and some slow layer<br>
-</p>
-<p>actions)is patched<br>
-</p>
-<p>to use a UAE blitter functions that direct exchange the data instead calling<br>
-</p>
-<p>3* eor <br>
-</p>
-<p>It is faster and avoid the heavy flickering when move a smartlayer window<br>
-</p>
-<p>under another window <br>
-</p>
-<p>&nbsp;</p>
-<p> restoretime (download from Aminet)<br>
-</p>
-<p>&nbsp;</p>
-<p>This set every second the clock to windows clock time.<br>
-</p>
-<p>You need this when you hybernate your PC and resume to get exact time.<br>
-</p>
-<p>If you need exact time (for compiler make) i recommend also to use this<br>
-</p>
-<p>because UAE cycletiming make diffrence of 1-2 sec in a hour.<br>
-</p>
-<p>It have no speedloss <br>
-</p>
-<p>&nbsp;</p>
-<p> ahitweak<br>
-</p>
-<p>&nbsp;</p>
-<p>This is a program you can start from shell or user-startup<br>
-</p>
-<p>and allow you to tune the ahi driver for better latency,because on winxp the <br>
-</p>
-<p>playpointer position have a delay depend on system and soundcard<br>
-</p>
-<p>&nbsp;</p>
-<p>I can reach with <br>
-</p>
-<p>ahitweak 200 <br>
-</p>
-<p>&nbsp;</p>
-<p>latency of 4 ms with my sb-PCI512 on winxp (simular sb-live) <br>
-</p>
-<p>to get hd-rec working with 4ms<br>
-</p>
-<p>&nbsp;</p>
-<p>You see thats more a function to get the best for realtime Music without special <br>
-</p>
-<p>ASIO drivers<br>
-</p>
-<p>&nbsp;</p>
-<p>Most users dont need that<br>
-</p>
-<p>&nbsp;</p>
-<p>But if you have crackle problems WITH 16 BIT AHI <br>
-</p>
-<p>play a song and try values of 50 200 500 2000 -50 -200 -500 -2000<br>
-</p>
-<p>&nbsp;</p>
-<p>Maybe that help <br>
-</p>
-<p> p96refresh (winuae only)<br>
-</p>
-<p>Start this program to get higher mousepointer redraw rates than 50 hz<br>
-</p>
-<p>with P96.Actions are seen immediatly after call.You can start this in your <br>
-</p>
-<p>user-startup for automatic on boot <br>
-</p>
-<p>&nbsp;</p>
-<p>Example:<br>
-</p>
-<p> p96refresh 75 <br>
-</p>
-<p>set redraw rate to 75 hz.Best is if you set rate <br>
-</p>
-<p> to your monitor refresh rate or monitor refreshrate*2<br>
-</p>
-<p> Dont set it higher or you get speedloss &gt; 2% <br>
-</p>
-<p>&nbsp;</p>
-<p> rtg.library: (help also on Standard UAE)<br>
-</p>
-<p>This avoid large slowdown and redraw problems in picasso96 with JIT<br>
-</p>
-<p>copy it in libs:pacasso96<br>
-</p>
-<p>&nbsp;</p>
-<p> picasso96fix (help also on Standard UAE)<br>
-</p>
-<p>This allow larger Screen Width than 1024 <br>
-</p>
-<p>start it BEFORE the loadwb instruction in startup-sequence</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p> <br>
-</p>
-<p>&nbsp;</p>
-<p> uae/uae.audio (winuae only)<br>
-</p>
-<p>This is the AHI Driver.This allow support for record and playback upto 96
-  khz<br>
-</p>
-<p>&nbsp;</p>
-<p>copy uae to devs:audiomodes<br>
-</p>
-<p>copy uae.audio to devs:ahi<br>
-</p>
-<p>&nbsp;</p>
-<p>If you install correct the driver should show Version 4.3 Date 22.5.02 <br>
-</p>
-<p>and offer you only 1 Mode UAE hifi stereo++. <br>
-</p>
-<p>&nbsp;</p>
-<p>This driver work fully independent from paula sound.For a speed <br>
-</p>
-<p>boost on slower systems you can set paula buffer to 5 or 6 choose 11 khz mono<br>
-</p>
-<p>thats enough to hear system sound</p>
+  save the config.<br>
+  I notice crashes when only reboot.<br>
+  To test it you can boot AIAB open the screenmode prefs window.<br>
+  Now put the screenmode prefs window to back and move it around under other<br>
+  windows.<br>
+  Now if the window move fast and do not flicker all work ok. With that patch
+  it is also impossible that P96 graphic actions can block winuae,so you get
+  no AHI 16bit soundstodder when doing large graphic actions.<br>
+  The patch split for this large P96 blits (&gt;60 pixel)in smaller blocks and
+  check in all blocks if a 16 bit ahi buffer is free.No speedloss seen,no stodder
+  notice with 4ms AHI Latency. Swapbitmaprastport (used for solid windowmoving
+  and some slow layer actions) is patched to use a UAE blitter functions that
+  direct exchange the data instead calling 3* eor. It is faster and avoid the
+  heavy flickering when move a smartlayer window under another window.</p>
+<p class="headline2">restoretime</p>
+<p class="text">This tools synchronizes the Amiga time with the current Windows
+  time every second. You need this when you use the hibernation feature of your
+  PC and resume to get exact time. If you need exact time (for compiler make)
+  it is also recommended to use this because UAE cycletiming differs of about
+  1-2 seconds per hour.</p>
+<p class="headline2">ahitweak</p>
+<p class="text">This is a program you can start from the CLI or user-startup
+  and allows you to tune the AHI driver for better latency, because on Windows
+  XP the playpointer position has a delay depending on the system and soundcard
+  used. Most users do not need this tool, but if you have crackle problems with
+  16bit AHI, play a song and try values of 50, 200, 500, 2000, -50, -200, -500,
+  and -2000. With some trying, you may be able to get good results.</p>
+<p class="headline2">p96refresh</p>
+<p class="text">Start this program to get higher mousepointer redraw rates than
+  50Hz with P96.Actions are seen immediatly after call.You can start this in
+  your user-startup for automatic load during booting the system.</p>
+<p class="text">Example: p96refresh 75 sets the redraw rate to 75Hz. It is recommended
+  to set the rate according to the actual monitor refresh rate, or the doubled
+  number. Do not set it higher or you get a speedloss greater than 2%.</p>
 </body>
 </html>
