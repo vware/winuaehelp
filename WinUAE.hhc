@@ -35,16 +35,12 @@
 			</OBJECT>
 		<UL>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Winuae for first time users">
+				<param name="Name" value="WinUAE For First Time Users">
 				<param name="Local" value="started\firsttimeuser.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Boot disk">
+				<param name="Name" value="Boot Disks">
 				<param name="Local" value="started\bootdisk.htm">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="AmigaDOS">
-				<param name="Local" value="started\amigados.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Requirements">
@@ -203,6 +199,10 @@
 			<param name="Local" value="background/main.htm">
 			</OBJECT>
 		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="AmigaDOS Commands">
+				<param name="Local" value="background\amigados.htm">
+				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Amiga Hardware">
 				<param name="Local" value="background/hardware.htm">
