@@ -9,6 +9,7 @@ Georg:
 * New screenshots, saving 200kB overall filesize
 * Various fixes in texts and layout changes
 * Moved ADF to Disk section to transdisk page
+* Fixed/updated obsolete hyperlinks
 * Updated first time users page for use with new quickstart feature
 * Cleaned up and updated GUI chipset settings description
 * Added hardware and host sections to align help layout with actual GUI style
@@ -18,6 +19,7 @@ Georg:
 * Fixed page not found errors when help was called from more recent WinUAE GUI pages
 * Moved Amiga DOS commands page to background information
 * Fixed several typos, grammar mistakes, ...
+* Directed all external links over the dedicated links page
 
 
 Peter:
