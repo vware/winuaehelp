@@ -11,34 +11,34 @@
 the command and an example.</p>
 <pre>
 <strong>Addbuffers</strong>
-Format:  Addbuffers <i>Drive/A Buffers/N</i>
+Format:  Addbuffers <em>Drive/A Buffers/N</em>
 Purpose: Add memory to floppy disk buffers to improve speed
 Example: Addbuffers df0: 10
 
 <strong>Adddatatypes</strong>
-Format:  AddDataTypes <i>files/M QUIET/S REFRESH/S</i>
+Format:  AddDataTypes <em>files/M QUIET/S REFRESH/S</em>
 Purpose: Activates datatypes or adds another datatype
 Example: AddDataTypes gif.datatype REFRESH
 
 <strong>Alias</strong>
-Format:  Alias <i>Name String/F</i>
+Format:  Alias <em>Name String/F</em>
 Purpose: Assigns a short name to a command.
 Example: Alias Del Delete
 
 <strong>Ask</strong>
-Format:  Ask <i>Prompt/A</i>
+Format:  Ask <em>Prompt/A</em>
 Purpose: Asks a question in a script (reply y/n). Use IF WARN
          to test for a yes.
 Example: Ask &quot;Are you sure? Y/n&quot;
 
 <strong>Assign</strong>
-Format:  Assign <i>Name Target/M LIST/S EXISTS/S DISMOUNT/S DEFER/S
-         PATH/S ADD/S REMOVE/S VOLS/S DIRS/S DEVICES/S</i>
+Format:  Assign <em>Name Target/M LIST/S EXISTS/S DISMOUNT/S DEFER/S
+         PATH/S ADD/S REMOVE/S VOLS/S DIRS/S DEVICES/S</em>
 Purpose: Assign names to directory paths.
 Example: Assign PPaint: DH0:PPaint
 
 <strong>Avail</strong>
-Format:  Avail <i>CHIP/S FAST/S TOTAL/S FLUSH/S</i>
+Format:  Avail <em>CHIP/S FAST/S TOTAL/S FLUSH/S</em>
 Purpose: Memory availablility
 Example: Avail TOTAL
 
@@ -48,78 +48,78 @@ Purpose: Load device drivers for old hardware.
 Example: BindDrivers
 
 <strong>Break</strong>
-Format:  Break <i>Process/A/N ALL/S C/S D/S E/S F/S</i>
+Format:  Break <em>Process/A/N ALL/S C/S D/S E/S F/S</em>
 Purpose: Stop a program (see Status)
 Example: Break 2 C
 
 <strong>CD</strong>
-Format:  CD <i>Dir/A</i>
+Format:  CD <em>Dir/A</em>
 Purpose: Change directory
 Example: CD Text_Files
 
 <strong>ChangeTaskPri</strong>
-Format:  ChangeTaskPri <i>Pri=Priority/A/N Process/K/N</i>
+Format:  ChangeTaskPri <em>Pri=Priority/A/N Process/K/N</em>
 Purpose: Changes program's execution priority (see Status)
 Example: ChangeTaskPri 2 1
 
 <strong>Conclip</strong>
-Format:  Conclip<i>Unit/N OFF/S</i>
+Format:  Conclip<em>Unit/N OFF/S</em>
 Purpose: Activates clipboard device
 Example: Conclip 1
 
 <strong>Copy</strong>
-Format:  Copy <i>From/M To/A ALL/S QUIET/S BUF=BUFFER/K/N CLONE/S
-         DATES/S NOPRO/S COM/S NOREQ/S</i>
+Format:  Copy <em>From/M To/A ALL/S QUIET/S BUF=BUFFER/K/N CLONE/S
+         DATES/S NOPRO/S COM/S NOREQ/S</em>
 Purpose: Copy files (with/without protection bits)
 Example: Copy mydoc.txt docs: Dates
 
 <strong>CPU</strong>
-Format:  CPU <i>CACHE/S BURST/S NOCACHE/S NOBURST/S DATACACHE/S DATABURST/S
+Format:  CPU <em>CACHE/S BURST/S NOCACHE/S NOBURST/S DATACACHE/S DATABURST/S
          NODATACACHE/S NODATABURST/S INSTCACHE/S INSTBURST/S NOINSTCACHE/S
          NOINSTBURST/S COPYBACK/S NOCOPYBACK/S EXTERNALCACHE/S 
-         NOEXTERNALCACHE/S FASTROM/S NOFASTROM/S NOMMUTEST/S CHECK/K</i>
+         NOEXTERNALCACHE/S FASTROM/S NOFASTROM/S NOMMUTEST/S CHECK/K</em>
 Purpose: Change or display CPU settings e.g. caches, burst, fastrom
 Example: CPU INSTCACHE FASTROM
 
 <strong>Date</strong>
-Format:  Date <i>Day Date Time To=Ver/K</i>
+Format:  Date <em>Day Date Time To=Ver/K</em>
 Purpose: Display/change date or time
 Example: Date To=date.txt
 
 <strong>Delete</strong>
-Format:  Delete <i>File/M/A ALL/S QUIET/S FORCE/S</i>
+Format:  Delete <em>File/M/A ALL/S QUIET/S FORCE/S</em>
 Purpose: Delete files and/or directories
 Example: Delete OldFilesDir All
 
 <strong>Dir</strong>
-Format:  Dir <i>Dir Opt/K ALL/S DIRS/S FILES/S INTER/S</i>
+Format:  Dir <em>Dir Opt/K ALL/S DIRS/S FILES/S INTER/S</em>
 Purpose: List contents of a directory
 Example: Dir S: Files
 
 <strong>Diskchange</strong>
-Format:  Diskchange <i>Device/A</i>
+Format:  Diskchange <em>Device/A</em>
 Purpose: Tell Amigados that a disk has been swapped in a
          non-autosensing disk drive
 Example: Diskchange DF2:
 
 <strong>Diskcopy</strong>
-Format:  Diskcopy <i>From/A To/A Name/K NOVERIFY/S MULTI/S</i>
+Format:  Diskcopy <em>From/A To/A Name/K NOVERIFY/S MULTI/S</em>
 Purpose: Duplicates disks 
 Example: Diskcopy df0: to df1:
 
 <strong>Echo</strong>
-Format:  Echo <i>String/M NOLINE/S FIRST/K/N LEN/K/N TO/K</i>
+Format:  Echo <em>String/M NOLINE/S FIRST/K/N LEN/K/N TO/K</em>
 Purpose: Display text in a script or part of a string of text
 Example: Echo &quot;Enter your name: &quot; NoLine
 
 <strong>Ed</strong>
-Format:  ED <i>From/A Size/N With/K Window/K Tabs/N Width=Cols/N 
-         Height=Rows/N</i>
+Format:  ED <em>From/A Size/N With/K Window/K Tabs/N Width=Cols/N 
+         Height=Rows/N</em>
 Purpose: Edit text files (screen editor)
 Example: ED S:User-Startup
 
 <strong>Edit</strong>
-Format:  Edit <i>From/A To With/K Ver/K Opt/K Width/N Previous/N</i>
+Format:  Edit <em>From/A To With/K Ver/K Opt/K Width/N Previous/N</em>
 Purpose: Edit text files (line editor)
 Example: Edit s:User-Startup With Ed-Script
 
@@ -150,46 +150,46 @@ Purpose: Stops a SKIP branch (for debugging)
 Example: Endskip
 
 <strong>Eval</strong>
-Format:  Eval <i>Value1/A Op Value2/M To/K LFormat/K</i>
+Format:  Eval <em>Value1/A Op Value2/M To/K LFormat/K</em>
 Purpose: Evaluate a simple arithmetic expression
 Example: Eval $count + 1 to env:count
 
 <strong>Execute</strong>
-Format:  Execute <i>File/A</i>
+Format:  Execute <em>File/A</em>
 Purpose: Execute a script or batch file
 Example: Execute PCD
 
 <strong>Failat</strong>
-Format:  Failat <i>RCLIM/A</i>
+Format:  Failat <em>RCLIM/A</em>
 Purpose: Change failure limit for scripts (0,5,10,20)
          (0 - Ok, 5 - Warn, 10 - Error, 20 - Fail)
 Example: Failat 20
 
 <strong>Fault</strong>
-Format:  Fault <i>Error/N/M</i>
+Format:  Fault <em>Error/N/M</em>
 Purpose: Display error message from a code
 Example: Fault 221
          &quot;Fault 221: Disk is full&quot;
 
 <strong>FileNote</strong>
-Format:  Filenote <i>File/A Comment ALL/S QUIET/S</i>       
+Format:  Filenote <em>File/A Comment ALL/S QUIET/S</em>       
 Purpose: Attach a comment to a file (see LIST)
 Example: FileNote List.txt &quot;A list of people's names&quot;
 
 <strong>Format</strong>
-Format:  Format <i>Device=Drive/K/A Name/K/A OFS/S FFS/S 
+Format:  Format <em>Device=Drive/K/A Name/K/A OFS/S FFS/S 
          INTL=INTERNATIONAL/S NOINTL=NOINTERNATIONAL/S
-         DIRCACHE/S NODIRCACHE/S NOICONS/S QUICK/S</i>
+         DIRCACHE/S NODIRCACHE/S NOICONS/S QUICK/S</em>
 Purpose: Initialises Amiga disks (in System drawer)
 Example: Format Drive DF0: Name &quot;Docs&quot; NOICONS FFS
 
 <strong>Get</strong>
-Format:  Get <i>Name/A</i>
+Format:  Get <em>Name/A</em>
 Purpose: Returns contents of local env variable
 Example: Get RC
 
 <strong>Getenv</strong>
-Format:  Getenv <i>Name/A</i>
+Format:  Getenv <em>Name/A</em>
 Purpose: Return contents of a global environment variable
 Example: Getenv Workbench
 
@@ -201,18 +201,18 @@ Purpose: Enables a script to be run from Workbench. The script
 Example: Iconx
 
 <strong>If</strong>
-Format:  If <i>NOT/S WARN/S ERROR/S FAIL/S EQ/K GT/K GE/K VAL/S EXISTS/K</i>
+Format:  If <em>NOT/S WARN/S ERROR/S FAIL/S EQ/K GT/K GE/K VAL/S EXISTS/K</em>
 Purpose: If condition is true execute following commands until
          an ELSE or ENDIF occurs.
 Example: IF WARN, IF $count GT 10, IF EXISTS C:List
 
 <strong>Info</strong> 
-Format:  Info <i>Device</i>
+Format:  Info <em>Device</em>
 Purpose: Displays information about disks
 Example: Info DH0:
 
 <strong>Install</strong>
-Format:  Install <i>Device/A NOBOOT/S CHECK/S FFS/S</i>
+Format:  Install <em>Device/A NOBOOT/S CHECK/S FFS/S</em>
 Purpose: Saves a bootblock to a disk. If you have only one drive
          type INSTALL ? and swap disks and then type DF0: and
          press RETURN to save bootblock.
@@ -224,54 +224,54 @@ Purpose: Initialises preferences files on startup.
 Example: IPrefs
 
 <strong>Join</strong>
-Format:  Join <i>File/M/A AS=TO/K/A</i>
+Format:  Join <em>File/M/A AS=TO/K/A</em>
 Purpose: Join two or files together.
 Example: Join File1 File2 File3 as FileFull
 
 <strong>Lab</strong>
-Format:  Lab <i>Label</i>
+Format:  Lab <em>Label</em>
 Purpose: State a Label to Skip to in a script
 Example: Lab PROC2
 
 <strong>List</strong>
-Format:  List <i>Dir/M P=PAT/K KEYS/S DATES/S NODATES/S To/K Sub/K
+Format:  List <em>Dir/M P=PAT/K KEYS/S DATES/S NODATES/S To/K Sub/K
          Since/K Upto/K QUICK/S BLOCK/S NOHEAD/S FILES/S DIRS/S
-         LFORMAT/K ALL/S</i>
+         LFORMAT/K ALL/S</em>
 Purpose: List file details in a directory
 Example: List Workbench: Block Dates Since=01-Jul-00
 
 <strong>LoadWB</strong>
-Format:  Loadwb <i>-DEBUG/S DELAY/S CLEANUP/S NEWPATH/S</i>
+Format:  Loadwb <em>-DEBUG/S DELAY/S CLEANUP/S NEWPATH/S</em>
 Purpose: Display workbench screen 
 Example: LoadWB -Debug
 
 <strong>Lock</strong>
-Format:  Lock <i>Drive/A ON/S OFF/S Passkey</i>
+Format:  Lock <em>Drive/A ON/S OFF/S Passkey</em>
 Purpose: Lock a device from writing
 Example: Lock DH1: GHK459
 
 <strong>MagTape</strong>
-Format:  MagTape <i>Device/K Unit/N/K RET=RETENSION/S REW=REWIND/S SKIP/N/K</i>
+Format:  MagTape <em>Device/K Unit/N/K RET=RETENSION/S REW=REWIND/S SKIP/N/K</em>
 Purpose: Controls magnetic tape device
 Example: Magtape Device TAPE1: Unit 0 REWIND
 
 <strong>MakeDir</strong>
-Format:  Makedir <i>Name/M</i>
+Format:  Makedir <em>Name/M</em>
 Purpose: Create one or more new directories.
 Example: MakeDir DH1:Docs DH1:Basic DH0:TempFiles
 
 <strong>MakeLink</strong>
-Format:  MakeLink <i>From/A To/A HARD/S FORCE/S</i>
+Format:  MakeLink <em>From/A To/A HARD/S FORCE/S</em>
 Purpose: Creates a logical link between files
 Example: MakeLink T C:Type Hard
 
 <strong>Mount</strong>
-Format:  Mount <i>Device/M From/K</i>
+Format:  Mount <em>Device/M From/K</em>
 Purpose: Loads and mount a device
 Example: Mount DEVS:CD0
 
 <strong>Newcli</strong>
-Format:  Newcli <i>Window From</i>
+Format:  Newcli <em>Window From</em>
 Purpose: Open a new CLI console (CON) window
          Window format: CON:X/Y/Width/Height/Name/Option(s)
          Options: Auto,Backdrop,Noborder, Nodrag,Simple,
@@ -279,149 +279,149 @@ Purpose: Open a new CLI console (CON) window
 Example: Newcli CON:0/10/400/200/Shell/CLOSE
 
 <strong>NewShell</strong>
-Format:  NewShell <i>Window From</i>
+Format:  NewShell <em>Window From</em>
 Purpose: Open a new Shell console (CON) window
 Example: NewShell From S:Shell-Startup
 
 <strong>Path</strong>
-Format:  Path <i>Path/M ADD/S SHOW/S RESET/S REMOVE/S QUIET/S</i>
+Format:  Path <em>Path/M ADD/S SHOW/S RESET/S REMOVE/S QUIET/S</em>
 Purpose: Set or change the program search path
 Example: Path SC:C Add
 
 <strong>Prompt</strong>
-Format:  Prompt <i>Prompt</i>
+Format:  Prompt <em>Prompt</em>
 Purpose: Change the prompt text (Codes: %R = last return code,
          %S = Current path, %N = CLI Number)
 Example: Prompt &quot;%N.%S&gt; &quot;
 
 <strong>Protect</strong>
-Format:  Protect <i>File/A Flags ADD/S SUB/S ALL/S QUIET/S</i>
+Format:  Protect <em>File/A Flags ADD/S SUB/S ALL/S QUIET/S</em>
 Purpose: Change the 'rwedsp' flags of a file. (r=read,w=write,
          e=execute,d=delete,s=script,p=pure)
 Example: Protect Editor rwed
 
 <strong>Quit</strong>
-Format:  Quit <i>RC/N</i>
+Format:  Quit <em>RC/N</em>
 Purpose: Quit a script with optional return code
 Example: Quit 5
 
 <strong>Relabel</strong> 
-Format:  Relabel <i>Drive/A Name/A</i>
+Format:  Relabel <em>Drive/A Name/A</em>
 Purpose: Change name of a disk
 Example: Relabel DF0: &quot;Documents&quot;
 
 <strong>RemRAD</strong>
-Format:  RemRAD <i>Device FORCE/S</i>
+Format:  RemRAD <em>Device FORCE/S</em>
 Purpose: Remove RAD device from memory
 Example: RemRAD RAD:
 
 <strong>Rename</strong>
-Format:  Rename <i>From/A/M To=As/A QUIET/S</i>
+Format:  Rename <em>From/A/M To=As/A QUIET/S</em>
 Purpose: Rename or move one or more files
 Example: Rename MyDoc as MyDoc.doc
 
 <strong>RequestChoice</strong>
-Format:  RequestChoice  <i>Title/A Body/A Gadgets/M PubScreen/K</i>
+Format:  RequestChoice  <em>Title/A Body/A Gadgets/M PubScreen/K</em>
 Purpose: Asks for input via a requester
 Example: RequestChoice &gt;ENV:RT &quot;Format&quot; &quot;About to format your hard
          disk*nAre you sure?&quot; &quot;Go ahead&quot; &quot;No way!&quot;
 
 <strong>RequestFile</strong>
-Format:  RequestFile <i>Drawer File/K Pattern/K Title/K Positive/K
+Format:  RequestFile <em>Drawer File/K Pattern/K Title/K Positive/K
          Negative/K AcceptPattern/K RejectPattern/K SAVEMODE/S
-         MULTISELECT/S DRAWERSONLY/S NOICONS/S PUBSCREEN/K</i>
+         MULTISELECT/S DRAWERSONLY/S NOICONS/S PUBSCREEN/K</em>
 Purpose: Asks for a filename via ASL file requester
 Example: RequestFile &gt;ENV:File Title &quot;Select a File&quot; Positive &quot;Load&quot; Noicons
 
 <strong>Resident</strong>
-Format:  Resident <i>Name File REMOVE/S ADD/S REPLACE/S PURE=FORCE/S SYSTEM/S</i>
+Format:  Resident <em>Name File REMOVE/S ADD/S REPLACE/S PURE=FORCE/S SYSTEM/S</em>
 Purpose: Stores AmigaDOS command in memory (quicker then reloading
          from disk each time it is executed). To ensure a 
          command can be made resident check the pure flag (see List).
 Example: Resident C:Dir Pure
 
 <strong>Run</strong>
-Format:  Run <i>Command/F</i>
+Format:  Run <em>Command/F</em>
 Purpose: Execute a program in the background (multi-task)
 Example: Run Printfiles Doc1
 
 <strong>Search</strong>
-Format:  Search <i>From/M Search/A ALL/S NONUM/S QUIET/S QUICK/S
-         FILE/S PATTERN/S</i>
+Format:  Search <em>From/M Search/A ALL/S NONUM/S QUIET/S QUICK/S
+         FILE/S PATTERN/S</em>
 Purpose: Search for a string in a file or a file on a disk
 Example: Search SYS: &quot;List&quot; File All
 
 <strong>Set</strong>
-Format:  Set <i>Name String/F</i>
+Format:  Set <em>Name String/F</em>
 Purpose: Sets or lists a local environment variable (local to current
          shell or current process)
 Example: Set MyName &quot;Peter&quot;
 
 <strong>SetClock</strong>
-Format:  Setclock <i>LOAD/S SAVE/S RESET/S</i>
+Format:  Setclock <em>LOAD/S SAVE/S RESET/S</em>
 Purpose: Load or set the date and time from battery-backed clock
 Example: Date 27-Nov-00 10:00, SetClock Save
 
 <strong>SetDate</strong>
-Format:  Setdate <i>File/A Weekday Date Time ALL/S</i>
+Format:  Setdate <em>File/A Weekday Date Time ALL/S</em>
 Purpose: Set date of a file or directory (see List)
 Example: Setdate DEVS: Monday 10:30
 
 <strong>Setenv</strong> 
-Format:  Setenv <i>Name String/F</i>
+Format:  Setenv <em>Name String/F</em>
 Purpose: Change the contents of a environment variable
 Example: Setenv Workbench &quot;3.1&quot;
 
 <strong>Setfont</strong>
-Format:  Setfont <i>Name/A Size/N/A SCALE/S PROP/S ITALIC/S
-         BOLD/S UNDERLINE/S</i>
+Format:  Setfont <em>Name/A Size/N/A SCALE/S PROP/S ITALIC/S
+         BOLD/S UNDERLINE/S</em>
 Purpose: Sets console font
 Example: SetFont Courier 15 Bold
 
 <strong>SetKeyboard</strong>
-Format:  Setkeyboard <i>Keymap/A</i>
+Format:  Setkeyboard <em>Keymap/A</em>
 Purpose: Sets keyboard layout (was SetMap)
 Example: SetKeyboard UK
 
 <strong>SetPatch</strong>
-Format:  Setpatch <i>QUIET/S NOCACHE/S REVERSE/S</i>
+Format:  Setpatch <em>QUIET/S NOCACHE/S REVERSE/S</em>
 Purpose: Patch Operating System functions and remove bugs
 Example: Setpatch Quiet
 
 <strong>Skip</strong>
-Format:  Skip <i>Label BACK/S</i>
+Format:  Skip <em>Label BACK/S</em>
 Purpose: Jump to a label in a script (see Lab). Use back if
          label occurs before Skip command.
 Example: Skip Lab2 Back
 
 <strong>Sort</strong>
-Format:  Sort <i>From/A To/A Colstart/K CASE/S NUMERIC/S</i>
+Format:  Sort <em>From/A To/A Colstart/K CASE/S NUMERIC/S</em>
 Purpose: Sort a file and output to new file
 Example: Sort Figures To SortedFigures Numeric
 
 <strong>Stack</strong>
-Format:  Stack <i>Size/N</i>
+Format:  Stack <em>Size/N</em>
 Purpose: Change/display amount of stack space in bytes
 Example: Stack 10000
 
 <strong>Status</strong>
-Format:  Status <i>Process/N FULL/S TCB/S CLI=ALL/S COM=COMMAND/K</i>
+Format:  Status <em>Process/N FULL/S TCB/S CLI=ALL/S COM=COMMAND/K</em>
 Purpose: Display status of running programs. TCB is Task Control Block
 Example: Status 2 Full
 
 <strong>Type</strong>
-Format:  Type <i>From/A/M TO/K OPT/K HEX/S NUMBER/S</i>
+Format:  Type <em>From/A/M TO/K OPT/K HEX/S NUMBER/S</em>
 Purpose: Display contents of text file on screen and binary files using
          HEX with optional line numbers.
 Example: Type C:DIR HEX
 
 <strong>Unset</strong>
-Format:  Unset <i>Name</i>
+Format:  Unset <em>Name</em>
 Purpose: Remove a local env variable
 Example: Unset MyName
 
 <strong>UnSetEnv</strong>
-Format:  UnSetEnv <i>Name</i>
+Format:  UnSetEnv <em>Name</em>
 Purpose: Remove a global env variable
 Example: UnSetEnv Workbench
 
@@ -431,18 +431,18 @@ Purpose: Remove a short name for a command
 Example: UnAlias MyDir
 
 <strong>Version</strong>
-Format:  Version <i>Name Version/N Revision/N FILE/S FULL/S
-         Unit/N INTERNAL/S RES/S</i>
+Format:  Version <em>Name Version/N Revision/N FILE/S FULL/S
+         Unit/N INTERNAL/S RES/S</em>
 Purpose: Display workbench, library or device version information
 Example: Version kickstart Version=39 Revision=106
 
 <strong>Wait</strong>
-Format:  Wait <i>Time/N SEC=SECS/S MIN=MINS/S UNTIL/K</i>
+Format:  Wait <em>Time/N SEC=SECS/S MIN=MINS/S UNTIL/K</em>
 Purpose: Wait for a specified period of time
 Example: Wait Until 12:00
 
 <strong>Which</strong>
-Format:  Which <i>File/A NORES/S RES/S ALL/S</i>
+Format:  Which <em>File/A NORES/S RES/S ALL/S</em>
 Purpose: Find where a file is in command path (see Path)
 Example: Which Multiview 
 
@@ -451,8 +451,5 @@ Format:  Why
 Purpose: Display reason why a previous command failed
 Example: Why
 </pre>
-<p>&nbsp;</p>
-<p class=&quot;text&quot;>Converted with <strong>g2h</strong>, &copy; 24.06.1998
- <A HREF="http://dept-info.labri.u-bordeaux.fr/~darnis/">N. DARNIS</A></p>
 </body>
 </html>
