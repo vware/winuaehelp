@@ -23,3 +23,9 @@ Georg:
 Peter:
 ------
 * Updated FAQ page
+
+
+Bernd:
+------
+* Removed obsolete information from bugs page
+* Updated FAQ and general tips pages
