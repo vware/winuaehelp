@@ -11,13 +11,13 @@
   in the 'Amiga Programs' folder in the C:\Program Files\WinUAE folder. Here
   is an explanation of what these files are for and where to copy them to:</p>
 <p class="headline2">MouseHack</p>
-<p class="text">Copy this program file your C directory on your Workbench disk
+<p class="text">Copy this program file to your C directory on your Workbench disk
   or hard disk. This program will hack your mouse connected to your PC to work
   with WinUAE. In most cases it may not be needed. You can auto run it by adding
   a line to the s:user-startup file on your Workbench disk.</p>
 <p class="text">&nbsp;</p>
 <p class="headline2">Picasso96fix</p>
-<p class="text">Copy this program file your C directory on your Workbench disk
+<p class="text">Copy this program file to your C directory on your Workbench disk
   or hard disk. This program will fix Picasso 96 RTG screens greater than 1024
   pixels when using your PC's graphics card with the uaegfx driver in WinUAE.
   Load it before LoadWB in the startup-sequence. The <strong>Picasso96fix.bb</strong> file
@@ -37,14 +37,14 @@
   with the command <span class="textmenu">run &gt;nil: timehack</span>.</p>
 <p class="text">&nbsp;</p>
 <p class="headline2">transdisk</p>
-<p class="text">Copy this program file your C directory on your Workbench disk
+<p class="text">Copy this program file to your C directory on your Workbench disk
   or hard disk. This can Transfer Disk images to or from floppy disk to an image
   or vice versa in ADF (Amiga Disk Format). Type <em>transdisk ?</em> for more
   options. See <a href="../started/transdisk.htm">trandisk</a> page for more
   details on this program.</p>
 <p class="text">&nbsp;</p>
 <p class="headline2">transrom</p>
-<p class="text">Copy this program file your C directory on your Workbench disk
+<p class="text">Copy this program file to your C directory on your Workbench disk
   or hard disk. This can Transfer the Kickstart ROM image from a real Amiga to
   an image file to use with your Amiga Emulator. It will produce either a 256K
   or 512kB sized file. See <a
@@ -69,8 +69,8 @@
 <p class="headline2">UAE_German</p>
 <p class="text">This is a German keymap file for access to @\~{[]} with ALT-GR
   like windows. Copy it to devs/keymaps and select in Input prefs.</p>
-<p class="text">Note: This is a old one that work in input mode compatibility
-  mode.For 100% compatibility Mode (Euro Char) use&nbsp; German_keymap_new.lha
+<p class="text">Note: This is an old one that works in input compatibility
+  mode. For 100% compatibility Mode (Euro Char) use&nbsp; German_keymap_new.lha
   in this folder and choose anything other in input tab then Compatibility Mode
   and&nbsp; remap # Key to 0x2b.</p>
 <p class="text">&nbsp;</p>
@@ -85,10 +85,10 @@
 <p align="center"><img src="uaecontrol.gif" alt="UAE-Control"></p>
 <p class="text">&nbsp;</p>
 <p class="headline2">uaectrl</p>
-<p class="text">Copy this program file your C directory on your Workbench disk
-  or hard disk. This is the Shell equivalent of the uae-control program which
-  you can change floppies, sound, joystick, reset or quit the emulator from a
-  simple text menu.</p>
+<p class="text">Copy this program file to your C directory on your Workbench
+  disk or hard disk. This is the Shell equivalent of the uae-control program
+  where you can change floppies, sound, joystick, reset or quit the emulator
+  from a simple text menu.</p>
 <p align="center"><img src="uaectrl.gif" alt="UAE-Control Shell"></p>
 <p class="headline2">WinUAEclip</p>
 <p class="text">This program allows you to have access to Windows Clipboard so
@@ -106,8 +106,7 @@
   running this.</p>
 <p class="text">&nbsp;</p>
 <p class="headline2">p96_uae_tweak</p>
-<p class="text">This features needs the p96_uae_tweak program attached in this
-  mail. It must run after P96 monitordrivers in userstartup.<br>
+<p class="text">It must run after P96 monitordrivers in userstartup.<br>
   If you have copy this prog to <em>c:</em> then type <em>&gt;nil: c:p96_uae_tweak</em> in
   the CLI.<br>
   It is also recommended to set P96 memory from the 4 MB AIAB config to 16 or
@@ -125,10 +124,10 @@
   stoddering with 4ms AHI latency. Swapbitmaprastport (used for solid windowmoving
   and some slow layer actions) is patched to use UAE blitter functions that exchange
   the data directly instead calling 3 times EOR. It is faster and avoids the
-  heavy flickering when moving a smartlayer window underneath another window.</p>
+heavy flickering when moving a smartlayer window underneath another window.</p>
 <p class="text">&nbsp;</p>
 <p class="headline2">ahitweak</p>
-<p class="headline3">Usage: AHItweak&nbsp; posoffset,pollrtate</p>
+<p class="headline3">Usage: AHItweak posoffset,pollrate</p>
 <p class="text">This is a program you can start from the CLI or user-startup
   and allows you to tune the AHI driver for better latency, because on Windows
   XP the playpointer position has a delay depending on the system and soundcard
@@ -142,12 +141,12 @@
 <p class="text">&nbsp;</p>
 <p class="headline2">p96refresh</p>
 <p class="text">Start this program to get higher mousepointer redraw rates than
-  50Hz with P96. Results are seen immediatly after call.You can start this in
+  50Hz with P96. Results are seen immediately after call.You can start this in
   your user-startup for automatic load during booting the system.<br>
   <strong>Note:</strong> If you use this, you must check if your CPU IDLE slider
   is set in correct position. In the worst case, the Amiga system clock will
-  run slower. Set the IDLE slider so that in Windows Taskmanager a CPU load of
-  a workbench screen is show of about 10-15%.<br>
+  run slower. Set the IDLE slider so that in Windows Taskmanager the CPU load
+  of a Workbench screen shows about 10-15%.<br>
   <strong>Example:</strong> p96refresh 75 sets the redraw rate to 75Hz. It is
   recommended to set the rate according to the actual monitor refresh rate, or
   the doubled number. Do not set it higher or you get a speedloss greater than
