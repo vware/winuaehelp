@@ -8,6 +8,8 @@ Georg:
 * Added index and menu files for an online version
 * Command line parameters page was not linked from main tips page
 * Consolidate information about OS 3.5/3.9 installation in a seperate page
+* Various grammar/spelling/typo/information corrections, suggested by Wolfgang Stoeggl
+* Various additions suggested by Wolfgang Stoeggl
 
 
 Version 2.0.0
