@@ -9,6 +9,7 @@ Georg:
 * New screenshots, saving 200kB overall filesize
 * Various fixes in texts and layout changes
 * Moved ADF to Disk section to transdisk page
+* Removed page dedicated to Mathias Ortmann, contained practically no information
 * Directly jump to required subsections when being directed to the links page
 * Fixed/updated obsolete hyperlinks
 * Updated first time users page for use with new quickstart feature
@@ -22,6 +23,7 @@ Georg:
 * Fixed several typos, grammar mistakes, ...
 * Directed all external links over the dedicated links page
 * Added AmigaForever and Cloanto links to the links page
+* Updated developer information about Bernd Schmidt
 
 
 Peter:
