@@ -258,12 +258,12 @@
 				<param name="Local" value="tips\faq.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="General Tips">
-				<param name="Local" value="tips\generaltips.htm">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Amiga Programs">
 				<param name="Local" value="tips/amigaprogs.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Hints For Power Users">
+				<param name="Local" value="tips\generaltips.htm">
 				</OBJECT>
 		</UL>
 		<LI> <OBJECT type="text/sitemap">
