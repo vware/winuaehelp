@@ -1,7 +1,8 @@
 Official WinUAE Help Changelog
 ==============================
 
-
+Georg:
+------
 * Created Subversion repository to enable access for contributors
 * Fixed up internal hyperlinks and insane external ones
 * Made all pages HTML4 compliant, optimized HTML structure
@@ -11,5 +12,11 @@ Official WinUAE Help Changelog
 * Updated first time users page for use with new quickstart feature
 * Cleaned up and updated GUI chipset settings description
 * Added hardware and host sections to align help layout with actual GUI style
-* Updated FAQ page. PJH
+* Created new subsection containing usage tips
+* Moved FAQ and Amiga Programs pages to tips section
+* Merged in new information from Bernd Roesch
 
+
+Peter:
+------
+* Updated FAQ page
