@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>Misc</title>
+</head>
+<body bgcolor="Black" text="White" link="Yellow" vlink="Orange">
+<h2><u>Misc.</u></h2>
+
+These settings control many important aspects of the Amiga emulation.
+<br><br>
+<center>
+<img src="misc.gif" alt="Winuae - Misc">
+</center>
+<p><br>
+  <br>
+  <u><b>Advanced:</b></u> <br>
+  <br>
+  <b>Middle-Mouse-Button</b> --> ALT-TAB allows the middle button on your mouse 
+  to act like ALT-TAB, switching focus away from the WinUAE emulation. This is 
+  useful because WinUAE traps the mouse-cursor within its Window borders, and 
+  if your hand is already on the mouse and you want to escape this capture, you 
+  can just press the middle button. <br>
+  <br>
+  <b>Show GUI on startup</b> will allow you to double-click a .uae config-file 
+  without it immediately launching the emulation. <br>
+  <br>
+  <b>On-Screen LEDs</b> allows you to see the track-display of the floppy drives, 
+  along with the power-LED. Your resolution must be 800x600 or higher in order 
+  to see this information. <br>
+  <br>
+  <b>UAEscsi.device</b> Adds support for IDE/SCSI CDROM drives on Amiga side. 
+  Use this device name in your CD0 DosDriver file in Devs\DosDrivers, and add 
+  the appropiate unit number (use Create Log file to see which unit number your 
+  CD drive uses).<br>
+  First CDROM is always uaescsi.device unit zero, second is zero etc.. and then 
+  other non-CDROM SCSI devices. <br>
+  <br>
+  <b>BSD socket library emulation</b> allows your Amiga to use your PC's network 
+  connection, whether it be through Dial-Up Networking (DUN), or Ethernet connectivity. 
+  In other words, if your PC is connected to your Internet Service Provider (ISP) 
+  through a modem, or connected to a LAN through an Ethernet connection, your 
+  Amiga will be able to make use of that connection. <br>
+  <br>
+  <b>Use Ctrl-F11 to quit</b> Just press this key combination to quit Winuae. 
+  <br>
+  <br>
+  <b>Don't use RGB overlays</b> Do not use Red Green Blue overlays. <br>
+  <br>
+  <b>Use ASPI SCSI layer</b> Enable ASPI drivers for CD ROM support.<br>
+</p>
+<p><b><u>Keyboard LEDs</u></b></p>
+<p>(NumLock) Sets which LED to emulate e.g. Power, HD, CD, DFx</p>
+<p>(CapsLock) Set which LED to emulate e.g. Power, HD, CD, DFx</p>
+<p>(ScrollLock) Set whichLED to emulate e.g. Power, HD, CD, DFx</p>
+<p><br>
+  <u><b>Logging</b></u> <br>
+  <br>
+  <b>Create log file</b> will write various debugging information to the winuaelog.txt 
+  file in the same directory where WinUAE resides. <br>
+  <br>
+  <b>Log illegal memory accesses</b> will write memory-access problems into the 
+  winuaelog.txt file, if Create log file is enabled. <br>
+  <br>
+  <b><u>State Files</u></b><br>
+  <br>
+  <b>Load State</b>. Loads a saved state from disk into memory either as a USS, 
+  GZ or GZIP file.</p>
+<p><b>Save State. </b>Saves state of system and memory to disk, to a USS file.</p>
+<p><b>Enable state recording.</b> Assume this makes automatic save states to disk 
+  every 5 seconds into a 20 MB buffer (default settings).</p>
+<p> <br>
+</p>
+</body>
+</html>

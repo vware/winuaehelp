@@ -1,0 +1,47 @@
+<html>
+
+<head>
+<title>RAM &amp; Kickstart</title>
+</head>
+
+<body bgcolor="Black" text="White" link="Yellow" vlink="Orange">
+<h2><u>RAM &amp; Kickstart</u></h2>
+<p>&nbsp;</p>
+<p><u>RAM:</u></p>
+<ul>
+  <li>The <b>Fast RAM</b> is for CPU's use only, capacity are differenciated by 
+    different CPU.</li>
+  <li><b>Chip RAM</b> is shared between CPU and specialized chips (up to 4MB). 
+    Equal to other computer's Video RAM and Sound Buffer. In an Amiga, it can 
+    also be used by the CPU. A500 or A600 had 512K or 1Mb or Chip RAM, A1200 or 
+    A4000 had 2Mb Chip. 8Mb can be set for Chip RAM (no real Amiga had this!)</li>
+  <li><b>Slow</b> RAM is extra RAM added via the A500 trapdoor is a slower than 
+    Fast RAM (this is due to A500's architecture).</li>
+  <li><b>Z3-Fast</b> is Fast RAM in Zorro 3 address space and can be used instead 
+    of Fast RAM.</li>
+  <li><b>RTG (graphics card)</b> is memory for ReTargetable Graphics cards needed 
+    for Picasso 96 support.</li>
+</ul>
+<p>Z3-Fast and RTG RAM is supported on the 68020, 68020+FPU and 68040 only.<br>
+  <br>
+  Depending on the processor variant, you can expand the RAM up to 10 MB or theoretically 
+  up to 2 GB. The limit of 2 GB is valid for the Amiga models A3000 and A4000. 
+  On the mainboard of these computers you can plug in up to 18 MB RAM, and for 
+  every of the four Zorro-III bus expansion you can expand the memory to the maximum! 
+  <br>
+</p>
+<p>&nbsp; </p>
+<p><u>Kickstart:</u></p>
+<p>Orignially, the first Amiga (A1000) had a small bootstrap ROM, which contained 
+  code to load the basic operating system from a disk, known as the &quot;<strong>Kickstart 
+  disk</strong>&quot; into 256 kilobytes of RAM, which was then transformed into 
+  ROM by disabling the write signal to this RAM. Of course, the contents of this 
+  pseudo-ROM was lost when the computer was turned off. The point of using RAM 
+  was that Commodore wanted to be able to continue developing the operative system 
+  without requiring people to change ROMs when the new version was available; 
+  instead, they could just distribute new &quot;Kickstart&quot; disks, which they 
+  did three times, upgrading version 1.0 to 1.1, 1.2. Version 2.0 was too large 
+  to fit into this pseudo-ROM, and that's the reason why Amiga 1000s cannot run 
+  the modern versions of the Amiga OS. </p>
+</body>
+</html>

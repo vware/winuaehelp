@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>Chipset</title>
+</head>
+<body bgcolor="Black" text="White" link="Yellow" vlink="Orange">
+<h2><u>ChipSet</u></h2>
+<br>
+This will select which custom chipset to use for emulation:
+<br><br>
+<center>
+<img src="chipset.gif" alt="Winuae - Chipset">
+</center>
+<br><br>
+<u><b>Chipset</b></u>
+<ul>
+  <li><b>OCS</b> (Original Chip Set): This was the first Chipset, used in the 
+    Amiga 1000. It consists of the chips Paula, Agnus, and Denise. With these, 
+    you can display graphics in resolutions up to 640x512 and in up to 4096 colors. 
+  </li>
+  <li><b>ECS Agnus</b> Uses enhanced Fat Agnus which supplies 1Mb of Chip RAM.</li>
+  <li><b>Full ECS</b> (Enhanced Chip Set): This was the next generation of Amiga 
+    chipsets. The chip names remained unchanged, except some minor additions like 
+    "Fat Agnus". Only Agnus and Denise were changed. Compared to OCS, they provided 
+    higher resolutions, but no expansion of the color palette so far.</li>
+  <li><b>AGA</b> (Advanced Graphics Architecture): This is the latest and most 
+    advanced chipset. The current generation was created in the labs as AA chipset 
+    (for Advanced Amiga), but in some countries it was later marketed as AGA (Advanced 
+    Graphics Architecture). Agnus was replaced by Alice and Denise by Lisa. The 
+    resolutions now reach up to 1280x512 in VGA scan frequencies. The color palette 
+    is now 24 bits or 16.8 million colors. You can display up to 256 colors simultaneously 
+    or in HAM mode more than 640,000. Backwards compatibility with Video and OCS 
+    modes is assured.<br>
+    <strong>NOTE:</strong> AGA modes do not work with 8-bit color depth screen 
+    modes!</li>
+  <li><b>NTSC</b> Enables US NTSC screen mode (default is PAL).</li>
+</ul>
+<br>
+For extra custom chip settings, select: 
+<br><br>
+<ul>
+  <li><b>Fast Copper</b> is the short name for a "Coprocessor" which is integrated 
+    into the Amiga custom chips. It makes fast action games possible, as well 
+    as unbelievable color effects, and the capability to drag down a screen partially 
+    on the Amiga's display and thus show several screens at once. Technically, 
+    the Copper is a highly specialized microprocessor which knows only three different 
+    commands, but can process these extremely fast and efficiently. It provides 
+    the ability to change e.g. graphics mode, color values, or sprite definitions 
+    somewhere at a well defined location within the screen. This way the Amiga 
+    can display many different actions on one screen simultaneously without activity 
+    by the main CPU.</li>
+  <li><b>Immediate Blits</b>. The Blitter is the short name for another graphics 
+    coprocessor which is part of the Amiga custom chips. With it you can copy 
+    rectangular image parts extremely fast to other areas. During this, you can 
+    take up to three source data areas and perform logical operations on them. 
+    This allows e.g. to define certain color values of the copied object as transparent, 
+    thus not modifying the destination area. As an add-on, the Blitter can also 
+    draw lines and fill areas fast. All in all it serves to provide extremely 
+    fast, animated graphics that can be designed to be especially realistic. </li>
+  <li><b>Cycle exact CPU and Blitter.</b> This is an experimental feature to cycle 
+    exact cpu and blitter emulation mode. Is slower than normal mode.</li>
+</ul>
+<u><b>Collision Level</b></u>
+<br>
+<ul>
+<li><b>None</b> No collision detection used.</li>
+<li><b>Sprites Only</b> Collision detection between sprites only enabled.</li>
+<li><b>Sprites and Sprites vs Playfield</b> Collison detection between Sprites and background graphics.</li>
+<li><b>Full</b> enables all levels of collision detection.<br>
+    <strong>HINT:</strong> Full is not recommended because it causes unnecessary 
+    performance loss, and is just very rarely needed.</li>
+</ul>
+<p><b><u>Sound Emulation</u></b></p>
+<ul>
+  <li><b>Disabled. </b>No sound</li>
+  <li><b>Emulated.</b> Sound is emulated but not 100% accurate.</li>
+  <li><b>Emulated. 100% accurate.</b> As accurate sound emulation as possible 
+    but my use up more CPU time<br>
+    <br>
+    For information about the custom chip responsible for sound output, view the 
+    <a href="sound.htm">Sound</a> Page. </li>
+</ul>
+</body>
+</html>

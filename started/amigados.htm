@@ -1,0 +1,453 @@
+<HTML>
+<HEAD><TITLE>AmigaDOS Commands</TITLE></HEAD>
+<BODY BGCOLOR="#000000" TEXT="#FFFFFF" LINK="#0000ff" VLINK="#0000b9" ALINK="#ff0000">
+<h2>AmigaDOS Commands</h2>
+These are the AmigaDOS commands found in the C directory with an explination of 
+the command and an example. 
+<PRE>
+<b>Addbuffers</b>
+Format:  Addbuffers <i>Drive/A Buffers/N</i>
+Purpose: Add memory to floppy disk buffers to improve speed
+Example: Addbuffers df0: 10
+
+<b>Adddatatypes</b>
+Format:  AddDataTypes <i>files/M QUIET/S REFRESH/S</i>
+Purpose: Activates datatypes or adds another datatype
+Example: AddDataTypes gif.datatype REFRESH
+
+<b>Alias</b>
+Format:  Alias <i>Name String/F</i>
+Purpose: Assigns a short name to a command.
+Example: Alias Del Delete
+
+<b>Ask</b>
+Format:  Ask <i>Prompt/A</i>
+Purpose: Asks a question in a script (reply y/n). Use IF WARN
+         to test for a yes.
+Example: Ask "Are you sure? Y/n"
+
+<b>Assign</b>
+Format:  Assign <i>Name Target/M LIST/S EXISTS/S DISMOUNT/S DEFER/S
+         PATH/S ADD/S REMOVE/S VOLS/S DIRS/S DEVICES/S</i>
+Purpose: Assign names to directory paths.
+Example: Assign PPaint: DH0:PPaint
+
+<b>Avail</b>
+Format:  Avail <i>CHIP/S FAST/S TOTAL/S FLUSH/S</i>
+Purpose: Memory availablility
+Example: Avail TOTAL
+
+<b>Binddrivers</b>
+Format:  BindDrivers
+Purpose: Load device drivers for old hardware.
+Example: BindDrivers
+
+<b>Break</b>
+Format:  Break <i>Process/A/N ALL/S C/S D/S E/S F/S</i>
+Purpose: Stop a program (see Status)
+Example: Break 2 C
+
+<b>CD</b>
+Format:  CD <i>Dir/A</i>
+Purpose: Change directory
+Example: CD Text_Files
+
+<b>ChangeTaskPri</b>
+Format:  ChangeTaskPri <i>Pri=Priority/A/N Process/K/N</i>
+Purpose: Changes program's execution priority (see Status)
+Example: ChangeTaskPri 2 1
+
+<b>Conclip</b>
+Format:  Conclip<i>Unit/N OFF/S</i>
+Purpose: Activates clipboard device
+Example: Conclip 1
+
+<b>Copy</B>
+Format:  Copy <i>From/M To/A ALL/S QUIET/S BUF=BUFFER/K/N CLONE/S
+         DATES/S NOPRO/S COM/S NOREQ/S</i>
+Purpose: Copy files (with/without protection bits)
+Example: Copy mydoc.txt docs: Dates
+
+<b>CPU</b>
+Format:  CPU <i>CACHE/S BURST/S NOCACHE/S NOBURST/S DATACACHE/S DATABURST/S
+         NODATACACHE/S NODATABURST/S INSTCACHE/S INSTBURST/S NOINSTCACHE/S
+         NOINSTBURST/S COPYBACK/S NOCOPYBACK/S EXTERNALCACHE/S 
+         NOEXTERNALCACHE/S FASTROM/S NOFASTROM/S NOMMUTEST/S CHECK/K</i>
+Purpose: Change or display CPU settings e.g. caches, burst, fastrom
+Example: CPU INSTCACHE FASTROM
+
+<b>Date</b>
+Format:  Date <i>Day Date Time To=Ver/K</i>
+Purpose: Display/change date or time
+Example: Date To=date.txt
+
+<b>Delete</b>
+Format:  Delete <i>File/M/A ALL/S QUIET/S FORCE/S</i>
+Purpose: Delete files and/or directories
+Example: Delete OldFilesDir All
+
+<b>Dir</b>
+Format:  Dir <i>Dir Opt/K ALL/S DIRS/S FILES/S INTER/S</i>
+Purpose: List contents of a directory
+Example: Dir S: Files
+
+<b>Diskchange</b>
+Format:  Diskchange <i>Device/A</i>
+Purpose: Tell Amigados that a disk has been swapped in a
+         non-autosensing disk drive
+Example: Diskchange DF2:
+
+<b>Diskcopy</b>
+Format:  Diskcopy <i>From/A To/A Name/K NOVERIFY/S MULTI/S</i>
+Purpose: Duplicates disks 
+Example: Diskcopy df0: to df1:
+
+<b>Echo</b>
+Format:  Echo <i>String/M NOLINE/S FIRST/K/N LEN/K/N TO/K</i>
+Purpose: Display text in a script or part of a string of text
+Example: Echo "Enter your name: " NoLine
+
+<b>Ed</b>
+Format:  ED <i>From/A Size/N With/K Window/K Tabs/N Width=Cols/N 
+         Height=Rows/N</i>
+Purpose: Edit text files (screen editor)
+Example: ED S:User-Startup
+
+<b>Edit</b>
+Format:  Edit <i>From/A To With/K Ver/K Opt/K Width/N Previous/N</i>
+Purpose: Edit text files (line editor)
+Example: Edit s:User-Startup With Ed-Script
+
+<b>Else</b>
+Format:  Else
+Purpose: Used with IF, if not true do these commands
+Example: If Exists s:User-Startup
+         Say "User Startup already exists"
+         Else
+         Ed s:User-Startup
+         Endif
+
+<b>Endcli</b>
+Format:  Endcli
+Purpose: Close CLI console window
+Example: Endcli
+
+<b>Endif</b>
+Format:  Endif
+Purpose: End a IF..ELSE..ENDIF block
+Example: If $Age GT 65
+         Say "You are a pensioner!"
+         Endif
+         
+<b>Endskip</b>
+Format:  Endskip
+Purpose: Stops a SKIP branch (for debugging)
+Example: Endskip
+
+<b>Eval</b>
+Format:  Eval <i>Value1/A Op Value2/M To/K LFormat/K</i>
+Purpose: Evaluate a simple arithmetic expression
+Example: Eval $count + 1 to env:count
+
+<b>Execute</b>
+Format:  Execute <i>File/A</i>
+Purpose: Execute a script or batch file
+Example: Execute PCD
+
+<b>Failat</b>
+Format:  Failat <i>RCLIM/A</i>
+Purpose: Change failure limit for scripts (0,5,10,20)
+         (0 - Ok, 5 - Warn, 10 - Error, 20 - Fail)
+Example: Failat 20
+
+<b>Fault</b>
+Format:  Fault <i>Error/N/M</i>
+Purpose: Display error message from a code
+Example: Fault 221
+         "Fault 221: Disk is full"
+
+<b>FileNote</b>
+Format:  Filenote <i>File/A Comment ALL/S QUIET/S</i>       
+Purpose: Attach a comment to a file (see LIST)
+Example: FileNote List.txt "A list of people's names"
+
+<b>Format</b>
+Format:  Format <i>Device=Drive/K/A Name/K/A OFS/S FFS/S 
+         INTL=INTERNATIONAL/S NOINTL=NOINTERNATIONAL/S
+         DIRCACHE/S NODIRCACHE/S NOICONS/S QUICK/S</i>
+Purpose: Initialises Amiga disks (in System drawer)
+Example: Format Drive DF0: Name "Docs" NOICONS FFS
+
+<b>Get</b>
+Format:  Get <i>Name/A</i>
+Purpose: Returns contents of local env variable
+Example: Get RC
+
+<b>Getenv</b>
+Format:  Getenv <i>Name/A</i>
+Purpose: Return contents of a global environment variable
+Example: Getenv Workbench
+
+<b>Iconx</b>
+Format:  Iconx
+Purpose: Enables a script to be run from Workbench. The script
+         must have a Project .info file and the Default Tool
+         set to c:IconX to run it.
+Example: Iconx
+
+<b>If</b>
+Format:  If <i>NOT/S WARN/S ERROR/S FAIL/S EQ/K GT/K GE/K VAL/S EXISTS/K</i>
+Purpose: If condition is true execute following commands until
+         an ELSE or ENDIF occurs.
+Example: IF WARN, IF $count GT 10, IF EXISTS C:List
+
+<b>Info</b> 
+Format:  Info <i>Device</i>
+Purpose: Displays information about disks
+Example: Info DH0:
+
+<b>Install</b>
+Format:  Install <i>Device/A NOBOOT/S CHECK/S FFS/S</i>
+Purpose: Saves a bootblock to a disk. If you have only one drive
+         type INSTALL ? and swap disks and then type DF0: and
+         press RETURN to save bootblock.
+Example: Install DF0:
+
+<b>IPrefs</b>
+Format:  IPrefs
+Purpose: Initialises preferences files on startup.
+Example: IPrefs
+
+<b>Join</b>
+Format:  Join <i>File/M/A AS=TO/K/A</i>
+Purpose: Join two or files together.
+Example: Join File1 File2 File3 as FileFull
+
+<b>Lab</b>
+Format:  Lab <i>Label</i>
+Purpose: State a Label to Skip to in a script
+Example: Lab PROC2
+
+<b>List</b>
+Format:  List <i>Dir/M P=PAT/K KEYS/S DATES/S NODATES/S To/K Sub/K
+         Since/K Upto/K QUICK/S BLOCK/S NOHEAD/S FILES/S DIRS/S
+         LFORMAT/K ALL/S</i>
+Purpose: List file details in a directory
+Example: List Workbench: Block Dates Since=01-Jul-00
+
+<b>LoadWB</b>
+Format:  Loadwb <i>-DEBUG/S DELAY/S CLEANUP/S NEWPATH/S</i>
+Purpose: Display workbench screen 
+Example: LoadWB -Debug
+
+<b>Lock</b>
+Format:  Lock <i>Drive/A ON/S OFF/S Passkey</i>
+Purpose: Lock a device from writing
+Example: Lock DH1: GHK459
+
+<b>MagTape</b>
+Format:  MagTape <i>Device/K Unit/N/K RET=RETENSION/S REW=REWIND/S SKIP/N/K</i>
+Purpose: Controls magnetic tape device
+Example: Magtape Device TAPE1: Unit 0 REWIND
+
+<b>MakeDir</b>
+Format:  Makedir <i>Name/M</i>
+Purpose: Create one or more new directories.
+Example: MakeDir DH1:Docs DH1:Basic DH0:TempFiles
+
+<b>MakeLink</b>
+Format:  MakeLink <i>From/A To/A HARD/S FORCE/S</i>
+Purpose: Creates a logical link between files
+Example: MakeLink T C:Type Hard
+
+<b>Mount</b>
+Format:  Mount <i>Device/M From/K</i>
+Purpose: Loads and mount a device
+Example: Mount DEVS:CD0
+
+<b>Newcli</b>
+Format:  Newcli <i>Window From</i>
+Purpose: Open a new CLI console (CON) window
+         Window format: CON:X/Y/Width/Height/Name/Option(s)
+         Options: Auto,Backdrop,Noborder, Nodrag,Simple,
+         Smart,Wait,Close
+Example: Newcli CON:0/10/400/200/Shell/CLOSE
+
+<b>NewShell</b>
+Format:  NewShell <i>Window From</i>
+Purpose: Open a new Shell console (CON) window
+Example: NewShell From S:Shell-Startup
+
+<b>Path</b>
+Format:  Path <i>Path/M ADD/S SHOW/S RESET/S REMOVE/S QUIET/S</i>
+Purpose: Set or change the program search path
+Example: Path SC:C Add
+
+<b>Prompt</b>
+Format:  Prompt <i>Prompt</i>
+Purpose: Change the prompt text (Codes: %R = last return code,
+         %S = Current path, %N = CLI Number)
+Example: Prompt "%N.%S> "
+
+<b>Protect</b>
+Format:  Protect <i>File/A Flags ADD/S SUB/S ALL/S QUIET/S</i>
+Purpose: Change the 'rwedsp' flags of a file. (r=read,w=write,
+         e=execute,d=delete,s=script,p=pure)
+Example: Protect Editor rwed
+
+<b>Quit</b>
+Format:  Quit <i>RC/N</i>
+Purpose: Quit a script with optional return code
+Example: Quit 5
+
+<b>Relabel</b> 
+Format:  Relabel <i>Drive/A Name/A</i>
+Purpose: Change name of a disk
+Example: Relabel DF0: "Documents"
+
+<b>RemRAD</b>
+Format:  RemRAD <i>Device FORCE/S</i>
+Purpose: Remove RAD device from memory
+Example: RemRAD RAD:
+
+<b>Rename</b>
+Format:  Rename <i>From/A/M To=As/A QUIET/S</i>
+Purpose: Rename or move one or more files
+Example: Rename MyDoc as MyDoc.doc
+
+<b>RequestChoice</b>
+Format:  RequestChoice  <i>Title/A Body/A Gadgets/M PubScreen/K</i>
+Purpose: Asks for input via a requester
+Example: RequestChoice >ENV:RT "Format" "About to format your hard
+         disk*nAre you sure?" "Go ahead" "No way!"
+
+<b>RequestFile</b>
+Format:  RequestFile <i>Drawer File/K Pattern/K Title/K Positive/K
+         Negative/K AcceptPattern/K RejectPattern/K SAVEMODE/S
+         MULTISELECT/S DRAWERSONLY/S NOICONS/S PUBSCREEN/K</i>
+Purpose: Asks for a filename via ASL file requester
+Example: RequestFile >ENV:File Title "Select a File" Positive "Load" Noicons
+
+<b>Resident</b>
+Format:  Resident <i>Name File REMOVE/S ADD/S REPLACE/S PURE=FORCE/S SYSTEM/S</i>
+Purpose: Stores AmigaDOS command in memory (quicker then reloading
+         from disk each time it is executed). To ensure a 
+         command can be made resident check the pure flag (see List).
+Example: Resident C:Dir Pure
+
+<b>Run</b>
+Format:  Run <i>Command/F</i>
+Purpose: Execute a program in the background (multi-task)
+Example: Run Printfiles Doc1
+
+<b>Search</b>
+Format:  Search <i>From/M Search/A ALL/S NONUM/S QUIET/S QUICK/S
+         FILE/S PATTERN/S</i>
+Purpose: Search for a string in a file or a file on a disk
+Example: Search SYS: "List" File All
+
+<b>Set</b>
+Format:  Set <i>Name String/F</i>
+Purpose: Sets or lists a local environment variable (local to current
+         shell or current process)
+Example: Set MyName "Peter"
+
+<b>SetClock</b>
+Format:  Setclock <i>LOAD/S SAVE/S RESET/S</i>
+Purpose: Load or set the date and time from battery-backed clock
+Example: Date 27-Nov-00 10:00, SetClock Save
+
+<b>SetDate</b>
+Format:  Setdate <i>File/A Weekday Date Time ALL/S</i>
+Purpose: Set date of a file or directory (see List)
+Example: Setdate DEVS: Monday 10:30
+
+<b>Setenv</b> 
+Format:  Setenv <i>Name String/F</i>
+Purpose: Change the contents of a environment variable
+Example: Setenv Workbench "3.1"
+
+<b>Setfont</b>
+Format:  Setfont <i>Name/A Size/N/A SCALE/S PROP/S ITALIC/S
+         BOLD/S UNDERLINE/S</i>
+Purpose: Sets console font
+Example: SetFont Courier 15 Bold
+
+<b>SetKeyboard</b>
+Format:  Setkeyboard <i>Keymap/A</i>
+Purpose: Sets keyboard layout (was SetMap)
+Example: SetKeyboard UK
+
+<b>SetPatch</b>
+Format:  Setpatch <i>QUIET/S NOCACHE/S REVERSE/S</i>
+Purpose: Patch Operating System functions and remove bugs
+Example: Setpatch Quiet
+
+<b>Skip</b>
+Format:  Skip <i>Label BACK/S</i>
+Purpose: Jump to a label in a script (see Lab). Use back if
+         label occurs before Skip command.
+Example: Skip Lab2 Back
+
+<b>Sort</b>
+Format:  Sort <i>From/A To/A Colstart/K CASE/S NUMERIC/S</i>
+Purpose: Sort a file and output to new file
+Example: Sort Figures To SortedFigures Numeric
+
+<b>Stack</b>
+Format:  Stack <i>Size/N</i>
+Purpose: Change/display amount of stack space in bytes
+Example: Stack 10000
+
+<b>Status</b>
+Format:  Status <i>Process/N FULL/S TCB/S CLI=ALL/S COM=COMMAND/K</i>
+Purpose: Display status of running programs. TCB is Task Control Block
+Example: Status 2 Full
+
+<b>Type</b>
+Format:  Type <i>From/A/M TO/K OPT/K HEX/S NUMBER/S</i>
+Purpose: Display contents of text file on screen and binary files using
+         HEX with optional line numbers.
+Example: Type C:DIR HEX
+
+<b>Unset</b>
+Format:  Unset <i>Name</i>
+Purpose: Remove a local env variable
+Example: Unset MyName
+
+<b>UnSetEnv</b>
+Format:  UnSetEnv <i>Name</i>
+Purpose: Remove a global env variable
+Example: UnSetEnv Workbench
+
+<b>Unalias</b>
+Format:  Unalias <b>Name</b>
+Purpose: Remove a short name for a command
+Example: UnAlias MyDir
+
+<b>Version</b>
+Format:  Version <i>Name Version/N Revision/N FILE/S FULL/S
+         Unit/N INTERNAL/S RES/S</i>
+Purpose: Display workbench, library or device version information
+Example: Version kickstart Version=39 Revision=106
+
+<b>Wait</b>
+Format:  Wait <i>Time/N SEC=SECS/S MIN=MINS/S UNTIL/K</i>
+Purpose: Wait for a specified period of time
+Example: Wait Until 12:00
+
+<b>Which</b>
+Format:  Which <i>File/A NORES/S RES/S ALL/S
+Purpose: Find where a file is in command path (see Path)
+Example: Which Multiview 
+
+<b>Why</b>
+Format:  Why
+Purpose: Display reason why a previous command failed
+Example: Why
+
+</i></PRE><i>
+<HR>
+<I>Converted with <B>g2h</B>, &copy; 24.06.1998 <A HREF="http://dept-info.labri.u-bordeaux.fr/~darnis/">N. DARNIS</A></I>
+</i></BODY>
+</HTML>
