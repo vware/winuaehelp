@@ -75,10 +75,6 @@
 					<param name="Name" value="Transdisk">
 					<param name="Local" value="started/transdisk.htm">
 					</OBJECT>
-				<LI> <OBJECT type="text/sitemap">
-					<param name="Name" value="ADF Transfer">
-					<param name="Local" value="started/adftodisk.htm">
-					</OBJECT>
 			</UL>
 		</UL>
 		<LI> <OBJECT type="text/sitemap">
