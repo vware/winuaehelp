@@ -5,3 +5,4 @@ Official WinUAE Help Changelog
 * Created Subversion repository to enable access for contributors
 * Fixed up internal hyperlinks and insane external ones
 * Made all pages HTML4 compliant, optimized HTML structure
+* New screenshots, saving 200kB overall filesize
