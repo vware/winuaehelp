@@ -6,6 +6,7 @@ Version 2.0.1
 Georg:
 * Changed Bernd Roesch's email address
 * Added index and menu files for an online version
+* Consolidate information about OS 3.5/3.9 installation in a seperate page
 
 
 Version 2.0.0
