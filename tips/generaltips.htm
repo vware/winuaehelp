@@ -8,7 +8,7 @@
 <body class="site">
 <p class="headline1">&nbsp;Hints For Power Users</p>
 <p class="headline2">Some tips to get happier with WinUAE</p>
-<p class="headline3">Set the CPU Idle slider to best values to save Money</p>
+<p class="headline3">Adjust the CPU Idle slider to save Money</p>
 <p class="text">Modern CPUs save much power when they have nothing to do, for
   example you write a text or work with your workbench hear MP3 music. A AMD64
   CPU in IDLE mode consumes 10 Watts. In full load mode, it uses 83 Watt. A P4
@@ -16,8 +16,8 @@
   XP must disconnect the system bus. In ost BIOS settings, this option is disabled,
   because old CPUs have bugs in this feature. Y may try and activate it, if your
   system works stable. <br>
-  So use CPU idle save you money,give you lower temperature and if your fans
-  are temperature controlled lower noise.</p>
+  Using the CPU IDLE feature saves you money, allows for lower opterating temperatures,
+  and (if your fans are temperature controlled) less noise.</p>
 <p class="text">In the <a href="../gui/cpu.htm">CPU tab</a> you can choose the
   optimal value for power saving. The CPU must be set to fastest possible in
   A500 mode. You must set the slider so far right, so that the Windows Task Manager
@@ -25,20 +25,6 @@
   but WinUAE will run generally slower. But if you are on the road with a notebook
   it may be a good choice to sacrifice speed for longer runtime. You can avoid
   the clock being incorrect using the <a href="amigaprogs.htm">timehack program</a>.</p>
-<p class="text">&nbsp;</p>
-<p class="headline3">If you feel WinUAE is slow</p>
-<p class="text">Make sure you have the rtg.library from the WinUAE Install <a href="amigaprogs.htm">Amiga
-    Programs</a> folder in libs:picasso96. Start the program p96_uae_tweak from
-    the Amiga Programs folder if you notice large slowdown when 16bit AHI is
-    activated.<br>
-  Start ahitweak&nbsp; from&nbsp; <a href="amigaprogs.htm">amiga prog</a> Folder.
-  Increase the Pollrate (the rate WinUAE checks for soundbuffers). Default is
-  40, but in most cases can be set to 60. Set Paula buffer in WinUAE prefs to
-  4 or 5. If you use programs that need no Paula, set sound output to &quot;Disabled,
-  but emulated&quot;. To hear system sounds you can use ahisyssound found
-  in Aminet.<br>
-  Use hardfiles for more speed and only directory filesystem for stuff that you
-  want to share with Windows (images, music, etc...)</p>
 <p class="text">&nbsp;</p>
 <p class="headline3">Printing with WinUAE</p>
 <p class="text">Currently, there are 2 ways to print with WinUAE:</p>
@@ -71,6 +57,7 @@
     the driver from OS3.1 which works. The OS3.5 and OS3.9 driver seem to have
     a compiler Bug, and this function also does not work on real Amigas.</li>
 </ul>
+<p class="text">&nbsp;</p>
 <p class="headline3">The uae_german keymap does not support µ or € Symbols</p>
 <p class="text">Recommend is the use of german_keymap_new.zip and set input other
   then compatibility Mode.This map is perfect compatible.For Euro you need of
@@ -82,13 +69,14 @@
 <p class="text">&nbsp;</p>
 <p class="headline3">WinUAE does not accept my hardfiles or show only CLI with
   my always used config</p>
-<p class="text">This happen if another WinUAE run. It is not allow to use the
-  hardfile with another WinUAE session. In very rare situation a very bad Amiga
-  program crash can happen that WinUAE does not release the hardfile.So you cant
-  load it in when you quit and start WinUAE. Reboot in this case Windows. Now
-  all should work. If WinUAE take long to boot you can switch on drive leds in
-  GUI. If the Harddrive LED is on you know the hardfile is validate so you must
-  wait.</p>
+<p class="text">This happens if a second instance of WinUAE is running. It is
+  not allowed to use the same hardfile with multiple WinUAE sessions at the same
+  time. In very rare situations a very bad Amiga program crash could happen
+  and prevent WinUAE from releasing the hardfile. So
+  you can not load it in when you quit and start WinUAE. In this case, free the
+  handle to the file manually or reboot Windows. If WinUAE takes long to
+  boot you can switch on drive LEDs in the GUI. If the harddrive LED is on you
+  know the hardfile is valid.</p>
 <p class="text">&nbsp;</p>
 <p class="headline3">Install OS3.9 when you have a running aiab (fastest way
   to get OS3.9 work)</p>
@@ -113,7 +101,7 @@
   This is maybe also useful if you throttled CPU idle too much because time can
   then run 3-10% slower.</p>
 <p class="text">&nbsp;</p>
-<p class="headline3">How can i make custom screenresolutions for WinUAE</p>
+<p class="headline3">How to make custom screen resolutions for WinUAE</p>
 <p class="text">Powerstrip works OK now since Version 3.3 and nVidia drivers
   version 40 or later, so please make sure you are using the latest version of
   Powerstrip and nVidia drivers.</p>
@@ -127,10 +115,11 @@
 <p class="text">It is also possible to create interlaced doublescan resolutions
   in this menu.</p>
 <p class="text">&nbsp;</p>
-<p class="headline3">How can i install Os3.5 and 3.9 from emergency Floppy disk</p>
-<p class="text">It is only allowed to use OS3.5 or 3.9 on 1 Computer at the same
-  time. Read the H&amp;P license carefully. Maybe H&amp;P placed a note in the
-  license of newer OS3.9 distributions that restricts its use to AmigaHardware.</p>
+<p class="headline3">How to install OS 3.5 and 3.9 from AN emergency Floppy
+  disk</p>
+<p class="text">It is only allowed to either use OS3.5 or 3.9 on 1 Computer at
+  the same time. Read the H&amp;P license carefully. Maybe H&amp;P placed a note
+  in the license of newer OS3.9 distributions that restricts its use to AmigaHardware.</p>
 <p class="text">Here we go:</p>
 <ol>
   <li class="text">Insert the emergency floppy in your old Amiga</li>
@@ -155,8 +144,8 @@
     drive has no Amiga/Amithlon Partition. Note that this feature is not available
     in Windows 9x/ME environments.</p>
 <p class="text">&nbsp;</p>
-<p class="headline3">I have several damaged Amigas can i use the kickstart from
-  them</p>
+<p class="headline3">I have several damaged Amigas - can i use the kickstart
+  from them?</p>
 <p class="text">Follow the instructions on the <a href="../started/transrom.htm">Transrom</a> page.</p>
 <p class="text">&nbsp;</p>
 <p class="headline3">Using other filesystems on Hardfiles (SFS tested)</p>
@@ -183,26 +172,6 @@
   <li class="text">This make cacheCDFS working and not display the read/write
     error Requesters</li>
 </ul>
-<p class="text">&nbsp;</p>
-<p class="headline3">Harddrive performance</p>
-<p> <span class="text">Use hardfiles as your main drive to avoid trouble, especially
-    when using Windows 9x/ME for numerous reasons:</span></p>
-<ul>
-  <li class="text">Amiga harddrives easily contain several 1000 files. This is
-    too much for Windows 9x/ME because Windows needs to cache the directories,
-    since FAT32 is slow. For example, if you try to delete the Windows directory
-    from DOS without smartdrive, you will find out that this takes several hours.</li>
-  <li class="text">The maximum number of files is limitet on FAT32.</li>
-  <li class="text">Keep every hardfile smaller than 500 MB, because booting from
-    a 1GB hardfile takes longer.</li>
-  <li class="text">Also a backup from hardfiles is fast. 270MB takes 1 min with
-    1 Drive, 0.5 Min with two drives.</li>
-</ul>
-<p class="text">It is recommended to install the AmigaOS and programs on a hardfile,
-  so the access and backup can be done quickly. To store pictures and other data,
-  you may use a Windows directory for easier data exchange with the PC.<br>
-  Transferring data from/to a hardfile can done by simply copying it, so you
-  don't have to install all your Amiga stuff again.</p>
 <p class="text">&nbsp;</p>
 <p class="headline3"> Get UAE working in every dir/drive without changing configs</p>
 <p class="text">Make use of relative pathes to realize this.</p>
@@ -236,36 +205,19 @@
     because the new one will not work this way.</li>
 </ul>
 <p class="text">&nbsp;</p>
-<p class="headline3">UAE large boottime (memory usage)</p>
-<p class="text">As a rule of thumb, WinUAE needs 60+Z3+Chip+Fast+Picasso96 MB
-  of system memory.<br>
-  Since WinUAE 0.8.17r1, memory is allocated dynamically. This means you can
-  select 512MB Z3 Mem and find no difference in boot time, but if you work with
-  UAE for a longer time, it may get very slow. So it is better that you calculate
-  your RAM needs with the above formula and make sure that it is lower than the
-  pysical limit. Windows has to store the data on the harddisk if it runs out
-  of RAM, which is a gigantic performance hit.<br>
-  Also try to activate "Suspend to Disk" mode. UAE and Windows will be ready
-  to use within 30 seconds. Do not forget to use the program&nbsp; timehack to
-  set the amigaclock correct.</p>
-<p class="text">&nbsp;</p>
 <p class="headline3">UAE shows a green screen on boot</p>
 <p class="text">Go to the <a href="../gui/cpu.htm">CPU page</a> and select <span class="textmenu">JIT
     -&gt; Force Settings</span> and <span class="textmenu">Indirect Mode</span> or
     disable JIT completely.</p>
 <p class="text">&nbsp;</p>
-<p class="headline3">I get no picasso screens larger than 1024x768 in 32bit</p>
-<p class="text"> Load <a href="amigaprogs.htm">picasso96fix</a> in the startup-sequence
-  (before LoadWB).</p>
-<p class="text">&nbsp;</p>
 <p class="headline3">The folder "displaydrivers"</p>
-<p class="text">These are the picasso96 uae drivers. Just ignore the drawer.
+<p class="text">These are the picasso96 UAE drivers. Just ignore the drawer.
   The latest Picasso96 installer has correctly working display drivers included.</p>
 <p class="text">&nbsp;</p>
 <p class="headline3">Tips for Tuning or random crashes</p>
 <ul>
   <li class="text">If you have an old HD (500MB), install a pure Windows for
-    testing purposes. Does the program work ?</li>
+    testing purposes. Does the program work?</li>
   <li class="text">Overclock your PC by 10% by using the bus clock. If it works
     correctly your PC seems to be stable. If it works for 4 minutes, it seems
     to be stable, too. If it doesn't work, try downclock it. Less crashes?</li>

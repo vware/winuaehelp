@@ -7,22 +7,63 @@
 </head>
 <body class="site">
 <p class="headline1">Speed</p>
-<p class="text">On a sufficiently powerful PC, UAE will give you quite an authentic flashback
-  into the past. Thanks to DirectX, the raw drawing throughput of this version
-  will be among the highest of all Intel ports. 800x600 is only about 20% slower
-  than 320x200 on a Pentium 100, although it requires more than seven times as
-  many bytes per second to be pumped across the PCI bus. UAE's native display
-  depth is 16 bpp. This table shows how the net drawing speed is affected by
-  your display type:</p>
-<p class="text">16 bpp full screen - 100%<br>
-  16 bpp desktop - 98% <br>
-  24 bpp desktop - 72%<br>
-  32 bpp desktop - 60%</p>
-<p class="text">Unfortunately, windowed mode clipping causes system services such as mouse/keyboard
-  input and the file system to slow down (there is no way of avoiding this at
-  the moment). This does not affect SMP machines.</p>
-<p class="text">Sound is a luxury. Because sound output is strictly synchronized with video
-  DMA, you won't get clean sound unless your machine is capable of running at
-  50 fps at least internally.</p>
+<p class="text">On a sufficiently powerful PC, UAE will give you quite an authentic
+  flashback into the past. Thanks to DirectX, the raw drawing throughput of this
+  version will be among the highest of all Intel ports.</p>
+<p class="text">Use the tips below to maximize the performance of your emulated
+  Amiga.</p>
+<p class="text">&nbsp;</p>
+<p class="headline2">Memory</p>
+<p class="text">As a rule of thumb, WinUAE needs 60+Z3+Chip+Fast+Picasso96 MB
+  of system memory.<br>
+  Since WinUAE 0.8.17r1, memory is allocated dynamically. This means you can
+  select 512MB Z3 Mem and find no difference in boot time, but if you work with
+  UAE for a longer time, it may get very slow. So it is better that you calculate
+  your RAM needs with the above formula and make sure that it is lower than the
+  pysical limit. Windows has to store the data on the harddisk if it runs out
+  of RAM, which is a gigantic performance hit.<br>
+  Also try to activate "Suspend to Disk" mode. UAE and Windows will be ready
+  to use within 30 seconds. Do not forget to use the <a href="../tips/amigaprogs.htm">timehack</a> to
+  set the amigaclock to a correct value.</p>
+<p class="text">&nbsp;</p>
+<p class="headline2">Picasso96</p>
+<p class="text">When using Workbench, it is strongly recommended to make use
+  of WinUAE's Picasso96 support. Using this, you can utilize the power of your
+  PC graphics card to display higher resolutions, more colors, and give all graphics
+  output a significant speedup.</p>
+<p class="text">Read more details about the correct usage on the <a href="picasso.htm">Picasso96
+    page</a>.</p>
+<p class="text">&nbsp;</p>
+<p class="headline2">AHI</p>
+<p class="text">Sound is a luxury in emulation. Because sound output is synchronized
+  with video DMA, you won't get clean sound unless your machine is capable of
+  running at 50 fps at least internally. Again, if you are using the Workbench,
+  it is recommended to use AHI as your preferred sound interface.</p>
+<p class="text">If you use programs that need no Paula, set sound output to &quot;Disabled,
+  but emulated&quot;. To hear system sounds you can use ahisyssound found in
+  Aminet.</p>
+<p class="text">For a further speedup, use <a href="../tips/amigaprogs.htm">ahitweak</a>. Increase
+  the poll rate (the rate WinUAE checks for soundbuffers). Default is 40, but
+  in most cases can be set to 60. Set the sound buffer 4 or 5 in the <a href="../gui/sound.htm">Sound</a> tab.</p>
+<p class="text">&nbsp;</p>
+<p class="headline2">Hardfiles</p>
+<p class="text"><span class="text">Use hardfiles as your main drive to avoid
+    trouble and better speed during disk operations, for numerous reasons:</span></p>
+<ul>
+  <li class="text">Amiga harddrives easily contain several 1000 files. This is
+    too much for Windows 9x/ME because Windows needs to cache the directories,
+    since FAT32 is slow. For example, if you try to delete the Windows directory
+    from DOS without smartdrive, you will find out that this takes several hours.</li>
+  <li class="text">The maximum number of files is limitet on FAT32.</li>
+  <li class="text">Keep every hardfile smaller than 500 MB, because booting from
+    a 1GB hardfile takes longer.</li>
+  <li class="text">Also a backup from hardfiles is fast. 270MB takes 1 min with
+    1 Drive, 0.5 Min with two drives.</li>
+</ul>
+<p class="text">It is recommended to install the AmigaOS and programs on a hardfile,
+  so the access and backup can be done quickly. To store pictures and other data,
+  you may use a Windows directory for easier data exchange with the PC.<br>
+  Transferring data from/to a hardfile can done by simply copying it, so you
+  don't have to install all your Amiga stuff again.</p>
 </body>
 </html>

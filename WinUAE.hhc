@@ -35,16 +35,16 @@
 			</OBJECT>
 		<UL>
 			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Requirements">
+				<param name="Local" value="started/require.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="WinUAE For First Time Users">
 				<param name="Local" value="started\firsttimeuser.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Creating a Boot Disk">
 				<param name="Local" value="started\bootdisk.htm">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Requirements">
-				<param name="Local" value="started/require.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Data Transfer Amiga &lt;-&gt; PC">
@@ -174,15 +174,11 @@
 				<param name="Local" value="emulation/jit.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Picasso96 Emulation">
+				<param name="Name" value="Picasso96">
 				<param name="Local" value="emulation/picasso.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Command-Line Parameters">
-				<param name="Local" value="emulation/comline.htm">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Keyboard Emulation">
+				<param name="Name" value="Keyboard">
 				<param name="Local" value="emulation/keyboar.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
@@ -258,6 +254,10 @@
 				<param name="Local" value="tips\faq.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Command-Line Parameters">
+				<param name="Local" value="tips/comline.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Amiga Programs">
 				<param name="Local" value="tips/amigaprogs.htm">
 				</OBJECT>
@@ -280,7 +280,7 @@
 				<param name="Local" value="credits/gpl.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="About this help">
+				<param name="Name" value="About this Help">
 				<param name="Local" value="credits/about.htm">
 				</OBJECT>
 		</UL>
