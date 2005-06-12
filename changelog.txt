@@ -1,6 +1,12 @@
 Official WinUAE Help Changelog
 ==============================
 
+Version 2.0.2
+-------------
+Peter:
+* Updated GUI pages for Winuae V1.0 in particular: Quickstart, RAM, Hard Drives,
+  Sound, Game & I/O, Output, Misc, About and Paths.
+
 Version 2.0.1
 -------------
 Georg:
