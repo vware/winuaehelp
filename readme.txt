@@ -53,5 +53,5 @@ E-Mail:   nospamname@gmx.de
 
 ------------------------------
 © Georg Veichtlbauer 1999-2005
-© Peter Hutchison 2002-2004
+© Peter Hutchison 2002-2005
 © Bernd Roesch 2004
