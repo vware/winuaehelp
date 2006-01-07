@@ -1,6 +1,13 @@
 Official WinUAE Help Changelog
 ==============================
 
+Version 2.0.3
+-------------
+Peter:
+* Updated GUI pages for Winuae V1.1 in particular: Paths, Harddrives, Disk Swapper,
+and Misc. 
+* Added new entries to Index.
+
 Version 2.0.2
 -------------
 Peter:
