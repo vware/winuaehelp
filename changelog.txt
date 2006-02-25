@@ -1,6 +1,16 @@
 Official WinUAE Help Changelog
 ==============================
 
+Version 2.0.4
+-------------
+Peter:
+* All new set of screenshots due to Disk Drives renamed as Floppy Drives
+* Chipset. Fast Copper removed. Genlock connected added
+* Floppy drives. Layout changed
+* Display. Colour depth and two low res options
+* Misc. Untrap mouse option 
+* Index. Added Genlock, removed Copper.
+
 Version 2.0.3
 -------------
 Peter:

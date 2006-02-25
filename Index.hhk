@@ -152,13 +152,6 @@
 		<param name="Local" value="gui\configurations.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="Copper">
-		<param name="Name" value="Chipset">
-		<param name="Local" value="gui/chipset.htm">
-		<param name="Name" value="Custom Chips">
-		<param name="Local" value="background/custchips.htm">
-		</OBJECT>
-	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="CPU">
 		<param name="Name" value="CPU">
 		<param name="Local" value="gui/cpu.htm">
@@ -210,6 +203,10 @@
 		<param name="Name" value="Disk Swapper">
 		<param name="Name" value="Disk Swapper">
 		<param name="Local" value="gui\diskswapper.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Genlock">
+		<param name="Local" value="gui\chipset.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Display">
