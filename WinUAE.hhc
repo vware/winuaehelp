@@ -113,7 +113,7 @@
 					<param name="Local" value="gui/ram.htm">
 					</OBJECT>
 				<LI> <OBJECT type="text/sitemap">
-					<param name="Name" value="Disk Drives">
+					<param name="Name" value="Floppy Drives">
 					<param name="Local" value="gui/floppies.htm">
 					</OBJECT>
 				<LI> <OBJECT type="text/sitemap">
