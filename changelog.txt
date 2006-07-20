@@ -1,6 +1,19 @@
 Official WinUAE Help Changelog
 ==============================
 
+Version 2.0.5
+-------------
+Peter:
+* New screenshots of Paths, Rom, Floppy, Hardfile settings, Display, Output,
+  Filter, Disk Swapper and Misc.
+* Rom. Enable HRTMon option added 
+* Hard Disks. DOS Type settings for Hardfiles.
+* Output. Input recorder buttons added.
+* Filter. Two 1x list options added.
+* Misc. Language list added
+* Floppy. Disk label option added
+* Index. Added HRTMon, Language.
+
 Version 2.0.4
 -------------
 Peter:
