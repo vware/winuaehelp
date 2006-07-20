@@ -205,10 +205,6 @@
 		<param name="Local" value="gui\diskswapper.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="Genlock">
-		<param name="Local" value="gui\chipset.htm">
-		</OBJECT>
-	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Display">
 		<param name="Name" value="Display">
 		<param name="Local" value="gui/display.htm">
@@ -289,6 +285,10 @@
 		<param name="Local" value="emulation/jit.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Genlock">
+		<param name="Local" value="gui\chipset.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Getting Started">
 		<param name="Name" value="Getting Started">
 		<param name="Local" value="started/main.htm">
@@ -344,6 +344,10 @@
 		<param name="Local" value="background/hardware.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="HRTMon">
+		<param name="Local" value="gui\rom.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Input">
 		<param name="Name" value="Input">
 		<param name="Local" value="gui/input.htm">
@@ -396,6 +400,10 @@
 		<param name="Local" value="gui/rom.htm">
 		<param name="Name" value="Kickstart">
 		<param name="Local" value="background/kickst.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Language">
+		<param name="Local" value="gui\misc.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="LED">
