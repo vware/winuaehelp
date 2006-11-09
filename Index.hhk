@@ -313,6 +313,16 @@
 		<param name="Local" value="gui/misc.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Lightpen">
+		<param name="Name" value="Input">
+		<param name="Local" value="gui\input.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Lightgun">
+		<param name="Name" value="Input">
+		<param name="Local" value="gui\input.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="HAM">
 		<param name="Name" value="Chipset">
 		<param name="Local" value="gui/chipset.htm">
