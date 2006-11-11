@@ -1,6 +1,17 @@
 Official WinUAE Help Changelog
 ==============================
 
+Version 2.0.6
+-------------
+Peter:
+* New screenshots of About, CPU, Chipset, Sound, Misc and Input.
+* CPU: More accurate FPU added.
+* Chipset: Faster RTG added.
+* Sound: Sound lag removed.
+* Misc: Power savings added.
+* Input: Light gun/pen added.
+* Index: Light gun and pen added.
+
 Version 2.0.5
 -------------
 Peter:
