@@ -1,6 +1,11 @@
 Official WinUAE Help Changelog
 ==============================
 
+Version 2.0.7
+-------------
+Georg:
+* Various minor typo corrections, layout and HTML fixes
+
 Version 2.0.6
 -------------
 Peter:
@@ -62,7 +67,6 @@ Georg:
 * Various additions suggested by Wolfgang Stoeggl
 * Removed animated gif in credits section
 * Moved legal notes to a seperate page, include it in the Getting Started area
-
 
 Version 2.0.0
 -------------
