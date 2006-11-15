@@ -40,7 +40,6 @@ For a detailed list of tools and people involved, check out the Credits section 
 Contact:  Georg Veichtlbauer
 E-Mail:   georg@vware.at
 Web-Site: http://www.vware.at
-IRC:      #vware @ QuakeNet IRC
 
 Contact:  Peter Hutchinson
 E-Mail:   pjhutch@pcguru.plus.com
@@ -52,6 +51,6 @@ E-Mail:   nospamname@gmx.de
 
 
 ------------------------------
-© Georg Veichtlbauer 1999-2005
-© Peter Hutchison 2002-2005
+© Georg Veichtlbauer 1999-2006
+© Peter Hutchison 2002-2006
 © Bernd Roesch 2004
