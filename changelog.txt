@@ -5,6 +5,8 @@ Version 2.0.7
 -------------
 Georg:
 * Various minor typo corrections, layout and HTML fixes
+Peter:
+* Added descriptions for Faster RTG and More Accurate FPU.
 
 Version 2.0.6
 -------------
