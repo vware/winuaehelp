@@ -670,6 +670,10 @@
 		<param name="Local" value="gui\hard-drives.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="uaeserial">
+		<param name="Local" value="gui\ports.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="USB">
 		<param name="Local" value="gui\misc.htm">
 		</OBJECT>

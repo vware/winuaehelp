@@ -106,6 +106,11 @@ Example: Diskchange DF2:
 Format:  Diskcopy <em>From/A To/A Name/K NOVERIFY/S MULTI/S</em>
 Purpose: Duplicates disks 
 Example: Diskcopy DF0: to DF1:
+<b>
+DiskDoctor</b>
+Format:  Diskdoctor Drive/A
+Purpose: Repairs disk problems (in place). Deprecated in WB2.
+Example: DiskDoctor DF0:
 
 <strong>Echo</strong>
 Format:  Echo <em>String/M NOLINE/S FIRST/K/N LEN/K/N TO/K</em>
@@ -380,13 +385,30 @@ Example: SetFont Courier 15 Bold
 
 <strong>SetKeyboard</strong>
 Format:  Setkeyboard <em>Keymap/A</em>
-Purpose: Sets keyboard layout (was SetMap)
-Example: SetKeyboard UK
+Purpose: Sets keyboard layout using layouts in Devs:Keymaps.
+You can use the Input preferences instead.
+Example: SetKeyboard USA0
+
+<b>SetMap</b>
+Format:  SetMap &lt;keymap id&gt;
+Purpose: Sets keyboard layout. Deprecated in WB2.
+Keymaps include CDN,CH1,CH2,D,DK,E,F,GB,I,IS,N,S,USA0,USA1,USA2.
+Keymap can be set in icon using Tooltype: KEYMAP=&lt;map&gt;
+Example: Setmap GB
 
 <strong>SetPatch</strong>
-Format:  Setpatch <em>QUIET/S NOCACHE/S REVERSE/S</em>
-Purpose: Patch Operating System functions and remove bugs
+Format:  Setpatch <em>QUIET/S NOCACHE/S REVERSE/S</em> NOAGA/S
+Purpose: Patch Operating System functions and remove bugs (43.4)
 Example: Setpatch Quiet
+
+<strong>SetPatch</strong>
+Format:  Setpatch <em>QUIET/S NOCACHE/S REVERSE/S</em> NONSD/S NOAGA/S PATCHCONFIGFILE=PCF/K
+ PATCHCONFIGLINE=PCL/K PATCHINFO=PI/S FORCEUPDATE/S KILLUPDATE/S NOROMUPDATE/S
+ DISABLEROMMODULES/S SKIPROMUPDATES=SKIPROMMODULES/K WAITFORVALIDATE/S
+ AVOIDMEMFKICKFORPATCHES/S
+Purpose: Patch Operating System functions, enable/disable rom updates, disable
+ HD NDS mode, wait for disk validation and remove bugs (44.38)
+Example: Setpatch NOROMUPDATE NONSD QUIET
 
 <strong>Skip</strong>
 Format:  Skip <em>Label BACK/S</em>
@@ -450,6 +472,76 @@ Example: Which Multiview
 Format:  Why
 Purpose: Display reason why a previous command failed
 Example: Why
+
+
+<b>Key</b>
+/A Required argument
+/F Final argument in list
+/K Keyword must be entered with argument
+/M Multiple arguments
+/N Number
+/S Switch (optional)
+
+<b>Additional AmigaDOS commands</b>
+
+<b>DMS
+</b>Format:<br> DMS Read file[.DMS] [FROM dev:] [TEXT filetext] [CMODE mode] [LOW lowtrack] [HIGH hightrack] [NOVAL] [NOZERO] [ENCRYPT password]
+ DMS Write file[.DMS],,, [TO dev:] [LOW lowtrack] [HIGH hightrack] [NOVAL] [NOTEXT] [NOPAUSE [DECRYPT password]
+ DMS Repack file[.DMS] [TO dev:] [LOW lowtrack] [HIGH hightrack] [CMODE mode]
+ DMS View file[.DMS],,, [FULL] DMS Text file[.DMS],,,
+ DMS Test file[.DMS],,, DMS Help
+Purpose:  To read, write or view Disk Masher disk images of floppy disks.
+Example: DMS Write MyDisk.DMS FROM DF0:
+<b>
+Installer</b>
+Format:  Installer [SCRIPT] filename &lt;[APPNAME] name&gt; &lt;[MINIUSER] level&gt; &lt;[DEFUSER] default&gt; &lt;[LOGFILE] 
+ logname&gt; &lt;[LANGUAGE] language&gt; &lt;NOPRETEND&gt; &lt;NOLOG&gt; &lt;NOPRINT&gt;
+Purpose: To install an application via a installer script. Usually provided as a default tool for script 
+ files in icon.
+Example: Installer SCRIPT InstallApp APPNAME MyProgram LOGFILE DH0:MyProgram.log
+
+<b>LHA
+</b>Format:  LHA [-options] &lt;command&gt; &lt;archive[.LZH|LHA]&gt; [[homedir] &lt;filespec...] [@file] [destination]
+Purpose: To create, modify or list LHA or LZH files
+Examples:
+LHA a pictures.lha #?.jpg (archives all jpg files into pictures.lha)
+LHA l pictures.lha        (lists all files in pictures.lha)
+LHA x pictures.lha        (extracts all files from pictures.lha)
+
+<b>LZX</b>
+Format:  LZX [-options] &lt;command&gt; &lt;archive&gt; [&lt;file&gt; ...] [&lt;destdir&gt;]
+Purpose: To create, modify or list LZX archive files.
+Examples:
+LZX a documents.lzx #?.doc (archives all doc files into documents.lzx)
+LZX l documents.lzx        (lists all files in documents.lzx)
+LZX x documents.lzx        (extracts all files from documents.lzx)
+
+
+<b>Additional AmigaDOS Information</b>
+</pre>
+<p><b>Clear Screen</b><br>
+  Example: Echo &quot;*E[0;0H*E[J&quot;<br>
+  Purpose: Clears the AmigaOS screen. Uses <a href="printercmds.txt">printer commands</a> 
+  to control text formatting in CLI, so *E is equivalent to ESC character.<br>
+  The command <b>clear</b> is normally defined using an <b>Alias</b> or an AmigaDOS 
+  script in S: folder.</p>
+<p><b>Text in Italics</b><br>
+  Example: Echo &quot;*E[3mItalics*E[23m&quot;<br>
+  Purpose: *E[3m turns on italics and *E[23m turns off italics</p>
+<p><b>Text in Bold<br>
+  </b>Example: Echo &quot;*E[1mBold*E[22m&quot;<br>
+  Purpose: *E[1m turns on bold, and *E[22m turns off bold.</p>
+<p><b>Underline Text</b> <br>
+  Example: Echo &quot;*E[4mUnderline*E[24m&quot;<br>
+  Purpose: *E[4m turns on underline, and *E24m turns off underline.<br>
+</p>
+<p><b>Coloured Text <br>
+  </b>Example: Echo &quot;*E[32mRed Text*E[0m&quot;<br>
+  Purpose: *E[nm where n=30-39 for foreground color or n=40-49 for background 
+  colour.<br>
+  *E[0m resets to normal character set.</p>
+<p>&nbsp;</p>
+<pre>&nbsp;
 </pre>
 </body>
 </html>
