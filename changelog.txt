@@ -1,6 +1,15 @@
 Official WinUAE Help Changelog
 ==============================
 
+Version 2.0.8
+-------------
+Peter:
+* New screenshots of About, Game & I/O Ports, Filter
+* Updated known bugs page (not done for a while)
+* Updated keyboard page. Table text now shows, added more keyb shortcuts
+* Updated AmigaDOS page. More commands added
+* Updated Contribution page. 
+
 Version 2.0.7
 -------------
 Georg:
