@@ -1,6 +1,15 @@
 Official WinUAE Help Changelog
 ==============================
 
+Version 2.0.9
+-------------
+Peter:
+* New screenshots: About, Adv.Chipset, RAM, Misc
+* New page in Hardware: Adv.Chip
+* New entries for Motherboard RAM
+* New entry for Magic Mouse in Misc
+* Added Index entry for Adv.Chipset
+
 Version 2.0.8
 -------------
 Peter:
