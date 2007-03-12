@@ -105,6 +105,10 @@
 					<param name="Local" value="gui/chipset.htm">
 					</OBJECT>
 				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Adv.Chipset">
+					<param name="Local" value="gui\advchipset.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
 					<param name="Name" value="ROM">
 					<param name="Local" value="gui/rom.htm">
 					</OBJECT>

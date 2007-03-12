@@ -116,6 +116,8 @@
 		<param name="Local" value="gui/cpu.htm">
 		<param name="Name" value="Custom Chips">
 		<param name="Local" value="background/custchips.htm">
+		<param name="Name" value="Advanced Chipset">
+		<param name="Local" value="gui\advchipset.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Cloanto">
