@@ -1,6 +1,14 @@
 Official WinUAE Help Changelog
 ==============================
 
+Version 2.0.9a
+--------------
+* Replaced all screenshots
+* New entry for Chipset Extra
+* New entry for sound in Output
+* Added text for Magic Mouse 
+* Updated version number (not updated last time)
+
 Version 2.0.9
 -------------
 Peter:
