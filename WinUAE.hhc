@@ -97,7 +97,7 @@
 				</OBJECT>
 			<UL>
 				<LI> <OBJECT type="text/sitemap">
-					<param name="Name" value="CPU">
+					<param name="Name" value="CPU and FPU">
 					<param name="Local" value="gui/cpu.htm">
 					</OBJECT>
 				<LI> <OBJECT type="text/sitemap">

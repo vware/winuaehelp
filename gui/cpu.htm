@@ -1,43 +1,54 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<title>CPU</title>
+<title>CPU and FPU</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link href="../Style.css" rel="stylesheet" type="text/css">
 </head>
 <body class="site">
 <p class="headline1">CPU Settings</p>
-<p class="text">These settings control the type of Motorola 68000 CPU which will
+<p class="text">These settings control the type of Motorola 680x0 CPU which will 
   be emulated.</p>
 <p align="center"><img src="cpu.gif" alt="Winuae - CPU"></p>
 <p class="headline2">CPU Type</p>
 <ul>
-  <li class="text"><strong>68000</strong> is the basic CPU type, as found in
-    the Amiga 500, 1000, and 2000 models.</li>
-  <li class="text"><strong>68010</strong> is a slightly more advanced 68K member,
+  <li class="text"><strong>68000</strong> is the basic CPU type, as found in the 
+    Amiga 500, 1000, and 2000 models.</li>
+  <li class="text"><strong>68010</strong> is a slightly more advanced 68K member, 
     but never actually shipped in a real Amiga.</li>
-  <li class="text"><strong>68EC020</strong> is the same as a 68020 CPU, but with
-    only 24 address-lines. This is the CPU used in the Amiga 1200 model.</li>
-  <li class="text"><strong>68EC020+FPU</strong> is the same as a 68020 CPU, but
-    with only 24 address-lines. This is the CPU used in the Amiga 1200 model,
-    and does not allow for any Zorro-III expansion cards in the system. Because
-    WinUAE uses virtual Zorro-III expansion cards to provide Picasso96 RTG support,
-    no Picasso96 support is possible with this CPU type.</li>
-  <li class="text"><strong>68020</strong> is a much more advanced 68K CPU, with
-    some new instructions, and a fully 32-bit engine. Used in the A2500 for brief
-    period on the A2520 card.</li>
-  <li class="text"><strong>68020+FPU</strong> is similar to the above CPU type,
-    but has a FPU.</li>
-  <li class="text"><strong>68040</strong> can be enabled since the JIT patches
-    were added to WinUAE.</li>
+  <li class="text"><strong>68020</strong> is a much more advanced 68K CPU, with 
+    some new instructions, and a fully 32-bit engine. Used in the A2500 for brief 
+    period on the A2520 card. If 24 bit addressing is enabled, it is the same 
+    as th 68EC020 chip in the A1200.</li>
+  <li class="text"><strong>68030</strong> This is a mid range CPU used in the 
+    A3000 and low end A4000s.</li>
+  <li class="text"><strong>68040</strong> is the top CPU provided with the A4000 
+    desktop computer</li>
+  <li class="text"><strong>68060 </strong>is the top end CPU mainly provided on 
+    accelerator cards and the A4000T. It requires the 68060.library installed 
+    before using.<br>
+  </li>
 </ul>
+<p class="text"><b>24 bit addressing</b> is used mainly by the <b>68EC020 </b>CPU 
+  such as the A1200.</p>
 <p class="text"><strong>More compatible</strong> is only available when the CPU 
   type is a <strong>68000</strong>. Some games and demos require this setting 
   for proper compatibility.</p>
-<p class="text"><b>More accurate FPU</b> will allow slower but more accurate FPU 
-  emulation using the 68881 or 68882 or built in FPU chips esp. rounding of numbers.</p>
-<p class="text"><strong>JIT</strong> can be enabled to access the Advanced JIT settings (See
-  below).</p>
+<p class="text"><strong>JIT</strong> can be enabled to access the Advanced JIT 
+  settings if the 68030 or better is selected (See below).</p>
+<p class="headline2">FPU</p>
+<ul>
+  <li class="text"><strong>None.</strong> No FPU is provided, this is the only 
+    option for the 68000 and 68010.</li>
+  <li class="text"><strong>68881.</strong> Can be specified with the 68020 and 
+    68030.</li>
+  <li class="text"><strong>68882.</strong> Can be specified with the 68020 and 
+    68030.</li>
+  <li class="text"><strong>CPU internal.</strong> Can be specified for the 68040 
+    and 68060.</li>
+</ul>
+<p class="text"><strong>More Compatible</strong> is available if a FPU is selected. 
+  Some applications require this for proper compatibility.</p>
 <p class="text">&nbsp;</p>
 <p class="headline2">CPU Emulation Speed</p>
 <ul>
