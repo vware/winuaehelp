@@ -1,6 +1,16 @@
 Official WinUAE Help Changelog
 ==============================
 
+Version 2.0.11
+--------------
+Peter:
+* Chipset: New screen shot
+* Adv Chipset: New screen shot and new options
+* Rom: New screen shot. HRTMon now integrated 
+  with Cartridge ROM.
+* Display: New screen shot. Vert sync removed.
+* Index entries for PCMCIA,IDE,SCSI,CD32,CDTV
+
 Version 2.0.10
 --------------
 Peter:
@@ -27,6 +37,7 @@ Peter:
 * New entries for Motherboard RAM
 * New entry for Magic Mouse in Misc
 * Added Index entry for Adv.Chipset
+* Updated Known bugs page
 
 Version 2.0.8
 -------------

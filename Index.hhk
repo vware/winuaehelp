@@ -102,11 +102,25 @@
 		<param name="Local" value="bugs.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CD32">
+		<param name="Name" value="Adv.Chipset">
+		<param name="Local" value="gui\advchipset.htm">
+		<param name="Name" value="ROM">
+		<param name="Local" value="gui\rom.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="CDROM">
 		<param name="Name" value="Features">
 		<param name="Local" value="features.htm">
 		<param name="Name" value="Hard Drives">
 		<param name="Local" value="gui/hard-drives.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CDTV">
+		<param name="Name" value="Adv.Chipset">
+		<param name="Local" value="gui\advchipset.htm">
+		<param name="Name" value="ROM">
+		<param name="Local" value="gui\rom.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Chipset">
@@ -315,16 +329,6 @@
 		<param name="Local" value="gui/misc.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="Lightpen">
-		<param name="Name" value="Input">
-		<param name="Local" value="gui\input.htm">
-		</OBJECT>
-	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="Lightgun">
-		<param name="Name" value="Input">
-		<param name="Local" value="gui\input.htm">
-		</OBJECT>
-	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="HAM">
 		<param name="Name" value="Chipset">
 		<param name="Local" value="gui/chipset.htm">
@@ -357,7 +361,13 @@
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="HRTMon">
+		<param name="Name" value="ROM">
 		<param name="Local" value="gui\rom.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="IDE">
+		<param name="Name" value="Adv.Chipset">
+		<param name="Local" value="gui\advchipset.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Input">
@@ -426,6 +436,16 @@
 		<param name="Name" value="Links">
 		<param name="Name" value="Links">
 		<param name="Local" value="links.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Lightgun">
+		<param name="Name" value="Input">
+		<param name="Local" value="gui\input.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Lightpen">
+		<param name="Name" value="Input">
+		<param name="Local" value="gui\input.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Load">
@@ -520,6 +540,10 @@
 		<param name="Local" value="gui\paths.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="PCMCIA">
+		<param name="Local" value="gui\advchipset.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Picasso96">
 		<param name="Name" value="Known Bugs">
 		<param name="Local" value="bugs.htm">
@@ -591,6 +615,11 @@
 		<param name="Local" value="gui/misc.htm">
 		<param name="Name" value="Configurations">
 		<param name="Local" value="gui\configurations.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SCSI">
+		<param name="Name" value="Adv.Chipset">
+		<param name="Local" value="gui\advchipset.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Screenshot">
