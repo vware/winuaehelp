@@ -1,85 +1,101 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<title>Data Transfer Amiga&lt;-&gt;PC</title>
+<title>Data Transfer Amiga &lt;-&gt; PC</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link href="../Style.css" rel="stylesheet" type="text/css">
+<link href="../Style.css" type="text/css" rel="stylesheet">
 </head>
-<body class="site">
-<p class="headline1">Data Transfer Amiga &lt;-&gt; PC</p>
-<p class="text">In the process of preparing for emulation, you will need to transfer
-  the files between your PC where you run UAE on and your Amiga. There are several
-  ways how to do this:</p>
-<ol>
-  <li class="text">Serial transfer. You will need to connect the Amiga and the
-    PC with a null modem cable.</li>
-  <li class="text">Transfer via floppies. Requires you to have AmigaOS 2.0 or
-    later.</li>
-  <li class="text">Direct copy of floppies using FDI. With 2 floppy drives in
-    your PC, this is a nice method.</li>
-  <li class="text">Network. With a networking card in both, the Amiga and the
-    PC, you will get best results with this solution.</li>
-</ol>
-<p class="text">In either case, you ought to read the documentation for the programs
-  that you use for the transfer.</p>
-<p class="text">&nbsp;</p>
-<p class="headline2">Serial Transfer</p>
-<p class="text">If you are using a null modem cable, you will need a terminal
-  program on your Windows machine and your Amiga. 68000 equipped Amigas are only
-  able to reach approximately 3000cps through the null modem cable. This speed
-  is achieved with the standard serial.device or the new baudbandit.device There
-  are some tools available which can speed up the connection speed up to 5500cps.
-  For more help on how to set up a serial transfer see <a href="../links.htm">ADF
-  Sender Terminal FAQ</a> and <a href="../links.htm#tools">WarTrans</a>. The <a href="../links.htm#original">Aminet</a> is
-  a great source for such tools such as TwinExpress and AmiTrans.</p>
-<p class="text">All you need is the following:</p>
-<ul>
-  <li class="text">Terminal software for Amiga and PC, preferably ones than can
-    do Binary Transfers using common protocols such as Kermit and X/Y/ZModem.
-    Amiga term programs include NComm, JRComm, and Term. PC term programs include
-    Terminal and Terminus.</li>
-  <li class="text">A commonly used program called Twin Express can be used instead
-    or <em>PC2Ami</em> or <a href="../links.htm#tools">AmigaTrans</a> or Amiga
-    Explorer from <a href="../links.htm#allinone">Cloanto</a>.</li>
-  <li class="text">A serial cable with 9pin end for PC and 25 pin end for Amiga.
-    It has to be a null-modem cable which means that lines 2 and 3 have to cross
-    over to receive/transmit between peers and line 7 for control signals. See <a href="../links.htm#help">RS232
-    cable information</a> for a null modem cable specification.</li>
-</ul>
-<p class="text">Then, do the following:</p>
-<ul>
-  <li class="text"> Connect the computers with serial lead and load up the software
-    on each end.</li>
-  <li class="text"> Start binary receive on one end using one of the protocols
-    common to both programs.</li>
-  <li class="text"> Start binary transmit on the other and load the file to be
-    transmitted, it should then transfer to the other end in seconds/minutes
-    depending on size.</li>
-  <li class="text">Further details of networking can be found at <a href="../links.htm#help">Amiga
+<body id="bodyID" class="dtBODY">
+<div id="nsbanner">
+  <div id="bannerrow1">
+    <table class="bannerparthead" cellspacing=0>
+      <tr id="hdr">
+        <td class="runninghead" nowrap>WinUAE Documentation</td>
+        <td class="product" nowrap>&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+  <div id="TitleRow">
+    <h1 class="dtH1">Data Transfer Amiga &lt;-&gt; PC</h1>
+  </div>
+</div>
+<div id="nstext">
+  <p class="normal">In the process of preparing for emulation, you will need to transfer
+    the files between your PC where you run UAE on and your Amiga. There are several
+    ways how to do this:</p>
+  <ol>
+    <li class="normal">Serial transfer. You will need to connect the Amiga and the
+      PC with a null modem cable.</li>
+    <li class="normal">Transfer via floppies. Requires you to have AmigaOS 2.0 or
+      later.</li>
+    <li class="normal">Direct copy of floppies using FDI. With 2 floppy drives in
+      your PC, this is a nice method.</li>
+    <li class="normal">Network. With a networking card in both, the Amiga and the
+      PC, you will get best results with this solution.</li>
+  </ol>
+  <p class="normal">In either case, you ought to read the documentation for the programs
+    that you use for the transfer.</p>
+  <p class="normal">&nbsp;</p>
+  <h2 class="dtH2">Serial Transfer</h2>
+  <p class="normal">If you are using a null modem cable, you will need a terminal
+    program on your Windows machine and your Amiga. 68000 equipped Amigas are only
+    able to reach approximately 3000cps through the null modem cable. This speed
+    is achieved with the standard serial.device or the new baudbandit.device There
+    are some tools available which can speed up the connection speed up to 5500cps.
+    For more help on how to set up a serial transfer see <a href="../links.htm">ADF
+    Sender Terminal FAQ</a> and <a href="../links.htm#tools">WarTrans</a>. The <a href="../links.htm#original">Aminet</a> is
+    a great source for such tools such as TwinExpress and AmiTrans.</p>
+  <p class="normal">All you need is the following:</p>
+  <ul>
+    <li class="normal">Terminal software for Amiga and PC, preferably ones than can
+      do Binary Transfers using common protocols such as Kermit and X/Y/ZModem.
+      Amiga term programs include NComm, JRComm, and Term. PC term programs include
+      Terminal and Terminus.</li>
+    <li class="normal">A commonly used program called Twin Express can be used instead
+      or <em>PC2Ami</em> or <a href="../links.htm#tools">AmigaTrans</a> or Amiga
+      Explorer from <a href="../links.htm#allinone">Cloanto</a>.</li>
+    <li class="normal">A serial cable with 9pin end for PC and 25 pin end for Amiga.
+      It has to be a null-modem cable which means that lines 2 and 3 have to cross
+      over to receive/transmit between peers and line 7 for control signals. See <a href="../links.htm#help">RS232
+      cable information</a> for a null modem cable specification.</li>
+  </ul>
+  <p class="normal">Then, do the following:</p>
+  <ul>
+    <li class="normal"> Connect the computers with serial lead and load up the software
+      on each end.</li>
+    <li class="normal"> Start binary receive on one end using one of the protocols
+      common to both programs.</li>
+    <li class="normal"> Start binary transmit on the other and load the file to be
+      transmitted, it should then transfer to the other end in seconds/minutes
+      depending on size.</li>
+    <li class="normal">Further details of networking can be found at <a href="../links.htm#help">Amiga
       Emulation FAQ</a></li>
-</ul>
-<p class="text">&nbsp;</p>
-<p class="headline2">Floppy transfer</p>
-<p class="text">If you have an Amiga with OS 2.0 or later, you may use <strong>CrossDOS</strong>.
-  It is a part of the AmigaOS and enables you to read and write DOS formatted
-  floppies on your Amiga. <strong>MessyDOS</strong> or <strong>MSH</strong> is
-  a freeware program with the same functionality. It can be found on Aminet.
-  If you do not have a high density floppy drive in your Amiga, you will have
-  to use 720kB formatted disks. Compress the disk image with - for example -
-  LHA and copy the compressed file on the floppy. Copy the file to your Windows
-  machine and decompress it.</p>
-<p class="text">&nbsp;</p>
-<p class="headline2">Direct Copy</p>
-<p class="text">If you have a PC with 2 floppy drives then you can use <a href="../links.htm#tools">Disk2FDI</a> which
-  will allow you to read an Amiga disk in A: and read and transfer the contents
-  to the B: drive. The FDI files can then be directly read with WinUAE.</p>
-<p class="text">&nbsp;</p>
-<p class="headline2">Network Transfer</p>
-<p class="text">If you have <a href="../links.htm#allinone">Cloanto's</a> Amiga
-  Explorer program then you can set up a PC to Amiga link and use a friendly
-  front end program to transfer programs to and from your PC and your Amiga.<br>
-  You can also use AmigaToPC, which is a professional network software setup,
-  and can be found at our links page in the <a href="../links.htm#tools">tools
-  section</a>.</p>
+  </ul>
+  <p class="normal">&nbsp;</p>
+  <h2 class="dtH2">Floppy transfer</h2>
+  <p class="normal">If you have an Amiga with OS 2.0 or later, you may use <strong>CrossDOS</strong>.
+    It is a part of the AmigaOS and enables you to read and write DOS formatted
+    floppies on your Amiga. <strong>MessyDOS</strong> or <strong>MSH</strong> is
+    a freeware program with the same functionality. It can be found on Aminet.
+    If you do not have a high density floppy drive in your Amiga, you will have
+    to use 720kB formatted disks. Compress the disk image with - for example -
+    LHA and copy the compressed file on the floppy. Copy the file to your Windows
+    machine and decompress it.</p>
+  <p class="normal">&nbsp;</p>
+  <h2 class="dtH2">Direct Copy</h2>
+  <p class="normal">If you have a PC with 2 floppy drives then you can use <a href="../links.htm#tools">Disk2FDI</a> which
+    will allow you to read an Amiga disk in A: and read and transfer the contents
+    to the B: drive. The FDI files can then be directly read with WinUAE.</p>
+  <p class="normal">&nbsp;</p>
+  <h2 class="dtH2">Network Transfer</h2>
+  <p class="normal">If you have <a href="../links.htm#allinone">Cloanto's</a> Amiga
+    Explorer program then you can set up a PC to Amiga link and use a friendly
+    front end program to transfer programs to and from your PC and your Amiga.<br>
+    You can also use AmigaToPC, which is a professional network software setup,
+    and can be found at our links page in the <a href="../links.htm#tools">tools
+    section</a>.</p>
+</div>
+<div class="footer">
+  <hr>
+  All rights reserved.</div>
 </body>
 </html>

@@ -1,67 +1,81 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Installing AmigaOS 3.5/3.9</title>
-<link href="../Style.css" rel="stylesheet" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="../Style.css" type="text/css" rel="stylesheet">
 </head>
-<body class="site">
-<p class="headline1">Installing AmigaOS 3.5/3.9</p>
-<p class="headline3">&nbsp;</p>
-<p class="headline3">Requirements</p>
-<p class="text">It is only allowed to either use OS3.5 or 3.9 on 1 Computer at
-  the same time. Read the H&amp;P license carefully. Maybe H&amp;P placed a note
-  in the license of newer OS3.9 distributions that restricts its use to AmigaHardware.</p>
-<p class="text">Booting off any Workbench ADF should be sufficient to install
-  AmigaOS 3.5 or 3.9, make sure you have correct access to your CD-ROM drive
-  (see below).</p>
-<p class="text">To install AmigaOS versions 3.5 and 3.9, you have to make sure
-  you set the following options:</p>
-<ul>
-  <li>CPU emulation set to 68020</li>
-  <li>Kickstart ROM version 3.1</li>
-  <li>Sound emulation enabled</li>
-</ul>
-<p class="text">&nbsp;</p>
-<p class="headline3">Prepare emergency disk for CD-ROM access</p>
-<p class="text">Here we go:</p>
-<ol>
-  <li class="text">Boot your emulated Amiga with WinUAE and &quot;insert&quot; the
-    ADF in a floppy drive </li>
-  <li class="text">Open the file devs/dosdrivers/emergency_CD on the disk with
-    a texteditor</li>
-  <li class="text">Change the line device = &quot;xxxxxx&quot; to device = &quot;uaescsi.device&quot;</li>
-  <li class="text">Change UnitNum if needed</li>
-  <li class="text">Change the text MaxTransfer = xxxxxxx to MaxTransfer = 0xFFFF<br>
-    If you get read/write errors from CD use a value of 0x1FFF instead</li>
-  <li class="text">Save the changed file to disk</li>
-</ol>
-<p class="text">&nbsp;</p>
-<p class="headline3">Crashes during install?</p>
-<p class="text">Try changing the Sound options to better level e.g. 16 bit and
-  44.1 Hz and change the CPU settings to adjustable and to level 1. Alternatively,
-  remove the references to playing sounds (such as the clapping noise) from the
-  installer script if you know what you are doing.<br>
-  There is an update available for AmigaOS 3.9 called a Boing Bag and to get
-  it to install on WinUAE you need a patch available from <a href="../links.htm#original">Amiga,
-  Inc</a>.</p>
-<p class="text">&nbsp;</p>
-<p class="headline3">Installing OS3.9 using an AIAB installation </p>
-<p class="text">If you dont have <a href="../links.htm#tools">AIAB</a>, it is
-  recommended to install it. This is the fastest way to get a running OS 3.9
-  installation.</p>
-<ol>
-  <li class="text">Boot from AIAB</li>
-  <li class="text">Insert the OS 3.9 CD</li>
-  <li class="text">Start the OS 3.9 Installer and choose &quot;Make emergency
-    floppy&quot;<br>
-    The installer will create an emergency floppy with correct CD-ROM support
-    and P96 support with correct rtg.library</li>
-  <li class="text">Boot from the emergency floppy</li>
-  <li class="text">You are ready to install OS3.9</li>
-</ol>
-<p class="text"><strong>Hint:</strong> If you get CD read errors you need reduce
-  the max transfer rate in your CD-ROM driver settings.</p>
+<body id="bodyID" class="dtBODY">
+<div id="nsbanner">
+  <div id="bannerrow1">
+    <table class="bannerparthead" cellspacing=0>
+      <tr id="hdr">
+        <td class="runninghead" nowrap>WinUAE Documentation</td>
+        <td class="product" nowrap>&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+  <div id="TitleRow">
+    <h1 class="dtH1">Installing AmigaOS 3.5/3.9</h1>
+  </div>
+</div>
+<div id="nstext">
+  <h3 class="dtH3">Requirements</h3>
+  <p class="normal">It is only allowed to either use OS3.5 or 3.9 on 1 Computer at
+    the same time. Read the H&amp;P license carefully. Maybe H&amp;P placed a note
+    in the license of newer OS3.9 distributions that restricts its use to AmigaHardware.</p>
+  <p class="normal">Booting off any Workbench ADF should be sufficient to install
+    AmigaOS 3.5 or 3.9, make sure you have correct access to your CD-ROM drive
+    (see below).</p>
+  <p class="normal">To install AmigaOS versions 3.5 and 3.9, you have to make sure
+    you set the following options:</p>
+  <ul>
+    <li>CPU emulation set to 68020</li>
+    <li>Kickstart ROM version 3.1</li>
+    <li>Sound emulation enabled</li>
+  </ul>
+  <p class="normal">&nbsp;</p>
+  <h3 class="dtH3">Prepare emergency disk for CD-ROM access</h3>
+  <p class="normal">Here we go:</p>
+  <ol>
+    <li class="normal">Boot your emulated Amiga with WinUAE and &quot;insert&quot; the
+      ADF in a floppy drive </li>
+    <li class="normal">Open the file devs/dosdrivers/emergency_CD on the disk with
+      a texteditor</li>
+    <li class="normal">Change the line device = &quot;xxxxxx&quot; to device = &quot;uaescsi.device&quot;</li>
+    <li class="normal">Change UnitNum if needed</li>
+    <li class="normal">Change the text MaxTransfer = xxxxxxx to MaxTransfer = 0xFFFF<br>
+      If you get read/write errors from CD use a value of 0x1FFF instead</li>
+    <li class="normal">Save the changed file to disk</li>
+  </ol>
+  <p class="normal">&nbsp;</p>
+  <h3 class="dtH3">Crashes during install?</h3>
+  <p class="normal">Try changing the Sound options to better level e.g. 16 bit and
+    44.1 Hz and change the CPU settings to adjustable and to level 1. Alternatively,
+    remove the references to playing sounds (such as the clapping noise) from the
+    installer script if you know what you are doing.<br>
+    There is an update available for AmigaOS 3.9 called a Boing Bag and to get
+    it to install on WinUAE you need a patch available from <a href="../links.htm#original">Amiga,
+    Inc</a>.</p>
+  <p class="normal">&nbsp;</p>
+  <h3 class="dtH3">Installing OS3.9 using an AIAB installation</h3>
+  <p class="normal">If you dont have <a href="../links.htm#tools">AIAB</a>, it is
+    recommended to install it. This is the fastest way to get a running OS 3.9
+    installation.</p>
+  <ol>
+    <li class="normal">Boot from AIAB</li>
+    <li class="normal">Insert the OS 3.9 CD</li>
+    <li class="normal">Start the OS 3.9 Installer and choose &quot;Make emergency
+      floppy&quot;<br>
+      The installer will create an emergency floppy with correct CD-ROM support
+      and P96 support with correct rtg.library</li>
+    <li class="normal">Boot from the emergency floppy</li>
+    <li class="normal">You are ready to install OS3.9</li>
+  </ol>
+  <p class="normal"><strong>Hint:</strong> If you get CD read errors you need reduce
+    the max transfer rate in your CD-ROM driver settings.</p>
+</div>
+<div class="footer">
+  <hr>
+  All rights reserved.</div>
 </body>
 </html>

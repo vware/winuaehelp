@@ -1,62 +1,78 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<title>Display Settings</title>
+<title>Display</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link href="../Style.css" rel="stylesheet" type="text/css">
+<link href="../Style.css" type="text/css" rel="stylesheet">
 </head>
-<body class="site">
-<p class="headline1">Display</p>
-<p class="text">These settings allow you to choose how WinUAE will display your
-  Amiga-generated graphics. In a window, in a full-screen display, what resolution,
-  etc.</p>
-<p align="center"><img src="display.gif" alt="WinUAE - Display"></p>
-<p class="text">UAE uses DirectX in order to produce the graphics-output. You
-  will need at least DirectX 8 for increased performance in Picasso96 screens.
-  See <a href="misc.htm">Misc.</a> tab. UAE's native pixel format is 16 Bit.</p>
-<p class="text">View the <a href="../emulation/picasso.htm">Picasso96</a> section
-  to get more information about this feature.</p>
-<p class="text">&nbsp;</p>
-<p class="headline2">Screen</p>
-<ul>
-  <li class="text"><strong>Primary Display driver</strong> Here, you can select 
-    which graphics card you can display your Amiga screen on, useful if you have 
-    multiple monitors connected to your system.</li>
-  <li class="text"><strong>Resolution</strong> This sets the full screen resolution 
-    (see Settings), colour depth and the Frequency (usually set to screen Default).</li>
-  <li class="text"><strong>Windowed</strong> This lets you change the resolution 
-    used for the Amiga displayed in a Window on the PC screen.</li>
-</ul>
-<p class="text">&nbsp;</p>
-<p class="headline2">Settings</p>
-<ul>
-  <li class="text"><strong>Native mode.</strong> Can be FullScreen, Windowed or 
-    Full-window for displaying Amiga native modes.</li>
-  <li class="text"><strong>RTG<b> mode. </b></strong>Can be FullScreen, Windowed 
-    or Full-window for displaying Picasso96 Retargetable Graphics modes.</li>
-  <li class="text"><strong>Correct aspect ratio</strong> will omit certain lines 
-    of the display to make it fit better into the screen.</li>
-  <li class="text"><strong>Force Low Resolution</strong> tells UAE to omit drawing 
-    every second pixel horizontally.</li>
-  <li class="text"><strong>Filtered Low Resolution</strong> will fix incorrect 
-    colours used in games that use the super hires trick.</li>
-</ul>
-<p class="text">&nbsp;</p>
-<p class="headline2">Line Mode</p>
-<ul>
-  <li class="text"><strong>Normal</strong> draws every line once.</li>
-  <li class="text"><strong>Doubled</strong> draws every line twice. This allows
-    interlace mode to be emulated nicely, but of course you also need a display
-    that is twice as high.</li>
-  <li class="text"><strong>Scanline</strong> will not draw certain lines, leaving
-    them black.</li>
-</ul>
-<p class="text">&nbsp;</p>
-<p class="text"><strong>Centering</strong> will center the Amiga display on the
-  screen. This can be horizontally and/or vertically.</p>
-<p class="text"><strong>Refresh</strong> will set how often the screen will be 
-  updated. Useful on slower PCs or graphics cards.</p>
-<p class="text"><b>Brightness, Contrast or Gamma</b> levels can be set for the 
-  correct display set up.</p>
+<body id="bodyID" class="dtBODY">
+<div id="nsbanner">
+  <div id="bannerrow1">
+    <table class="bannerparthead" cellspacing=0>
+      <tr id="hdr">
+        <td class="runninghead" nowrap>WinUAE Documentation</td>
+        <td class="product" nowrap>&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+  <div id="TitleRow">
+    <h1 class="dtH1">Display</h1>
+  </div>
+</div>
+<div id="nstext">
+  <p class="normal">These settings allow you to choose how WinUAE will display your
+    Amiga-generated graphics. In a window, in a full-screen display, what resolution,
+    etc.</p>
+  <p align="center"><img src="display.gif" alt="WinUAE - Display"></p>
+  <p class="normal">UAE uses DirectX in order to produce the graphics-output. You
+    will need at least DirectX 8 for increased performance in Picasso96 screens.
+    See <a href="misc.htm">Misc.</a> tab. UAE's native pixel format is 16 Bit.</p>
+  <p class="normal">View the <a href="../emulation/picasso.htm">Picasso96</a> section
+    to get more information about this feature.</p>
+  <p class="normal">&nbsp;</p>
+  <h2 class="dtH2">Screen</h2>
+  <ul>
+    <li class="normal"><strong>Primary Display driver</strong> Here, you can select 
+      which graphics card you can display your Amiga screen on, useful if you have 
+      multiple monitors connected to your system.</li>
+    <li class="normal"><strong>Resolution</strong> This sets the full screen resolution 
+      (see Settings), colour depth and the Frequency (usually set to screen Default).</li>
+    <li class="normal"><strong>Windowed</strong> This lets you change the resolution 
+      used for the Amiga displayed in a Window on the PC screen.</li>
+  </ul>
+  <p class="normal">&nbsp;</p>
+  <h2 class="dtH2">Settings</h2>
+  <ul>
+    <li class="normal"><strong>Native mode.</strong> Can be FullScreen, Windowed or 
+      Full-window for displaying Amiga native modes.</li>
+    <li class="normal"><strong>RTG<b> mode. </b></strong>Can be FullScreen, Windowed 
+      or Full-window for displaying Picasso96 Retargetable Graphics modes.</li>
+    <li class="normal"><strong>Correct aspect ratio</strong> will omit certain lines 
+      of the display to make it fit better into the screen.</li>
+    <li class="normal"><strong>Force Low Resolution</strong> tells UAE to omit drawing 
+      every second pixel horizontally.</li>
+    <li class="normal"><strong>Filtered Low Resolution</strong> will fix incorrect 
+      colours used in games that use the super hires trick.</li>
+  </ul>
+  <p class="normal">&nbsp;</p>
+  <h2 class="dtH2">Line Mode</h2>
+  <ul>
+    <li class="normal"><strong>Normal</strong> draws every line once.</li>
+    <li class="normal"><strong>Doubled</strong> draws every line twice. This allows
+      interlace mode to be emulated nicely, but of course you also need a display
+      that is twice as high.</li>
+    <li class="normal"><strong>Scanline</strong> will not draw certain lines, leaving
+      them black.</li>
+  </ul>
+  <p class="normal">&nbsp;</p>
+  <p class="normal"><strong>Centering</strong> will center the Amiga display on the
+    screen. This can be horizontally and/or vertically.</p>
+  <p class="normal"><strong>Refresh</strong> will set how often the screen will be 
+    updated. Useful on slower PCs or graphics cards.</p>
+  <p class="normal"><b>Brightness, Contrast or Gamma</b> levels can be set for the 
+    correct display set up.</p>
+</div>
+<div class="footer">
+  <hr>
+  All rights reserved.</div>
 </body>
 </html>

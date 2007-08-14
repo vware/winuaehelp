@@ -1,81 +1,97 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <title>Creating a Boot Disk</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link href="../Style.css" rel="stylesheet" type="text/css">
+<link href="../Style.css" type="text/css" rel="stylesheet">
 </head>
-<body class="site">
-<p class="headline1">Creating a Boot Disk</p>
-<p class="text">You can use the following procedure to create a fresh Workbench
-  boot disk:</p>
-<ol>
-  <li class="text">Create a blank formatted disk using WinUAE
-    <ul>
-      <li class="text">Open WinUAE</li>
-      <li class="text"> Click on Floppies tab</li>
-      <li class="text"> Click 'Create Standard Floppy'</li>
-      <li class="text"> Type a filename e.g. Workbench.adf</li>
-      <li class="text"> Click Save, then Cancel WinUAE</li>
-    </ul>
-  </li>
-  <li class="text"> Install <strong>ADFView</strong> and <strong>ADFOpus </strong>(see <a href="/links.htm">Links</a>)</li>
-  <li class="text"> Locate Workbench files from either a CD, Hard file, Directory
-    or hard disk or some other locaiton</li>
-  <li class="text">Open Workbench.adf to view contents of your new ADF disk</li>
-  <li class="text"> Create the following folders and copy any .info files from
-    source folder to your Workbench.adf folders:<br>
-    <strong>S, C, L, T, Devs, System, Utilities, Libs, Expansion, Prefs, Classes,
-    Rexxc, WBStartup</strong></li>
-  <li class="text"> Copy following files from the source <strong>S</strong> directory
-    to S on your Workbench.adf:<br>
-    <strong>startup-sequence, user-startup</strong> (other files are optional)</li>
-  <li class="text"> Copy following files from the source <strong>C</strong> directory
-    to C on your Workbench.adf:<br>
-    <strong>addbuffers, adddatatypes, assign, avail, binddrivers, break, conclip,
-    copy, date, delete, dir, ed, eval, execute,<br>
-    iconx, iprefs, list, loadwb, makedir, mount, protect, relabel, rename, setclock,
-    setdate, setfont, setkeyboard,<br>
-    setpatch, version, wait, which </strong>(other commands are optional, if
-    they are used in the startup-sequence or user-startup then include them too)</li>
-  <li class="text"> Copy following files from the source <strong>Libs</strong> directory
-    to Libs on your Workbench.adf:<br>
-    <strong>amigaguide.library, asl.library, bullet.library, commodities.library,
-    datatypes,library, diskfont.library,<br>
-    iffparse.library, locale.library, lowlevel.library, mathieeedoubbas.library,
-    mathieeedoubtrans.library,<br>
-    mathieeesingtrans.library, mathtrans.library, realtime.library, rexxsupport.library,
-    rexxsyslib.library,<br>
-    version.library</strong></li>
-  <li class="text"> Copy following files from the source L directory to L on
-    your Workbench.adf<br>
-    <strong>aux-handler, CDFileSystem, CrossDosFileSystem, port-handler, queue-handler,
-    FileSystem_Trans (and contents)</strong></li>
-  <li class="text"> Copy following files from the source <strong>System</strong> directory
-    to System on your Workbench.adf (incl. .info files):<br>
-    <strong>CLI, DiskCopy, FixFonts, Format, NoFastMem, RexxMast, Shell</strong></li>
-  <li class="text"> Copy following files from the source <strong>Prefs</strong> directory
-    to Prefs on your Workbench.adf:<br>
-    Contents of <strong>env-archive </strong>and <strong>Presets</strong></li>
-  <li class="text"> Copy the following files from the source <strong>RexxC</strong> directory
-    to RexxC on your Workbench.adf<br>
-    <strong>HI, RX, RXC, RXLIB, RXSET, TCC, TCO, TE, TS, WaitForPort</strong></li>
-  <li class="text"> Copy following files from the source<strong> Devs</strong> directory
-    to Devs on your Workbench.adf<br>
-    Contents of <strong>Datatypes, DOSDrivers, Keymaps, Monitors and Printers
-    (</strong>contents should only contain what you need as this <br>
-    can take up quite a bit of disk space). Also these files: <strong>clipboard.device,
-    mfm.device, parallel.device, postscript_init.ps,<br>
-    printer.device, parallel.device</strong></li>
-  <li class="text"> Copy any additional drivers or programs you require if there
-    is still room</li>
-  <li class="text"> Now to make the disk bootable, load ADFOpus, open your Workbench.adf
-    file, then click on <strong>tools</strong> and then<br>
-    select <strong>Install (Make bootable)</strong>. Alternatively, load Workbench
-    in WinUAE, open a shell, and type <strong>Install Df0:</strong> where<br>
-    DF0: drive contains your Workbench.adf</li>
-</ol>
-<p class="text">To test the file, insert the Workbench.adf in DF0: and try to
-  boot WinUAE from it. It should boot and load Workbench.</p>
+<body id="bodyID" class="dtBODY">
+<div id="nsbanner">
+  <div id="bannerrow1">
+    <table class="bannerparthead" cellspacing=0>
+      <tr id="hdr">
+        <td class="runninghead" nowrap>WinUAE Documentation</td>
+        <td class="product" nowrap>&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+  <div id="TitleRow">
+    <h1 class="dtH1">Creating a Boot Disk</h1>
+  </div>
+</div>
+<div id="nstext">
+  <p class="normal">You can use the following procedure to create a fresh Workbench
+    boot disk:</p>
+  <ol>
+    <li class="normal">Create a blank formatted disk using WinUAE
+      <ul>
+        <li class="normal">Open WinUAE</li>
+        <li class="normal"> Click on Floppies tab</li>
+        <li class="normal"> Click 'Create Standard Floppy'</li>
+        <li class="normal"> Type a filename e.g. Workbench.adf</li>
+        <li class="normal"> Click Save, then Cancel WinUAE</li>
+      </ul>
+    </li>
+    <li class="normal"> Install <strong>ADFView</strong> and <strong>ADFOpus </strong>(see <a href="/links.htm">Links</a>)</li>
+    <li class="normal"> Locate Workbench files from either a CD, Hard file, Directory
+      or hard disk or some other locaiton</li>
+    <li class="normal">Open Workbench.adf to view contents of your new ADF disk</li>
+    <li class="normal"> Create the following folders and copy any .info files from
+      source folder to your Workbench.adf folders:<br>
+      <strong>S, C, L, T, Devs, System, Utilities, Libs, Expansion, Prefs, Classes,
+      Rexxc, WBStartup</strong></li>
+    <li class="normal"> Copy following files from the source <strong>S</strong> directory
+      to S on your Workbench.adf:<br>
+      <strong>startup-sequence, user-startup</strong> (other files are optional)</li>
+    <li class="normal"> Copy following files from the source <strong>C</strong> directory
+      to C on your Workbench.adf:<br>
+      <strong>addbuffers, adddatatypes, assign, avail, binddrivers, break, conclip,
+      copy, date, delete, dir, ed, eval, execute,<br>
+      iconx, iprefs, list, loadwb, makedir, mount, protect, relabel, rename, setclock,
+      setdate, setfont, setkeyboard,<br>
+      setpatch, version, wait, which </strong>(other commands are optional, if
+      they are used in the startup-sequence or user-startup then include them too)</li>
+    <li class="normal"> Copy following files from the source <strong>Libs</strong> directory
+      to Libs on your Workbench.adf:<br>
+      <strong>amigaguide.library, asl.library, bullet.library, commodities.library,
+      datatypes,library, diskfont.library,<br>
+      iffparse.library, locale.library, lowlevel.library, mathieeedoubbas.library,
+      mathieeedoubtrans.library,<br>
+      mathieeesingtrans.library, mathtrans.library, realtime.library, rexxsupport.library,
+      rexxsyslib.library,<br>
+      version.library</strong></li>
+    <li class="normal"> Copy following files from the source L directory to L on
+      your Workbench.adf<br>
+      <strong>aux-handler, CDFileSystem, CrossDosFileSystem, port-handler, queue-handler,
+      FileSystem_Trans (and contents)</strong></li>
+    <li class="normal"> Copy following files from the source <strong>System</strong> directory
+      to System on your Workbench.adf (incl. .info files):<br>
+      <strong>CLI, DiskCopy, FixFonts, Format, NoFastMem, RexxMast, Shell</strong></li>
+    <li class="normal"> Copy following files from the source <strong>Prefs</strong> directory
+      to Prefs on your Workbench.adf:<br>
+      Contents of <strong>env-archive </strong>and <strong>Presets</strong></li>
+    <li class="normal"> Copy the following files from the source <strong>RexxC</strong> directory
+      to RexxC on your Workbench.adf<br>
+      <strong>HI, RX, RXC, RXLIB, RXSET, TCC, TCO, TE, TS, WaitForPort</strong></li>
+    <li class="normal"> Copy following files from the source<strong> Devs</strong> directory
+      to Devs on your Workbench.adf<br>
+      Contents of <strong>Datatypes, DOSDrivers, Keymaps, Monitors and Printers
+      (</strong>contents should only contain what you need as this <br>
+      can take up quite a bit of disk space). Also these files: <strong>clipboard.device,
+      mfm.device, parallel.device, postscript_init.ps,<br>
+      printer.device, parallel.device</strong></li>
+    <li class="normal"> Copy any additional drivers or programs you require if there
+      is still room</li>
+    <li class="normal"> Now to make the disk bootable, load ADFOpus, open your Workbench.adf
+      file, then click on <strong>tools</strong> and then<br>
+      select <strong>Install (Make bootable)</strong>. Alternatively, load Workbench
+      in WinUAE, open a shell, and type <strong>Install Df0:</strong> where<br>
+      DF0: drive contains your Workbench.adf</li>
+  </ol>
+  <p class="normal">To test the file, insert the Workbench.adf in DF0: and try to
+    boot WinUAE from it. It should boot and load Workbench.</p>
+</div>
+<div class="footer">
+  <hr>
+  All rights reserved.</div>
 </body>
 </html>

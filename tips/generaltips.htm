@@ -1,198 +1,213 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <title>Hints For Power Users</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link href="../Style.css" rel="stylesheet" type="text/css">
+<link href="../Style.css" type="text/css" rel="stylesheet">
 </head>
-<body class="site">
-<p class="headline1">Hints For Power Users</p>
-<p class="text">&nbsp;</p>
-<p class="headline2">Some tips to get happier with WinUAE</p>
-<p class="headline3">Adjust the CPU Idle slider to save Money</p>
-<p class="text">Modern CPUs save much power when they have nothing to do, for
-  example you write a text or work with your workbench hear MP3 music. A AMD64
-  CPU in IDLE mode consumes 10 Watts. In full load mode, it uses 83 Watt. A P4
-  Prescot with E0 Stepping also has the ability to save a lot of power. A Athlon
-  XP must disconnect the system bus. In ost BIOS settings, this option is disabled,
-  because old CPUs have bugs in this feature. You may try and activate it, if
-  your system works stable.<br>
-  Using the CPU IDLE feature saves you money, allows for lower opterating temperatures,
-  and (if your fans are temperature controlled) less noise.</p>
-<p class="text">In the <a href="../gui/cpu.htm">CPU tab</a> you can choose the
-  optimal value for power saving. The CPU must be set to fastest possible in
-  A500 mode. You must set the slider so far right, so that the Windows Task Manager
-  shows about 10-15% CPU load. If you set it more right, you save more CPU load,
-  but WinUAE will run generally slower. But if you are on the road with a notebook
-  it may be a good choice to sacrifice speed for longer runtime. You can avoid
-  the clock being incorrect using the <a href="amigaprogs.htm">timehack program</a>.</p>
-<p class="text">&nbsp;</p>
-<p class="headline3">Printing with WinUAE</p>
-<p class="text">Currently, there are 2 ways to print with WinUAE:</p>
-<ul>
-  <li class="text">For the same way as classic a Amiga, you can set a parallel
-    printer in the WinUAE settings tab <a href="../gui/ports.htm">Game &amp; I/O
-    Ports</a>. Make sure Postscript&nbsp; detection and Post Script Printer Emulation
-    are not checked. If you use Windows 2000/XP, set the autoflush timeout to
-    2. Now you can save your config and can start WinUAE and do the rest on the
-    Amiga. If you use turboprint, do not use the turboprint spooler and chose
-    parallel port or turbopar for the print device. If you print something you
-    should see an entry in the Windows printer spooler.</li>
-  <li class="text">If you have a printer that the Amiga does not support, you
-    can choose the Postscript output. For this you need to install GhostScript
-    for Windows. In WinUAE, select the printer and check on&nbsp; Postscript&nbsp; detection
-    and Post Script Printer Emulation. Note: You can not change these settings
-    on the fly (when you press F12 during emulation).<br>
-    Boot your emulated Amiga. There is a large probability that turboprint does
-    not work with these printer settings, and prints out an empty page instead.<br>
-    Remove turbostart if you have it and chose the Workbench Postscript Printer.
-    Please note that the OS3.5 and OS3.9 drivers crash when you use greyscale
-    or black and white. Choose color instead. Set it on all printer prefs pages.
-    You can chose the real output format with the windows printer preferences.<br>
-    Note: Most of the time it is enough to use the Workbench printer with 300
-    dpi. Higher resolutions may not produce an visible advantage, but definitely
-    cost time and space.<br>
-    The printer must dither colors, so it is important here to chose 600 or 1200
-    dpi on the Windows side.<br>
-    If you really want greyscale and Black&amp;White from the Amiga side, use
-    the driver from OS3.1 which works. The OS3.5 and OS3.9 driver seem to have
-    a compiler Bug, and this function also does not work on real Amigas.</li>
-</ul>
-<p class="text">&nbsp;</p>
-<p class="headline3">The uae_german keymap does not support µ or € Symbols</p>
-<p class="text">Recommend is the use of german_keymap_new.zip and set input other
-  then compatibility Mode.This map is perfect compatible.For Euro you need of
-  course a character set that support Euro Symbol, but work not in compatibility
-  mode.See also the readme of it. Works only on 0.9.90 and above.</p>
-<p class="text">&nbsp;</p>
-<p class="headline3">Using a Mousewheel</p>
-<p class="text">This work same as real amiga.Use the tool Freewheel from AmiNet.</p>
-<p class="text">&nbsp;</p>
-<p class="headline3">WinUAE does not accept my hardfiles or show only CLI with
-  my always used config</p>
-<p class="text">This happens if a second instance of WinUAE is running. It is
-  not allowed to use the same hardfile with multiple WinUAE sessions at the same
-  time. In very rare situations a very bad Amiga program crash could happen and
-  prevent WinUAE from releasing the hardfile. So you can not load it in when
-  you quit and start WinUAE. In this case, free the handle to the file manually
-  or reboot Windows. If WinUAE takes long to boot you can switch on drive LEDs
-  in the GUI. If the harddrive LED is on you know the hardfile is valid.</p>
-<p class="text">&nbsp;</p>
-<p class="headline3">After resuming from hybernate state, the Amiga Clock shows
-  the wrong time</p>
-<p class="text">Use the <a href="amigaprogs.htm">amiga program</a> timehack.
-  This is maybe also useful if you throttled CPU idle too much because time can
-  then run 3-10% slower.</p>
-<p class="text">&nbsp;</p>
-<p class="headline3">How to make custom screen resolutions for WinUAE</p>
-<p class="text">Powerstrip works OK now since Version 3.3 and nVidia drivers
-  version 40 or later, so please make sure you are using the latest version of
-  Powerstrip and nVidia drivers.</p>
-<p class="text">Create the modes:</p>
-<ul>
-  <li class="text">Change into the menu displayprofile -&gt; configure</li>
-  <li class="text">Click advanced timing options -&gt; custom resolutions -&gt; user
-    defined</li>
-  <li class="text">Set desired values and reboot windows if necessary</li>
-</ul>
-<p class="text">It is also possible to create interlaced doublescan resolutions
-  in this menu.</p>
-<p class="text">&nbsp;</p>
-<p class="headline3">Using a real Amiga formatTeD Harddrive in WinUAE</p>
-<p class="text">This can be done in the <a href="../gui/hard-drives.htm">harddrive
+<body id="bodyID" class="dtBODY">
+<div id="nsbanner">
+  <div id="bannerrow1">
+    <table class="bannerparthead" cellspacing=0>
+      <tr id="hdr">
+        <td class="runninghead" nowrap>WinUAE Documentation</td>
+        <td class="product" nowrap>&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+  <div id="TitleRow">
+    <h1 class="dtH1">Hints For Power Users</h1>
+  </div>
+</div>
+<div id="nstext">
+  <h2 class="dtH2">Some tips to get happier with WinUAE</h2>
+  <h3 class="dtH3">Adjust the CPU Idle slider to save Money</h3>
+  <p class="normal">Modern CPUs save much power when they have nothing to do, for
+    example you write a text or work with your workbench hear MP3 music. A AMD64
+    CPU in IDLE mode consumes 10 Watts. In full load mode, it uses 83 Watt. A P4
+    Prescot with E0 Stepping also has the ability to save a lot of power. A Athlon
+    XP must disconnect the system bus. In ost BIOS settings, this option is disabled,
+    because old CPUs have bugs in this feature. You may try and activate it, if
+    your system works stable.<br>
+    Using the CPU IDLE feature saves you money, allows for lower opterating temperatures,
+    and (if your fans are temperature controlled) less noise.</p>
+  <p class="normal">In the <a href="../gui/cpu.htm">CPU tab</a> you can choose the
+    optimal value for power saving. The CPU must be set to fastest possible in
+    A500 mode. You must set the slider so far right, so that the Windows Task Manager
+    shows about 10-15% CPU load. If you set it more right, you save more CPU load,
+    but WinUAE will run generally slower. But if you are on the road with a notebook
+    it may be a good choice to sacrifice speed for longer runtime. You can avoid
+    the clock being incorrect using the <a href="amigaprogs.htm">timehack program</a>.</p>
+  <p class="normal">&nbsp;</p>
+  <h3 class="dtH3">Printing with WinUAE</h3>
+  <p class="normal">Currently, there are 2 ways to print with WinUAE:</p>
+  <ul>
+    <li class="normal">For the same way as classic a Amiga, you can set a parallel
+      printer in the WinUAE settings tab <a href="../gui/ports.htm">Game &amp; I/O
+      Ports</a>. Make sure Postscript&nbsp; detection and Post Script Printer Emulation
+      are not checked. If you use Windows 2000/XP, set the autoflush timeout to
+      2. Now you can save your config and can start WinUAE and do the rest on the
+      Amiga. If you use turboprint, do not use the turboprint spooler and chose
+      parallel port or turbopar for the print device. If you print something you
+      should see an entry in the Windows printer spooler.</li>
+    <li class="normal">If you have a printer that the Amiga does not support, you
+      can choose the Postscript output. For this you need to install GhostScript
+      for Windows. In WinUAE, select the printer and check on&nbsp; Postscript&nbsp; detection
+      and Post Script Printer Emulation. Note: You can not change these settings
+      on the fly (when you press F12 during emulation).<br>
+      Boot your emulated Amiga. There is a large probability that turboprint does
+      not work with these printer settings, and prints out an empty page instead.<br>
+      Remove turbostart if you have it and chose the Workbench Postscript Printer.
+      Please note that the OS3.5 and OS3.9 drivers crash when you use greyscale
+      or black and white. Choose color instead. Set it on all printer prefs pages.
+      You can chose the real output format with the windows printer preferences.<br>
+      Note: Most of the time it is enough to use the Workbench printer with 300
+      dpi. Higher resolutions may not produce an visible advantage, but definitely
+      cost time and space.<br>
+      The printer must dither colors, so it is important here to chose 600 or 1200
+      dpi on the Windows side.<br>
+      If you really want greyscale and Black&amp;White from the Amiga side, use
+      the driver from OS3.1 which works. The OS3.5 and OS3.9 driver seem to have
+      a compiler Bug, and this function also does not work on real Amigas.</li>
+  </ul>
+  <p class="normal">&nbsp;</p>
+  <h3 class="dtH3">The uae_german keymap does not support µ or € Symbols</h3>
+  <p class="normal">Recommend is the use of german_keymap_new.zip and set input other
+    then compatibility Mode.This map is perfect compatible.For Euro you need of
+    course a character set that support Euro Symbol, but work not in compatibility
+    mode.See also the readme of it. Works only on 0.9.90 and above.</p>
+  <p class="normal">&nbsp;</p>
+  <h3 class="dtH3">Using a Mousewheel</h3>
+  <p class="normal">This work same as real amiga.Use the tool Freewheel from AmiNet.</p>
+  <p class="normal">&nbsp;</p>
+  <h3 class="dtH3">WinUAE does not accept my hardfiles or show only CLI with
+    my always used config</h3>
+  <p class="normal">This happens if a second instance of WinUAE is running. It is
+    not allowed to use the same hardfile with multiple WinUAE sessions at the same
+    time. In very rare situations a very bad Amiga program crash could happen and
+    prevent WinUAE from releasing the hardfile. So you can not load it in when
+    you quit and start WinUAE. In this case, free the handle to the file manually
+    or reboot Windows. If WinUAE takes long to boot you can switch on drive LEDs
+    in the GUI. If the harddrive LED is on you know the hardfile is valid.</p>
+  <p class="normal">&nbsp;</p>
+  <h3 class="dtH3">After resuming from hybernate state, the Amiga Clock shows
+    the wrong time</h3>
+  <p class="normal">Use the <a href="amigaprogs.htm">amiga program</a> timehack.
+    This is maybe also useful if you throttled CPU idle too much because time can
+    then run 3-10% slower.</p>
+  <p class="normal">&nbsp;</p>
+  <h3 class="dtH3">How to make custom screen resolutions for WinUAE</h3>
+  <p class="normal">Powerstrip works OK now since Version 3.3 and nVidia drivers
+    version 40 or later, so please make sure you are using the latest version of
+    Powerstrip and nVidia drivers.</p>
+  <p class="normal">Create the modes:</p>
+  <ul>
+    <li class="normal">Change into the menu displayprofile -&gt; configure</li>
+    <li class="normal">Click advanced timing options -&gt; custom resolutions -&gt; user
+      defined</li>
+    <li class="normal">Set desired values and reboot windows if necessary</li>
+  </ul>
+  <p class="normal">It is also possible to create interlaced doublescan resolutions
+    in this menu.</p>
+  <p class="normal">&nbsp;</p>
+  <h3 class="dtH3">Using a real Amiga formatTeD Harddrive in WinUAE</h3>
+  <p class="normal">This can be done in the <a href="../gui/hard-drives.htm">harddrive
     page</a> in the GUI. If there is no drive listed, it is possible that this
     drive has no Amiga/Amithlon Partition. Note that this feature is not available
     in Windows 9x/ME environments.</p>
-<p class="text">&nbsp;</p>
-<p class="headline3">I have several damaged Amigas - can i use the kickstart
-  from them?</p>
-<p class="text">Follow the instructions on the <a href="../started/transrom.htm">Transrom</a> page.</p>
-<p class="text">&nbsp;</p>
-<p class="headline3">Using other filesystems on Hardfiles (SFS tested)</p>
-<p class="text">Create a Hardfile. For use with HDToolbox you must set the Sector
-  Surface and Reserved numbers to 0. The volume name should show N/A. Make a
-  hdtoolsbox Icon with device=uaehf.device. Now do all steps like with a real
-  Amiga with HDToolsBox..</p>
-<p class="text">&nbsp;</p>
-<p class="headline3"> The mouse pointer freezes sometimes and I have to reboot</p>
-<p class="text">Make sure you have the serial port enabled and correctly configured.
-  Also, make sure the &quot;Shared&quot; checkbox is checked to loose no speed.</p>
-<p class="text">&nbsp;</p>
-<p class="headline3">Differences of CD drivers </p>
-<p class="text">AsimCDFS:</p>
-<ul>
-  <li class="text">Fails if you mount more than 1 CD drive (all devices show
-    the same CD content)</li>
-  <li class="text">Seems to be a bug in AsimCDFS, because it happens on real
-    Amigas as well</li>
-</ul>
-<p class="text">cacheCDFS:</p>
-<ul>
-  <li class="text">Set the MaxTransfer size to 0x10000 (65 kb) in the mountfile</li>
-  <li class="text">This make cacheCDFS working and not display the read/write
-    error Requesters</li>
-</ul>
-<p class="text">&nbsp;</p>
-<p class="headline3"> Get UAE working in every dir/drive without changing configs</p>
-<p class="text">Make use of relative pathes to realize this.</p>
-<p class="text">Example:<br>
-  WinUAE is in C:\Amiga\WinUAE, and Kickstart ROMs are in C:\Amiga\Kickstart.<br>
-  For the kickstart path, enter ..\Kickstart.</p>
-<p class="text">&nbsp;</p>
-<p class="headline3"> UAE doesn't boot due to Picasso96 failure (Picasso96 is
-  extremely slow)</p>
-<p class="text">Start UAE and immediately press both Mousebuttons when the main
-  window is shown. In the Amiga Early Startup select &quot;Boot without Startup-Sequence&quot;.
-  Now remove or move the uaegfx file in devs:monitors. Start UAE, now the Workbench
-  shows up. Just select a AmigaMode Save and copy uaegfx to devs/monitors again.
-  If this should fail, reinstall Picasso96.</p>
-<p class="text">Don't forget to copy the rtg.library file, which can be found
-  in the AmigaPrograms directory, to libs:picasso96.This&nbsp; is important for
-  full speed of WinUAE.</p>
-<p class="text">&nbsp;</p>
-<p class="headline3">A chipset Mode that UAE does not display makes UAE fail</p>
-<p class="text">OS 3.1:</p>
-<ul>
-  <li class="text">Boot without aStartup-Sequence (from Amiga Early Startup menu),
-    type loadwb in the CLI, and press &quot;Cancel&quot; on the &quot;ENV:&quot; warnings</li>
-  <li class="text">Start the screenmode selector</li>
-  <li class="text">Select a standard PAL mode. Save it, reboot and select your
-    preferred mode</li>
-</ul>
-<p class="text"> OS 3.5/3.9:</p>
-<ul>
-  <li class="text">Copy an old Screenmode prefs program from 3.1 to your HD,
-    because the new one will not work this way.</li>
-</ul>
-<p class="text">&nbsp;</p>
-<p class="headline3">UAE shows a green screen on boot</p>
-<p class="text">Go to the <a href="../gui/cpu.htm">CPU page</a> and select <span class="textmenu">JIT
+  <p class="normal">&nbsp;</p>
+  <h3 class="dtH3">I have several damaged Amigas - can i use the kickstart
+    from them?</h3>
+  <p class="normal">Follow the instructions on the <a href="../started/transrom.htm">Transrom</a> page.</p>
+  <p class="normal">&nbsp;</p>
+  <h3 class="dtH3">Using other filesystems on Hardfiles (SFS tested)</h3>
+  <p class="normal">Create a Hardfile. For use with HDToolbox you must set the Sector
+    Surface and Reserved numbers to 0. The volume name should show N/A. Make a
+    hdtoolsbox Icon with device=uaehf.device. Now do all steps like with a real
+    Amiga with HDToolsBox..</p>
+  <p class="normal">&nbsp;</p>
+  <h3 class="dtH3"> The mouse pointer freezes sometimes and I have to reboot</h3>
+  <p class="normal">Make sure you have the serial port enabled and correctly configured.
+    Also, make sure the &quot;Shared&quot; checkbox is checked to loose no speed.</p>
+  <p class="normal">&nbsp;</p>
+  <h3 class="dtH3">Differences of CD drivers</h3>
+  <p class="normal">AsimCDFS:</p>
+  <ul>
+    <li class="normal">Fails if you mount more than 1 CD drive (all devices show
+      the same CD content)</li>
+    <li class="normal">Seems to be a bug in AsimCDFS, because it happens on real
+      Amigas as well</li>
+  </ul>
+  <p class="normal">cacheCDFS:</p>
+  <ul>
+    <li class="normal">Set the MaxTransfer size to 0x10000 (65 kb) in the mountfile</li>
+    <li class="normal">This make cacheCDFS working and not display the read/write
+      error Requesters</li>
+  </ul>
+  <p class="normal">&nbsp;</p>
+  <h3 class="dtH3">Get UAE working in every dir/drive without changing configs</h3>
+  <p class="normal">Make use of relative pathes to realize this.</p>
+  <p class="normal">Example:<br>
+    WinUAE is in C:\Amiga\WinUAE, and Kickstart ROMs are in C:\Amiga\Kickstart.<br>
+    For the kickstart path, enter ..\Kickstart.</p>
+  <p class="normal">&nbsp;</p>
+  <h3 class="dtH3">UAE doesn't boot due to Picasso96 failure (Picasso96 is
+    extremely slow)</h3>
+  <p class="normal">Start UAE and immediately press both Mousebuttons when the main
+    window is shown. In the Amiga Early Startup select &quot;Boot without Startup-Sequence&quot;.
+    Now remove or move the uaegfx file in devs:monitors. Start UAE, now the Workbench
+    shows up. Just select a AmigaMode Save and copy uaegfx to devs/monitors again.
+    If this should fail, reinstall Picasso96.</p>
+  <p class="normal">Don't forget to copy the rtg.library file, which can be found
+    in the AmigaPrograms directory, to libs:picasso96.This&nbsp; is important for
+    full speed of WinUAE.</p>
+  <p class="normal">&nbsp;</p>
+  <h3 class="dtH3">A chipset Mode that UAE does not display makes UAE fail</h3>
+  <p class="normal">OS 3.1:</p>
+  <ul>
+    <li class="normal">Boot without aStartup-Sequence (from Amiga Early Startup menu),
+      type loadwb in the CLI, and press &quot;Cancel&quot; on the &quot;ENV:&quot; warnings</li>
+    <li class="normal">Start the screenmode selector</li>
+    <li class="normal">Select a standard PAL mode. Save it, reboot and select your
+      preferred mode</li>
+  </ul>
+  <p class="normal">OS 3.5/3.9:</p>
+  <ul>
+    <li class="normal">Copy an old Screenmode prefs program from 3.1 to your HD,
+      because the new one will not work this way.</li>
+  </ul>
+  <p class="normal">&nbsp;</p>
+  <h3 class="dtH3">UAE shows a green screen on boot</h3>
+  <p class="normal">Go to the <a href="../gui/cpu.htm">CPU page</a> and select <span class="textmenu">JIT
     -&gt; Force Settings</span> and <span class="textmenu">Indirect Mode</span> or
     disable JIT completely.</p>
-<p class="text">&nbsp;</p>
-<p class="headline3">The folder &quot;displaydrivers&quot;</p>
-<p class="text">These are the picasso96 UAE drivers. Just ignore the drawer.
-  The latest Picasso96 installer has correctly working display drivers included.</p>
-<p class="text">&nbsp;</p>
-<p class="headline3">Tips for Tuning or random crashes</p>
-<ul>
-  <li class="text">If you have an old HD (500MB), install a pure Windows for
-    testing purposes. Does the program work?</li>
-  <li class="text">Overclock your PC by 10% by using the bus clock. If it works
-    correctly your PC seems to be stable. If it works for 4 minutes, it seems
-    to be stable, too. If it doesn't work, try downclock it. Less crashes?</li>
-  <li class="text">A problem on non UDMA HD is that PIO4 or SCSI have no transfer
-    error detection. So try to let your PC run on PIO3 (DMA still works) a month
-    or so. The speed loss is not measurable in daily use, because Windows normally
-    transfers small blocks. Less crashes?</li>
-  <li class="text">You can install Sysmon by using the Windows installer. With
-    this tooly you can see how many kB/sec are transferred and how much memory
-    a program uses. So you see if the the program is slow is related to the memory.
-    Normally the allocated memory should not exceed your physical memory by more
-    than 30 MB. If so, you can increase speed by using more memory.</li>
-  <li class="text">I found out that, large drives are better than drives with
-    high RPM. A 9 GB 10000 RPM SCSI drive is slower than a 40GB 7200 RPM IDE
-    drive, if you use the same partition size.</li>
-</ul>
+  <p class="normal">&nbsp;</p>
+  <h3 class="dtH3">The folder &quot;displaydrivers&quot;</h3>
+  <p class="normal">These are the picasso96 UAE drivers. Just ignore the drawer.
+    The latest Picasso96 installer has correctly working display drivers included.</p>
+  <p class="normal">&nbsp;</p>
+  <h3 class="dtH3">Tips for Tuning or random crashes</h3>
+  <ul>
+    <li class="normal">If you have an old HD (500MB), install a pure Windows for
+      testing purposes. Does the program work?</li>
+    <li class="normal">Overclock your PC by 10% by using the bus clock. If it works
+      correctly your PC seems to be stable. If it works for 4 minutes, it seems
+      to be stable, too. If it doesn't work, try downclock it. Less crashes?</li>
+    <li class="normal">A problem on non UDMA HD is that PIO4 or SCSI have no transfer
+      error detection. So try to let your PC run on PIO3 (DMA still works) a month
+      or so. The speed loss is not measurable in daily use, because Windows normally
+      transfers small blocks. Less crashes?</li>
+    <li class="normal">You can install Sysmon by using the Windows installer. With
+      this tooly you can see how many kB/sec are transferred and how much memory
+      a program uses. So you see if the the program is slow is related to the memory.
+      Normally the allocated memory should not exceed your physical memory by more
+      than 30 MB. If so, you can increase speed by using more memory.</li>
+    <li class="normal">I found out that, large drives are better than drives with
+      high RPM. A 9 GB 10000 RPM SCSI drive is slower than a 40GB 7200 RPM IDE
+      drive, if you use the same partition size.</li>
+  </ul>
+</div>
+<div class="footer">
+  <hr>
+  All rights reserved.</div>
 </body>
 </html>

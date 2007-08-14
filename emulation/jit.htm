@@ -1,57 +1,73 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <title>JIT - Just In Time</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link href="../Style.css" rel="stylesheet" type="text/css">
+<link href="../Style.css" type="text/css" rel="stylesheet">
 </head>
-<body class="site">
-<p class="headline1">JIT - Just In Time</p>
-<p class="text">UAE has always been hampered by being somewhat lacking in CPU
-  performance.<br>
-  Undoubtedly, it was amazingly fast for what it did, but it never really was
-  an alternative to a decked out, no expense spared Amiga. The Just In Time compiler
-  should help change that.</p>
-<p class="text">UAE can now emulate the CPU at considerably more than 060 speeds.
-  That should do for a while - although further speedups are still possible.</p>
-<p class="text">A description of what the settings will cause the JIT compiler to do:</p>
-<p class="text"><strong>Cache Size:</strong> The size (in kB) the JIT compiler
-  uses to store pretranslated code. When this becomes full, or when the OS issues
-  a flush icache instruction, this gets completely emptied, and then refilled
-  during execution. Setting it to 0 will disable the JIT compiler.</p>
-<p class="text"><strong>Const Jump:</strong> If this enabled, unconditional branches
-  will not end a block. Effectively, UAE-JIT compiles &quot;through&quot; them.
-  Generally, that's a good idea, as it improves performance.<br>
-  However, it makes soft cache flushing impossible for some blocks, so if you
-  experience lots and lots of soft cache flushes (e.g. when using a Mac emulator),
-  you might try &quot;no&quot; and see whether it does any better.</p>
-<p class="text"><strong>FPU Support:</strong> If this is enabled, the JIT compiler
-  will be used for the most commonly used FPU instructions. Unchecking this option
-  will disable JIT-compiling for the FPU.</p>
-<p class="text"><strong>Force Settings:</strong> Will force the JIT compiler
-  to work with the method the user chooses.</p>
-<p class="text"><strong>Direct, Indirect, After Picasso:</strong> These describe
-  how aggressive to be when it comes to accessing Amiga memory. If you choose &quot;Direct&quot;,
-  the emulation will be very aggressive. If you choose &quot;Indirect&quot;,
-  the emulation will always use the slower but safe method. &quot;AfterPic&quot; uses
-  the safe method until the first time a Picasso96 mode is switched on, and the
-  aggressive method<br>
-  from then on. Unless you are not using P96 graphics, there isn't much point
-  setting this to &quot;direct&quot;. During the startup, weird and wonderful
-  things happen in the Amiga, and only having faith in the aggressive method
-  once that difficult time is over is certainly a wise thing to do.</p>
-<p class="text"><strong>No Flags:</strong> Whether to optimize away flag generation
-  when it isn't needed. There really shouldn't be any reason why you'd want to
-  disable this option. If you find something that<br>
-  works with &quot;no&quot; and doesn't with &quot;yes&quot;, it most likely
-  is a bug and you should <a href="../credits/contrib.htm">report</a> it.</p>
-<p class="text"><strong>Hard Flush:</strong> If this is unchecked, an OS induced
-  icache flush doesn't actually empty the cache, but instead checksumming will
-  be used to check whether blocks have to be discarded. You'll probably want
-  to leave this at its default (otherwise lots of stuff, like the OS, gets translated
-  over and over).</p>
-<p>&nbsp;</p>
-<p class="text">The JIT patch was developed by Bernd &quot;Bernie&quot; Meyer,
-  this description is a slightly edited and very shortened version of his documentation.</p>
+<body id="bodyID" class="dtBODY">
+<div id="nsbanner">
+  <div id="bannerrow1">
+    <table class="bannerparthead" cellspacing=0>
+      <tr id="hdr">
+        <td class="runninghead" nowrap>WinUAE Documentation</td>
+        <td class="product" nowrap>&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+  <div id="TitleRow">
+    <h1 class="dtH1">JIT - Just In Time</h1>
+  </div>
+</div>
+<div id="nstext">
+  <p class="normal">UAE has always been hampered by being somewhat lacking in CPU
+    performance.<br>
+    Undoubtedly, it was amazingly fast for what it did, but it never really was
+    an alternative to a decked out, no expense spared Amiga. The Just In Time compiler
+    should help change that.</p>
+  <p class="normal">UAE can now emulate the CPU at considerably more than 060 speeds.
+    That should do for a while - although further speedups are still possible.</p>
+  <p class="normal">A description of what the settings will cause the JIT compiler to do:</p>
+  <p class="normal"><strong>Cache Size:</strong> The size (in kB) the JIT compiler
+    uses to store pretranslated code. When this becomes full, or when the OS issues
+    a flush icache instruction, this gets completely emptied, and then refilled
+    during execution. Setting it to 0 will disable the JIT compiler.</p>
+  <p class="normal"><strong>Const Jump:</strong> If this enabled, unconditional branches
+    will not end a block. Effectively, UAE-JIT compiles &quot;through&quot; them.
+    Generally, that's a good idea, as it improves performance.<br>
+    However, it makes soft cache flushing impossible for some blocks, so if you
+    experience lots and lots of soft cache flushes (e.g. when using a Mac emulator),
+    you might try &quot;no&quot; and see whether it does any better.</p>
+  <p class="normal"><strong>FPU Support:</strong> If this is enabled, the JIT compiler
+    will be used for the most commonly used FPU instructions. Unchecking this option
+    will disable JIT-compiling for the FPU.</p>
+  <p class="normal"><strong>Force Settings:</strong> Will force the JIT compiler
+    to work with the method the user chooses.</p>
+  <p class="normal"><strong>Direct, Indirect, After Picasso:</strong> These describe
+    how aggressive to be when it comes to accessing Amiga memory. If you choose &quot;Direct&quot;,
+    the emulation will be very aggressive. If you choose &quot;Indirect&quot;,
+    the emulation will always use the slower but safe method. &quot;AfterPic&quot; uses
+    the safe method until the first time a Picasso96 mode is switched on, and the
+    aggressive method<br>
+    from then on. Unless you are not using P96 graphics, there isn't much point
+    setting this to &quot;direct&quot;. During the startup, weird and wonderful
+    things happen in the Amiga, and only having faith in the aggressive method
+    once that difficult time is over is certainly a wise thing to do.</p>
+  <p class="normal"><strong>No Flags:</strong> Whether to optimize away flag generation
+    when it isn't needed. There really shouldn't be any reason why you'd want to
+    disable this option. If you find something that<br>
+    works with &quot;no&quot; and doesn't with &quot;yes&quot;, it most likely
+    is a bug and you should <a href="../credits/contrib.htm">report</a> it.</p>
+  <p class="normal"><strong>Hard Flush:</strong> If this is unchecked, an OS induced
+    icache flush doesn't actually empty the cache, but instead checksumming will
+    be used to check whether blocks have to be discarded. You'll probably want
+    to leave this at its default (otherwise lots of stuff, like the OS, gets translated
+    over and over).</p>
+  <p>&nbsp;</p>
+  <p class="normal">The JIT patch was developed by Bernd &quot;Bernie&quot; Meyer,
+    this description is a slightly edited and very shortened version of his documentation.</p>
+</div>
+<div class="footer">
+  <hr>
+  All rights reserved.</div>
 </body>
 </html>

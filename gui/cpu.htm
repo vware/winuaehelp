@@ -1,76 +1,92 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <title>CPU and FPU</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link href="../Style.css" rel="stylesheet" type="text/css">
+<link href="../Style.css" type="text/css" rel="stylesheet">
 </head>
-<body class="site">
-<p class="headline1">CPU Settings</p>
-<p class="text">These settings control the type of Motorola 680x0 CPU which will 
-  be emulated.</p>
-<p align="center"><img src="cpu.gif" alt="Winuae - CPU"></p>
-<p class="headline2">CPU Type</p>
-<ul>
-  <li class="text"><strong>68000</strong> is the basic CPU type, as found in the 
-    Amiga 500, 1000, and 2000 models.</li>
-  <li class="text"><strong>68010</strong> is a slightly more advanced 68K member, 
-    but never actually shipped in a real Amiga.</li>
-  <li class="text"><strong>68020</strong> is a much more advanced 68K CPU, with 
-    some new instructions, and a fully 32-bit engine. Used in the A2500 for brief 
-    period on the A2520 card. If 24 bit addressing is enabled, it is the same 
-    as th 68EC020 chip in the A1200.</li>
-  <li class="text"><strong>68030</strong> This is a mid range CPU used in the 
-    A3000 and low end A4000s.</li>
-  <li class="text"><strong>68040</strong> is the top CPU provided with the A4000 
-    desktop computer</li>
-  <li class="text"><strong>68060 </strong>is the top end CPU mainly provided on 
-    accelerator cards and the A4000T. It requires the 68060.library installed 
-    before using.<br>
-  </li>
-</ul>
-<p class="text"><b>24 bit addressing</b> is used mainly by the <b>68EC020 </b>CPU 
-  such as the A1200.</p>
-<p class="text"><strong>More compatible</strong> is only available when the CPU 
-  type is a <strong>68000</strong>. Some games and demos require this setting 
-  for proper compatibility.</p>
-<p class="text"><strong>JIT</strong> can be enabled to access the Advanced JIT 
-  settings if the 68030 or better is selected (See below).</p>
-<p class="headline2">FPU</p>
-<ul>
-  <li class="text"><strong>None.</strong> No FPU is provided, this is the only 
-    option for the 68000 and 68010.</li>
-  <li class="text"><strong>68881.</strong> Can be specified with the 68020 and 
-    68030.</li>
-  <li class="text"><strong>68882.</strong> Can be specified with the 68020 and 
-    68030.</li>
-  <li class="text"><strong>CPU internal.</strong> Can be specified for the 68040 
-    and 68060.</li>
-</ul>
-<p class="text"><strong>More Compatible</strong> is available if a FPU is selected. 
-  Some applications require this for proper compatibility.</p>
-<p class="text">&nbsp;</p>
-<p class="headline2">CPU Emulation Speed</p>
-<ul>
-  <li class="text"><strong>Fastest possible</strong> lets the CPU section of
-    the emulation run as many cycles as possible, while still maintaining emulation
-    of the custom-chips at the appropriate rate. It is important to keep sound
-    and graphics synchronized, no matter how fast the PC is.</li>
-  <li class="text"><strong>Match A500 speed</strong> limits the CPU emulation
-    to run the same number of cycles per vertical-blank as a standard A500 would.
-    In other words, for every 50Hz refresh of the graphics, the same number of
-    CPU instructions will be executed as on a real A500 computer.</li>
-  <li class="text"><strong>Adjustable between CPU and chipset</strong> lets you
-    tweak the balance of power between custom-chip emulation, and CPU speed.
-    Some games and demos require this setting to be adjusted. This setting is
-    the only CPU setting which can be changed once WinUAE is running.</li>
-</ul>
-<p class="text"><strong>CPU Idle </strong>You can adjust the idle status of the
-  CPU with this slider. This feature can be useful on notebooks to keep the
-  CPU cooler. See the <a href="../tips/generaltips.htm">Hints For Power Users</a> page. </p>
-<p class="text">&nbsp;</p>
-<p class="headline2">JIT Settings</p>
-<p class="text">Due to the importance of the JIT engine and its complexity, it has its own <a href="../emulation/jit.htm">page</a> where
-  you will find a description of its possibilities.</p>
+<body id="bodyID" class="dtBODY">
+<div id="nsbanner">
+  <div id="bannerrow1">
+    <table class="bannerparthead" cellspacing=0>
+      <tr id="hdr">
+        <td class="runninghead" nowrap>WinUAE Documentation</td>
+        <td class="product" nowrap>&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+  <div id="TitleRow">
+    <h1 class="dtH1">CPU and FPU</h1>
+  </div>
+</div>
+<div id="nstext">
+  <p class="normal">These settings control the type of Motorola 680x0 CPU which will 
+    be emulated.</p>
+  <p align="center"><img src="cpu.gif" alt="Winuae - CPU"></p>
+  <h2 class="dtH2">CPU Type</h2>
+  <ul>
+    <li class="normal"><strong>68000</strong> is the basic CPU type, as found in the 
+      Amiga 500, 1000, and 2000 models.</li>
+    <li class="normal"><strong>68010</strong> is a slightly more advanced 68K member, 
+      but never actually shipped in a real Amiga.</li>
+    <li class="normal"><strong>68020</strong> is a much more advanced 68K CPU, with 
+      some new instructions, and a fully 32-bit engine. Used in the A2500 for brief 
+      period on the A2520 card. If 24 bit addressing is enabled, it is the same 
+      as th 68EC020 chip in the A1200.</li>
+    <li class="normal"><strong>68030</strong> This is a mid range CPU used in the 
+      A3000 and low end A4000s.</li>
+    <li class="normal"><strong>68040</strong> is the top CPU provided with the A4000 
+      desktop computer</li>
+    <li class="normal"><strong>68060 </strong>is the top end CPU mainly provided on 
+      accelerator cards and the A4000T. It requires the 68060.library installed 
+      before using.<br>
+    </li>
+  </ul>
+  <p class="normal"><b>24 bit addressing</b> is used mainly by the <b>68EC020 </b>CPU 
+    such as the A1200.</p>
+  <p class="normal"><strong>More compatible</strong> is only available when the CPU 
+    type is a <strong>68000</strong>. Some games and demos require this setting 
+    for proper compatibility.</p>
+  <p class="normal"><strong>JIT</strong> can be enabled to access the Advanced JIT 
+    settings if the 68030 or better is selected (See below).</p>
+  <h2 class="dtH2">FPU</h2>
+  <ul>
+    <li class="normal"><strong>None.</strong> No FPU is provided, this is the only 
+      option for the 68000 and 68010.</li>
+    <li class="normal"><strong>68881.</strong> Can be specified with the 68020 and 
+      68030.</li>
+    <li class="normal"><strong>68882.</strong> Can be specified with the 68020 and 
+      68030.</li>
+    <li class="normal"><strong>CPU internal.</strong> Can be specified for the 68040 
+      and 68060.</li>
+  </ul>
+  <p class="normal"><strong>More Compatible</strong> is available if a FPU is selected. 
+    Some applications require this for proper compatibility.</p>
+  <p class="normal">&nbsp;</p>
+  <h2 class="dtH2">CPU Emulation Speed</h2>
+  <ul>
+    <li class="normal"><strong>Fastest possible</strong> lets the CPU section of
+      the emulation run as many cycles as possible, while still maintaining emulation
+      of the custom-chips at the appropriate rate. It is important to keep sound
+      and graphics synchronized, no matter how fast the PC is.</li>
+    <li class="normal"><strong>Match A500 speed</strong> limits the CPU emulation
+      to run the same number of cycles per vertical-blank as a standard A500 would.
+      In other words, for every 50Hz refresh of the graphics, the same number of
+      CPU instructions will be executed as on a real A500 computer.</li>
+    <li class="normal"><strong>Adjustable between CPU and chipset</strong> lets you
+      tweak the balance of power between custom-chip emulation, and CPU speed.
+      Some games and demos require this setting to be adjusted. This setting is
+      the only CPU setting which can be changed once WinUAE is running.</li>
+  </ul>
+  <p class="normal"><strong>CPU Idle </strong>You can adjust the idle status of the
+    CPU with this slider. This feature can be useful on notebooks to keep the
+    CPU cooler. See the <a href="../tips/generaltips.htm">Hints For Power Users</a> page. </p>
+  <p class="normal">&nbsp;</p>
+  <h2 class="dtH2">JIT Settings</h2>
+  <p class="normal">Due to the importance of the JIT engine and its complexity, it has its own <a href="../emulation/jit.htm">page</a> where
+    you will find a description of its possibilities.</p>
+</div>
+<div class="footer">
+  <hr>
+  All rights reserved.</div>
 </body>
 </html>

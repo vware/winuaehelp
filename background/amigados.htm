@@ -1,15 +1,27 @@
-<!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;>
 <html>
 <head>
 <title>AmigaDOS Commands</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link href="../Style.css" rel="stylesheet" type="text/css">
+<link href="../Style.css" type="text/css" rel="stylesheet">
 </head>
-<body class="site">
-<p class="headline1">AmigaDOS Commands</p>
-<p class="text">These are the AmigaDOS commands found in the C directory with
-  an explination of the command and an example.</p>
-<pre>
+<body id="bodyID" class="dtBODY">
+<div id="nsbanner">
+  <div id="bannerrow1">
+    <table class="bannerparthead" cellspacing=0>
+      <tr id="hdr">
+        <td class="runninghead" nowrap>WinUAE Documentation</td>
+        <td class="product" nowrap>&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+  <div id="TitleRow">
+    <h1 class="dtH1">AmigaDOS Commands</h1>
+  </div>
+</div>
+<div id="nstext">
+  <p class="normal">These are the AmigaDOS commands found in the C directory with
+    an explination of the command and an example.</p>
+  <pre>
 <strong>Addbuffers</strong>
 Format:  Addbuffers <em>Drive/A Buffers/N</em>
 Purpose: Add memory to floppy disk buffers to improve speed
@@ -519,29 +531,30 @@ LZX x documents.lzx        (extracts all files from documents.lzx)
 
 <b>Additional AmigaDOS Information</b>
 </pre>
-<p><b>Clear Screen</b><br>
-  Example: Echo &quot;*E[0;0H*E[J&quot;<br>
-  Purpose: Clears the AmigaOS screen. Uses <a href="printercmds.txt">printer commands</a> 
-  to control text formatting in CLI, so *E is equivalent to ESC character.<br>
-  The command <b>clear</b> is normally defined using an <b>Alias</b> or an AmigaDOS 
-  script in S: folder.</p>
-<p><b>Text in Italics</b><br>
-  Example: Echo &quot;*E[3mItalics*E[23m&quot;<br>
-  Purpose: *E[3m turns on italics and *E[23m turns off italics</p>
-<p><b>Text in Bold<br>
-  </b>Example: Echo &quot;*E[1mBold*E[22m&quot;<br>
-  Purpose: *E[1m turns on bold, and *E[22m turns off bold.</p>
-<p><b>Underline Text</b> <br>
-  Example: Echo &quot;*E[4mUnderline*E[24m&quot;<br>
-  Purpose: *E[4m turns on underline, and *E24m turns off underline.<br>
-</p>
-<p><b>Coloured Text <br>
-  </b>Example: Echo &quot;*E[32mRed Text*E[0m&quot;<br>
-  Purpose: *E[nm where n=30-39 for foreground color or n=40-49 for background 
-  colour.<br>
-  *E[0m resets to normal character set.</p>
-<p>&nbsp;</p>
-<pre>&nbsp;
-</pre>
+  <p><b>Clear Screen</b><br>
+    Example: Echo &quot;*E[0;0H*E[J&quot;<br>
+    Purpose: Clears the AmigaOS screen. Uses <a href="printercmds.txt">printer commands</a> to control text formatting in CLI, so *E is equivalent to ESC character.<br>
+    The command <b>clear</b> is normally defined using an <b>Alias</b> or an AmigaDOS 
+    script in S: folder.</p>
+  <p><b>Text in Italics</b><br>
+    Example: Echo &quot;*E[3mItalics*E[23m&quot;<br>
+    Purpose: *E[3m turns on italics and *E[23m turns off italics</p>
+  <p><b>Text in Bold<br>
+    </b>Example: Echo &quot;*E[1mBold*E[22m&quot;<br>
+    Purpose: *E[1m turns on bold, and *E[22m turns off bold.</p>
+  <p><b>Underline Text</b> <br>
+    Example: Echo &quot;*E[4mUnderline*E[24m&quot;<br>
+    Purpose: *E[4m turns on underline, and *E24m turns off underline.<br>
+  </p>
+  <p><b>Coloured Text <br>
+    </b>Example: Echo &quot;*E[32mRed Text*E[0m&quot;<br>
+    Purpose: *E[nm where n=30-39 for foreground color or n=40-49 for background 
+    colour.<br>
+    *E[0m resets to normal character set.</p>
+  <p>&nbsp;</p>
+</div>
+<div class="footer">
+  <hr>
+  All rights reserved.</div>
 </body>
 </html>

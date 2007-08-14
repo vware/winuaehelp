@@ -1,45 +1,61 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <title>Picasso96</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link href="../Style.css" rel="stylesheet" type="text/css">
+<link href="../Style.css" type="text/css" rel="stylesheet">
 </head>
-<body class="site">
-<p class="headline1">Picasso96</p>
-<p class="text">Emulating the OCS, ECS or AGA chipset is slow, instead, you can
-  use the PC's graphics card instead to output graphics and use 256 or more colors.</p>
-<p class="headline2">Set Up</p>
-<ul>
-  <li class="text">To use this feature, you must select 68020 emulation with
-    a 32 bit address space in the <a href="../gui/cpu.htm">CPU</a> tab. You also
-    need a Kickstart 3.x ROM.</li>
-  <li class="text">To specify how much graphics memory you want to emulate, you
-    must adjust the RTG in the <a href="../gui/ram.htm">RAM</a> tab.</li>
-  <li class="text"> Make sure Full Screen RTG is enabled on the <a href="../gui/display.htm">Display</a> tab. </li>
-</ul>
-<p class="text">Then, you need the <a href="../links.htm#essential">Picasso 96
+<body id="bodyID" class="dtBODY">
+<div id="nsbanner">
+  <div id="bannerrow1">
+    <table class="bannerparthead" cellspacing=0>
+      <tr id="hdr">
+        <td class="runninghead" nowrap>WinUAE Documentation</td>
+        <td class="product" nowrap>&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+  <div id="TitleRow">
+    <h1 class="dtH1">Picasso96</h1>
+  </div>
+</div>
+<div id="nstext">
+  <p class="normal">Emulating the OCS, ECS or AGA chipset is slow, instead, you can
+    use the PC's graphics card instead to output graphics and use 256 or more colors.</p>
+  <h2 class="dtH2">Set Up</h2>
+  <ul>
+    <li class="normal">To use this feature, you must select 68020 emulation with
+      a 32 bit address space in the <a href="../gui/cpu.htm">CPU</a> tab. You also
+      need a Kickstart 3.x ROM.</li>
+    <li class="normal">To specify how much graphics memory you want to emulate, you
+      must adjust the RTG in the <a href="../gui/ram.htm">RAM</a> tab.</li>
+    <li class="normal"> Make sure Full Screen RTG is enabled on the <a href="../gui/display.htm">Display</a> tab. </li>
+  </ul>
+  <p class="normal">Then, you need the <a href="../links.htm#essential">Picasso 96
     software</a> which is not distributed with WinUAE. Version 1.31 or higher
     is recommended. After you installed the Picasso96 software, reboot the emulated
     Amiga. Now, you should be able to select the new modes - which are identiefied
     as <em>uaegfx</em> - from the ScreenModes program on the Amiga.</p>
-<p class="text">&nbsp;</p>
-<p class="headline2">Maximize Stability and Performance </p>
-<p class="text">Make sure you utilize the latest rtg.library which is located
-  in the <a href="../tips/amigaprogs.htm">Amiga Programs</a> folder of your WinUAE
-  installation. You have to copy that file into the following directory on your
-  Workbench drive: <em>libs:picasso96</em>.</p>
-<p class="text"> Start the program p96_uae_tweak from the Amiga Programs folder
-  if you notice large slowdown when 16bit AHI is activated.</p>
-<p class="text">&nbsp;</p>
-<p class="headline2">Trouble Shooting</p>
-<ul>
-  <li> Currently only Permedia 2 and Voodoo cards are compatible with the Warp3D
-    driver software for 3D games on the Amiga.</li>
-  <li>If you get no Picasso screens larger than 1024x768 in 32bit, you have to
-    copy picasso96fix from the <a href="../tips/amigaprogs.htm">Amiga Programs</a> directory
-    to a drive in your emulated Amiga, and load it in the startup-sequence before
-    the LoadWB command.</li>
-</ul>
+  <p class="normal">&nbsp;</p>
+  <h2 class="dtH2">Maximize Stability and Performance</h2>
+  <p class="normal">Make sure you utilize the latest rtg.library which is located
+    in the <a href="../tips/amigaprogs.htm">Amiga Programs</a> folder of your WinUAE
+    installation. You have to copy that file into the following directory on your
+    Workbench drive: <em>libs:picasso96</em>.</p>
+  <p class="normal"> Start the program p96_uae_tweak from the Amiga Programs folder
+    if you notice large slowdown when 16bit AHI is activated.</p>
+  <p class="normal">&nbsp;</p>
+  <h2 class="dtH2">Trouble Shooting</h2>
+  <ul>
+    <li> Currently only Permedia 2 and Voodoo cards are compatible with the Warp3D
+      driver software for 3D games on the Amiga.</li>
+    <li>If you get no Picasso screens larger than 1024x768 in 32bit, you have to
+      copy picasso96fix from the <a href="../tips/amigaprogs.htm">Amiga Programs</a> directory
+      to a drive in your emulated Amiga, and load it in the startup-sequence before
+      the LoadWB command.</li>
+  </ul>
+</div>
+<div class="footer">
+  <hr>
+  All rights reserved.</div>
 </body>
 </html>

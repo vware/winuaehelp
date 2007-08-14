@@ -1,93 +1,109 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <title>Misc</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link href="../Style.css" rel="stylesheet" type="text/css">
+<link href="../Style.css" type="text/css" rel="stylesheet">
 </head>
-<body class="site">
-<p class="headline1">Misc</p>
-<p class="text">These settings control many important aspects of the Amiga emulation.</p>
-<p align="center"><img src="misc.gif" alt="WinUAE - Misc"></p>
-<p class="headline2">Advanced</p>
-<ul>
-  <li class="text"><b>Untrap mouse with</b> <strong>Middle Button</strong> --&gt; 
-    ALT-TAB allows the middle button on your mouse to act like ALT-TAB, switching 
-    focus away from the WinUAE emulation. This is useful because WinUAE traps 
-    the mouse-cursor within its Window borders, and if your hand is already on 
-    the mouse and you want to escape this capture, you can just press the middle 
-    button.</li>
-  <li class="text"><strong>Show GUI on startup</strong> will allow you to double-click 
-    a .uae config-file without it immediately launching the emulation.</li>
-  <li class="text"><strong>On-Screen LEDs</strong> allows you to see the track-display 
-    of the floppy drives, along with the power-LED. Your resolution must be 800x600 
-    or higher in order to see this information.</li>
-  <li class="text"><strong>UAEscsi.device</strong> Adds support for IDE/SCSI CDROM 
-    drives on Amiga side. Use this device name in your CD0 DosDriver file in Devs\DosDrivers, 
-    and add the appropiate unit number (use Create Log file to see which unit 
-    number your CD drive uses).<br>
-    First CDROM is always uaescsi.device unit zero, second is zero etc.. and then 
-    other non-CDROM SCSI devices.</li>
-  <li class="text"><strong>Don't show Taskbar button</strong>. Removes Taskbar 
-    button.</li>
-  <li class="text"><strong>Always on top</strong>. Make sure Winuae window is 
-    always on top of other windows.</li>
-  <li class="text"><strong>Disable powersaving features.</strong> Temporarily 
-    stops power saving features for the CPU, display, and other components when 
-    using WinUAE</li>
-  <li class="text"><strong>BSDsocket.library emulation</strong> allows your Amiga 
-    to use your PC's network connection, whether it be through Dial-Up Networking 
-    (DUN), or Ethernet connectivity. In other words, if your PC is connected to 
-    your Internet Service Provider (ISP) through a modem, or connected to a LAN 
-    through an Ethernet connection, your Amiga will be able to make use of that 
-    connection.</li>
-  <li class="text"><strong>Use CTRL-F11 to quit</strong> Just press this key combination 
-    to quit WinUAE. If this option is enabled, the ALT-F4 combination can be used 
-    by the Amiga properly, and CTRL-F11 will quit WinUAE.</li>
-  <li class="text"><strong>Don't use RGB overlays</strong> Do not use Red Green 
-    Blue overlays.</li>
-  <li class="text"><strong>ASPI SCSI layer</strong> Select type of ASPI layer 
-    to use e.g. SPTI, Adaptec or Nero ASPI.</li>
-  <li class="text"><strong>Syncronise clock </strong>Synchronsizes Amiga clock 
-    with PC clock</li>
-  <li class="text"><strong>Catweasel</strong> Enables catweasel floppy controller 
-    support in the emulator.</li>
-  <li class="text"><strong>Magic Mouse. </strong>Enable mouse support outside 
-    window or screen boundaries.</li>
-</ul>
-<p class="text">&nbsp;</p>
-<h1 class="headline2">Language</h1>
-<ul>
-  <li>Specify the language used for WinUAE, which can be on <strong>Autodetect</strong> or <strong>English</strong> (built
-    in).</li>
-</ul>
-<p class="text">&nbsp;</p>
-<p class="headline2">Keyboard LEDs</p>
-<ul>
-  <li class="text">(NumLock) Sets which LED to emulate e.g. Power, HD, CD, DFx</li>
-  <li class="text">(CapsLock) Set which LED to emulate e.g. Power, HD, CD, DFx</li>
-  <li class="text">(ScrollLock) Set whichLED to emulate e.g. Power, HD, CD, DFx</li>
-</ul>
-<p class="text"><strong>USB-Mode</strong> Add support for Multimedia keyboards.</p>
-<p class="text">&nbsp;</p>
-<p class="headline2">Logging</p>
-<ul>
-  <li class="text"><strong>Create log file</strong> will write various debugging
-    information to the winuaelog.txt file in the same directory where WinUAE
-    resides.</li>
-  <li class="text"><strong>Log illegal memory accesses</strong> will write memory-access
-    problems into the winuaelog.txt file, if Create log file is enabled.</li>
-</ul>
-<p class="text">&nbsp;</p>
-<p class="headline2">State Files</p>
-<ul>
-  <li class="text"><strong>Load State</strong>. Loads a saved state from disk
-    into memory either as a USS, GZ or GZIP file.</li>
-  <li class="text"><strong>Save State</strong> Saves state of system and memory
-    to disk, to a USS file.</li>
-  <li class="text"><strong>Enable state recording.</strong> Assume this makes
-    automatic save states to disk every 5 seconds into a 20 MB buffer (default
-    settings).</li>
-</ul>
+<body id="bodyID" class="dtBODY">
+<div id="nsbanner">
+  <div id="bannerrow1">
+    <table class="bannerparthead" cellspacing=0>
+      <tr id="hdr">
+        <td class="runninghead" nowrap>WinUAE Documentation</td>
+        <td class="product" nowrap>&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+  <div id="TitleRow">
+    <h1 class="dtH1">Misc</h1>
+  </div>
+</div>
+<div id="nstext">
+  <p class="normal">These settings control many important aspects of the Amiga emulation.</p>
+  <p align="center"><img src="misc.gif" alt="WinUAE - Misc"></p>
+  <h2 class="dtH2">Advanced</h2>
+  <ul>
+    <li class="normal"><b>Untrap mouse with</b> <strong>Middle Button</strong> --&gt; 
+      ALT-TAB allows the middle button on your mouse to act like ALT-TAB, switching 
+      focus away from the WinUAE emulation. This is useful because WinUAE traps 
+      the mouse-cursor within its Window borders, and if your hand is already on 
+      the mouse and you want to escape this capture, you can just press the middle 
+      button.</li>
+    <li class="normal"><strong>Show GUI on startup</strong> will allow you to double-click 
+      a .uae config-file without it immediately launching the emulation.</li>
+    <li class="normal"><strong>On-Screen LEDs</strong> allows you to see the track-display 
+      of the floppy drives, along with the power-LED. Your resolution must be 800x600 
+      or higher in order to see this information.</li>
+    <li class="normal"><strong>UAEscsi.device</strong> Adds support for IDE/SCSI CDROM 
+      drives on Amiga side. Use this device name in your CD0 DosDriver file in Devs\DosDrivers, 
+      and add the appropiate unit number (use Create Log file to see which unit 
+      number your CD drive uses).<br>
+      First CDROM is always uaescsi.device unit zero, second is zero etc.. and then 
+      other non-CDROM SCSI devices.</li>
+    <li class="normal"><strong>Don't show Taskbar button</strong>. Removes Taskbar 
+      button.</li>
+    <li class="normal"><strong>Always on top</strong>. Make sure Winuae window is 
+      always on top of other windows.</li>
+    <li class="normal"><strong>Disable powersaving features.</strong> Temporarily 
+      stops power saving features for the CPU, display, and other components when 
+      using WinUAE</li>
+    <li class="normal"><strong>BSDsocket.library emulation</strong> allows your Amiga 
+      to use your PC's network connection, whether it be through Dial-Up Networking 
+      (DUN), or Ethernet connectivity. In other words, if your PC is connected to 
+      your Internet Service Provider (ISP) through a modem, or connected to a LAN 
+      through an Ethernet connection, your Amiga will be able to make use of that 
+      connection.</li>
+    <li class="normal"><strong>Use CTRL-F11 to quit</strong> Just press this key combination 
+      to quit WinUAE. If this option is enabled, the ALT-F4 combination can be used 
+      by the Amiga properly, and CTRL-F11 will quit WinUAE.</li>
+    <li class="normal"><strong>Don't use RGB overlays</strong> Do not use Red Green 
+      Blue overlays.</li>
+    <li class="normal"><strong>ASPI SCSI layer</strong> Select type of ASPI layer 
+      to use e.g. SPTI, Adaptec or Nero ASPI.</li>
+    <li class="normal"><strong>Syncronise clock </strong>Synchronsizes Amiga clock 
+      with PC clock</li>
+    <li class="normal"><strong>Catweasel</strong> Enables catweasel floppy controller 
+      support in the emulator.</li>
+    <li class="normal"><strong>Magic Mouse. </strong>Enable mouse support outside 
+      window or screen boundaries.</li>
+  </ul>
+  <p class="normal">&nbsp;</p>
+  <h1 class="dtH2">Language</h1>
+  <ul>
+    <li>Specify the language used for WinUAE, which can be on <strong>Autodetect</strong> or <strong>English</strong> (built
+      in).</li>
+  </ul>
+  <p class="normal">&nbsp;</p>
+  <h2 class="dtH2">Keyboard LEDs</h2>
+  <ul>
+    <li class="normal">(NumLock) Sets which LED to emulate e.g. Power, HD, CD, DFx</li>
+    <li class="normal">(CapsLock) Set which LED to emulate e.g. Power, HD, CD, DFx</li>
+    <li class="normal">(ScrollLock) Set whichLED to emulate e.g. Power, HD, CD, DFx</li>
+  </ul>
+  <p class="normal"><strong>USB-Mode</strong> Add support for Multimedia keyboards.</p>
+  <p class="normal">&nbsp;</p>
+  <h2 class="dtH2">Logging</h2>
+  <ul>
+    <li class="normal"><strong>Create log file</strong> will write various debugging
+      information to the winuaelog.txt file in the same directory where WinUAE
+      resides.</li>
+    <li class="normal"><strong>Log illegal memory accesses</strong> will write memory-access
+      problems into the winuaelog.txt file, if Create log file is enabled.</li>
+  </ul>
+  <p class="normal">&nbsp;</p>
+  <h2 class="dtH2">State Files</h2>
+  <ul>
+    <li class="normal"><strong>Load State</strong>. Loads a saved state from disk
+      into memory either as a USS, GZ or GZIP file.</li>
+    <li class="normal"><strong>Save State</strong> Saves state of system and memory
+      to disk, to a USS file.</li>
+    <li class="normal"><strong>Enable state recording.</strong> Assume this makes
+      automatic save states to disk every 5 seconds into a 20 MB buffer (default
+      settings).</li>
+  </ul>
+</div>
+<div class="footer">
+  <hr>
+  All rights reserved.</div>
 </body>
 </html>
