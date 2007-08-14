@@ -1,6 +1,14 @@
 Official WinUAE Help Changelog
 ==============================
 
+Version 2.1.0
+-------------
+Georg:
+* Major style update, changing the outdated color and layout schemes to 
+  something more MSDN-like.
+* Update copyright information
+* Include Windows Vista in the DirectX list, update other passages
+
 Version 2.0.11
 --------------
 Peter:
