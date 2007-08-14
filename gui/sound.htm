@@ -1,56 +1,72 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <title>Sound</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link href="../Style.css" rel="stylesheet" type="text/css">
+<link href="../Style.css" type="text/css" rel="stylesheet">
 </head>
-<body class="site">
-<p class="headline1">Sound</p>
-<p class="text">Here you can select, if (and how) UAE will provide sound emulation.</p>
-<p align="center"><img src="sound.gif" alt="WinUAE - Sound"></p>
-<p class="text"><strong>Sound device:</strong> Specify which sound card to use
-  on your system.</p>
-<p class="text">&nbsp;</p>
-<p class="headline2">Sound Emulation</p>
-<ul>
-  <li class="text"><strong>Disabled</strong> causes UAE not to emulate sound.</li>
-  <li class="text"><strong>Disabled, but emulated</strong> tries to emulate most 
-    of the sound hardware, but doesn't actually output sound.</li>
-  <li class="text"><strong>Emulated</strong> should sound just as good as 100% 
-    accurate and will be much faster for some programs.</li>
-  <li class="text"><strong>Emulated, 100% accurate</strong> will emulate all of 
-    the sound hardware; and some programs (i.e. AIBB) won't run with other settings.</li>
-  <li class="text"><strong>Automatic switching.</strong> Allow switching between 
-    sound modes automatically.</li>
-</ul>
-<p class="text">&nbsp;</p>
-<p class="headline2">Floppy Drive Sound Emulation</p>
-<p class="text">This feature enables the Disk Drive sounds like on a real Amiga 
-  so you can hear disks being read or written to. Select a drive and the Amiga 
-  emulation mode to use (A500 by default). The slider is the volume.</p>
-<p class="text">&nbsp;</p>
-<p class="headline2">Settings</p>
-<p class="text">This options allow you to adjust the settings for the sound-sampling. 
-  The higher Frequency and/or Sample Type, the higher will be the sound quality, 
-  but the slower will be the emulation. The <strong>Stereo mode</strong> can be 
-  set to Mono, Stereo, Cloned Stereo or 4 Channel. Stereo will use more CPU time.</p>
-<p class="text">Two new settings for <strong>Stereo Seperation and Stereo mixing 
-  delay</strong> can be set to improve stereo sound.</p>
-<p class="text">The <strong>Audio Filter</strong> allows you to emulate Sound 
-  Power LED and can be Always on, Always off or Emulated.<br>
-  <strong>NOTE:</strong> High quality sound requires a lot of computing power, 
-  so try with different settings if your machine is not fast enough.</p>
-<p class="text">The <b>Swap Channels</b> can be used to swap between channels 
-  for Paula, AHI or both types of Sound chipsets.</p>
-<p class="headline2">Sound Buffering</p>
-<p class="text">Gives you access to the level of the used Direct Sound buffer. 
-  You should play with it if you get choppy sound. <br>
-  Values can be from 1 to 7. <br>
-  Also, you can set <strong>Interpolation</strong> on to smooth out sound but 
-  needs more computing power. <br>
-  The <strong>Calibrate </strong>button will optimise the sound values for you 
-  to match your PC.</p>
-<p class="text">&nbsp;</p>
+<body id="bodyID" class="dtBODY">
+<div id="nsbanner">
+  <div id="bannerrow1">
+    <table class="bannerparthead" cellspacing=0>
+      <tr id="hdr">
+        <td class="runninghead" nowrap>WinUAE Documentation</td>
+        <td class="product" nowrap>&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+  <div id="TitleRow">
+    <h1 class="dtH1">Sound</h1>
+  </div>
+</div>
+<div id="nstext">
+  <p class="normal">Here you can select, if (and how) UAE will provide sound emulation.</p>
+  <p align="center"><img src="sound.gif" alt="WinUAE - Sound"></p>
+  <p class="normal"><strong>Sound device:</strong> Specify which sound card to use
+    on your system.</p>
+  <p class="normal">&nbsp;</p>
+  <h2 class="dtH2">Sound Emulation</h2>
+  <ul>
+    <li class="normal"><strong>Disabled</strong> causes UAE not to emulate sound.</li>
+    <li class="normal"><strong>Disabled, but emulated</strong> tries to emulate most 
+      of the sound hardware, but doesn't actually output sound.</li>
+    <li class="normal"><strong>Emulated</strong> should sound just as good as 100% 
+      accurate and will be much faster for some programs.</li>
+    <li class="normal"><strong>Emulated, 100% accurate</strong> will emulate all of 
+      the sound hardware; and some programs (i.e. AIBB) won't run with other settings.</li>
+    <li class="normal"><strong>Automatic switching.</strong> Allow switching between 
+      sound modes automatically.</li>
+  </ul>
+  <p class="normal">&nbsp;</p>
+  <h2 class="dtH2">Floppy Drive Sound Emulation</h2>
+  <p class="normal">This feature enables the Disk Drive sounds like on a real Amiga 
+    so you can hear disks being read or written to. Select a drive and the Amiga 
+    emulation mode to use (A500 by default). The slider is the volume.</p>
+  <p class="normal">&nbsp;</p>
+  <h2 class="dtH2">Settings</h2>
+  <p class="normal">This options allow you to adjust the settings for the sound-sampling. 
+    The higher Frequency and/or Sample Type, the higher will be the sound quality, 
+    but the slower will be the emulation. The <strong>Stereo mode</strong> can be 
+    set to Mono, Stereo, Cloned Stereo or 4 Channel. Stereo will use more CPU time.</p>
+  <p class="normal">Two new settings for <strong>Stereo Seperation and Stereo mixing 
+    delay</strong> can be set to improve stereo sound.</p>
+  <p class="normal">The <strong>Audio Filter</strong> allows you to emulate Sound 
+    Power LED and can be Always on, Always off or Emulated.<br>
+    <strong>NOTE:</strong> High quality sound requires a lot of computing power, 
+    so try with different settings if your machine is not fast enough.</p>
+  <p class="normal">The <b>Swap Channels</b> can be used to swap between channels 
+    for Paula, AHI or both types of Sound chipsets.</p>
+  <h2 class="dtH2">Sound Buffering</h2>
+  <p class="normal">Gives you access to the level of the used Direct Sound buffer. 
+    You should play with it if you get choppy sound. <br>
+    Values can be from 1 to 7. <br>
+    Also, you can set <strong>Interpolation</strong> on to smooth out sound but 
+    needs more computing power. <br>
+    The <strong>Calibrate </strong>button will optimise the sound values for you 
+    to match your PC.</p>
+  <p class="normal">&nbsp;</p>
+</div>
+<div class="footer">
+  <hr>
+  All rights reserved.</div>
 </body>
 </html>
