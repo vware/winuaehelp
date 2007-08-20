@@ -7,7 +7,7 @@ Georg:
 * Major style update, changing the outdated color and layout schemes to 
   something more MSDN-like.
 * Update copyright information
-* Include Windows Vista in the DirectX list, update other passages
+* Include Windows Vista in the DirectX list and other areas
 
 Version 2.0.11
 --------------
