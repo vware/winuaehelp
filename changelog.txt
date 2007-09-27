@@ -1,6 +1,15 @@
 Official WinUAE Help Changelog
 ==============================
 
+Version 2.1.1
+-------------
+Peter:
+* Replaced logo with one with a white background until we get a good replacement.
+* New About screen.
+* Hard drives. Two new buttons for automount removable and optical drives.
+* Display. New layout.
+* Filter. New hq2x option added to text.
+
 Version 2.1.0
 -------------
 Georg:
