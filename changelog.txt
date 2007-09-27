@@ -9,6 +9,7 @@ Peter:
 * Hard drives. Two new buttons for automount removable and optical drives.
 * Display. New layout.
 * Filter. New hq2x option added to text.
+* NB: Unable to update Help file version number in Vista. Still says 2.0.9.
 
 Version 2.1.0
 -------------
