@@ -6,6 +6,7 @@ Version 2.1.2
 Georg:
 * Fixed the version number display
 * Revamped contributors and known bugs pages
+* Updated or removed a lot of dead links from the Links section
 
 Version 2.1.1
 -------------
