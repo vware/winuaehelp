@@ -1,6 +1,11 @@
 Official WinUAE Help Changelog
 ==============================
 
+Version 2.1.2
+-------------
+Georg:
+* Fixed the version number display
+
 Version 2.1.1
 -------------
 Peter:
