@@ -8,6 +8,12 @@ Georg:
 * Minor Windows version updates
 * Revamped contributors and known bugs pages
 * Updated or removed a lot of dead links from the Links section
+Peter:
+* New About screen (for 1.4.5)
+* Paths. Winuae default pull down menu
+* Adv Chipset. New 'C00000 in Fast Ram' option
+* Misc. uaenet.device added
+* Index. uaescsi, uaehf and uaenet added.
 
 Version 2.1.1
 -------------
