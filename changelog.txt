@@ -1,6 +1,11 @@
 Official WinUAE Help Changelog
 ==============================
 
+Version 2.1.3
+-------------
+Georg:
+* Change link to the online version
+
 Version 2.1.2
 -------------
 Georg:
