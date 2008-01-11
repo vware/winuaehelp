@@ -12,27 +12,40 @@ WinUAE Help Readme
 
 1. Introduction
 ---------------
-Welcome to the official help file for WinUAE! This has been designed to aid you in using WinUAE, and is integrated into the main WinUAE program.
-This helpfile will give you information on how to get started with WinUAE, a description of all the GUI Settings, information about the emulation itself, and some additonal information about real Amigas in the Background Information section.
-Experienced users can find valuable tips for better speed and functionality of WinUAE at the Hints For Power Users page.
+Welcome to the official help file for WinUAE! This has been designed to aid 
+you in using WinUAE, and is integrated into the main WinUAE program.
+This helpfile will give you information on how to get started with WinUAE, a 
+description of all the GUI Settings, information about the emulation itself, 
+and some additonal information about real Amigas in the Background 
+Information section.
+Experienced users can find valuable tips for better speed and functionality 
+of WinUAE at the Hints For Power Users page.
 
 
 2. Installation
 ---------------
-To make the helpfile available in WinUAE, simply copy the WinUAE.chm file into the directory where you installed WinUAE. This is typically C:\Program Files\WinUAE for English Windows installations. Restart WinUAE after you copied the file into the directory, and the "Help" button will be available in the main program.
+To make the help file available in WinUAE, simply copy the WinUAE.chm file 
+into the directory where you installed WinUAE. This is typically C:\Program 
+Files\WinUAE for English Windows installations. Restart WinUAE after you 
+copied the file into the directory, and the "Help" button will be available 
+in the main program.
 
 
 3. Errors
 ---------
-This file has undergone thorough testing. If you encounter any problems, or find mistakes in the file, please help the community and contact one of the authors.
+Content of the help file is carefully edited by people with years of 
+experience with Amigas and WinUAE. We try to provide useful and clean 
+information. If you find mistakes or typos in the help file, you are 
+encouraged to let one of the authors know, who will then correct it as soon 
+as possible.
 
 
 4. Used Tools
 -------------
-The files in this help were created with HTML-Kit Editor and Dreamweaver MX. The pictures were edited and/or created with Paint Shop Pro 7 and Photoshop 7. The files were compiled with the HTML Help Workshop to provide a .chm file.
-AmigaDOS command list converted with g2h.
-This package does not underlie the GPL, the sourcecode will therefore not be released.
-For a detailed list of tools and people involved, check out the Credits section within the help file.
+The files in this help were created with HTML-Kit Editor, Dreamweaver, and 
+Notepad. The pictures were edited and/or created with Paint Shop Pro, 
+Photoshop, Inkscape, and The GIMP. The HTML Help Workshop was used to provide 
+a CHM file. The AmigaDOS command list was converted with g2h.
 
 
 5. Contact
@@ -49,8 +62,7 @@ Contact:  Bernd Roesch
 E-Mail:   nospamname@gmx.de
 
 
-
 ------------------------------
-© Georg Veichtlbauer 1999-2007
-© Peter Hutchison 2002-2007
+© Georg Veichtlbauer 1999-2008
+© Peter Hutchison 2002-2008
 © Bernd Roesch 2004

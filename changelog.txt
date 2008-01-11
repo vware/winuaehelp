@@ -5,6 +5,7 @@ Version 2.1.3
 -------------
 Georg:
 * Change link to the online version
+* Overhaul the readme file, update copyright years
 
 Version 2.1.2
 -------------
