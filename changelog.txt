@@ -8,6 +8,7 @@ Georg:
 * Overhaul the readme file, update copyright years
 * Fix and update wrong index entries
 * Add a link to a source for free Amiga games
+* Remove the unneeded Amiga Inc link, replace it with Amiga Wiki
 
 Version 2.1.2
 -------------
