@@ -7,10 +7,10 @@
 <UL>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="About">
+		<param name="Name" value="About WinUAE">
+		<param name="Local" value="credits/contrib.htm">
 		<param name="Name" value="About this help">
 		<param name="Local" value="credits/about.htm">
-		<param name="Name" value="Credits">
-		<param name="Local" value="credits/main.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Action Replay">
@@ -40,8 +40,7 @@
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="AmigaDOS">
-		<param name="Name" value="AmigaDOS">
-		<param name="Local" value="started\amigados.htm">
+		<param name="Local" value="background\amigados.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Aminet">
@@ -146,7 +145,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Command">
 		<param name="Name" value="Command-Line Parameters">
-		<param name="Local" value="emulation/comline.htm">
+		<param name="Local" value="tips/comline.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Compat">
@@ -156,7 +155,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Configuration">
 		<param name="Name" value="Command-Line Parameters">
-		<param name="Local" value="emulation/comline.htm">
+		<param name="Local" value="tips/comline.htm">
 		<param name="Name" value="Input">
 		<param name="Local" value="gui/input.htm">
 		<param name="Name" value="Configurations">
@@ -181,14 +180,14 @@
 		<param name="Local" value="emulation/jit.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="Crossdos">
+		<param name="Name" value="CrossDOS">
 		<param name="Name" value="Transfer data between Amiga and PC">
 		<param name="Local" value="started/pcamitrans.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Direct3D">
-		<param name="Name" value="OpenGL">
-		<param name="Local" value="gui\opengl.htm">
+		<param name="Name" value="Filter">
+		<param name="Local" value="gui\filter.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Directory">
@@ -218,7 +217,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Disk Swapper">
 		<param name="Name" value="Disk Swapper">
-		<param name="Local" value="gui\diskswapper.htm">
+		<param name="Local" value="gui\disk.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Display">
@@ -238,7 +237,7 @@
 		<param name="Local" value="gui/floppies.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="Email">
+		<param name="Name" value="E-Mail">
 		<param name="Name" value="About WinUAE">
 		<param name="Local" value="credits/contrib.htm">
 		</OBJECT>
@@ -263,8 +262,8 @@
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Filter">
-		<param name="Name" value="OpenGL">
-		<param name="Local" value="gui\opengl.htm">
+		<param name="Name" value="Filter">
+		<param name="Local" value="gui\filter.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="First Time">
@@ -452,7 +451,7 @@
 		<param name="Name" value="Misc">
 		<param name="Local" value="gui/misc.htm">
 		<param name="Name" value="Command-Line Parameters">
-		<param name="Local" value="emulation/comline.htm">
+		<param name="Local" value="tips/comline.htm">
 		<param name="Local" value="gui\configurations.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
@@ -462,11 +461,11 @@
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Mathias Ortmann">
-		<param name="Name" value="Mathias Ortmann">
-		<param name="Local" value="background/mathiasortmann.htm">
+		<param name="Name" value="About WinUAE">
+		<param name="Local" value="credits/contrib.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="Messydos">
+		<param name="Name" value="MessyDOS">
 		<param name="Name" value="Transfer data between Amiga and PC">
 		<param name="Local" value="started/pcamitrans.htm">
 		</OBJECT>
@@ -499,7 +498,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="mousehack">
 		<param name="Name" value="Amiga Programs">
-		<param name="Local" value="started/amigaprogs.htm">
+		<param name="Local" value="tips/amigaprogs.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Network">
@@ -521,8 +520,8 @@
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="OpenGL">
-		<param name="Name" value="OpenGL">
-		<param name="Local" value="gui/opengl.htm">
+		<param name="Name" value="Filter">
+		<param name="Local" value="gui/filter.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Output">
@@ -553,7 +552,7 @@
 		<param name="Local" value="features.htm">
 		<param name="Name" value="Links">
 		<param name="Local" value="links.htm">
-		<param name="Name" value="Picasso96 Emulation">
+		<param name="Name" value="Picasso96">
 		<param name="Local" value="emulation/picasso.htm">
 		<param name="Name" value="RAM">
 		<param name="Local" value="gui/ram.htm">
@@ -563,7 +562,9 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="picasso96fix">
 		<param name="Name" value="Amiga Programs">
-		<param name="Local" value="started/amigaprogs.htm">
+		<param name="Local" value="tips/amigaprogs.htm">
+		<param name="Name" value="Picasso96">
+		<param name="Local" value="emulation/picasso.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Printer">
@@ -572,8 +573,7 @@
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Priority">
-		<param name="Name" value="Priority">
-		<param name="Local" value="gui\priority.htm">
+		<param name="Local" value="gui\misc2.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Pro Wizard">
@@ -688,12 +688,12 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="uae-control">
 		<param name="Name" value="Amiga Programs">
-		<param name="Local" value="started/amigaprogs.htm">
+		<param name="Local" value="tips/amigaprogs.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="uaectrl">
 		<param name="Name" value="Amiga Programs">
-		<param name="Local" value="started/amigaprogs.htm">
+		<param name="Local" value="tips/amigaprogs.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="UAEFSDB">
@@ -726,12 +726,12 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="winuaeclip">
 		<param name="Name" value="Amiga Programs">
-		<param name="Local" value="started/amigaprogs.htm">
+		<param name="Local" value="tips/amigaprogs.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="winuaeenforcer">
 		<param name="Name" value="Amiga Programs">
-		<param name="Local" value="started/amigaprogs.htm">
+		<param name="Local" value="tips/amigaprogs.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Workbench">
