@@ -9,6 +9,7 @@ Georg:
 * Fix and update wrong index entries
 * Add a link to a source for free Amiga games
 * Remove the unneeded Amiga Inc link, replace it with Amiga Wiki
+* New logo aligned with WinUAE, from a vectorized version
 
 Version 2.1.2
 -------------
