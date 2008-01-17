@@ -30,6 +30,10 @@
 			<param name="Local" value="links.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Glossary">
+			<param name="Local" value="glossary.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Getting Started">
 			<param name="Local" value="started/main.htm">
 			</OBJECT>
