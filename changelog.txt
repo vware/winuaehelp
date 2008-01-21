@@ -4,6 +4,7 @@ Official WinUAE Help Changelog
 Version 2.1.3
 -------------
 Georg:
+* Move a few links to the main links page for consistency
 * Add a glossary explaining a few terms
 * Change link to the online version
 * Overhaul the readme file, update copyright years
