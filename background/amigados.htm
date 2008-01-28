@@ -118,8 +118,8 @@ Example: Diskchange DF2:
 Format:  Diskcopy <em>From/A To/A Name/K NOVERIFY/S MULTI/S</em>
 Purpose: Duplicates disks 
 Example: Diskcopy DF0: to DF1:
-<b>
-DiskDoctor</b>
+<strong>
+DiskDoctor</strong>
 Format:  Diskdoctor Drive/A
 Purpose: Repairs disk problems (in place). Deprecated in WB2.
 Example: DiskDoctor DF0:
@@ -401,7 +401,7 @@ Purpose: Sets keyboard layout using layouts in Devs:Keymaps.
 You can use the Input preferences instead.
 Example: SetKeyboard USA0
 
-<b>SetMap</b>
+<strong>SetMap</strong>
 Format:  SetMap &lt;keymap id&gt;
 Purpose: Sets keyboard layout. Deprecated in WB2.
 Keymaps include CDN,CH1,CH2,D,DK,E,F,GB,I,IS,N,S,USA0,USA1,USA2.
@@ -460,7 +460,7 @@ Purpose: Remove a global env variable
 Example: UnSetEnv Workbench
 
 <strong>Unalias</strong>
-Format:  Unalias <strong>Name</strong>
+Format:  Unalias <em>Name</em>
 Purpose: Remove a short name for a command
 Example: UnAlias MyDir
 
@@ -478,7 +478,7 @@ Example: Wait Until 12:00
 <strong>Which</strong>
 Format:  Which <em>File/A NORES/S RES/S ALL/S</em>
 Purpose: Find where a file is in command path (see Path)
-Example: Which Multiview 
+Example: Which Multiview
 
 <strong>Why</strong>
 Format:  Why
@@ -486,68 +486,67 @@ Purpose: Display reason why a previous command failed
 Example: Why
 
 
-<b>Key</b>
+<strong>Key</strong>
 /A Required argument
 /F Final argument in list
 /K Keyword must be entered with argument
 /M Multiple arguments
 /N Number
 /S Switch (optional)
-
-<b>Additional AmigaDOS commands</b>
-
-<b>DMS
-</b>Format:<br> DMS Read file[.DMS] [FROM dev:] [TEXT filetext] [CMODE mode] [LOW lowtrack] [HIGH hightrack] [NOVAL] [NOZERO] [ENCRYPT password]
+</pre>
+<p>&nbsp;</p>
+<h2 class="dtH2">Additional AmigaDOS commands</h2>
+<pre>
+<strong>DMS
+</strong>Format:<br> DMS Read file[.DMS] [FROM dev:] [TEXT filetext] [CMODE mode] [LOW lowtrack] [HIGH hightrack] [NOVAL] [NOZERO] [ENCRYPT password]
  DMS Write file[.DMS],,, [TO dev:] [LOW lowtrack] [HIGH hightrack] [NOVAL] [NOTEXT] [NOPAUSE [DECRYPT password]
  DMS Repack file[.DMS] [TO dev:] [LOW lowtrack] [HIGH hightrack] [CMODE mode]
  DMS View file[.DMS],,, [FULL] DMS Text file[.DMS],,,
  DMS Test file[.DMS],,, DMS Help
 Purpose:  To read, write or view Disk Masher disk images of floppy disks.
 Example: DMS Write MyDisk.DMS FROM DF0:
-<b>
-Installer</b>
+<strong>
+Installer</strong>
 Format:  Installer [SCRIPT] filename &lt;[APPNAME] name&gt; &lt;[MINIUSER] level&gt; &lt;[DEFUSER] default&gt; &lt;[LOGFILE] 
  logname&gt; &lt;[LANGUAGE] language&gt; &lt;NOPRETEND&gt; &lt;NOLOG&gt; &lt;NOPRINT&gt;
 Purpose: To install an application via a installer script. Usually provided as a default tool for script 
  files in icon.
 Example: Installer SCRIPT InstallApp APPNAME MyProgram LOGFILE DH0:MyProgram.log
 
-<b>LHA
-</b>Format:  LHA [-options] &lt;command&gt; &lt;archive[.LZH|LHA]&gt; [[homedir] &lt;filespec...] [@file] [destination]
+<strong>LHA
+</strong>Format:  LHA [-options] &lt;command&gt; &lt;archive[.LZH|LHA]&gt; [[homedir] &lt;filespec...] [@file] [destination]
 Purpose: To create, modify or list LHA or LZH files
 Examples:
 LHA a pictures.lha #?.jpg (archives all jpg files into pictures.lha)
 LHA l pictures.lha        (lists all files in pictures.lha)
 LHA x pictures.lha        (extracts all files from pictures.lha)
 
-<b>LZX</b>
+<strong>LZX</strong>
 Format:  LZX [-options] &lt;command&gt; &lt;archive&gt; [&lt;file&gt; ...] [&lt;destdir&gt;]
 Purpose: To create, modify or list LZX archive files.
 Examples:
 LZX a documents.lzx #?.doc (archives all doc files into documents.lzx)
 LZX l documents.lzx        (lists all files in documents.lzx)
 LZX x documents.lzx        (extracts all files from documents.lzx)
-
-
-<b>Additional AmigaDOS Information</b>
 </pre>
-  <p><b>Clear Screen</b><br>
+<p>&nbsp;</p>
+<h2 class="dtH2">Additional AmigaDOS Information</h2>
+  <p><strong>Clear Screen</strong><br>
     Example: Echo &quot;*E[0;0H*E[J&quot;<br>
     Purpose: Clears the AmigaOS screen. Uses printer commands to control text formatting in CLI, so *E is equivalent to ESC character.<br>
-    The command <b>clear</b> is normally defined using an <b>Alias</b> or an AmigaDOS 
+    The command <strong>clear</strong> is normally defined using an <strong>Alias</strong> or an AmigaDOS 
     script in S: folder.</p>
-  <p><b>Text in Italics</b><br>
+  <p><strong>Text in Italics</strong><br>
     Example: Echo &quot;*E[3mItalics*E[23m&quot;<br>
     Purpose: *E[3m turns on italics and *E[23m turns off italics</p>
-  <p><b>Text in Bold<br>
-    </b>Example: Echo &quot;*E[1mBold*E[22m&quot;<br>
+  <p><strong>Text in Bold<br>
+    </strong>Example: Echo &quot;*E[1mBold*E[22m&quot;<br>
     Purpose: *E[1m turns on bold, and *E[22m turns off bold.</p>
-  <p><b>Underline Text</b> <br>
+  <p><strong>Underline Text</strong> <br>
     Example: Echo &quot;*E[4mUnderline*E[24m&quot;<br>
-    Purpose: *E[4m turns on underline, and *E24m turns off underline.<br>
-  </p>
-  <p><b>Coloured Text <br>
-    </b>Example: Echo &quot;*E[32mRed Text*E[0m&quot;<br>
+    Purpose: *E[4m turns on underline, and *E24m turns off underline.</p>
+  <p><strong>Coloured Text <br>
+    </strong>Example: Echo &quot;*E[32mRed Text*E[0m&quot;<br>
     Purpose: *E[nm where n=30-39 for foreground color or n=40-49 for background 
     colour.<br>
     *E[0m resets to normal character set.</p>
