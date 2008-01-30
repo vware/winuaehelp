@@ -295,6 +295,10 @@
 				<param name="Name" value="About this Help">
 				<param name="Local" value="credits/about.htm">
 				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="FDL">
+				<param name="Local" value="credits\fdl.htm">
+				</OBJECT>
 		</UL>
 	</UL>
 </UL>
