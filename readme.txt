@@ -1,13 +1,19 @@
 WinUAE Help Readme
 ==================
 
-
+0. License
 1. Introduction
 2. Installation
 3. Errors
 4. Used Tools
 5. Contact
 
+
+0. License
+----------
+All of the content of the helpfile is released under the terms of the GNU
+Free Documentation License (FDL). For a copy of the license, refer to the
+Credits section in the file.
 
 
 1. Introduction

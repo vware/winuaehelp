@@ -4,6 +4,8 @@ Official WinUAE Help Changelog
 Version 2.1.4
 -------------
 Georg:
+* Rework the About page
+* Put all of the documentation under the GNU FDL, make according changes
 * Fix a slew of typos, formatting, and HTML errors
 * Move a few links to the main links page for consistency
 
