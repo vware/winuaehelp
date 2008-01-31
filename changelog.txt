@@ -37,7 +37,8 @@ Peter:
 Version 2.1.1
 -------------
 Peter:
-* Replaced logo with one with a white background until we get a good replacement.
+* Replaced logo with one with a white background until we get a good 
+  replacement.
 * New About screen.
 * Hard drives. Two new buttons for automount removable and optical drives.
 * Display. New layout.
@@ -143,30 +144,33 @@ Peter:
 Version 2.0.3
 -------------
 Peter:
-* Updated GUI pages for Winuae V1.1 in particular: Paths, Harddrives, Disk Swapper,
-and Misc. 
+* Updated GUI pages for Winuae V1.1 in particular: Paths, Harddrives, Disk 
+  Swapper, and Misc. 
 * Added new entries to Index.
 
 Version 2.0.2
 -------------
 Peter:
-* Updated GUI pages for Winuae V1.0 in particular: Quickstart, RAM, Hard Drives,
-  Sound, Game & I/O, Output, Misc, About and Paths.
+* Updated GUI pages for Winuae V1.0 in particular: Quickstart, RAM, Hard 
+  Drives, Sound, Game & I/O, Output, Misc, About and Paths.
 
 Version 2.0.1
 -------------
 Georg:
 * Further updates to FAQ page with corrections, additional links, etc.
 * Changed Bernd Roesch's email address
-* Added index and menu files for the online version - winuaehelp.back2roots.org
+* Added index and menu files for the online version - 
+  winuaehelp.back2roots.org
 * Link to online version of the file in links page
 * Miscellaneous typo and information corrections
 * Command line parameters page was not linked from main tips page
 * Consolidate information about OS 3.5/3.9 installation in a seperate page
-* Various grammar/spelling/typo/information corrections, suggested by Wolfgang Stoeggl
+* Various grammar/spelling/typo/information corrections, suggested by 
+  Wolfgang Stoeggl
 * Various additions suggested by Wolfgang Stoeggl
 * Removed animated gif in credits section
-* Moved legal notes to a seperate page, include it in the Getting Started area
+* Moved legal notes to a seperate page, include it in the Getting Started 
+  area
 
 Version 2.0.0
 -------------
@@ -177,7 +181,8 @@ Georg:
 * New screenshots, saving 200kB overall filesize
 * Various fixes in texts and layout changes
 * Moved ADF to Disk section to transdisk page
-* Removed page dedicated to Mathias Ortmann, contained practically no information
+* Removed page dedicated to Mathias Ortmann, contained practically no 
+  information
 * Directly jump to required subsections when being directed to the links page
 * Fixed/updated obsolete hyperlinks
 * Updated first time users page for use with new quickstart feature
@@ -187,7 +192,8 @@ Georg:
 * Updated pages for data transfer, required files with data from the FAQ
 * Moved FAQ and Amiga Programs pages to tips section
 * Merged in new information from Bernd Roesch
-* Fixed page not found errors when help was called from more recent WinUAE GUI pages
+* Fixed page not found errors when help was called from more recent WinUAE 
+  GUI pages
 * Moved Amiga DOS commands page to background information
 * Fixed several typos, grammar mistakes, ...
 * Directed all external links over the dedicated links page
