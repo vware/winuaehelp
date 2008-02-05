@@ -8,6 +8,10 @@ Georg:
 * Put all of the documentation under the GNU FDL, make according changes
 * Fix a slew of typos, formatting, and HTML errors
 * Move a few links to the main links page for consistency
+Peter:
+* Added new command line options
+* New options for Advanced Chipset in Winuae 1.4.6
+* Add new limits for RAM settings esp. Z3 and RTG.
 
 Version 2.1.3
 -------------
