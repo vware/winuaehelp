@@ -5,9 +5,11 @@ Version 2.1.4
 -------------
 Georg:
 * Rework the About page
+* Add a reference to the FDL to all page footers
 * Put all of the documentation under the GNU FDL, make according changes
 * Fix a slew of typos, formatting, and HTML errors
 * Move a few links to the main links page for consistency
+* Add a missing link to the Action Replay page
 Peter:
 * Added new command line options
 * New options for Advanced Chipset in Winuae 1.4.6
