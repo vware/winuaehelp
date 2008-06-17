@@ -10,6 +10,7 @@ Georg:
 * Fix a slew of typos, formatting, and HTML errors
 * Move a few links to the main links page for consistency
 * Add a missing link to the Action Replay page
+* Minor rewording in the main Emulation page
 Peter:
 * Added new command line options
 * New options for Advanced Chipset in Winuae 1.4.6
