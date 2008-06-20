@@ -5,6 +5,7 @@ Version 2.1.4
 -------------
 Georg:
 * Rework the About page
+* New screen shot of the workbench screen, saving about 70k
 * Add a reference to the FDL to all page footers
 * Put all of the documentation under the GNU FDL, make according changes
 * Fix a slew of typos, formatting, and HTML errors
