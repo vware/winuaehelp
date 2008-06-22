@@ -16,6 +16,8 @@ Peter:
 * Added new command line options
 * New options for Advanced Chipset in Winuae 1.4.6
 * Add new limits for RAM settings esp. Z3 and RTG.
+* Added new screen shots for Winuae 1.5.0
+* Wording for new Chipset, RAM, Misc options
 
 Version 2.1.3
 -------------
