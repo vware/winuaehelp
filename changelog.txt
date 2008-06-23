@@ -1,6 +1,11 @@
 Official WinUAE Help Changelog
 ==============================
 
+Version 2.1.5
+-------------
+Georg:
+* Remove references to Win 95/98/ME as they are not supported anymore
+
 Version 2.1.4
 -------------
 Georg:
