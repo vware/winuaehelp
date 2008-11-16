@@ -271,6 +271,11 @@
 		<param name="Local" value="started\firsttimeuser.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="File Association">
+		<param name="Name" value="Priority and Extensions">
+		<param name="Local" value="gui\misc2.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Flash">
 		<param name="Name" value="ROM">
 		<param name="Local" value="gui/rom.htm">
