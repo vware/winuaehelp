@@ -5,6 +5,10 @@ Version 2.1.5
 -------------
 Georg:
 * Remove references to Win 95/98/ME as they are not supported anymore
+Peter:
+* New screenshots for Winuae 1.5.3
+* Updated GUI Pages: Paths, Quickstart, RAM, Filter, Priority
+* Add File Association to index
 
 Version 2.1.4
 -------------
