@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Game and I/O Ports</title>
+<title>I/O Ports</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link href="../Style.css" type="text/css" rel="stylesheet">
 </head>
@@ -15,13 +15,22 @@
     </table>
   </div>
   <div id="TitleRow">
-    <h1 class="dtH1">Game and I/O Ports</h1>
+    <h1 class="dtH1">I/O Ports</h1>
   </div>
 </div>
 <div id="nstext">
-  <p class="normal">These settings let you control how joystick support is provided
-    in WinUAE, as well as choosing serial and parallel port emulations.</p>
+  <p class="normal">These settings let you control how  parallel, serial and MIDI port emulations work.</p>
   <p align="center"><img src="io.gif" alt="Game and I/O Ports"></p>
+  <h2 class="dtH2">Parallel</h2>
+  <p class="normal">This lets you specify which PC installed printer you want to use 
+    for printing for the &quot;Amiga&quot;.<br>
+    Type can be ASCII-Only for text only printing.<br>
+    Type can be Epson Matrix Printer Emulation for older dot matrix type printers.<br>
+    The Postscript (Passthrough) can be used if the printer supports the postscript language 
+    (usually laser printers).<br>
+    The Postscript printer emulator will use <a href="http://aminet.net/search?query=ghostscript">Ghostscript</a> program which will work with any Windows printer.<br>
+    Ghostscript extra parameters. Specify extra options for Ghostscript program.</p>
+  <p class="normal">&nbsp;</p>
   <h2 class="dtH2">Serial</h2>
   <p class="normal">You can adjust the serial port (COM1....) to be used as serial 
     port within UAE. All ports including virtual ports on your PC are selectable.</p>
@@ -36,23 +45,7 @@
     when the Serial- emulation is enabled.<br>
     In Vista, you may not get a MIDI In device to use.</p>
   <p class="normal">&nbsp;</p>
-  <h2 class="dtH2">Printer</h2>
-  <p class="normal">This lets you specify which PC installed printer you want to use 
-    for printing for the &quot;Amiga&quot;.<br>
-    The Postscript detector will detect if the printer supports the postscript language 
-    (usually laser printers).<br>
-    The Postscript printer emulator will use <a href="http://aminet.net/search?query=ghostscript">Ghostscript</a> program which will work with any Windows printer.<br>
-    Ghostscript extra parameters. Specify extra options for Ghostscript program.</p>
-  <p class="normal">&nbsp;</p>
-  <h2 class="dtH2">Mouse/Joystick Ports</h2>
-  <p class="normal">With these 2 options you can select the configuration of the &quot;Amiga&quot; 
-    - ports. Port 0 is usually used by the Amiga - mouse. It is easy to exchange 
-    the settings with the swap button.<br>
-    <strong>Mouse * </strong>uses DirectInput to control the mouse, <strong>Windows Mouse</strong> uses 
-    the windows desktop mouse and <strong> Mousehack mouse </strong>is for <strong>Tablet </strong>users. <strong>X-Arcade</strong> is for Joystick with built in key mappings.</p>
-  <p class="normal">&nbsp;</p>
-  <p class="normal">Please refer to the <a href="../emulation/keyboar.htm">keyboard
-    emulation page</a> for details.</p>
+  <h2 class="dtH2">&nbsp;</h2>
 </div>
 <div class="footer">
   <hr>

@@ -143,7 +143,11 @@
 					<param name="Local" value="gui/sound.htm">
 					</OBJECT>
 				<LI> <OBJECT type="text/sitemap">
-					<param name="Name" value="Game and I/O Ports">
+					<param name="Name" value="Game Ports">
+					<param name="Local" value="gui\game-ports.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="IO Ports">
 					<param name="Local" value="gui/ports.htm">
 					</OBJECT>
 				<LI> <OBJECT type="text/sitemap">

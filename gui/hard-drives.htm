@@ -2,8 +2,7 @@
 <head>
 <title>Hard Drives</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link href="../Style.css" type="text/css" rel="stylesheet">
-</head>
+<link href="../Style.css" type="text/css" rel="stylesheet"></head>
 <body id="bodyID" class="dtBODY">
 <div id="nsbanner">
   <div id="bannerrow1">
@@ -26,7 +25,7 @@
     harddisks. There are two ways how you can use large amounts of data with UAE:
     harddisk files and mounted directories.</p>
   <p class="normal">&nbsp;</p>
-  <h2 class="dtH2">Add Directory...</h2>
+  <h2 class="dtH2">Add Directory or Archive..</h2>
   <p align="center"> <img src="hddir.gif" alt="WinUAE - Add Directory"></p>
   <p class="normal">Adds a virtual HDD to your Amiga. You can specify a path to your
     desired folder in Windows,a Volume name and a device name (usually DHx) which
@@ -45,6 +44,8 @@
   <p class="normal">If you have Cloanto's Amiga Forever, you can boot from the supplied
     shared directory in <strong>C:\Program Files\Cloanto\Amiga Forever\Emulation\Shared\<br>
     dir\System</strong> folder.</p>
+  <p class="normal">&nbsp;</p>
+  <p class="normal">Use <strong>Select Archive or plain file</strong> to add an archive file (.zip, .7z, .rar, .lha, .lzh, .lzx) to appear as a disk on Workbench so there is no need to extract the files first.</p>
   <p class="normal">&nbsp;</p>
   <h2 class="dtH2">Add Hardfile...</h2>
   <p align="center"><img src="hardfile.gif" alt="Add Hardfile"></p>
@@ -94,6 +95,8 @@
     hardfile parameters except block size.(sectors, surfaces and reserved)</p>
   <p class="normal">HDToolBox must be run with &quot;uaehf.device&quot;-parameter
     (&quot;tools/hdtoolbox uaehf.device&quot;)</p>
+  <p class="normal">The <strong>HD Controller </strong>can emulate which controller to use such as <strong>UAE, IDE0-3, SCSI0-6 </strong>or <strong>SCSRAM</strong>.</p>
+  <p class="normal">Once you have selected a hardfile, it will display details about the cylinders, blocks, size and DOS type in the box.</p>
   <p class="normal">&nbsp;</p>
   <h2 class="dtH2"> Add Harddrive...</h2>
   <p align="center"><img src="harddrive.gif" alt="Add Harddrive"></p>
@@ -108,7 +111,8 @@
     Simply select a harddisk and click &quot;Remove&quot;.</p>
   <p class="normal"><strong>Properties</strong> allows you to change the settings 
     for your virtual HDD. To adjust, click your desired HDD and select properties.</p>
-  <p class="normal"><strong>Add CD/DVD Drives </strong>allows you to add optical drives 
+  <p class="normal"><strong>Include removable drives</strong> allows you to include USB drives or compact flash cards etc.</p>
+  <p class="normal"><strong>Include CD/DVD Drives </strong>allows you to add optical drives 
     without needing a CDROM driver.</p>
   <p class="normal"><strong>Automount Removable drives</strong> allows you to add removable 
     drives such as USB, Firewire, Zip drives when a disk is inserted.</p>
@@ -157,7 +161,7 @@
   <p class="normal"><strong>NOTE:</strong> If a drive doesn't currently have a disc 
     in it (floppy, CD-ROM, etc.), then this option will NOT mount the drive for 
     use by the Amiga.</p>
-  <p class="normal"><strong>Add Network Drives: </strong>Add any mapped network drives to the 
+  <p class="normal"><strong>Include Network Drives: </strong>Add any mapped network drives to the 
     hard drive list, for example, shared folders on other computers.</p>
   <p class="normal"><strong>Disable UAEFSDB Support</strong> - This will disable the 
     create of UAEFSDB files which store extra information such as additional protection 
