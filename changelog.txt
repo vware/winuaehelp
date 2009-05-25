@@ -1,6 +1,21 @@
 Official WinUAE Help Changelog
 ==============================
 
+Version 2.1.6
+-------------
+Peter:
+* All GUI screenshots updated.
+* New Getting Started install screenshot
+* Game and I/O Ports now split into two: IO Ports and Game Ports.
+* Credits - about - Year updated from 2008 to 2009
+* Examples - added Kickstart 3.1 for A3000
+* Data Transfer - Added EasyADF to list
+* Requirements - Added Vista to OS list
+* Transfer ROM/Disk - Link added to Data Transfer page
+* GUI - New settings for Hard disks, Game Ports, IO Ports, Paths, Quickstart
+* Index - Updated entries for keyboard, joypad, joystick, parallel, printer, serial, MIDI
+* Known bugs - CDTV emulation is better now. So removed this.
+
 Version 2.1.5
 -------------
 Georg:
