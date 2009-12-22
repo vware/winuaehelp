@@ -40,6 +40,7 @@
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="AmigaDOS">
+		<param name="Name" value="AmigaDOS">
 		<param name="Local" value="background\amigados.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
@@ -61,6 +62,7 @@
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="ASPI">
+		<param name="Name" value="Misc">
 		<param name="Local" value="gui\misc.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
@@ -97,8 +99,8 @@
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="BSD">
-		<param name="Name" value="Misc">
-		<param name="Local" value="gui/misc.htm">
+		<param name="Name" value="Expansions">
+		<param name="Local" value="gui\expansions.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Bugs">
@@ -516,10 +518,18 @@
 		<param name="Local" value="tips/amigaprogs.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="MMU">
+		<param name="Name" value="CPU">
+		<param name="Local" value="gui\cpu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Network">
 		<param name="Name" value="Features">
 		<param name="Local" value="features.htm">
+		<param name="Name" value="Hard Drives">
 		<param name="Local" value="gui\hard-drives.htm">
+		<param name="Name" value="Expansions">
+		<param name="Local" value="gui\expansions.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="NTSC">
@@ -635,6 +645,13 @@
 		<param name="Local" value="started/transrom.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="RTG">
+		<param name="Name" value="RTG Graphics">
+		<param name="Local" value="gui\expansions.htm">
+		<param name="Name" value="Miscellaneous">
+		<param name="Local" value="gui\misc.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Save">
 		<param name="Name" value="Misc">
 		<param name="Local" value="gui/misc.htm">
@@ -731,13 +748,13 @@
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="uaescsi">
-		<param name="Name" value="Misc">
-		<param name="Local" value="gui\misc.htm">
+		<param name="Name" value="Expansions">
+		<param name="Local" value="gui\expansions.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="uaenet">
-		<param name="Name" value="Misc">
-		<param name="Local" value="gui\misc.htm">
+		<param name="Name" value="Expansions">
+		<param name="Local" value="gui\expansions.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="uaehf">
