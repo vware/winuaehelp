@@ -128,6 +128,10 @@
 					<param name="Name" value="Hard Drives">
 					<param name="Local" value="gui/hard-drives.htm">
 					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Expansions">
+					<param name="Local" value="gui\expansions.htm">
+					</OBJECT>
 			</UL>
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Host">

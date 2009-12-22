@@ -1,6 +1,17 @@
 Official WinUAE Help Changelog
 ==============================
 
+Version 2.1.7
+-------------
+Peter:
+* All GUI screenshots updated.
+* New Expansions tab added.
+* CPU - New 68040 MMU option
+* IO Ports - New Protection Dongle option
+* Sounds - New Drivers options
+* Various options moved around.
+* AmigaDOS - Parameter information added to all commands.
+
 Version 2.1.6
 -------------
 Peter:
