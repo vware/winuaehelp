@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>Expansions</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="../Style.css" type="text/css" rel="stylesheet">
+</head>
+<body id="bodyID" class="dtBODY">
+<div id="nsbanner">
+  <div id="bannerrow1">
+    <table class="bannerparthead" cellspacing=0>
+      <tr id="hdr">
+        <td class="runninghead" nowrap>WinUAE Documentation</td>
+        <td class="product" nowrap>&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+  <div id="TitleRow">
+    <h1 class="dtH1">Expansions</h1>
+  </div>
+</div>
+<div id="nstext">
+  <p class="normal">This will change settings for expansion cards such as RTG, Network, and SCSI cards.</p>
+  <p align="center"><img src="expansions.gif" alt="Expansions" width="636" height="477"></p>
+  <h2><b>RTG Graphics Card Settings</b></h2>
+  <ul>
+    <li class="normal"><strong>RTG Memory </strong> is for graphics card use such 
+      as the Picasso96 Retargetable Graphics system so that you can use your PC's 
+      graphics card rather than the custom chips for extra speed. Upto 512 MB</li>
+    <li><b>Match host and RTG color depth if possible</b>. Color space conversion 
+      enabled.</li>
+    <li><b>Scale if smaller than display size setting.</b> Rescale display if 
+      current window is smaller than the display size setting given</li>
+    <li><b>Always scale in windowed mode. </b> Rescale display instead if using 
+      windowed mode.</li>
+    <li><b>Color formats</b> can be changed on the pull down menus for 15/16/24/32 
+      bit color depts. See number of bits after each RGB value to change format.<br>
+    </li>
+    Note, if the RTG area is greyed out, change the CPU to a higher and faster 
+      processor such as 
+      68020 or better.<br>
+      <br> 
+    <li><strong>Refresh Rate.</strong> This can be Disabled, Chipset, Real or 50, 60, 70 or 75 Hz.</li>
+    <li><strong>Aspect Ratio</strong>. This can be Disabled, Automatic, 4:3, 5:4, 15:9, 16.9, 16.10.</li>
+  </ul>
+  <h2 class="dtH2">&nbsp;&nbsp;&nbsp;Miscellaneous Expansions</h2>
+  <ul>
+    <li><strong>Catweasel Z2 emulation</strong>. Emulates the Catweasel floppy disk controller using Zorro 2 slot (moved from Misc in v2.0)</li>
+    <li><strong>uaescsi.device </strong>. <span class="normal">Adds support for IDE/SCSI 
+      CDROM drives on Amiga side. Use this device name in your CD0 DosDriver file 
+      in Devs\DosDrivers, and add the appropiate unit number (use Create Log file 
+      to see which unit number your CD drive uses).<br>
+First CDROM is always uaescsi.device unit zero, second is zero etc.. and 
+    then other non-CDROM SCSI devices (moved from Misc in v2.0).</span></li>
+  </ul>
+  <h2>Network</h2>
+  <ul>
+    <li><strong>bsdsocket.library</strong>. <span class="normal">allows your 
+      Amiga to use your PC's network connection, whether it be through Dial-Up 
+      Networking (DUN), or Ethernet connectivity. In other words, if your PC is 
+      connected to your Internet Service Provider (ISP) through a modem, or connected 
+      to a LAN through an Ethernet connection, your Amiga will be able to make 
+    use of that connection </span> (moved from Misc in v2.0).</li>
+    <li><strong>uaenet.device</strong>. <span class="normal">Enable SANA2 compatible net device. Requires <a href="../links.htm#essential">WinPCap</a> (Windows Packet Capture Library) (moved from Misc in v2.0).</span></li>
+    <li><strong>A2065 Z2</strong>. Emulates the A2065 Zorro 2 card. Option below is 'Cable Disconnected'.</li>
+  </ul>
+  <h2 class="dtH2">&nbsp;</h2>
+</div>
+<div class="footer">
+  <hr>
+  Help content is under the terms of the <a href="../credits/fdl.htm">GNU Free Documentation License</a>.</div>
+</body>
+</html>
