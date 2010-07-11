@@ -1,6 +1,12 @@
 Official WinUAE Help Changelog
 ==============================
 
+Version 2.1.9
+-------------
+Peter:
+* New Test and Remap options for Game Ports
+* New 32 bit Chip RAM option
+
 Version 2.1.8
 -------------
 Peter:
