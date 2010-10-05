@@ -103,9 +103,19 @@
 		<param name="Local" value="gui\expansions.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Buffer">
+		<param name="Name" value="Buffer">
+		<param name="Local" value="gui\display.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Bugs">
 		<param name="Name" value="Known Bugs">
 		<param name="Local" value="bugs.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CD Drive or Image">
+		<param name="Name" value="CD Drive or Image">
+		<param name="Local" value="gui\hard-drives.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="CD32">
@@ -384,6 +394,11 @@
 		<param name="Name" value="IDE">
 		<param name="Name" value="Adv.Chipset">
 		<param name="Local" value="gui\advchipset.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ISO">
+		<param name="Name" value="ISO">
+		<param name="Local" value="gui\hard-drives.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Input">

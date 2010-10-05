@@ -1,6 +1,16 @@
 Official WinUAE Help Changelog
 ==============================
 
+Version 2.2.0
+-------------
+Peter:
+* New Chipset screenshot - sound emulation removed
+* New Hard Disk screenshot - CD drive/image option
+* Display - No, double and triple buffer option
+* Filter - New screenshot
+* Misc - New Window style option
+* Index - some minor changes
+
 Version 2.1.9
 -------------
 Peter:
