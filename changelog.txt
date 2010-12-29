@@ -1,6 +1,13 @@
 Official WinUAE Help Changelog
 ==============================
 
+Version 2.2.1
+-------------
+Georg:
+* Correct lots of internal and external links
+* Fix up HTML validity problems
+* Correct some spelling and logic errors
+
 Version 2.2.0
 -------------
 Peter:
