@@ -621,27 +621,27 @@ Example: Why
 /M Multiple arguments
 /N Number
 /S Switch (optional)</pre>
-  <p>&nbsp;</p>
+  <p class="normal">&nbsp;</p>
   <h2 class="dtH2">Additional AmigaDOS commands</h2>
   <pre>
-<strong>DMS
-</strong>Format:<br> DMS Read file[.DMS] [FROM dev:] [TEXT filetext] [CMODE mode] [LOW lowtrack] [HIGH hightrack] [NOVAL] [NOZERO] [ENCRYPT password]
+<strong>DMS</strong>
+Format: DMS Read file[.DMS] [FROM dev:] [TEXT filetext] [CMODE mode] [LOW lowtrack] [HIGH hightrack] [NOVAL] [NOZERO] [ENCRYPT password]
  DMS Write file[.DMS],,, [TO dev:] [LOW lowtrack] [HIGH hightrack] [NOVAL] [NOTEXT] [NOPAUSE [DECRYPT password]
  DMS Repack file[.DMS] [TO dev:] [LOW lowtrack] [HIGH hightrack] [CMODE mode]
  DMS View file[.DMS],,, [FULL] DMS Text file[.DMS],,,
  DMS Test file[.DMS],,, DMS Help
 Purpose:  To read, write or view Disk Masher disk images of floppy disks.
 Example: DMS Write MyDisk.DMS FROM DF0:
-<strong>
-Installer</strong>
+
+<strong>Installer</strong>
 Format:  Installer [SCRIPT] filename &lt;[APPNAME] name&gt; &lt;[MINIUSER] level&gt; &lt;[DEFUSER] default&gt; &lt;[LOGFILE] 
  logname&gt; &lt;[LANGUAGE] language&gt; &lt;NOPRETEND&gt; &lt;NOLOG&gt; &lt;NOPRINT&gt;
 Purpose: To install an application via a installer script. Usually provided as a default tool for script 
  files in icon.
 Example: Installer SCRIPT InstallApp APPNAME MyProgram LOGFILE DH0:MyProgram.log
 
-<strong>LHA
-</strong>Format:  LHA [-options] &lt;command&gt; &lt;archive[.LZH|LHA]&gt; [[homedir] &lt;filespec...] [@file] [destination]
+<strong>LHA</strong>
+Format:  LHA [-options] &lt;command&gt; &lt;archive[.LZH|LHA]&gt; [[homedir] &lt;filespec...] [@file] [destination]
 Purpose: To create, modify or list LHA or LZH files
 Examples:
 LHA a pictures.lha #?.jpg (archives all jpg files into pictures.lha)
@@ -654,9 +654,8 @@ Purpose: To create, modify or list LZX archive files.
 Examples:
 LZX a documents.lzx #?.doc (archives all doc files into documents.lzx)
 LZX l documents.lzx        (lists all files in documents.lzx)
-LZX x documents.lzx        (extracts all files from documents.lzx)
-</pre>
-  <p>&nbsp;</p>
+LZX x documents.lzx        (extracts all files from documents.lzx)</pre>
+  <p class="normal">&nbsp;</p>
   <h2 class="dtH2">Additional AmigaDOS Information</h2>
   <p><strong>Clear Screen</strong><br>
     Example: Echo &quot;*E[0;0H*E[J&quot;<br>
