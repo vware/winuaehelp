@@ -5,8 +5,8 @@ Version 2.2.1
 -------------
 Georg:
 * Correct lots of internal and external links
-* Fix up HTML validity problems
-* Correct some spelling and logic errors
+* Fix HTML validity problems
+* Various content and layout updates, error corrections
 
 Version 2.2.0
 -------------
