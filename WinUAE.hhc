@@ -296,12 +296,16 @@
 				<param name="Local" value="credits/contrib.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="GPL">
-				<param name="Local" value="credits/gpl.htm">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="About this Help">
 				<param name="Local" value="credits/about.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Changelog">
+				<param name="Local" value="credits/changelog.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="GPL">
+				<param name="Local" value="credits/gpl.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="FDL">

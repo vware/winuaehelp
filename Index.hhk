@@ -9,7 +9,7 @@
 		<param name="Name" value="About">
 		<param name="Name" value="About WinUAE">
 		<param name="Local" value="credits/contrib.htm">
-		<param name="Name" value="About this help">
+		<param name="Name" value="Help file credits">
 		<param name="Local" value="credits/about.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
@@ -35,7 +35,7 @@
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Amiga Inc">
-		<param name="Name" value="About this help">
+		<param name="Name" value="Help file credits">
 		<param name="Local" value="credits/about.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
@@ -151,7 +151,7 @@
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Cloanto">
-		<param name="Name" value="About this help">
+		<param name="Name" value="Help file credits">
 		<param name="Local" value="credits/about.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
@@ -213,7 +213,7 @@
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="DirectX">
-		<param name="Name" value="About this help">
+		<param name="Name" value="Help file credits">
 		<param name="Local" value="credits/about.htm">
 		<param name="Name" value="Display">
 		<param name="Local" value="gui/display.htm">
@@ -435,7 +435,7 @@
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Kickstart">
-		<param name="Name" value="About this help">
+		<param name="Name" value="Help file credits">
 		<param name="Local" value="credits/about.htm">
 		<param name="Name" value="Compatibility">
 		<param name="Local" value="emulation/compat.htm">
@@ -503,7 +503,7 @@
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Microsoft">
-		<param name="Name" value="About this help">
+		<param name="Name" value="Help file credits">
 		<param name="Local" value="credits/about.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
@@ -792,7 +792,7 @@
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Workbench">
-		<param name="Name" value="About this help">
+		<param name="Name" value="Help file credits">
 		<param name="Local" value="credits/about.htm">
 		<param name="Name" value="Requirements">
 		<param name="Local" value="started/require.htm">
