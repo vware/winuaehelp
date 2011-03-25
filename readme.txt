@@ -60,7 +60,7 @@ Contact:  Georg Veichtlbauer
 E-Mail:   georg@vware.at
 Web-Site: http://www.vware.at
 
-Contact:  Peter Hutchinson
+Contact:  Peter Hutchison
 E-Mail:   pjhutch@pcguru.plus.com
 Web-Site: http://www.pcguru.plus.com
 
