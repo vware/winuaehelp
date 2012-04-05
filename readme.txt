@@ -66,9 +66,3 @@ Web-Site: http://www.pcguru.plus.com
 
 Contact:  Bernd Roesch
 E-Mail:   nospamname@gmx.de
-
-
-------------------------------
-© Georg Veichtlbauer 1999-2011
-© Peter Hutchison 2002-2011
-© Bernd Roesch 2004
