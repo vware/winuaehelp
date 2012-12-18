@@ -2,8 +2,7 @@
 <head>
 <title>Misc</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link href="../Style.css" type="text/css" rel="stylesheet">
-</head>
+<link href="../Style.css" type="text/css" rel="stylesheet"></head>
 <body id="bodyID" class="dtBODY">
 <div id="nsbanner">
   <div id="bannerrow1">
@@ -28,14 +27,14 @@
       traps the mouse-cursor within its Window borders, and if your hand is already 
       on the mouse and you want to escape this capture, you can just press the 
       middle button.</li>
-    <li class="normal"><strong>Minimize when focus is lost</strong> will minimize the Winuae window if you switch to another program or window.</li>
     <li class="normal"><strong>Show GUI on startup</strong> will allow you to 
-      double-click a .uae config-file without it immediately launching the emulation.</li>
+    double-click a .uae config-file without it immediately launching the emulation.</li>
     <li class="normal"><strong>Use CTRL-F11 to quit</strong> Just press this key 
       combination to quit WinUAE. If this option is enabled, the ALT-F4 combination 
       can be used by the Amiga properly, and CTRL-F11 will quit WinUAE.</li>
     <li class="normal"><strong>Don't show Taskbar button</strong>. Removes Taskbar 
       button.</li>
+    <li class="normal"><strong>Don't show notification icon. </strong></li>
     <li class="normal"><strong>Always on top</strong>. Make sure Winuae window 
       is always on top of other windows.</li>
     <li class="normal"><strong>Disable screensaver.</strong> Temporarily 
@@ -47,37 +46,38 @@
       as internal bitplace emulation and copper, when RTG (P96) is in use.</li>
     <li class="normal"><strong>Clipboard sharing</strong> allows you to share the contents of your clipboard between the Amiga and Windows if enabled.</li>
     <li class="normal"><strong>Allow Native code</strong> is disabled by default.</li>
-    <li class="normal"><strong>SCSI and CD/DVD access method.</strong> Select type of ASPI layer 
-      to use e.g. SPTI, Adaptec, Nero ASPI or Frog ASPI.</li>
+    <li class="normal"><strong>Native on-screen display.</strong></li>
+    <li class="normal"><strong>RTG on-screen display</strong></li>
+    <li class="normal"><strong>Create winuaelog.txt log</strong> can be enabled to debug Winuae when experiencing problems (see <a href="paths.htm">Paths</a> for more settings)</li>
+    <li class="normal"><strong>Blank unused displays.</strong></li>
+    <li class="normal"><strong>Start mouse uncaptured</strong>. Start Winuae but do not capture mouse pointer in Winuae window.</li>
+    <li class="normal"><strong>Start minimized. </strong> Minimise Winuae window when Winuae is started.</li>
+    <li class="normal"><strong>Minimize when focus is lost</strong> will minimize the Winuae window if you switch to another program or window.<br>
+    </li>
+  </ul>
+  <p>&nbsp;</p>
+  <h1 class="dtH2">Miscellaneous Options</h1>
+  <ul>
+    <li><span class="normal"><strong>SCSI and CD/DVD access method.</strong> Select type of ASPI layer 
+    to use e.g. SPTI, Adaptec, Nero ASPI or Frog ASPI.</span></li>
     <li class="normal"><strong>Windowed style.</strong> Select the following styles: Borderless, Minimal, Standard or Extended</li>
     <li class="normal"><strong>Graphics API</strong> to specify API to use for graphics e.g. Direct3D or DirectDraw.</li>
     <li class="normal"><strong>DirectDraw Display Buffer</strong>. Specify type of ram for display buffer system as 
-      Default RAM, Local VRAM, Non Local VRAM or System RAM.</li>
-    <li class="normal"><strong>Native on-screen display</strong></li>
-    <li class="normal"><strong>RTG on-screen display</strong></li>
+    Default RAM, Local VRAM, Non Local VRAM or System RAM.</li>
   </ul>
+  <p>&nbsp;</p>
+  <p>&nbsp; </p>
   <h1 class="dtH2">Language</h1>
   <ul>
     <li>Specify the language used for WinUAE, which can be on <strong>Autodetect</strong> or <strong>English</strong> (built
       in).</li>
+    <li><strong>GUI Font. </strong>Select font for GUI, select a font using Windows font selection window.</li>
+    <li><strong>List font. </strong>Select font for lists, select a font using Windows font selection window.</li>
+    <li><strong>Set default. </strong>Set default font.</li>
+    <li><strong>Select</strong> font size from 60% to 140%.</li>
+    <li><strong>Resizable GUI </strong>option to allow you expand or shrink the Winuae Window.</li>
   </ul>
   <p class="normal">&nbsp;</p>
-  <h2 class="dtH2">Keyboard LEDs</h2>
-  <ul>
-    <li class="normal">(NumLock) Sets which LED to emulate e.g. Power, HD, CD, DFx</li>
-    <li class="normal">(CapsLock) Set which LED to emulate e.g. Power, HD, CD, DFx</li>
-    <li class="normal">(ScrollLock) Set whichLED to emulate e.g. Power, HD, CD, DFx</li>
-    <li class="normal"><strong>USB-Mode</strong> Add support for Multimedia keyboards.</li>
-  </ul>
-  <p class="normal">&nbsp;</p>
-  <h2 class="dtH2">Logging</h2>
-  <ul>
-    <li class="normal"><strong>Create log file</strong> will write various debugging
-      information to the winuaelog.txt file in the same directory where WinUAE
-      resides.</li>
-    <li class="normal"><strong>Log illegal memory accesses</strong> will write memory-access
-      problems into the winuaelog.txt file, if Create log file is enabled.</li>
-  </ul>
   <p class="normal">&nbsp;</p>
   <h2 class="dtH2">State Files</h2>
   <ul>
@@ -89,6 +89,16 @@
       automatic save states to disk every 5 seconds into a 20 MB buffer (default
       settings).</li>
   </ul>
+  <h2 class="dtH2">Keyboard LEDs</h2>
+  <ul>
+    <li class="normal">(NumLock) Sets which LED to emulate e.g. Power, HD, CD, DFx</li>
+    <li class="normal">(CapsLock) Set which LED to emulate e.g. Power, HD, CD, DFx</li>
+    <li class="normal">(ScrollLock) Set whichLED to emulate e.g. Power, HD, CD, DFx</li>
+    <li class="normal"><strong>USB-Mode</strong> Add support for Multimedia keyboards.</li>
+  </ul>
+  <p class="normal">&nbsp;</p>
+  <p class="normal">&nbsp;</p>
+  <h2 class="dtH2">&nbsp;</h2>
   <p class="normal">&nbsp;</p>
   <p class="normal">&nbsp;</p>
 </div>
