@@ -531,6 +531,8 @@
 		<param name="Name" value="Logging">
 		<param name="Name" value="Misc">
 		<param name="Local" value="gui/misc.htm">
+		<param name="Name" value="Paths">
+		<param name="Local" value="gui\paths.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Mathias Ortmann">
