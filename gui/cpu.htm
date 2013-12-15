@@ -2,8 +2,7 @@
 <head>
 <title>CPU and FPU</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link href="../Style.css" type="text/css" rel="stylesheet">
-</head>
+<link href="../Style.css" type="text/css" rel="stylesheet"></head>
 <body id="bodyID" class="dtBODY">
 <div id="nsbanner">
   <div id="bannerrow1">
@@ -22,7 +21,7 @@
   <p class="normal">These settings control the type of Motorola 680x0 CPU which will 
     be emulated.</p>
   <p class="normal">&nbsp;</p>
-  <p align="center"><img src="cpu.gif" alt="Winuae - CPU"></p>
+  <p align="center"><img src="cpu.gif" alt="CPU" width="798" height="601"></p>
   <h2 class="dtH2">CPU Type</h2>
   <ul>
     <li class="normal"><strong>68000</strong> is the basic CPU type, as found in the 
@@ -50,6 +49,7 @@
   <p class="normal"><strong>JIT</strong> can be enabled to access the Advanced JIT 
     settings if the 68030 or better is selected (See below).</p>
   <p class="normal"><strong>68040 MMU </strong>enables the Memory Management Unit of the 68040 for operating systems like Linux on the Amiga. It is not compatible with JIT.</p>
+  <p class="normal"><strong>Unimplemented CPU emu </strong> emulates the full 68060 CPU (in case you forget to load Setpatch and 68040.library and 68060.library).</p>
   <p class="normal">&nbsp;</p>
   <h2 class="dtH2">FPU</h2>
   <ul>
@@ -64,6 +64,7 @@
   </ul>
   <p class="normal"><strong>More Compatible</strong> is available if a FPU is selected. 
     Some applications require this for proper compatibility.</p>
+  <p class="normal"><strong>Unimplemented FPU emu</strong> emulates the full 68881 FPU (in case you forget to load Setpatch and 68040.library and 68060.library).</p>
   <p class="normal">&nbsp;</p>
   <h2 class="dtH2">Cycle-Exact CPU Emulation Speed</h2>
   <ul>

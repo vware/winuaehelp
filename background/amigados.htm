@@ -632,13 +632,14 @@ Format: DMS Read file[.DMS] [FROM dev:] [TEXT filetext] [CMODE mode] [LOW lowtra
  DMS Test file[.DMS],,, DMS Help
 Purpose:  To read, write or view Disk Masher disk images of floppy disks.
 Example: DMS Write MyDisk.DMS FROM DF0:
-
+<br>
 <strong>Installer</strong>
 Format:  Installer [SCRIPT] filename &lt;[APPNAME] name&gt; &lt;[MINIUSER] level&gt; &lt;[DEFUSER] default&gt; &lt;[LOGFILE] 
  logname&gt; &lt;[LANGUAGE] language&gt; &lt;NOPRETEND&gt; &lt;NOLOG&gt; &lt;NOPRINT&gt;
 Purpose: To install an application via a installer script. Usually provided as a default tool for script 
  files in icon.
 Example: Installer SCRIPT InstallApp APPNAME MyProgram LOGFILE DH0:MyProgram.log
+<br>
 
 <strong>LHA</strong>
 Format:  LHA [-options] &lt;command&gt; &lt;archive[.LZH|LHA]&gt; [[homedir] &lt;filespec...] [@file] [destination]
@@ -647,6 +648,7 @@ Examples:
 LHA a pictures.lha #?.jpg (archives all jpg files into pictures.lha)
 LHA l pictures.lha        (lists all files in pictures.lha)
 LHA x pictures.lha        (extracts all files from pictures.lha)
+<br>
 
 <strong>LZX</strong>
 Format:  LZX [-options] &lt;command&gt; &lt;archive&gt; [&lt;file&gt; ...] [&lt;destdir&gt;]
@@ -655,6 +657,8 @@ Examples:
 LZX a documents.lzx #?.doc (archives all doc files into documents.lzx)
 LZX l documents.lzx        (lists all files in documents.lzx)
 LZX x documents.lzx        (extracts all files from documents.lzx)</pre>
+<br>
+
   <p class="normal">&nbsp;</p>
   <h2 class="dtH2">Additional AmigaDOS Information</h2>
   <p><strong>Clear Screen</strong><br>
