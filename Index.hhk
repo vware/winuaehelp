@@ -733,6 +733,8 @@
 		<param name="Name" value="SCSI">
 		<param name="Name" value="Adv.Chipset">
 		<param name="Local" value="gui\advchipset.htm">
+		<param name="Name" value="expansions">
+		<param name="Local" value="gui\expansions.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Screen">
