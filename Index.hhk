@@ -20,6 +20,13 @@
 		<param name="Local" value="gui/rom.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Accelerator">
+		<param name="Name" value="RAM">
+		<param name="Local" value="gui\ram.htm">
+		<param name="Name" value="ROM">
+		<param name="Local" value="gui\rom.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="ADF">
 		<param name="Name" value="Transfer an ADF to an Amiga floppy">
 		<param name="Local" value="started/transdisk.htm">
@@ -131,6 +138,11 @@
 		<param name="Local" value="bugs.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Catweasel">
+		<param name="Name" value="Expansions">
+		<param name="Local" value="gui\expansions.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="CD Drive or Image">
 		<param name="Name" value="CD Drive or Image">
 		<param name="Local" value="gui\hard-drives.htm">
@@ -159,6 +171,13 @@
 		<param name="Local" value="gui\rom.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Chip RAM">
+		<param name="Name" value="RAM">
+		<param name="Local" value="gui\ram.htm">
+		<param name="Name" value="Advanced Chipset">
+		<param name="Local" value="gui\advchipset.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Chipset">
 		<param name="Name" value="Chipset">
 		<param name="Local" value="gui/chipset.htm">
@@ -166,6 +185,11 @@
 		<param name="Local" value="gui/cpu.htm">
 		<param name="Name" value="Custom Chips">
 		<param name="Local" value="background/custchips.htm">
+		<param name="Name" value="Advanced Chipset">
+		<param name="Local" value="gui\advchipset.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CIA">
 		<param name="Name" value="Advanced Chipset">
 		<param name="Local" value="gui\advchipset.htm">
 		</OBJECT>
@@ -300,6 +324,11 @@
 		<param name="Local" value="started\transdisk.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Fast RAM">
+		<param name="Name" value="RAM">
+		<param name="Local" value="gui\ram.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="File-System">
 		<param name="Name" value="File-System Specifics">
 		<param name="Local" value="filesys.htm">
@@ -351,6 +380,11 @@
 		<param name="Local" value="gui/cpu.htm">
 		<param name="Name" value="JIT - Just In Time">
 		<param name="Local" value="emulation/jit.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="FMV">
+		<param name="Name" value="Expansions">
+		<param name="Local" value="gui\expansions.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Gary">
@@ -440,6 +474,11 @@
 		<param name="Name" value="Input">
 		<param name="Name" value="Input">
 		<param name="Local" value="gui/input.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="JIT">
+		<param name="Name" value="CPU">
+		<param name="Local" value="gui\cpu.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Joypad">
@@ -562,6 +601,13 @@
 		<param name="Local" value="started\require.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Monitor">
+		<param name="Name" value="Display">
+		<param name="Local" value="gui\display.htm">
+		<param name="Name" value="Expansions">
+		<param name="Local" value="gui\expansions.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Mouse">
 		<param name="Name" value="Misc">
 		<param name="Local" value="gui/misc.htm">
@@ -639,6 +685,7 @@
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="PCMCIA">
+		<param name="Name" value="Advanced Chipset">
 		<param name="Local" value="gui\advchipset.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
@@ -669,6 +716,13 @@
 		<param name="Name" value="Postscript">
 		<param name="Name" value="IO Ports">
 		<param name="Local" value="gui\ports.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="PPC">
+		<param name="Name" value="PPC CPU">
+		<param name="Local" value="gui\cpu.htm">
+		<param name="Name" value="RAM Accerator boards">
+		<param name="Local" value="gui\ram.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Printer">
@@ -714,6 +768,11 @@
 		<param name="Local" value="started/transrom.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="RTC">
+		<param name="Name" value="ROM">
+		<param name="Local" value="gui\rom.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="RTG">
 		<param name="Name" value="RTG Graphics">
 		<param name="Local" value="gui\expansions.htm">
@@ -735,6 +794,8 @@
 		<param name="Local" value="gui\advchipset.htm">
 		<param name="Name" value="expansions">
 		<param name="Local" value="gui\expansions.htm">
+		<param name="Name" value="ROM">
+		<param name="Local" value="gui\rom.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Screen">
