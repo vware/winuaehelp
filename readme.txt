@@ -61,8 +61,7 @@ E-Mail:   georg@vware.at
 Web-Site: http://www.vware.at
 
 Contact:  Peter Hutchison
-E-Mail:   pjhutch@pcguru.plus.com
-Web-Site: http://www.pcguru.plus.com
+E-Mail:   pjhutch17@talktalk.net
 
 Contact:  Bernd Roesch
 E-Mail:   nospamname@gmx.de
