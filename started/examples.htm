@@ -26,14 +26,15 @@
   <div class="tablediv">
     <table cellspacing="0" class="dtTABLE" width="100%" border="1">
       <tr valign="top">
-        <th>&nbsp;</th>
-        <th>A500</th>
-        <th>A500+</th>
-        <th>A600</th>
-        <th>A3000</th>
-        <th>A1200</th>
-        <th>CD32</th>
-        <th>A4000</th>
+        <th width="11%">&nbsp;</th>
+        <th width="13%">A500</th>
+        <th width="12%">A500+</th>
+        <th width="9%">A600</th>
+        <th width="9%">A3000</th>
+        <th width="10%">A1200</th>
+        <th width="11%">CD32</th>
+        <th width="13%">A4000</th>
+        <th width="12%"><strong>A4000/PPC</strong></th>
       </tr>
       <tr>
         <td class="normal">Processor</td>
@@ -44,6 +45,7 @@
         <td class="normal">68EC020</td>
         <td class="normal">68EC020</td>
         <td class="normal">68030/040</td>
+        <td class="normal">PPC 604e</td>
       </tr>
       <tr>
         <td class="normal">Chip RAM</td>
@@ -54,6 +56,7 @@
         <td class="normal">2MB</td>
         <td class="normal">2MB</td>
         <td class="normal">2MB</td>
+        <td class="normal">256K</td>
       </tr>
       <tr>
         <td class="normal">Fast RAM</td>
@@ -64,6 +67,7 @@
         <td class="normal">0 - 8MB</td>
         <td class="normal">0MB</td>
         <td class="normal">0 - 8MB</td>
+        <td class="normal">0 MB</td>
       </tr>
       <tr>
         <td class="normal">Slow RAM</td>
@@ -74,6 +78,7 @@
         <td class="normal">n/a</td>
         <td class="normal">0MB</td>
         <td class="normal">n/a</td>
+        <td class="normal">0 MB</td>
       </tr>
       <tr>
         <td class="normal">Z3-Fast</td>
@@ -84,6 +89,18 @@
         <td class="normal">0 - 256MB</td>
         <td class="normal">0MB</td>
         <td class="normal">0 - 256MB</td>
+        <td class="normal">0 MB</td>
+      </tr>
+      <tr>
+        <td class="normal">Accelerator</td>
+        <td class="normal">n/a</td>
+        <td class="normal">n/a</td>
+        <td class="normal">n/a</td>
+        <td class="normal">n/a</td>
+        <td class="normal">n/a</td>
+        <td class="normal">n/a</td>
+        <td class="normal">n/a</td>
+        <td class="normal">128 MB</td>
       </tr>
       <tr>
         <td class="normal">RTG RAM</td>
@@ -94,6 +111,7 @@
         <td class="normal">0 - 32MB</td>
         <td class="normal">0MB</td>
         <td class="normal">0 - 32MB</td>
+        <td class="normal">4</td>
       </tr>
       <tr>
         <td class="normal">ROM File</td>
@@ -104,6 +122,7 @@
         <td class="normal">3.0, 3.1</td>
         <td class="normal">3.1 Extended</td>
         <td class="normal">3.0, 3.1</td>
+        <td class="normal">3.1</td>
       </tr>
       <tr>
         <td class="normal">Hard Drive</td>
@@ -113,6 +132,7 @@
         <td class="normal">Yes</td>
         <td class="normal">Yes</td>
         <td class="normal">No</td>
+        <td class="normal">Yes</td>
         <td class="normal">Yes</td>
       </tr>
       <tr>
@@ -124,6 +144,7 @@
         <td class="normal">AGA</td>
         <td class="normal">AGA</td>
         <td class="normal">AGA</td>
+        <td class="normal">Picasso IV</td>
       </tr>
       <tr>
         <td class="normal">Floppies</td>
@@ -133,7 +154,8 @@
         <td class="normal">880kB</td>
         <td class="normal">880kB</td>
         <td class="normal">None</td>
-        <td class="normal">880kB or 1600kB</td>
+        <td class="normal">880kB/1600kB</td>
+        <td class="normal">880kb/1600Kb</td>
       </tr>
     </table>
   </div>
@@ -143,7 +165,9 @@
     need - typically, 4-32MB would cover most software applications.<br>
     The A500 configuration with a Kickstart 1.3 ROM and 512kB or 1MB Chip RAM
     would work. For AGA games the A1200 configuration would work, adding some Fast
-    RAM can help a lot.<br>
+    RAM can help a lot.
+    <br>
+    For PowerPC Emulation you only use Accelerator RAM, plus a Piccasso IV rom, cyperstorm or blizzard ppc <a href="http://eab.abime.net/zone.php?">roms</a> and the QEmu-uae.dll <a href="http://www.winuae.net/frames/download.html">plugin</a>. <br>
     When saving a configuration, enter the name of the Amiga with a few details
     of its configuration would help to you to select which configuration is needed.<br>
     If using one configuration a lot, save it as <strong>default</strong> and then
