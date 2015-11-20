@@ -22,37 +22,28 @@
   <p class="normal">This will change settings for expansion cards such as RTG, Network, and SCSI cards.</p>
   <p class="normal">&nbsp;</p>
   <p align="center"><img src="expansions.gif" alt="Expansions" height="616"></p>
-  <h2 class="dtH2">RTG Graphics Card Settings</h2>
+  <h2 class="dtH2">Expansion Board Settings</h2>
   <ul>
-    <li class="normal"><strong>RTG Graphics Card</strong> to select a Zorro II, Zorro III</li>
-    , Picasso II, Piccalo, 
-    EGS-28/24 or 
-    Picasso IV card.
-    <li class="normal"><strong>RTG Memory</strong> is for graphics card use such 
-      as the Picasso96 Retargetable Graphics system so that you can use your PC's 
-      graphics card rather than the custom chips for extra speed. Upto 512 MB</li>
-    <li class="normal"><strong>Match host and RTG color depth if possible</strong> Color space conversion 
-      enabled.</li>
-    <li class="normal"><strong>Scale if smaller than display size setting</strong> Rescale display if 
-      current window is smaller than the display size setting given</li>
-    <li class="normal"><strong>Always scale in windowed mode</strong> Rescale display instead if using 
-      windowed mode.</li>
-    <li class="normal"><strong>Always center </strong>Will make sure RTG display is centered in middle of monitor.</li>
-    <li class="normal"><strong>Hardware vertical blank interrupt</strong> emulation</li>
-    <li class="normal"><strong>Hardware sprite emulation</strong></li>
-    <li class="normal"><strong>Montor selection </strong>menu can be used if you have more than one monitor and need to select another.</li>
-    <li class="normal"><strong>Refresh Rate</strong> This can be Disabled, Chipset, Real or 50, 60, 70 or 75 Hz.</li>
-    <li class="normal"><strong>Buffer Mode</strong> This can be Double or Tripe Buffering for graphics.</li>
-    <li class="normal"><strong>Aspect Ratio</strong> This can be Disabled, Automatic, 4:3, 5:4, 15:9,  16:10, </li>
-  27:16, 
-  128:75, 
-  16:9, 
-  256:135, 
-  21:9 or 
-  16:3.
+    <li><strong>Controller or Bridgeboard selection</strong> for SCSI, IDE, Custom SCI, PCI, x86 boards</li>
+    <li><strong>Controller model selection </strong>for the make and model of required controller or bridgeboard.<br>
+    </li>
+    <li><strong>Controller series selection </strong>for controllers in the same series.</li>
+    <li><strong>SCSI Controller ID: </strong>Specify a SCSI controller ID (0-7).</li>
+    <li><strong>SCSI/IDE/Boot ROM file. </strong>allow you to specify a expansion card and rom file and model. Upto 4 seperate files can be selected.<br>
+    </li>
+    <li><strong>Autoboot disabled</strong>. Tick if you don't want to boot from this expandsion card.<br>
+    </li>
   </ul>
-  <p class="normal">&nbsp;</p>
-  <h2 class="dtH2">Miscellaneous Expansions</h2>
+  <h2 class="dtH2">&nbsp;</h2>
+  <h2 class="dtH2">Expansion Board Settings</h2>
+  <ul>
+  <li><strong>Accelerator make selection. </strong>Select ACT, Commodore, DKB, GVP, Kupke, Macrosystem, M-Tec, Phase 5, RCS make.</li>
+  <li><strong>Accelerator board selection. </strong>Select the actual accelerator board.</li>
+  <li><strong>Accelerator board ROM file</strong>. Select the 
+Blizzard PPC or Cyberstorm accelerator board ROMs (available from <a href="http://eab.abime.net/zone.php?">The Zone on Abime.net</a>).</li>
+  <li><strong>Accelerator board memory. </strong>Amount of memory for the board (0-256 MB).</li>
+  </ul>
+<h2 class="dtH2">Miscellaneous Expansions</h2>
   <ul>
     <li class="normal"><strong>Catweasel Z2 emulation</strong> Emulates the Catweasel floppy disk controller using Zorro 2 slot (moved from Misc in v2.0)</li>
     <li class="normal"><strong>uaescsi.device</strong> Adds support for IDE/SCSI 
@@ -64,7 +55,9 @@
     <li><strong>CD32 Full </strong></li>
     <strong>Motion Video cartridge </strong>Emulates the FMV expandison to play MPEG video.
     <li><strong>Toccata Z2 sound card emulation</strong> Emulates the 16bit toccata sound card.</li>
-    <li><strong>Toccata Paula/CD audio mix </strong>Allows you to play Toccata and Paula sound at the same time.<br>
+    <li><strong>Toccata Paula/CD audio mix </strong>Allows you to play Toccata and Paula sound at the same time.</li>
+    <li><strong>ES1370 PCI sound card.</strong> Esonique 1370 sound card  (like the Soundscape ELITE) with digital effects capability (reverb, chorus, and spatial enhancement).</li>
+    <li><strong>FM801 PCI sound card.</strong> Forte Media 801 sound card <br>
       <br>
     </li>
   </ul>
@@ -79,6 +72,8 @@
       use of that connection (moved from Misc in v2.0).</li>
     <li class="normal"><strong>uaenet.device</strong> Enable SANA2 compatible net device. Requires <a href="../links.htm#essential">WinPCap</a> (Windows Packet Capture Library) (moved from Misc in v2.0).</li>
     <li class="normal"><strong>A2065 Z2</strong> Emulates the A2065 Zorro 2 card. Option below is 'Cable Disconnected'.</li>
+    <li class="normal"><strong>Realtek 8029 PCI. </strong>Emulatees the common Realtek 8029 </li>
+    <li class="normal"><strong>Network card status</strong> shows whether card is connected to a network ok.</li>
   </ul>
   <p class="normal">&nbsp;</p>
   <p class="normal">&nbsp;</p>
