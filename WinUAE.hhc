@@ -132,6 +132,10 @@
 					<param name="Name" value="Expansions">
 					<param name="Local" value="gui\expansions.htm">
 					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="RTG Board">
+					<param name="Local" value="gui\RTGboard.htm">
+					</OBJECT>
 			</UL>
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Host">
