@@ -25,6 +25,7 @@
   <p class="normal">Since using diskfiles is awkward, it is necessary to emulate
     harddisks. There are two ways how you can use large amounts of data with UAE:
     harddisk files and mounted directories.</p>
+  <p class="normal">To stop the creatiom of _UAEFSDB_ files on the filesystem, which stores amiga specific attributes (script), you can tick <strong>Disable UAEFSDB support</strong>.</p>
   <p class="normal">&nbsp;</p>
   <h2 class="dtH2">Add Directory or Archive..</h2>
   <p align="center"> <img src="hddir.gif" alt="WinUAE - Add Directory"></p>
@@ -100,8 +101,14 @@
     hardfile parameters except block size.(sectors, surfaces and reserved)</p>
   <p class="normal">HDToolBox must be run with &quot;uaehf.device&quot;-parameter
     (&quot;tools/hdtoolbox uaehf.device&quot;)</p>
-  <p class="normal">The <strong>HD Controller </strong>can emulate which controller to use such as <strong>UAE, IDE0-3, SCSI0-6 </strong>or <strong>SCSRAM</strong>.</p>
+  <p class="normal">The <strong>HD Controller </strong>can emulate which controller to use such as <strong>UAE, IDE, SCSI, PCMCIA SRAM or IDE</strong>. </p>
   <p class="normal">Once you have selected a hardfile, it will display details about the cylinders, blocks, size and DOS type in the box.</p>
+  <p class="normal">Settings:</p>
+  <p class="normal"><strong>Enable RDB mode </strong>- Enable Rigid Disk Block mode, this stores the partition and filesystem information in a special block of disk (similar to the Master Boot Record on PCs).</p>
+  <p class="normal"><strong>RDB/OFS/FFS</strong> - Set file system to Rigid Disk Block mode, Original File System (WB 1.3) or Fast File System (WB 2.x, 3.x). Newer filesystems include PFS3 (Professional Filing System), PDS3, SFS (Smart File System) and Custom filesystem.</p>
+  <p class="normal"><strong>Sparse file</strong> - Formats disk file as a file which attemprs to use disk space more efficently when it is mostly empty by using metadata to represent empty space.</p>
+  <p class="normal"><strong>Dynamic HDF</strong> - Modern disk file format which expands as more data is added to the disk file, minimises disk usage like Dynamic VHD files on PC.</p>
+  <p class="normal"><strong>DOS type - </strong>Displays the filesystem name in Hexadecimal format.</p>
   <p class="normal">&nbsp;</p>
   <h2 class="dtH2"> Add Harddrive...</h2>
   <p align="center"><img src="harddrive.gif" alt="Add Harddrive" width="600" height="218"></p>
