@@ -101,6 +101,11 @@
 				</OBJECT>
 			<UL>
 				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Hardware Info">
+					<param name="Local" value="gui\hardwareinfo.htm">
+					<param name="New" value="1">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
 					<param name="Name" value="CPU and FPU">
 					<param name="Local" value="gui/cpu.htm">
 					</OBJECT>
