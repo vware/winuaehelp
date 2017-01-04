@@ -24,7 +24,7 @@
   <p align="center"><img src="expansions.gif" alt="Expansions" height="616"></p>
   <h2 class="dtH2">Expansion Board Settings</h2>
   <ul>
-    <li><strong>Controller or Bridgeboard selection</strong> for SCSI, IDE, Custom SCI, PCI, x86 boards</li>
+    <li><strong>Controller or Bridgeboard selection</strong> for Built-in, SCSI, IDE, Custom SCI, PCI, x86, Graphics, Sound or Network boards</li>
     <li><strong>Controller model selection </strong>for the make and model of required controller or bridgeboard.<br>
     </li>
     <li><strong>Controller series selection </strong>for controllers in the same series.</li>
@@ -37,43 +37,29 @@
   <h2 class="dtH2">&nbsp;</h2>
   <h2 class="dtH2">Expansion Board Settings</h2>
   <ul>
-  <li><strong>Accelerator make selection. </strong>Select ACT, Commodore, DKB, GVP, Kupke, Macrosystem, M-Tec, Phase 5, RCS make.</li>
+  <li><strong>Accelerator make selection. </strong>Select ACT, Commodore, DKB, GVP, Kupke, Macrosystem, M-Tec, Phase 5, RCS, Interactive Video makes.</li>
   <li><strong>Accelerator board selection. </strong>Select the actual accelerator board.</li>
   <li><strong>Accelerator board ROM file</strong>. Select the 
 Blizzard PPC or Cyberstorm accelerator board ROMs (available from <a href="http://eab.abime.net/zone.php?">The Zone on Abime.net</a>).</li>
   <li><strong>Accelerator board memory. </strong>Amount of memory for the board (0-256 MB).</li>
   </ul>
 <h2 class="dtH2">Miscellaneous Expansions</h2>
-  <ul>
-    <li class="normal"><strong>Catweasel Z2 emulation</strong> Emulates the Catweasel floppy disk controller using Zorro 2 slot (moved from Misc in v2.0)</li>
-    <li class="normal"><strong>uaescsi.device</strong> Adds support for IDE/SCSI 
-      CDROM drives on Amiga side. Use this device name in your CD0 DosDriver file 
-      in Devs\DosDrivers, and add the appropiate unit number (use Create Log file 
-      to see which unit number your CD drive uses).<br>
-      First CDROM is always uaescsi.device unit zero, second is zero etc.. and 
-      then other non-CDROM SCSI devices (moved from Misc in v2.0).</li>
-    <li><strong>CD32 Full </strong></li>
-    <strong>Motion Video cartridge </strong>Emulates the FMV expandison to play MPEG video.
-    <li><strong>Toccata Z2 sound card emulation</strong> Emulates the 16bit toccata sound card.</li>
-    <li><strong>Toccata Paula/CD audio mix </strong>Allows you to play Toccata and Paula sound at the same time.</li>
-    <li><strong>ES1370 PCI sound card.</strong> Esonique 1370 sound card  (like the Soundscape ELITE) with digital effects capability (reverb, chorus, and spatial enhancement).</li>
-    <li><strong>FM801 PCI sound card.</strong> Forte Media 801 sound card <br>
-      <br>
-    </li>
-  </ul>
-  <p class="normal">&nbsp;</p>
-  <h2 class="dtH2">Network</h2>
-  <ul>
+<ul>
     <li class="normal"><strong>bsdsocket.library</strong> Allows your 
       Amiga to use your PC's network connection, whether it be through Dial-Up 
       Networking (DUN), or Ethernet connectivity. In other words, if your PC is 
       connected to your Internet Service Provider (ISP) through a modem, or connected 
       to a LAN through an Ethernet connection, your Amiga will be able to make 
       use of that connection (moved from Misc in v2.0).</li>
+    <li class="normal"><strong><strong>uaescsi.device</strong> </strong>Adds support for IDE/SCSI 
+      CDROM drives on Amiga side. Use this device name in your CD0 DosDriver file 
+      in Devs\DosDrivers, and add the appropiate unit number (use Create Log file 
+      to see which unit number your CD drive uses).<br>
+First CDROM is always uaescsi.device unit zero, second is zero etc.. and 
+    then other non-CDROM SCSI devices (moved from Misc in v2.0).</li>
     <li class="normal"><strong>uaenet.device</strong> Enable SANA2 compatible net device. Requires <a href="../links.htm#essential">WinPCap</a> (Windows Packet Capture Library) (moved from Misc in v2.0).</li>
-    <li class="normal"><strong>A2065 Z2</strong> Emulates the A2065 Zorro 2 card. Option below is 'Cable Disconnected'.</li>
-    <li class="normal"><strong>Realtek 8029 PCI. </strong>Emulatees the common Realtek 8029 </li>
-    <li class="normal"><strong>Network card status</strong> shows whether card is connected to a network ok.</li>
+    <li><strong>CD32 Full </strong></li>
+    <strong>Motion Video cartridge </strong>Emulates the FMV expandison to play MPEG video.
   </ul>
   <p class="normal">&nbsp;</p>
   <p class="normal">&nbsp;</p>

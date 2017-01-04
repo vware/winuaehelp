@@ -462,6 +462,11 @@
 		<param name="Local" value="background/hardware.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Hardware info">
+		<param name="Name" value="Hardware Info">
+		<param name="Local" value="gui\hardwareinfo.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="HRTMon">
 		<param name="Name" value="ROM">
 		<param name="Local" value="gui\rom.htm">
