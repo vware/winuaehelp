@@ -101,11 +101,6 @@
 				</OBJECT>
 			<UL>
 				<LI> <OBJECT type="text/sitemap">
-					<param name="Name" value="Hardware Info">
-					<param name="Local" value="gui\hardwareinfo.htm">
-					<param name="New" value="1">
-					</OBJECT>
-				<LI> <OBJECT type="text/sitemap">
 					<param name="Name" value="CPU and FPU">
 					<param name="Local" value="gui/cpu.htm">
 					</OBJECT>
@@ -114,7 +109,7 @@
 					<param name="Local" value="gui/chipset.htm">
 					</OBJECT>
 				<LI> <OBJECT type="text/sitemap">
-					<param name="Name" value="Adv.Chipset">
+					<param name="Name" value="Adv. Chipset">
 					<param name="Local" value="gui\advchipset.htm">
 					</OBJECT>
 				<LI> <OBJECT type="text/sitemap">
@@ -126,11 +121,11 @@
 					<param name="Local" value="gui/ram.htm">
 					</OBJECT>
 				<LI> <OBJECT type="text/sitemap">
-					<param name="Name" value="Floppy Drives">
+					<param name="Name" value="Floppy drives">
 					<param name="Local" value="gui/floppies.htm">
 					</OBJECT>
 				<LI> <OBJECT type="text/sitemap">
-					<param name="Name" value="Hard Drives">
+					<param name="Name" value="CD & Hard drives">
 					<param name="Local" value="gui/hard-drives.htm">
 					</OBJECT>
 				<LI> <OBJECT type="text/sitemap">
@@ -138,8 +133,12 @@
 					<param name="Local" value="gui\expansions.htm">
 					</OBJECT>
 				<LI> <OBJECT type="text/sitemap">
-					<param name="Name" value="RTG Board">
-					<param name="Local" value="gui\RTGboard.htm">
+					<param name="Name" value="RTG board">
+					<param name="Local" value="gui\rtgboard.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Hardware info">
+					<param name="Local" value="gui\hardwareinfo.htm">
 					</OBJECT>
 			</UL>
 			<LI> <OBJECT type="text/sitemap">
@@ -156,11 +155,11 @@
 					<param name="Local" value="gui/sound.htm">
 					</OBJECT>
 				<LI> <OBJECT type="text/sitemap">
-					<param name="Name" value="Game Ports">
+					<param name="Name" value="Game ports">
 					<param name="Local" value="gui\game-ports.htm">
 					</OBJECT>
 				<LI> <OBJECT type="text/sitemap">
-					<param name="Name" value="IO Ports">
+					<param name="Name" value="IO ports">
 					<param name="Local" value="gui/ports.htm">
 					</OBJECT>
 				<LI> <OBJECT type="text/sitemap">
@@ -176,15 +175,15 @@
 					<param name="Local" value="gui/filter.htm">
 					</OBJECT>
 				<LI> <OBJECT type="text/sitemap">
-					<param name="Name" value="Disk Swapper">
+					<param name="Name" value="Disk swapper">
 					<param name="Local" value="gui\disk.htm">
 					</OBJECT>
 				<LI> <OBJECT type="text/sitemap">
-					<param name="Name" value="Misc">
+					<param name="Name" value="Miscellaneous">
 					<param name="Local" value="gui/misc.htm">
 					</OBJECT>
 				<LI> <OBJECT type="text/sitemap">
-					<param name="Name" value="Priority">
+					<param name="Name" value="Pri. & Extensions">
 					<param name="Local" value="gui\misc2.htm">
 					</OBJECT>
 			</UL>
