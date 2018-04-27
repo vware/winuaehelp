@@ -1,189 +1,173 @@
 <html>
 <head>
 <title>Hard Drives</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link href="../Style.css" type="text/css" rel="stylesheet"></head>
-<body id="bodyID" class="dtBODY">
-<div id="nstext">
-  <p class="normal">This tab contains some very important options, because you can
+<link href="../Style.css" rel="stylesheet">
+</head>
+<body>
+<article>
+  <p>This tab contains some very important options, because you can
     configure harddisks for your &quot;Amiga&quot;.</p>
-  <p class="normal">&nbsp;</p>
-  <p align="center"><img src="hdd.png" alt="Winuae - Hard Drives"></p>
-  <p class="normal">Since using diskfiles is awkward, it is necessary to emulate
+  <img class="center" src="hdd.png" alt="Winuae - Hard Drives">
+  <p>Since using diskfiles is awkward, it is necessary to emulate
     harddisks. There are two ways how you can use large amounts of data with UAE:
     harddisk files and mounted directories.</p>
-  <p class="normal">To stop the creatiom of _UAEFSDB_ files on the filesystem, which stores amiga specific attributes (script), you can tick <strong>Disable UAEFSDB support</strong>.</p>
-  <p class="normal">&nbsp;</p>
-  <h2 class="dtH2">Add Directory or Archive..</h2>
-  <p align="center"> <img src="harddirectory.png" alt="WinUAE - Add Directory"></p>
-  <p class="normal">&nbsp;</p>
-  <p class="normal">Adds a virtual HDD to your Amiga. You can specify a path to your
+  <p>To stop the creatiom of _UAEFSDB_ files on the filesystem, which stores amiga specific attributes (script), you can tick <strong>Disable UAEFSDB support</strong>.</p>
+  <h2>Add Directory or Archive..</h2>
+  <img class="center" src="harddirectory.png" alt="WinUAE - Add Directory">
+  <p>Adds a virtual HDD to your Amiga. You can specify a path to your
     desired folder in Windows,a Volume name and a device name (usually DHx) which
     will be used for the hard drive in the emulation.</p>
-  <p class="normal">This has some major advantages:</p>
+  <p>This has some major advantages:</p>
   <ul>
-    <li class="normal">It has no problems with Kickstart 1.3 </li>
-    <li class="normal">It is more convenient</li>
-    <li class="normal">It is much faster</li>
+    <li>It has no problems with Kickstart 1.3</li>
+    <li>It is more convenient</li>
+    <li>It is much faster</li>
   </ul>
-  <p class="normal">You can also use native filesystems to mount Amiga CD-ROMs, and
-    you can abuse the hardfile emulation to mount floppy disks.<br>
+  <p>You can also use native filesystems to mount Amiga CD-ROMs, and
+    you can abuse the hardfile emulation to mount floppy disks.<br />
     If you have a AmigaOS 3.9 CD you can boot from the <strong>Emergency-Boot</strong> directory
     to load Workbench (to read/write to it, copy the directory to your hard disk
     first and boot from that).</p>
-  <p class="normal">If you have Cloanto's Amiga Forever, you can boot from the supplied
-    shared directory in <strong>C:\Program Files\Cloanto\Amiga Forever\Emulation\Shared\<br>
+  <p>If you have Cloanto's Amiga Forever, you can boot from the supplied
+    shared directory in <strong>C:\Program Files\Cloanto\Amiga Forever\Emulation\Shared\<br />
     dir\System</strong> folder. Directory drives can be set to a limit of 1 GB.</p>
-  <p class="normal">&nbsp;</p>
-  <p class="normal">Use <strong>Select Archive or plain file</strong> to add an archive file (.zip, .7z, .rar, .lha, .lzh, .lzx) to appear as a disk on Workbench so there is no need to extract the files first.</p>
-  <p class="normal">You can mount a <strong>CD drive or image</strong> as a disk image on the desktop. You can select files of type <strong>cue, ccd, mds or iso</strong>. Select the drive or image from the pull down menu.</p>
-  <p class="normal">In earlier versions, directories can be unlimited in size. Now you can enable <strong>'Limit size of directory drives to 1GB</strong>'.</p>
-  <p class="normal">&nbsp;</p>
-  <h2 class="dtH2">Add Hardfile...</h2>
-  <p align="center"><img src="hardfile.png" alt="Add Hardfile" height="479"></p>
-  <p class="normal">&nbsp;</p>
-  <p class="normal">With this dialog you can add a hardfile. If you want to use an 
-    existing file, just click the ... button opposite <strong>Path </strong>and 
+  <p>Use <strong>Select Archive or plain file</strong> to add an archive file (.zip, .7z, .rar, .lha, .lzh, .lzx) to appear as a disk on Workbench so there is no need to extract the files first.</p>
+  <p>You can mount a <strong>CD drive or image</strong> as a disk image on the desktop. You can select files of type <strong>cue, ccd, mds or iso</strong>. Select the drive or image from the pull down menu.</p>
+  <p>In earlier versions, directories can be unlimited in size. Now you can enable <strong>'Limit size of directory drives to 1GB</strong>'.</p>
+  <h2>Add Hardfile...</h2>
+  <img class="center" src="hardfile.png" alt="Add Hardfile" height="479">
+  <p>With this dialog you can add a hardfile. If you want to use an 
+    existing file, just click the ... button opposite <strong>Path</strong> and 
     select the hdf file. If you want to add a new file, specify the number of megabytes 
     (MB) you want it to be then click on <strong>Create</strong>, then in the dialog 
     box state where on your PC hard disk you want to save your file e.g. System.hdf. 
-    I suggest 100 MB or greater.<br>
-    <br>
+    I suggest 100 MB or greater.<br />
+    <br />
     Harddisk files are large files that contain the image of an Amiga filesystem.
     They work much the same way as a disk file. You can simply create a large empty
     file and tell UAE to use it as a hardfile, but you will need to format it from
-    the emulation before you can actually use it. <br>
-  </p>
-  <p class="normal">If you are want to boot a hardfile under Kickstart 1.3, you need
+    the emulation before you can actually use it.</p>
+  <p>If you are want to boot a hardfile under Kickstart 1.3, you need
     the FastFileSystem file from the L: directory to be placed in the kickstart
-    roms-directory where WinUAE is installed.<br>
-    <br>
+    roms-directory where WinUAE is installed.<br />
+    <br />
     If you are using WinUAE 0.8.22r1 or earlier and Kickstart 1.3 or earlier, hardfiles
     can't currently be mounted at boot time, and therefore you can't boot from
     it either. You will have to boot either from a <a href="floppies.htm"> Floppy
     Disk Image</a> or from a Filesystem, and mount the hardfile.device later. To
-    do this, add the following to &quot;DEVS:mountlist&quot;: <br>
-    <br>
-    <em>UAE0:<br>
-    Device = uaehf.device<br>
-    Unit = 0<br>
-    Flags = 0<br>
-    Surfaces = 1<br>
-    BlocksPerTrack = 32<br>
-    Reserved = 1<br>
-    Interleave = 0<br>
-    LowCyl = 0 ; HighCyl = 511<br>
-    Buffers = 5<br>
-    DosType = 0x444F5300<br>
-    BufMemType = 1<br>
-    </em> <br>
-    <br>
+    do this, add the following to &quot;DEVS:mountlist&quot;: <br />
+    <br />
+    <em>UAE0:<br />
+    Device = uaehf.device<br />
+    Unit = 0<br />
+    Flags = 0<br />
+    Surfaces = 1<br />
+    BlocksPerTrack = 32<br />
+    Reserved = 1<br />
+    Interleave = 0<br />
+    LowCyl = 0 ; HighCyl = 511<br />
+    Buffers = 5<br />
+    DosType = 0x444F5300<br />
+    BufMemType = 1<br />
+    </em> <br />
+    <br />
     You may need to adjust the values if you specified a different geometry, and/or
     your hardfile has a different size than 8MB, and/or the hardfile is not mounted
     as UAE0: because you mounted other harddisks before it. Then, type &quot;mount
     UAE0:&quot; (or put that command in your startup-sequence), and you should
     be able to access it. Don't forget to format it with the AmigaOS! </p>
-  <p class="normal">If using HDToolbox to manage Hard files, then you must create
-    hardfile normally or use harddisk image from your real Amiga but clear all<br>
+  <p>If using HDToolbox to manage Hard files, then you must create
+    hardfile normally or use harddisk image from your real Amiga but clear all<br />
     hardfile parameters except block size.(sectors, surfaces and reserved)</p>
-  <p class="normal">HDToolBox must be run with &quot;uaehf.device&quot;-parameter
+  <p>HDToolBox must be run with &quot;uaehf.device&quot;-parameter
     (&quot;tools/hdtoolbox uaehf.device&quot;)</p>
-  <p class="normal">The <strong>HD Controller </strong>can emulate which controller to use such as <strong>UAE, IDE, SCSI, PCMCIA SRAM or IDE</strong>. </p>
-  <p class="normal">Once you have selected a hardfile, it will display details about the cylinders, blocks, size and DOS type in the box.</p>
-  <p class="normal">Settings:</p>
-  <p class="normal"><strong>Enable RDB mode </strong>- Enable Rigid Disk Block mode, this stores the partition and filesystem information in a special block of disk (similar to the Master Boot Record on PCs).</p>
-  <p class="normal"><strong>RDB/OFS/FFS</strong> - Set file system to Rigid Disk Block mode, Original File System (WB 1.3) or Fast File System (WB 2.x, 3.x). Newer filesystems include PFS3 (Professional Filing System), PDS3, SFS (Smart File System) and Custom filesystem.</p>
-  <p class="normal"><strong>Sparse file</strong> - Formats disk file as a file which attemprs to use disk space more efficently when it is mostly empty by using metadata to represent empty space.</p>
-  <p class="normal"><strong>Dynamic HDF</strong> - Modern disk file format which expands as more data is added to the disk file, minimises disk usage like Dynamic VHD files on PC.</p>
-  <p class="normal"><strong>DOS type - </strong>Displays the filesystem name in Hexadecimal format.</p>
-  <p class="normal">&nbsp;</p>
-  <h2 class="dtH2"> Add Harddrive...</h2>
-  <p align="center"><img src="harddrive.png" alt="Hard Drive Settings"/></p>
-  <p class="normal"><br>
+  <p>The <strong>HD Controller</strong> can emulate which controller to use such as <strong>UAE, IDE, SCSI, PCMCIA SRAM or IDE</strong>. </p>
+  <p>Once you have selected a hardfile, it will display details about the cylinders, blocks, size and DOS type in the box.</p>
+  <p>Settings:</p>
+  <p><strong>Enable RDB mode</strong> - Enable Rigid Disk Block mode, this stores the partition and filesystem information in a special block of disk (similar to the Master Boot Record on PCs).</p>
+  <p><strong>RDB/OFS/FFS</strong> - Set file system to Rigid Disk Block mode, Original File System (WB 1.3) or Fast File System (WB 2.x, 3.x). Newer filesystems include PFS3 (Professional Filing System), PDS3, SFS (Smart File System) and Custom filesystem.</p>
+  <p><strong>Sparse file</strong> - Formats disk file as a file which attemprs to use disk space more efficently when it is mostly empty by using metadata to represent empty space.</p>
+  <p><strong>Dynamic HDF</strong> - Modern disk file format which expands as more data is added to the disk file, minimises disk usage like Dynamic VHD files on PC.</p>
+  <p><strong>DOS type -</strong> Displays the filesystem name in Hexadecimal format.</p>
+  <h2> Add Harddrive...</h2>
+  <img class="center" src="harddrive.png" alt="Hard Drive Settings"/>
+  <p><br />
     You can now add complete Harddrives to WinUAE, select from a dropdown list.
     This list will only pick up Amiga formatted drives, Amithlon partitions and
     empty partitions (not Windows partitions). Tick the <strong>Read/Write</strong> option
     if you wish to read and write to such a partition. The boxes below will display details about the hard drive selected, such as size.</p>
-  <p class="normal"><strong>NOTE:</strong> Windows 2000, XP, 7, 8 or later is required for this feature!
+  <p><strong>NOTE:</strong> Windows 2000, XP, 7, 8 or later is required for this feature!
     You must also possess administrator rights!</p>
-  <p class="normal"><strong>Remove</strong> removes a harddisk from the configuration.
+  <p><strong>Remove</strong> removes a harddisk from the configuration.
     Simply select a harddisk and click &quot;Remove&quot;.</p>
-  <p class="normal"><strong>Properties</strong> allows you to change the settings 
+  <p><strong>Properties</strong> allows you to change the settings 
     for your virtual HDD. To adjust, click your desired HDD and select properties.</p>
-  <p class="normal"><strong>Include removable drives</strong> allows you to include USB drives or compact flash cards etc.</p>
-  <p class="normal"><strong>Include CD/DVD Drives </strong>allows you to add optical drives 
+  <p><strong>Include removable drives</strong> allows you to include USB drives or compact flash cards etc.</p>
+  <p><strong>Include CD/DVD Drives</strong> allows you to add optical drives 
     without needing a CDROM driver.</p>
-  <p class="normal"><strong>Automount Removable drives</strong> allows you to add removable 
+  <p><strong>Automount Removable drives</strong> allows you to add removable 
     drives such as USB, Firewire, Zip drives when a disk is inserted.</p>
-  <p class="normal"><strong>Add PC Drives at Startup</strong> mounts all available
+  <p><strong>Add PC Drives at Startup</strong> mounts all available
     PC drive-letters for the Amiga to use except CD drives, using the following
     naming convention:</p>
   <ul>
-    <li class="normal">If the drive-letter has a Windows volume-name associated with
+    <li>If the drive-letter has a Windows volume-name associated with
       it, the drive will get mounted in the Amiga using its volume-name. On PCs,
       the volume name can be set via the Properties of the drive in My Computer.</li>
-    <li class="normal">If no volume-name, the drive gets assigned an Amiga volume-name
+    <li>If no volume-name, the drive gets assigned an Amiga volume-name
       based on its drive-type (the 'x:' is the PC drive-letter):</li>
   </ul>
-  <div class="tablediv">
-    <table cellspacing="0" class="dtTABLE" width="100%" border="1">
-      <tr>
-        <th>Type</th>
-        <th>Drive Letter</th>
-      </tr>
-      <tr>
-        <td class="normal">Hard Drives</td>
-        <td class="normal">WinDH_x:</td>
-      </tr>
-      <tr>
-        <td class="normal">CD-ROM Drives</td>
-        <td class="normal"> WinCD_x:</td>
-      </tr>
-      <tr>
-        <td class="normal">Floppy Drives</td>
-        <td class="normal"> WinDF_x: </td>
-      </tr>
-      <tr>
-        <td class="normal">Network Drives</td>
-        <td class="normal"> WinNW_x: </td>
-      </tr>
-      <tr>
-        <td class="normal">Removable Drives</td>
-        <td class="normal"> WinRMV_x: </td>
-      </tr>
-      <tr>
-        <td class="normal">RAM Disk Drives</td>
-        <td class="normal"> WinRAM_x: </td>
-      </tr>
-    </table>
-  </div>
-  <p class="normal"><strong>NOTE:</strong> If a drive doesn't currently have a disc 
+  <table>
+    <tr>
+      <th>Type</th>
+      <th>Drive Letter</th>
+    </tr>
+    <tr>
+      <td>Hard Drives</td>
+      <td>WinDH_x:</td>
+    </tr>
+    <tr>
+      <td>CD-ROM Drives</td>
+      <td> WinCD_x:</td>
+    </tr>
+    <tr>
+      <td>Floppy Drives</td>
+      <td> WinDF_x: </td>
+    </tr>
+    <tr>
+      <td>Network Drives</td>
+      <td> WinNW_x: </td>
+    </tr>
+    <tr>
+      <td>Removable Drives</td>
+      <td> WinRMV_x: </td>
+    </tr>
+    <tr>
+      <td>RAM Disk Drives</td>
+      <td> WinRAM_x: </td>
+    </tr>
+  </table>
+  <p><strong>NOTE:</strong> If a drive doesn't currently have a disc 
     in it (floppy, CD-ROM, etc.), then this option will NOT mount the drive for 
     use by the Amiga.</p>
-  <p class="normal"><strong>Include Network Drives: </strong>Add any mapped network drives to the 
+  <p><strong>Include Network Drives:</strong> Add any mapped network drives to the 
     hard drive list, for example, shared folders on other computers.</p>
-  <p class="normal"><strong>Disable UAEFSDB Support</strong> - This will disable the 
+  <p><strong>Disable UAEFSDB Support</strong> - This will disable the 
     create of UAEFSDB files which store extra information such as additional protection 
     flags for files when using Directory type of file systems.</p>
-  <p class="normal"><strong>Don't use Windows Recycle Bin</strong> - Excludes Windows Recycle 
+  <p><strong>Don't use Windows Recycle Bin</strong> - Excludes Windows Recycle 
     Bin from emulation.</p>
-  <p class="normal"><strong>CDFS automount CD/DVD drives</strong> allows you to mount compact discs and DVDS without having to install a CD filing system.</p>
-  <p class="normal">&nbsp;</p>
-  <h2 class="normal">Add SCSI Tape Drive...</h2>
-  <p align="center" class="normal">	<img src="tapedrive.png" alt="Winuae - Tape Drive"></p>
-  <p align="center" class="normal">&nbsp;</p>
-  <p align="left" class="normal">You can now add Tape Drives to Winuae. Select a Path to a folder where data can be read or written to. It will work with Amix and any backup software that requires a tape drive.<br>
-  </p>
-  <p align="left" class="normal"><strong>Select directory </strong> Browse for an directory on hard disk to emulate tape drive.</p>
-  <p align="left" class="normal"><strong>Select archive or plain file</strong> Browse for an archive or normal backup file.</p>
-  <p align="left" class="normal"><strong>Eject </strong>Remove the tape from the drive.</p>
-  <p align="left" class="normal"><strong><strong>HD Controller </strong>Specify controller to emulate e.g. UAE, IDE, SCSI, PCMCIA SRAM, PCMCIA IDE.</strong></p>
-  <p align="left" class="normal"><strong>Read / write</strong> Enable read and write mode for tape drive otherwise it will use Read only mode.</p>
-  <p align="left" class="normal"><strong>Add Tape Drive</strong> will add the new emulated tape drive to the Hard drive list.</p>
-  <p class="normal">&nbsp;</p>
-</div>
-<div class="footer">
-  <hr>
-  Help content is under the terms of the <a href="../credits/fdl.htm">GNU Free Documentation License</a>.</div>
+  <p><strong>CDFS automount CD/DVD drives</strong> allows you to mount compact discs and DVDS without having to install a CD filing system.</p>
+  <h2>Add SCSI Tape Drive...</h2>
+  <img class="center" src="tapedrive.png" alt="Winuae - Tape Drive">
+  <p>You can now add Tape Drives to Winuae. Select a Path to a folder where data can be read or written to. It will work with Amix and any backup software that requires a tape drive.</p>
+  <p><strong>Select directory</strong> Browse for an directory on hard disk to emulate tape drive.</p>
+  <p><strong>Select archive or plain file</strong> Browse for an archive or normal backup file.</p>
+  <p><strong>Eject</strong> Remove the tape from the drive.</p>
+  <p><strong>HD Controller</strong>Specify controller to emulate e.g. UAE, IDE, SCSI, PCMCIA SRAM, PCMCIA IDE.</p>
+  <p><strong>Read / write</strong> Enable read and write mode for tape drive otherwise it will use Read only mode.</p>
+  <p><strong>Add Tape Drive</strong> will add the new emulated tape drive to the Hard drive list.</p>
+</article>
+<footer>Help content is under the terms of the <a href="../credits/fdl.htm">GNU Free Documentation License</a>.</footer>
 </body>
 </html>
