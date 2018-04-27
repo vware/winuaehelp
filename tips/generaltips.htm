@@ -18,7 +18,7 @@
     is disabled, because old CPUs have bugs in this feature. You
     may try and activate it, if your system works stable.<br>
     Using the CPU IDLE feature saves you money, allows for lower
-    opterating temperatures, and (if your fans are temperature
+    operating temperatures, and (if your fans are temperature
     controlled) less noise.</p>
     <p>In the <a href="../gui/cpu.htm">CPU tab</a> you can choose
     the optimal value for power saving. The CPU must be set to
@@ -55,9 +55,9 @@
       Remove turbostart if you have it and chose the Workbench
       Postscript Printer. Please note that the OS3.5 and OS3.9
       drivers crash when you use greyscale or black and white.
-      Choose color instead. Set it on all printer prefs pages. You
-      can chose the real output format with the windows printer
-      preferences.<br>
+      Choose color instead. Set it on all printer preferences
+      pages. You can chose the real output format in the Windows
+      printer driver.<br>
       Note: Most of the time it is enough to use the Workbench
       printer with 300 dpi. Higher resolutions may not produce an
       visible advantage, but definitely cost time and space.<br>
@@ -71,13 +71,11 @@
       at least the EpsonQ emulator is the easiest way to print</li>
     </ul>
     <h2>The uae_german keymap does not support µ or € Symbols</h2>
-    <p>Recommend is the use of german_keymap_new.zip and set input
-    other then compatibility Mode. This map is perfect compatible.
-    For Euro you need of course a character set that support Euro
-    Symbol, but work not in compatibility mode.See also the readme
-    of it. Works only on 0.9.90 and above.</p>
-    <h2>Using a Mousewheel</h2>
-    <p>This work same as real amiga. Use the tool Freewheel from
+    <p>Recommended is the use of german_keymap_new.zip and input
+    set to anything other than compatibility mode. See also the
+    read-me of it. Works only on WinUAE 0.9.90 and above.</p>
+    <h2>Using a mouse wheel</h2>
+    <p>This work same as real Amiga. Use the tool Freewheel from
     AmiNet.</p>
     <h2>WinUAE does not accept my hardfiles or show only CLI with
     my always used config</h2>
@@ -88,11 +86,11 @@
     releasing the hardfile. So you can not load it in when you quit
     and start WinUAE. In this case, free the handle to the file
     manually or reboot Windows. If WinUAE takes long to boot you
-    can switch on drive LEDs in the GUI. If the harddrive LED is on
-    you know the hardfile is valid.</p>
+    can switch on drive LEDs in the GUI. If the hard drive LED is
+    on you know the hardfile is valid.</p>
     <h2>After resuming from hybernate state, the Amiga Clock shows
     the wrong time</h2>
-    <p>Use the <a href="amigaprogs.htm">amiga program</a> timehack.
+    <p>Use the <a href="amigaprogs.htm">Amiga program</a> timehack.
     This is maybe also useful if you throttled CPU idle too much
     because time can then run 3-10% slower.</p>
     <h2>How to make custom screen resolutions for WinUAE</h2>
@@ -101,33 +99,33 @@
     latest version of Powerstrip and nVidia drivers.</p>
     <p>Create the modes:</p>
     <ul>
-      <li>Change into the menu displayprofile -&gt; configure</li>
+      <li>Change into the menu display profile -&gt; configure</li>
       <li>Click advanced timing options -&gt; custom resolutions
       -&gt; user defined</li>
       <li>Set desired values and reboot windows if necessary</li>
     </ul>
     <p>It is also possible to create interlaced doublescan
     resolutions in this menu.</p>
-    <h2>Using a real Amiga formatted Harddrive in WinUAE</h2>
+    <h2>Using a real Amiga formatted HDD in WinUAE</h2>
     <p>This can be done in the <a href=
-    "../gui/hard-drives.htm">harddrive page</a> in the GUI. If
+    "../gui/hard-drives.htm">hard drive page</a> in the GUI. If
     there is no drive listed, it is possible that this drive has no
     Amiga/Amithlon Partition.</p>
     <h2>I have several damaged Amigas - can i use the Kickstart
     from them?</h2>
     <p>Follow the instructions on the <a href=
     "../started/transrom.htm">Transrom</a> page.</p>
-    <h2>Using other filesystems on Hardfiles (SFS tested)</h2>
+    <h2>Using other file systems on Hardfiles (SFS tested)</h2>
     <p>Create a Hardfile. For use with HDToolbox you must set the
     Sector Surface and Reserved numbers to 0. The volume name
-    should show N/A. Make a hdtoolsbox Icon with
+    should show N/A. Make a hdtoolbox Icon with
     device=uaehf.device. Now do all steps like with a real Amiga
     with HDToolsBox..</p>
     <h2>The mouse pointer freezes sometimes and I have to
     reboot</h2>
     <p>Make sure you have the serial port enabled and correctly
-    configured. Also, make sure the "Shared" checkbox is checked to
-    loose no speed.</p>
+    configured. Also, make sure the "Shared" check box is checked
+    to loose no speed.</p>
     <h2>Differences of CD drivers</h2>
     <p>AsimCDFS:</p>
     <ul>
@@ -149,10 +147,10 @@
     <p>Example:<br>
     WinUAE is in C:\Amiga\WinUAE, and Kickstart ROMs are in
     C:\Amiga\Kickstart.<br>
-    For the kickstart path, enter ..\Kickstart.</p>
+    For the Kickstart path, enter ..\Kickstart.</p>
     <h2>UAE doesn't boot due to Picasso96 failure (Picasso96 is
     extremely slow)</h2>
-    <p>Start UAE and immediately press both Mousebuttons when the
+    <p>Start UAE and immediately press both mouse buttons when the
     main window is shown. In the Amiga Early Startup select "Boot
     without Startup-Sequence". Now remove or move the uaegfx file
     in devs:monitors. Start UAE, now the Workbench shows up. Just
@@ -161,7 +159,7 @@
     <p>Don't forget to copy the rtg.library file, which can be
     found in the AmigaPrograms directory, to libs:picasso96.This is
     important for full speed of WinUAE.</p>
-    <h2>A chipset Mode that UAE does not display makes UAE
+    <h2>A chipset mode that UAE does not display makes UAE
     fail</h2>
     <p>OS 3.1:</p>
     <ul>
@@ -174,8 +172,8 @@
     </ul>
     <p>OS 3.5/3.9:</p>
     <ul>
-      <li>Copy an old Screenmode prefs program from 3.1 to your HD,
-      because the new one will not work this way.</li>
+      <li>Copy an old Screen mode prefs program from 3.1 to your
+      HD, because the new one will not work this way.</li>
     </ul>
     <h2>UAE shows a green screen on boot</h2>
     <p>Go to the <a href="../gui/cpu.htm">CPU page</a> and select
