@@ -81,10 +81,10 @@ Parameters: Unit = Clipboard unit, Off = Turn off clipboard.
 Example: Conclip 1
 <br>
 <strong>Copy</strong>
-Format:  Copy <em>From/M To/A ALL/S QUIET/S BUF=BUFFER/K/N CLONE/S
+Format:  Copy <em>from/M To/A ALL/S QUIET/S BUF=BUFFER/K/N CLONE/S
          DATES/S NOPRO/S COM/S NOREQ/S</em>
 Purpose: Copy files (with/without protection bits)
-Parameters: From = Files to copy, To = Directory or file to copy to, All = Copy all files, Quiet = No output,
+Parameters: from = Files to copy, To = Directory or file to copy to, All = Copy all files, Quiet = No output,
  Buffer = Size of buffer (default = 100K), Clone = Copy file and datestamp, protect bits and comment, Dates = 
  Copy datestamp as well, NoPro = Set default protection bits, Com = Copy comment, NoReq = No requester popups.
 Example: Copy mydoc.txt docs: Dates
@@ -128,9 +128,9 @@ Parameters: Device = Name of removable device.
 Example: Diskchange DF2:
 <br>
 <strong>Diskcopy</strong>
-Format:  Diskcopy <em>From/A To/A Name/K NOVERIFY/S MULTI/S</em>
+Format:  Diskcopy <em>from/A To/A Name/K NOVERIFY/S MULTI/S</em>
 Purpose: Duplicates disks 
-Parameters: From = Disk to copy from, To = Disk to copy to, Name = Volume name, NoVerify = Do not verify copy,<br>
+Parameters: from = Disk to copy from, To = Disk to copy to, Name = Volume name, NoVerify = Do not verify copy,<br>
 Multi = Make more than one copy.
 Example: Diskcopy DF0: to DF1:
 <br>
@@ -148,17 +148,17 @@ Parameters: String = Text to display, NoLine = Do not print a new line, First = 
 Example: Echo "Enter your name: " NoLine
 <br>
 <strong>Ed</strong>
-Format:  ED <em>From/A Size/N With/K Window/K Tabs/N Width=Cols/N 
+Format:  ED <em>from/A Size/N With/K Window/K Tabs/N Width=Cols/N 
          Height=Rows/N</em>
 Purpose: Edit text files (screen editor)
-Parameters: From = File to Edit, Size = Size of Memory for file, With = Extended commands file, Window = Console window 
+Parameters: from = File to Edit, Size = Size of Memory for file, With = Extended commands file, Window = Console window 
  (e.g. * = current), Tabs = Tab size, Width = Number of columns, Height = Number of rows.
 Example: ED S:User-Startup
 <br>
 <strong>Edit</strong>
-Format:  Edit <em>From/A To With/K Ver/K Opt/K Width/N Previous/N</em>
+Format:  Edit <em>from/A To With/K Ver/K Opt/K Width/N Previous/N</em>
 Purpose: Edit text files (line editor)<br>
-Parameters: From = File to Edit, To = Destination file, With = Extended commands file, Opt = Options
+Parameters: from = File to Edit, To = Destination file, With = Extended commands file, Opt = Options
 Width = Number of columns, Previous = Number of previous vesions.
 Example: Edit s:User-Startup With Ed-Script
 <br>
@@ -302,7 +302,7 @@ Format:  List <em>Dir/M P=PAT/K KEYS/S DATES/S NODATES/S To/K Sub/K
          LFORMAT/K ALL/S</em>
 Purpose: List file details in a directory.
 Parameters: Dir = One or more directory name(s), Keys = Display keys, NoDates = Do not display dates, To = Destination
- file, Sub = Subdirectories included, Since = List files since date given, Upto = List files upto given date, Quick =
+ file, Sub = Subdirectories included, Since = List files since date given, Upto = List files up to given date, Quick =
  Simple directory list, Block = List files in block sizes, NoHead = Do not display header lines, Files = Files only,
  Dirs = Directorys only, LFormat = Output list using this format string, All = All files.
 Example: List Workbench: Block Dates Since=01-Jul-00
@@ -334,34 +334,34 @@ Parameters: Name = One or more directories to create.
 Example: MakeDir DH1:Docs DH1:Basic DH0:TempFiles
 <br>
 <strong>MakeLink</strong>
-Format:  MakeLink <em>From/A To/A HARD/S FORCE/S</em>
+Format:  MakeLink <em>from/A To/A HARD/S FORCE/S</em>
 Purpose: Creates a logical link between files
-Parameters: From = Link file, To = Actual file, Hard = Hard link, Force = Link to sub-directory
+Parameters: from = Link file, To = Actual file, Hard = Hard link, Force = Link to sub-directory
 Example: MakeLink T C:Type Hard
 <br>
 <strong>Mount</strong>
-Format:  Mount <em>Device/M From/K</em>
+Format:  Mount <em>Device/M from/K</em>
 Purpose: Loads and mount a device
-Parameters: Device = Device to mount, From = Mount file
+Parameters: Device = Device to mount, from = Mount file
 Example: Mount DEVS:CD0
 <br>
 <strong>Newcli</strong>
-Format:  Newcli <em>Window From</em>
+Format:  Newcli <em>Window from</em>
 Purpose: Open a new CLI console (CON) window
          Window format: CON:X/Y/Width/Height/Name/Option(s)
          Options: Auto,Backdrop,Noborder, Nodrag,Simple,
          Smart,Wait,Close
-Parameters: Window = Window config string, From = Alternative script to Shell-Script.
+Parameters: Window = Window config string, from = Alternative script to Shell-Script.
  Options. Auto = Open only when output sent to it, Backdrop = Open as a backdrop behind other windows, NoBorder = No left or
  bottom borders, NoDrag = No draggable title bar, Simple = Simple refresh, Smart = Smart refresh, Wait = Remain open 
  under window is close manually.
 Example: Newcli CON:0/10/400/200/Shell/CLOSE
 <br>
 <strong>NewShell</strong>
-Format:  NewShell <em>Window From</em>
+Format:  NewShell <em>Window from</em>
 Purpose: Open a new Shell console (CON) window
-Parameters: Window = Window config string, From = Alternative script to Shell-Script.
-Example: NewShell From S:Shell-Startup
+Parameters: Window = Window config string, from = Alternative script to Shell-Script.
+Example: NewShell from S:Shell-Startup
 <br>
 <strong>Path</strong>
 Format:  Path <em>Path/M ADD/S SHOW/S RESET/S REMOVE/S QUIET/S</em>
@@ -404,9 +404,9 @@ Parameters: Device = RAD device, Force = Remove even if in use
 Example: RemRAD RAD:
 <br>
 <strong>Rename</strong>
-Format:  Rename <em>From/A/M To=As/A QUIET/S</em>
+Format:  Rename <em>from/A/M To=As/A QUIET/S</em>
 Purpose: Rename or move one or more files
-Parameters: From = Old filename, To|As = New filename, Quiet = No output
+Parameters: from = Old filename, To|As = New filename, Quiet = No output
 Example: Rename MyDoc as MyDoc.doc
 <br>
 <strong>RequestChoice</strong>
@@ -423,7 +423,7 @@ Format:  RequestFile <em>Drawer File/K Pattern/K Title/K Positive/K
          MULTISELECT/S DRAWERSONLY/S NOICONS/S PUBSCREEN/K</em>
 Parameters: Drawer = Initial drawer to use, File = Initial file name, Pattern = Use pattern as filter, Title =
  Title of dialog box, Positive = Text for OK button, Negative = Text for Cancel button, AcceptPattern = Defines
- file pattern(s) to show (overrides Pattern), RejectPattern = Pattern(s) of files to hide, SaveMode = Change colours
+ file pattern(s) to show (overrides Pattern), RejectPattern = Pattern(s) of files to hide, SaveMode = Change colors
  to indicate Save or other mode, MultiSelect = Allow multiple file selection, DrawersOnly = Display only directories,
  NoIcons = Suppress info files, PubScreen = Screen to use.
 Purpose: Asks for a filename via ASL file requester
@@ -445,10 +445,10 @@ Parameters: Command = Program to run
 Example: Run Printfiles Doc1
 <br>
 <strong>Search</strong>
-Format:  Search <em>From/M Search/A ALL/S NONUM/S QUIET/S QUICK/S
+Format:  Search <em>from/M Search/A ALL/S NONUM/S QUIET/S QUICK/S
          FILE/S PATTERN/S</em>
 Purpose: Search for a string in a file or a file on a disk
-Parameters: From = Directory to seach from, Search = Text to search for, All = Search sub-directories, NoNum = Line
+Parameters: from = Directory to seach from, Search = Text to search for, All = Search sub-directories, NoNum = Line
  numbers are not displayed, Quiet = No Output, Quick = Reduce output listing, File = Search a file rather than
  content, Pattern = Search using a pattern.
 Example: Search SYS: "List" File All
@@ -511,13 +511,13 @@ Format:  Setpatch <em>QUIET/S NOCACHE/S REVERSE/S</em> NONSD/S NOAGA/S PATCHCONF
  PATCHCONFIGLINE=PCL/K PATCHINFO=PI/S FORCEUPDATE/S KILLUPDATE/S NOROMUPDATE/S
  DISABLEROMMODULES/S SKIPROMUPDATES=SKIPROMMODULES/K WAITFORVALIDATE/S
  AVOIDMEMFKICKFORPATCHES/S
-Purpose: Patch Operating System functions, enable/disable rom updates, disable
+Purpose: Patch Operating System functions, enable/disable ROM updates, disable
  HD NDS mode, wait for disk validation and remove bugs (44.38)
 Parameters: Quiet = No output, NoCache = Cache off, Reverse = Reverse action of setpatch, NoNSD = No New Style
  Device (Large HD support), PatchConfigFile = Specify a patch config file, PatchConfigLine = Specify a Patch
- Config line, PatchInfo = Show patch infom, ForceUpdate = Install updates despite something installed
- earlier, NoRomUpdate = Do not install ROM updates, DisableRomModules = Remove some ROM modiles (can cause a 
- crash), SkipRomUpdates = Skip following updates,WaitForValidate = Waits for all volumes to be
+ Config line, PatchInfo = Show patch info, ForceUpdate = Install updates despite something installed
+ earlier, NoRomUpdate = Do not install ROM updates, DisableRomModules = Remove some ROM modules (can cause a 
+ crash), SkipROMUpdates = Skip following updates,WaitForValidate = Waits for all volumes to be
  validated, AvoidMemFKickForPatches = Ignore MemFKick for Patches.
 Example: Setpatch NOROMUPDATE NONSD QUIET
 <br>
@@ -529,9 +529,9 @@ Parameters: Label = Label name to skip to, Back = Go back in script to label
 Example: Skip Lab2 Back
 <br>
 <strong>Sort</strong>
-Format:  Sort <em>From/A To/A Colstart/K CASE/S NUMERIC/S</em>
+Format:  Sort <em>from/A To/A Colstart/K CASE/S NUMERIC/S</em>
 Purpose: Sort a file and output to new file
-Parameters: From = File to sort, To = Output file, Colstart = Column to sort from, Case = Upper
+Parameters: from = File to sort, To = Output file, Colstart = Column to sort from, Case = Upper
  case entries are done first, Numeric = Input treated as numbers.
 Example: Sort Figures To SortedFigures Numeric
 <br>
@@ -549,10 +549,10 @@ Parameters: Process = Task number, Full = Full output of process info, TCB = Inf
 Example: Status 2 Full
 <br>
 <strong>Type</strong>
-Format:  Type <em>From/A/M TO/K OPT H|N/K HEX/S NUMBER/S</em>
+Format:  Type <em>from/A/M TO/K OPT H|N/K HEX/S NUMBER/S</em>
 Purpose: Display contents of text file on screen and binary files using
          HEX with optional line numbers.
-Parameters: From = Text file to display, To = Output file or device, Opt H | Hex = Display
+Parameters: from = Text file to display, To = Output file or device, Opt H | Hex = Display
  as hex values, Opt N | Number = Number the lines.
 Example: Type C:DIR HEX
 <br>
@@ -581,7 +581,7 @@ Purpose: Display workbench, library or device version information.
 Parameters: Name = File, Version = Print Kickstart or Workbench number and sets env variables and sets
  Warn flag, Revision = As Version but for Revision numer, File = Check file rather than memory, 
  Full = Display full information, Internal = Check internal files, Res = Check resident files.
-Example: Version kickstart Version=39 Revision=106
+Example: Version Kickstart Version=39 Revision=106
 <br>
 <strong>Wait</strong>
 Format:  Wait <em>Time/N SEC=SECS/S MIN=MINS/S UNTIL/K</em>
@@ -611,13 +611,13 @@ Example: Why
     <h2>Additional AmigaDOS commands</h2>
     <pre>
 <strong>DMS</strong>
-Format: DMS Read file[.DMS] [FROM dev:] [TEXT filetext] [CMODE mode] [LOW lowtrack] [HIGH hightrack] [NOVAL] [NOZERO] [ENCRYPT password]
+Format: DMS Read file[.DMS] [from dev:] [TEXT filetext] [CMODE mode] [LOW lowtrack] [HIGH hightrack] [NOVAL] [NOZERO] [ENCRYPT password]
  DMS Write file[.DMS],,, [TO dev:] [LOW lowtrack] [HIGH hightrack] [NOVAL] [NOTEXT] [NOPAUSE [DECRYPT password]
  DMS Repack file[.DMS] [TO dev:] [LOW lowtrack] [HIGH hightrack] [CMODE mode]
  DMS View file[.DMS],,, [FULL] DMS Text file[.DMS],,,
  DMS Test file[.DMS],,, DMS Help
 Purpose:  To read, write or view Disk Masher disk images of floppy disks.
-Example: DMS Write MyDisk.DMS FROM DF0:
+Example: DMS Write MyDisk.DMS from DF0:
 <br>
 <strong>Installer</strong>
 Format:  Installer [SCRIPT] filename &lt;[APPNAME] name&gt; &lt;[MINIUSER] level&gt; &lt;[DEFUSER] default&gt; &lt;[LOGFILE] 
@@ -661,10 +661,10 @@ LZX x documents.lzx        (extracts all files from documents.lzx)</pre><br>
     Example: Echo "*E[4mUnderline*E[24m"<br>
     Purpose: *E[4m turns on underline, and *E24m turns off
     underline.</p>
-    <p><strong>Coloured Text</strong><br>
+    <p><strong>Colored Text</strong><br>
     Example: Echo "*E[32mRed Text*E[0m"<br>
     Purpose: *E[nm where n=30-39 for foreground color or n=40-49
-    for background colour.<br>
+    for background color.<br>
     *E[0m resets to normal character set.</p>
   </article>
   <footer>

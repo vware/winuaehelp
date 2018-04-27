@@ -26,7 +26,7 @@
     startup-sequence. The <strong>Picasso96fix.bb</strong> file is
     the source code to this program written in Blitz Basic.</p>
     <h2>rtg.library</h2>
-    <p>Re-targetable Graphics Library. Copy this library file to
+    <p>Retargetable Graphics Library. Copy this library file to
     your libs:picasso96. This library will increase the speed of
     WinUAE a lot.</p>
     <h2>timehack</h2>
@@ -67,7 +67,7 @@
     buffer to 5 or 6, and chose 11kHz Mono, which is enough to hear
     system sounds.<br>
     If you installed the driver correctly, it should offer you only
-    1 mode: UAE hifi stereo++.</p>
+    1 mode: UAE HiFi stereo++.</p>
     <h2>UAE_German</h2>
     <p>This is a German keymap file for access to @\~{[]} with
     ALT-GR like windows. Copy it to devs/keymaps and select in
@@ -82,7 +82,7 @@
     [&lt;delay&gt;]</p>
     <h2>uae-control</h2>
     <p>Copy this program file to your Utilities folder or some
-    other folder on your Workbnch disk or hard disk. It will
+    other folder on your Workbench disk or hard disk. It will
     provide you a user interface within the emulator to control the
     floppy drives, reset, quit and other features without having to
     press F12 to bring up the WinUAE interface.</p><img class=
@@ -109,59 +109,59 @@
     <p>Not sure what this does yet. Need printer switched on before
     running this.</p>
     <h2>p96_uae_tweak</h2>
-    <p>It must run after P96 monitordrivers in userstartup.<br>
-    If you have copy this prog to <em>c:</em> then type
+    <p>It must run after P96 monitor drivers in user startup.<br>
+    If you have copy this program to <em>c:</em>, then type
     <em>&gt;nil: c:p96_uae_tweak</em> in the CLI.<br>
     It is also recommended to set P96 memory from the 4 MB AIAB
     config to 16 or 32 MB, because it works faster. If not enough
-    gfx card space is free you will see flicker as before and
-    slower moves. Save the config and restart WinUAE when you have
-    increased the gfx memory size. Crashes may occur when you only
-    reboot the emulated Amiga.<br>
+    graphics card space is free you will see flicker as before and
+    slower moves. Save the configuration and restart WinUAE when
+    you have increased the graphics memory size. Crashes may occur
+    when you only reboot the emulated Amiga.<br>
     To test it you can boot AIAB open the screenmode prefs window.
     Now put the screenmode prefs window to back and move it around
     underneath other windows.<br>
     If the window moves fast and does not flicker all, you are
     done. With that patch it is also impossible that P96 graphics
     actions can block WinUAE, so you get no AHI 16bit sound
-    stoddering when doing a lot of graphics actions.<br>
+    stuttering when doing a lot of graphics actions.<br>
     The patch splits large P96 blits (&gt;60 pixels) in smaller
     blocks and checks in all blocks if a 16bit AHI buffer is free.
-    This avoids speedlosses and sound stoddering with 4ms AHI
-    latency. Swapbitmaprastport (used for solid windowmoving and
-    some slow layer actions) is patched to use UAE blitter
+    This avoids speed losses and sound stuttering with 4ms AHI
+    latency. Swapbitmaprastport (used for solid window moving and
+    some slow layer actions) is patched to use UAE Blitter
     functions that exchange the data directly instead calling 3
     times EOR. It is faster and avoids the heavy flickering when
-    moving a smartlayer window underneath another window.</p>
+    moving a smart layer window underneath another window.</p>
     <h2>ahitweak</h2>
     <p><strong>Usage: AHItweak posoffset,pollrate</strong></p>
     <p>This is a program you can start from the CLI or user-startup
     and allows you to tune the AHI driver for better latency,
-    because on Windows XP the playpointer position has a delay
-    depending on the system and soundcard used. Most users do not
+    because on Windows XP the play pointer position has a delay
+    depending on the system and sound card used. Most users do not
     need this tool, but if you have crackle problems with 16bit
     AHI, play a song and try values of 50, 200, 500, 2000, -50,
     -200, -500, and -2000. With some trying, you may be able to get
     good results.You may also try to set the pollrate which WinUAE
     checks for buffers freely between 10 and 60. If you notice a
-    speedloss you should set it to 60. If you use low latency music
-    software that lets you chose AHI blocksizes less than 8 ms (AHI
-    uses 20ms by default) you can set this to a lower value if you
-    hear crackle.</p>
+    speed loss you should set it to 60. If you use low latency
+    music software that lets you chose AHI block sizes less than 8
+    ms (AHI uses 20ms by default) you can set this to a lower value
+    if you hear crackle.</p>
     <h2>p96refresh</h2>
-    <p>Start this program to get higher mousepointer redraw rates
+    <p>Start this program to get higher mouse pointer redraw rates
     than 50Hz with P96. Results are seen immediately after call.You
     can start this in your user-startup for automatic load during
     booting the system.<br>
     <strong>Note:</strong> If you use this, you must check if your
     CPU IDLE slider is set in correct position. In the worst case,
     the Amiga system clock will run slower. Set the IDLE slider so
-    that in Windows Taskmanager the CPU load of a Workbench screen
+    that in Windows task manager the CPU load of a Workbench screen
     shows about 10-15%.<br>
     <strong>Example:</strong> p96refresh 75 sets the redraw rate to
     75Hz. It is recommended to set the rate according to the actual
     monitor refresh rate, or the doubled number. Do not set it
-    higher or you get a speedloss greater than 2%.</p>
+    higher or you get a speed loss greater than 2%.</p>
   </article>
   <footer>
     Help content is under the terms of the <a href=
