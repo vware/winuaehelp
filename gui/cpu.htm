@@ -1,107 +1,93 @@
 <html>
 <head>
 <title>CPU and FPU</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link href="../Style.css" type="text/css" rel="stylesheet"></head>
-<body id="bodyID" class="dtBODY">
-<div id="nstext">
-  <p class="normal">These settings control the type of Motorola 680x0 CPU which will 
+<link href="../Style.css" rel="stylesheet"></head>
+<body>
+<article>
+  <p>These settings control the type of Motorola 680x0 CPU which will 
     be emulated.</p>
-  <p class="normal">&nbsp;</p>
-  <p align="center"><img src="cpu.png" alt="CPU"></p>
-  <h2 class="dtH2">CPU (Central Processing Unit) </h2>
+  <img class="center" src="cpu.png" alt="CPU">
+  <h2>CPU (Central Processing Unit) </h2>
   <ul>
-    <li class="normal"><strong>68000</strong> is the basic CPU type, as found in the 
+    <li><strong>68000</strong> is the basic CPU type, as found in the 
       Amiga 500, 1000, and 2000 models.</li>
-    <li class="normal"><strong>68010</strong> is a slightly more advanced 68K member, 
+    <li><strong>68010</strong> is a slightly more advanced 68K member, 
       but never actually shipped in a real Amiga.</li>
-    <li class="normal"><strong>68020</strong> is a much more advanced 68K CPU, with 
+    <li><strong>68020</strong> is a much more advanced 68K CPU, with 
       some new instructions, and a fully 32-bit engine. Used in the A2500 for brief 
       period on the A2520 card. If 24 bit addressing is enabled, it is the same 
       as th 68EC020 chip in the A1200.</li>
-    <li class="normal"><strong>68030</strong> This is a mid range CPU used in the 
+    <li><strong>68030</strong> This is a mid range CPU used in the 
       A3000 and low end A4000s.</li>
-    <li class="normal"><strong>68040</strong> is the top CPU provided with the A4000 
+    <li><strong>68040</strong> is the top CPU provided with the A4000 
       desktop computer</li>
-    <li class="normal"><strong>68060 </strong>is the top end CPU mainly provided on 
+    <li><strong>68060</strong> is the top end CPU mainly provided on 
       accelerator cards and the A4000T. It requires the 68060.library installed 
-      before using.<br>
-    </li>
+      before using.</li>
   </ul>
-  <p class="normal"><strong>24 bit addressing</strong> is used mainly by the <strong>68EC020 </strong>CPU 
+  <p><strong>24 bit addressing</strong> is used mainly by the <strong>68EC020</strong> CPU 
     such as the A1200.</p>
-  <p class="normal"><strong>More compatible</strong> is only available when the CPU 
+  <p><strong>More compatible</strong> is only available when the CPU 
     type is a <strong>68000</strong>. Some games and demos require this setting 
     for proper compatibility.</p>
   <p class="normal"><strong>Data cache emulation </strong>Besides the instruction cache, you can also emulate the data cache on the CPU.</p>
-  <p class="normal"><strong>JIT</strong> can be enabled to access the Advanced JIT 
+  <p><strong>JIT</strong> can be enabled to access the Advanced JIT 
     settings if the 68030 or better is selected (See below).</p>
-  <p class="normal"><strong>68040 MMU </strong>enables the Memory Management Unit of the 68040 for operating systems like Linux on the Amiga. It is not compatible with JIT.</p>
-  <p class="normal"><strong>Unimplemented CPU emu </strong> emulates the full 68060 CPU (in case you forget to load Setpatch and 68040.library and 68060.library).</p>
-  <p class="normal">&nbsp;</p>
-  <h2 class="dtH2">FPU (Floating Point Unit)</h2>
+  <p><strong>68040 MMU</strong> enables the Memory Management Unit of the 68040 for operating systems like Linux on the Amiga. It is not compatible with JIT.</p>
+  <p><strong>Unimplemented CPU emu</strong> emulates the full 68060 CPU (in case you forget to load Setpatch and 68040.library and 68060.library).</p>
+  <h2>FPU (Floating Point Unit)</h2>
   <ul>
-    <li class="normal"><strong>None</strong> No FPU is provided, this is the only 
+    <li><strong>None</strong> No FPU is provided, this is the only 
       option for the 68000 and 68010.</li>
-    <li class="normal"><strong>68881</strong> Can be specified with the 68020 and 
+    <li><strong>68881</strong> Can be specified with the 68020 and 
       68030.</li>
-    <li class="normal"><strong>68882</strong> Can be specified with the 68020 and 
+    <li><strong>68882</strong> Can be specified with the 68020 and 
       68030.</li>
-    <li class="normal"><strong>CPU internal</strong> Can be specified for the 68040 
+    <li><strong>CPU internal</strong> Can be specified for the 68040 
       and 68060.</li>
   </ul>
-  <p class="normal"><strong>More Compatible</strong> is available if a FPU is selected. 
+  <p><strong>More Compatible</strong> is available if a FPU is selected. 
     Some applications require this for proper compatibility.</p>
-  <p class="normal"><strong>Unimplemented FPU emu</strong> emulates the full 68881 FPU (in case you forget to load Setpatch and 68040.library and 68060.library).</p>
-  <p class="normal"><strong>Softfloat FPU emulation </strong>emulates a software version of the FPU.</p>
-  <p class="normal">&nbsp;</p>
-  <h2 class="dtH2">Cycle-Exact CPU Emulation Speed</h2>
+  <p><strong>Unimplemented FPU emu</strong> emulates the full 68881 FPU (in case you forget to load Setpatch and 68040.library and 68060.library).</p>
+  <p><strong>Softfloat FPU emulation</strong> emulates a software version of the FPU.</p>
+  <h2>Cycle-Exact CPU Emulation Speed</h2>
   <ul>
     <li><strong>CPU Frequency</strong> Set CPU frequency here.</li>
   </ul>
-  <p class="normal">&nbsp;</p>
-  <h2 class="dtH2">PPC CPU Settings</h2>
+  <h2>PPC CPU Settings</h2>
   <ul>
     <li><strong>PPC CPU Emulation (Blizzard PPC / Cyperstorm PPC)</strong>. Enables Power (PPC) CPU emulation using Blizzard PPC used on a A1200 or Cyberstorm PPC on an A4000.</li>
     <p>The <a href="http://www.bigbookofamigahardware.com/bboah/product.aspx?id=154">Blizzard 
       PPC</a> has a 68040/060 and PowerPC 603e at 160, 200 or 240MHz with upto 256 MB RAM. The <a href="http://www.bigbookofamigahardware.com/bboah/product.aspx?id=265">Cyberstorm PPC</a> has a 68040/060 and a PowerPC 604e at 150, 180 or 200 Mhz with upto 128MB RAM. A seperate <a href="http://www.winuae.net/frames/download.html">qemu-uae.dll</a> file in plugins folder is required for PPC emulation using QEmu.</p>
     <li><strong>Stopped M68K CPU idle mode</strong>.</li>
     <p>Sets level of idle mode for the 680x0 processor.</p>
-    <p>&nbsp; </p>
   </ul>
-  <h2 class="dtH2">x86 Bridgeboard CPU options</h2>
+  <h2>x86 Bridgeboard CPU options</h2>
   <ul>
-    <li><strong>CPU Speed</strong>. Speed set between 0 and 100% CPU speed.
-      <h2 class="dtH2"></h2>
-    </li>
+    <li><strong>CPU Speed</strong>. Speed set between 0 and 100% CPU speed.</li>
   </ul>
-  <h2 class="dtH2">CPU Emulation Speed</h2>
+  <h2>CPU Emulation Speed</h2>
   <ul>
-    <li class="normal"><strong>Fastest possible</strong> lets the CPU section of
+    <li><strong>Fastest possible</strong> lets the CPU section of
       the emulation run as many cycles as possible, while still maintaining emulation
       of the custom-chips at the appropriate rate. It is important to keep sound
       and graphics synchronized, no matter how fast the PC is.</li>
-    <li class="normal"><strong>Approximate A500/A1200 or cycle exact </strong>limits the CPU emulation
+    <li><strong>Approximate A500/A1200 or cycle exact</strong> limits the CPU emulation
       to run the same number of cycles per vertical-blank as a standard A500 or A1200 would.
       In other words, for every 50Hz refresh of the graphics, the same number of
       CPU instructions will be executed as on a real A500 or A1200 computer.</li>
-    <li class="normal"><strong>CPU Speed</strong> lets you
+    <li><strong>CPU Speed</strong> lets you
       tweak the balance of power between custom-chip emulation, and CPU speed.
       Some games and demos require this setting to be adjusted. This setting is
       the only CPU setting which can be changed once WinUAE is running.</li>
   </ul>
-  <p class="normal"><strong>CPU Idle </strong>You can adjust the idle status of the
+  <p><strong>CPU Idle</strong> You can adjust the idle status of the
     CPU with this slider. This feature can be useful on notebooks to keep the
     CPU cooler. See the <a href="../tips/generaltips.htm">Hints For Power Users</a> page. </p>
-  <p class="normal">&nbsp;</p>
-  <h2 class="dtH2">JIT (Just in time) Settings</h2>
-  <p class="normal">Due to the importance of the JIT engine and its complexity, it has its own <a href="../emulation/jit.htm">page</a> where
+  <h2>JIT (Just in time) Settings</h2>
+  <p>Due to the importance of the JIT engine and its complexity, it has its own <a href="../emulation/jit.htm">page</a> where
     you will find a description of its possibilities.</p>
-  <p class="normal">&nbsp;</p>
-  <p class="normal">&nbsp;</p>
-</div>
-<div class="footer">
-  <hr>
-  Help content is under the terms of the <a href="../credits/fdl.htm">GNU Free Documentation License</a>.</div>
+</article>
+<footer>Help content is under the terms of the <a href="../credits/fdl.htm">GNU Free Documentation License</a>.</footer>
 </body>
 </html>

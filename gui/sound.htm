@@ -1,70 +1,59 @@
 <html>
 <head>
 <title>Sound</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link href="../Style.css" type="text/css" rel="stylesheet">
+<link href="../Style.css" rel="stylesheet">
 </head>
-<body id="bodyID" class="dtBODY">
-<div id="nstext">
-  <p class="normal">Here you can select, if (and how) UAE will provide sound emulation.</p>
-  <p class="normal">&nbsp;</p>
-  <p align="center"><img src="sound.png" alt="WinUAE - Sound"></p>
-  <p class="normal"><strong>Sound device:</strong> Specify which sound card to use
+<body>
+<article>
+  <p>Here you can select, if (and how) UAE will provide sound emulation.</p>
+  <img class="center" src="sound.png" alt="WinUAE - Sound">
+  <p><strong>Sound device:</strong> Specify which sound card to use
     on your system.</p>
-  <p class="normal">&nbsp;</p>
-  <h2 class="dtH2">Sound Emulation</h2>
+  <h2>Sound Emulation</h2>
   <ul>
-    <li class="normal"><strong>Disabled</strong> causes UAE not to emulate sound.</li>
-    <li class="normal"><strong>Disabled, but emulated</strong> tries to emulate most 
+    <li><strong>Disabled</strong> causes UAE not to emulate sound.</li>
+    <li><strong>Disabled, but emulated</strong> tries to emulate most 
       of the sound hardware, but doesn't actually output sound.</li>
-    <li class="normal"><strong>Emulated</strong> should sound just as good as 100% 
+    <li><strong>Emulated</strong> should sound just as good as 100% 
       accurate and will be much faster for some programs.</li>
-    <li class="normal"><strong>Emulated, 100% accurate</strong> will emulate all of 
+    <li><strong>Emulated, 100% accurate</strong> will emulate all of 
       the sound hardware; and some programs (i.e. AIBB) won't run with other settings.</li>
-    <li class="normal"><strong>Automatic switching.</strong> Allow switching between 
+    <li><strong>Automatic switching.</strong> Allow switching between 
       sound modes automatically.</li>
   </ul>
-  <p class="normal">&nbsp;</p>
-  <h2 class="dtH2">Volume settings</h2>
+  <h2>Volume settings</h2>
   <ul>
     <li><strong>Master volume</strong>. Set overall volume between 0% (silent) to 100% (loud).</li>
     <li><strong>Paula,CD,AHI Audio</strong>. Set audio from either Paula, direct CD or AHI sound between 0% (silent) to 100% (loud).</li>
   </ul>
-  <h2 class="dtH2">Floppy Drive Sound Emulation</h2>
-  <p class="normal">This feature enables the Disk Drive sounds like on a real Amiga 
+  <h2>Floppy Drive Sound Emulation</h2>
+  <p>This feature enables the Disk Drive sounds like on a real Amiga 
     so you can hear disks being read or written to. Select a drive and the Amiga 
     emulation mode to use (A500 by default). The sliders are the volume controls.</p>
-  <p class="normal">&nbsp;</p>
-  <h2 class="dtH2">Settings</h2>
-  <p class="normal">This options allow you to adjust the settings for the sound-sampling. 
+  <h2>Settings</h2>
+  <p>This options allow you to adjust the settings for the sound-sampling. 
     The higher Frequency and/or Sample Type, the higher will be the sound quality, 
     but the slower will be the emulation. The <strong>Stereo mode</strong> can be 
     set to Mono, Stereo, Cloned Stereo or 4 Channel. Stereo will use more CPU time.</p>
-  <p class="normal">Two new settings for <strong>Stereo Seperation and Stereo mixing 
+  <p>Two new settings for <strong>Stereo Seperation and Stereo mixing 
     delay</strong> can be set to improve stereo sound.</p>
-  <p class="normal">The <strong>Audio Filter</strong> allows you to emulate Sound 
-    Power LED and can be Always on, Always off or Emulated.<br>
+  <p>The <strong>Audio Filter</strong> allows you to emulate Sound 
+    Power LED and can be Always on, Always off or Emulated.<br />
     <strong>NOTE:</strong> High quality sound requires a lot of computing power, 
     so try with different settings if your machine is not fast enough.</p>
-  <p class="normal">The <strong>Swap Channels</strong> can be used to swap between channels 
+  <p>The <strong>Swap Channels</strong> can be used to swap between channels 
     for Paula, AHI or both types of Sound chipsets.</p>
-  <p class="normal">&nbsp;</p>
-  <h2 class="dtH2">Sound Buffering</h2>
-  <p class="normal">Gives you access to the level of the used Direct Sound buffer. 
-    You should play with it if you get choppy sound. <br>
-    Values can be from 1 to 7. <br>
+  <h2>Sound Buffering</h2>
+  <p>Gives you access to the level of the used Direct Sound buffer. 
+    You should play with it if you get choppy sound. <br />
+    Values can be from 1 to 7. <br />
     Also, you can set <strong>Interpolation</strong> on to smooth out sound but 
-    needs more computing power. <br>
-    The <strong>Calibrate </strong>button will optimise the sound values for you 
+    needs more computing power. <br />
+    The <strong>Calibrate</strong> button will optimise the sound values for you 
     to match your PC.</p>
-  <p class="normal">&nbsp;</p>
-  <h2 class="dtH2">Drivers</h2>
-  <p class="normal">You can enable which host sound drivers you can use to ensure sound works such as <strong>DirectSound, WASAPI (Windows Audio Session) API, OpenAL (Open Audio Library)</strong> and <strong>PortAudio</strong>.</p>
-  <p class="normal">&nbsp;</p>
-  <p class="normal">&nbsp;</p>
-</div>
-<div class="footer">
-  <hr>
-  Help content is under the terms of the <a href="../credits/fdl.htm">GNU Free Documentation License</a>.</div>
+  <h2>Drivers</h2>
+  <p>You can enable which host sound drivers you can use to ensure sound works such as <strong>DirectSound, WASAPI (Windows Audio Session) API, OpenAL (Open Audio Library)</strong> and <strong>PortAudio</strong>.</p>
+</article>
+<footer>Help content is under the terms of the <a href="../credits/fdl.htm">GNU Free Documentation License</a>.</footer>
 </body>
 </html>
