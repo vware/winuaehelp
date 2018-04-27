@@ -1,75 +1,106 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title>Chipset</title>
-<link href="../Style.css" rel="stylesheet"></head>
+  <title>Chipset</title>
+  <link href="../Style.css" rel="stylesheet">
+</head>
 <body>
-<article>
-  <p>This will select which custom chipset to use for emulation:</p>
-  <img class="center" src="chipset.png" alt="Winuae - Chipset">
-  <h2>Chipset</h2>
-  <ul>
-    <li><strong>OCS</strong> (Original Chip Set): This was the 
-      first Chipset, used in the Amiga 1000. It consists of the chips Paula, Agnus, 
-      and Denise. With these, you can display graphics in resolutions up to 640x512 
-      and in up to 4096 colors.</li>
-    <li><strong>ECS Agnus</strong> Uses enhanced Fat Agnus which 
+  <article>
+    <p>This will select which custom chipset to use for
+    emulation:</p><img class="center" src="chipset.png" alt=
+    "Winuae - Chipset">
+    <h2>Chipset</h2>
+    <ul>
+      <li><strong>OCS</strong> (Original Chip Set): This was the
+      first Chipset, used in the Amiga 1000. It consists of the
+      chips Paula, Agnus, and Denise. With these, you can display
+      graphics in resolutions up to 640x512 and in up to 4096
+      colors.</li>
+      <li><strong>ECS Agnus</strong> Uses enhanced Fat Agnus which
       supplies 1MB of Chip RAM.</li>
-    <li><strong>Full ECS</strong> (Enhanced Chip Set): This was 
-      the next generation of Amiga chipsets. The chip names remained unchanged, 
-      except some minor additions like &quot;Fat Agnus&quot;. Only Agnus and Denise 
-      were changed. Compared to OCS, they provided higher resolutions, but no 
-      expansion of the color palette so far.</li>
-    <li><strong>AGA</strong> (Advanced Graphics Architecture): 
-      This is the latest and most advanced chipset. The current generation was 
-      created in the labs as AA chipset (for Advanced Amiga), but in some countries 
-      it was later marketed as AGA (Advanced Graphics Architecture). Agnus was 
-      replaced by Alice and Denise by Lisa. The resolutions now reach up to 1280x512 
-      in VGA scan frequencies. The color palette is now 24 bits or 16.8 million 
-      colors. You can display up to 256 colors simultaneously or in HAM mode more 
-      than 640,000. Backwards compatibility with Video and OCS modes is assured.<br />
-      <strong>NOTE:</strong> AGA modes do not work with 8-bit color depth screen 
-      modes!</li>
-    <li><strong>ECS Denise</strong> Use the new ECS display modes with Denise Chip.</li>
-    <li><strong>NTSC</strong> Enables US NTSC screen mode (default 
-      is PAL).</li>
-    <li><strong>Cycle-exact</strong> Enables cycle exact chipsets as the real hardware for some games.</li>
-    <li><strong>Cycle-exact (DMA/Memory accesses).</strong> Enables cycle exact chipsets just for Direct Memory Accesses or normal memory accesses.</li>
-    <li><strong>Chipset extra:</strong> List of Amiga models to 
+      <li><strong>Full ECS</strong> (Enhanced Chip Set): This was
+      the next generation of Amiga chipsets. The chip names
+      remained unchanged, except some minor additions like "Fat
+      Agnus". Only Agnus and Denise were changed. Compared to OCS,
+      they provided higher resolutions, but no expansion of the
+      color palette so far.</li>
+      <li><strong>AGA</strong> (Advanced Graphics Architecture):
+      This is the latest and most advanced chipset. The current
+      generation was created in the labs as AA chipset (for
+      Advanced Amiga), but in some countries it was later marketed
+      as AGA (Advanced Graphics Architecture). Agnus was replaced
+      by Alice and Denise by Lisa. The resolutions now reach up to
+      1280x512 in VGA scan frequencies. The color palette is now 24
+      bits or 16.8 million colors. You can display up to 256 colors
+      simultaneously or in HAM mode more than 640,000. Backwards
+      compatibility with Video and OCS modes is assured.<br>
+      <strong>NOTE:</strong> AGA modes do not work with 8-bit color
+      depth screen modes!</li>
+      <li><strong>ECS Denise</strong> Use the new ECS display modes
+      with Denise Chip.</li>
+      <li><strong>NTSC</strong> Enables US NTSC screen mode
+      (default is PAL).</li>
+      <li><strong>Cycle-exact</strong> Enables cycle exact chipsets
+      as the real hardware for some games.</li>
+      <li><strong>Cycle-exact (DMA/Memory accesses).</strong>
+      Enables cycle exact chipsets just for Direct Memory Accesses
+      or normal memory accesses.</li>
+      <li><strong>Chipset extra:</strong> List of Amiga models to
       choose to select appropriate chipset automatically.</li>
-  </ul>
-  <h2>Options</h2>
-  <ul>
-    <li><strong>Immediate Blitter</strong> Does requested blits immediately.
-      The Blitter serves to provide extremely fast, animated graphics that can
-      be designed to be especially realistic.</li>
-    <li><strong>Wait for Blitter</strong>. Wait for blitter to complete operations.</li>
-    <li><strong>Genlock Connected</strong> Detects whether a Genlock
-      is connected to PC.</li>
-    <li><strong>Genlock emulation mode.</strong> Selection of Noise or Test Card with 0-100% emulation.</li>
-    <li><strong>Video port display hardware.</strong> Selection of Autodetect, A2024, Graffiti, Black Belt systems HAM-E, Newtronic video, Archos AVideo, Impulse Firecracker or Digital Creations DCTV.</li>
-  </ul>
-  <h2>Collision Level</h2>
-  <ul>
-    <li><strong>None</strong> No collision detection used.</li>
-    <li><strong>Sprites Only</strong> Collision detection between
+    </ul>
+    <h2>Options</h2>
+    <ul>
+      <li><strong>Immediate Blitter</strong> Does requested blits
+      immediately. The Blitter serves to provide extremely fast,
+      animated graphics that can be designed to be especially
+      realistic.</li>
+      <li><strong>Wait for Blitter</strong>. Wait for blitter to
+      complete operations.</li>
+      <li><strong>Genlock Connected</strong> Detects whether a
+      Genlock is connected to PC.</li>
+      <li><strong>Genlock emulation mode.</strong> Selection of
+      Noise or Test Card with 0-100% emulation.</li>
+      <li><strong>Video port display hardware.</strong> Selection
+      of Autodetect, A2024, Graffiti, Black Belt systems HAM-E,
+      Newtronic video, Archos AVideo, Impulse Firecracker or
+      Digital Creations DCTV.</li>
+    </ul>
+    <h2>Collision Level</h2>
+    <ul>
+      <li><strong>None</strong> No collision detection used.</li>
+      <li><strong>Sprites Only</strong> Collision detection between
       sprites only enabled.</li>
-    <li><strong>Sprites and Sprites vs Playfield</strong> Collison
-      detection between Sprites and background graphics.</li>
-    <li><strong>Full</strong> enables all levels of collision detection.<br />
-      <br />
-      <strong>HINT:</strong> Full is not recommended because it causes unnecessary
-      performance loss, and is just very rarely needed.</li>
-  </ul>
-  <h2>Genlock</h2>
-  <ul>
-    <li><strong>Genlock connected</strong> Specifies whether a Genlock (generator locking) device is connected. A Genlock is used where the video output of one source, or a specific reference signal from a signal generator, is used to synchronise other television picture sources together.</li>
-    <li><strong>Genlock type</strong> Specified type of Genlock: Noise, Test card, image file, Video file, Capture device, American Laser Games LaserDisc Player.</li>
-    <li><strong>Percentage</strong> of lock between sources.</li>
-    <li><strong>Include alpha channel in screenshots and video captures.</strong></li>
-    <li><strong>Keep aspect ratio</strong></li>
-    <li><strong>Genlock file</strong> Image file or video file to use.</li>
-  </ul>
-</article>
-<footer>Help content is under the terms of the <a href="../credits/fdl.htm">GNU Free Documentation License</a>.</footer>
+      <li><strong>Sprites and Sprites vs Playfield</strong>
+      Collison detection between Sprites and background
+      graphics.</li>
+      <li><strong>Full</strong> enables all levels of collision
+      detection.<br>
+      <br>
+      <strong>HINT:</strong> Full is not recommended because it
+      causes unnecessary performance loss, and is just very rarely
+      needed.</li>
+    </ul>
+    <h2>Genlock</h2>
+    <ul>
+      <li><strong>Genlock connected</strong> Specifies whether a
+      Genlock (generator locking) device is connected. A Genlock is
+      used where the video output of one source, or a specific
+      reference signal from a signal generator, is used to
+      synchronise other television picture sources together.</li>
+      <li><strong>Genlock type</strong> Specified type of Genlock:
+      Noise, Test card, image file, Video file, Capture device,
+      American Laser Games LaserDisc Player.</li>
+      <li><strong>Percentage</strong> of lock between sources.</li>
+      <li><strong>Include alpha channel in screenshots and video
+      captures.</strong></li>
+      <li><strong>Keep aspect ratio</strong></li>
+      <li><strong>Genlock file</strong> Image file or video file to
+      use.</li>
+    </ul>
+  </article>
+  <footer>
+    Help content is under the terms of the <a href=
+    "../credits/fdl.htm">GNU Free Documentation License</a>.
+  </footer>
 </body>
 </html>

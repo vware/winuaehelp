@@ -1,105 +1,166 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title>Glossary</title>
-<link href="Style.css" rel="stylesheet">
+  <title>Glossary</title>
+  <link href="Style.css" rel="stylesheet">
 </head>
 <body>
-<article>
-  <p>Computer sciences have spawned many awkward terms and acronyms which are often hindering novice users to understand how-tos and manuals. Emulation some terms of its own, as does the Amiga, due to its unique hardware design. This pages aims to explain the most common terms.</p>
-  <h2>General</h2>
-  <table>
-    <tr>
-      <th>Term</th>
-      <th>Explanation</th>
-    </tr>
-    <tr>
-      <td>BIOS</td>
-      <td>Basic Input Output System. Initializes the PC hardware in order to prepare the machine so programs can be run.</td>
-    </tr>
-    <tr>
-      <td>Bus</td>
-      <td>A subsystem that transfers data between computer components inside a computer or between computers.</td>
-    </tr>
-    <tr>
-      <td>CPU</td>
-      <td>Central Processing Unit. Also referred to as the &quot;processor&quot;, all calculations are done in this unit.</td>
-    </tr>
-    <tr>
-      <td>FPU</td>
-      <td>Floating Point Unit. In the early days, this was a seperate unit used for floating point calculations. Nowadays integrated in the main CPU.</td>
-    </tr>
-    <tr>
-      <td>RAM</td>
-      <td>Random Access Memory. Main type of storage for a computer to work with. It is by nature volatile memory, i.e. it gets cleared when the computer is shut down. For WinUAE RAM emulation, see <a href="background/kickst.htm">RAM &amp; Kickstart</a>.</td>
-    </tr>
-    <tr>
-      <td>ROM</td>
-      <td>Read Only Memory. Most commonly used to store Firmware, Kickstart, and BIOS programs. In contrary to RAM, it is not volatile.</td>
-    </tr>
-  </table>
-  <h2>Amiga Specific</h2>
-  <table>
-    <tr>
-      <th>Term</th>
-      <th>Explanation</th>
-    </tr>
-    <tr>
-      <td>AHI</td>
-      <td>Audio Hardware Interface, see <a href="emulation/speed.htm">Emulation Speed</a>.</td>
-    </tr>
-    <tr>
-      <td>AGA</td>
-      <td>Advanced Graphics Architecture, see <a href="background/custchips.htm">Custom Chips</a>.</td>
-    </tr>
-    <tr>
-      <td>Autoconfig</td>
-      <td>Method for configuring Amiga expansion cards. Mostly equivalent to Plug&amp;Play in the PC world <a href="background/autoconfig.htm">Autoconfig</a>.</td>
-    </tr>
-    <tr>
-      <td>Blitter</td>
-      <td>Graphics coprocessor, see <a href="background/custchips.htm">Custom Chips</a>.</td>
-    </tr>
-    <tr>
-      <td>Copper</td>
-      <td>Graphics coprocessor, see <a href="background/custchips.htm">Custom Chips</a>.</td>
-    </tr>
-    <tr>
-      <td>ECS</td>
-      <td>Enhanced Chip Set, see <a href="background/custchips.htm">Custom Chips</a>.</td>
-    </tr>
-    <tr>
-      <td>HAM</td>
-      <td>Hold And Modify, see <a href="background/custchips.htm">Custom Chips</a>.</td>
-    </tr>
-    <tr>
-      <td>Kickstart</td>
-      <td>The most basic program used to start up an Amiga, mostly equivalent to the BIOS in the PC world. See <a href="background/kickst.htm">RAM &amp; Kickstart</a>.</td>
-    </tr>
-    <tr>
-      <td>OCS</td>
-      <td>Original Chip Set, see <a href="background/custchips.htm">Custom Chips</a>.</td>
-    </tr>
-    <tr>
-      <td>Paula</td>
-      <td>Amiga custom hardware, See <a href="background/custchips.htm">Custom Chips</a>.</td>
-    </tr>
-    <tr>
-      <td>Zorro</td>
-      <td>Zorro is the standard bus for expansions in Amigas. See <a href="background/zorro.htm">Zorro Bus</a>.</td>
-    </tr>
-  </table>
-  <h2>Emulation Specific</h2>
-  <table>
-    <tr>
-      <th>Term</th>
-      <th>Explanation</th>
-    </tr>
-    <tr>
-      <td>JIT</td>
-      <td>Just In Time [Compiling]. Gives a huge boost to emulation speed, see <a href="emulation/jit.htm">JIT - Just In Time</a>.</td>
-    </tr>
-  </table>
-</article>
-<footer>Help content is under the terms of the <a href="../credits/fdl.htm">GNU Free Documentation License</a>.</footer>
+  <article>
+    <p>Computer sciences have spawned many awkward terms and
+    acronyms which are often hindering novice users to understand
+    how-tos and manuals. Emulation some terms of its own, as does
+    the Amiga, due to its unique hardware design. This pages aims
+    to explain the most common terms.</p>
+    <h2>General</h2>
+    <table>
+      <tr>
+        <th>Term</th>
+        <th>Explanation</th>
+      </tr>
+      <tr>
+        <td>BIOS</td>
+        <td>Basic Input Output System. Initializes the PC hardware
+        in order to prepare the machine so programs can be
+        run.</td>
+      </tr>
+      <tr>
+        <td>Bus</td>
+        <td>A subsystem that transfers data between computer
+        components inside a computer or between computers.</td>
+      </tr>
+      <tr>
+        <td>CPU</td>
+        <td>Central Processing Unit. Also referred to as the
+        "processor", all calculations are done in this unit.</td>
+      </tr>
+      <tr>
+        <td>FPU</td>
+        <td>Floating Point Unit. In the early days, this was a
+        seperate unit used for floating point calculations.
+        Nowadays integrated in the main CPU.</td>
+      </tr>
+      <tr>
+        <td>RAM</td>
+        <td>
+          Random Access Memory. Main type of storage for a computer
+          to work with. It is by nature volatile memory, i.e. it
+          gets cleared when the computer is shut down. For WinUAE
+          RAM emulation, see <a href="background/kickst.htm">RAM &
+          Kickstart</a>.
+        </td>
+      </tr>
+      <tr>
+        <td>ROM</td>
+        <td>Read Only Memory. Most commonly used to store Firmware,
+        Kickstart, and BIOS programs. In contrary to RAM, it is not
+        volatile.</td>
+      </tr>
+    </table>
+    <h2>Amiga Specific</h2>
+    <table>
+      <tr>
+        <th>Term</th>
+        <th>Explanation</th>
+      </tr>
+      <tr>
+        <td>AHI</td>
+        <td>
+          Audio Hardware Interface, see <a href=
+          "emulation/speed.htm">Emulation Speed</a>.
+        </td>
+      </tr>
+      <tr>
+        <td>AGA</td>
+        <td>
+          Advanced Graphics Architecture, see <a href=
+          "background/custchips.htm">Custom Chips</a>.
+        </td>
+      </tr>
+      <tr>
+        <td>Autoconfig</td>
+        <td>
+          Method for configuring Amiga expansion cards. Mostly
+          equivalent to Plug&amp;Play in the PC world <a href=
+          "background/autoconfig.htm">Autoconfig</a>.
+        </td>
+      </tr>
+      <tr>
+        <td>Blitter</td>
+        <td>
+          Graphics coprocessor, see <a href=
+          "background/custchips.htm">Custom Chips</a>.
+        </td>
+      </tr>
+      <tr>
+        <td>Copper</td>
+        <td>
+          Graphics coprocessor, see <a href=
+          "background/custchips.htm">Custom Chips</a>.
+        </td>
+      </tr>
+      <tr>
+        <td>ECS</td>
+        <td>
+          Enhanced Chip Set, see <a href=
+          "background/custchips.htm">Custom Chips</a>.
+        </td>
+      </tr>
+      <tr>
+        <td>HAM</td>
+        <td>
+          Hold And Modify, see <a href=
+          "background/custchips.htm">Custom Chips</a>.
+        </td>
+      </tr>
+      <tr>
+        <td>Kickstart</td>
+        <td>
+          The most basic program used to start up an Amiga, mostly
+          equivalent to the BIOS in the PC world. See <a href=
+          "background/kickst.htm">RAM & Kickstart</a>.
+        </td>
+      </tr>
+      <tr>
+        <td>OCS</td>
+        <td>
+          Original Chip Set, see <a href=
+          "background/custchips.htm">Custom Chips</a>.
+        </td>
+      </tr>
+      <tr>
+        <td>Paula</td>
+        <td>
+          Amiga custom hardware, See <a href=
+          "background/custchips.htm">Custom Chips</a>.
+        </td>
+      </tr>
+      <tr>
+        <td>Zorro</td>
+        <td>
+          Zorro is the standard bus for expansions in Amigas. See
+          <a href="background/zorro.htm">Zorro Bus</a>.
+        </td>
+      </tr>
+    </table>
+    <h2>Emulation Specific</h2>
+    <table>
+      <tr>
+        <th>Term</th>
+        <th>Explanation</th>
+      </tr>
+      <tr>
+        <td>JIT</td>
+        <td>
+          Just In Time [Compiling]. Gives a huge boost to emulation
+          speed, see <a href="emulation/jit.htm">JIT - Just In
+          Time</a>.
+        </td>
+      </tr>
+    </table>
+  </article>
+  <footer>
+    Help content is under the terms of the <a href=
+    "../credits/fdl.htm">GNU Free Documentation License</a>.
+  </footer>
 </body>
 </html>

@@ -1,41 +1,49 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title>Transdisk</title>
-<link href="../Style.css" rel="stylesheet">
+  <title>Transdisk</title>
+  <link href="../Style.css" rel="stylesheet">
 </head>
 <body>
-<article>
-  <p>A disk file is an image of the raw data on an Amiga floppy disk,
-    it contains 901120 bytes (880kB), which is the standard capacity of an Amiga
-    disk. Transdisk will dump an image of a floppy in one of the drives, or write
-    an image to an Amiga disk. </p>
-  <h2>Disk to ADF</h2>
-  <p>transdisk &gt;RAM:DF0.adf</p>
-  <p>This command will create a file called &quot;DF0.adf&quot; in
-    the RAM disk. Such a file is 901120 bytes of size for one disk.</p>
-  <p>You can also create disk images in several parts. To create 4
-    parts of the disk in DF0: do the following:</p>
-  <p>transdisk &gt;ram:DF0_1.adf -s 0 -e 19<br />
-    transdisk &gt;ram:DF0_2.adf -s 20 -e 39<br />
-    transdisk &gt;ram:DF0_3.adf -s 40 -e 59<br />
+  <article>
+    <p>A disk file is an image of the raw data on an Amiga floppy
+    disk, it contains 901120 bytes (880kB), which is the standard
+    capacity of an Amiga disk. Transdisk will dump an image of a
+    floppy in one of the drives, or write an image to an Amiga
+    disk.</p>
+    <h2>Disk to ADF</h2>
+    <p>transdisk &gt;RAM:DF0.adf</p>
+    <p>This command will create a file called "DF0.adf" in the RAM
+    disk. Such a file is 901120 bytes of size for one disk.</p>
+    <p>You can also create disk images in several parts. To create
+    4 parts of the disk in DF0: do the following:</p>
+    <p>transdisk &gt;ram:DF0_1.adf -s 0 -e 19<br>
+    transdisk &gt;ram:DF0_2.adf -s 20 -e 39<br>
+    transdisk &gt;ram:DF0_3.adf -s 40 -e 59<br>
     transdisk &gt;ram:DF0_4.adf -s 60 -e 79</p>
-  <p>After you <a href="pcamitrans.htm">transferred</a> the files to your PC, you have to merge them
-    again. To do so in the DOS prompt:</p>
-  <p>COPY /B DF0_1.adf+DF0_2.adf+DF0_3.adf+DF0_4.adf DF0.adf</p>
-  <h2>ADF to Disk</h2>
-  <p>It is possible to transfer an ADF disk image back to an original
-    Amiga disk. Copy the ADF to an original Amiga and insert a disk into DF0. Then,
-    you will also need transdisk in order to transfer the data to the disk. Do
-    the following:</p>
-  <p>transdisk -w filename.adf</p>
-  <p>If you do not have an Amiga to write to Amiga disks, then it
-    is suggested to get hold of the PCI Catweasel device which will allow you to
-    write ADF files to Amiga formatted disks on your PC. See <a href="../links.htm#shops">Individual
-    Computers</a> for more information.</p>
-  <p>You can also get direct access to an Amiga's floppy drive if
-    you have your PC and Amiga networked and using the <a href="../links.htm#allinone">Amiga
-    Explorer</a> supplied with Cloanto's Amiga Forever software.</p>
-</article>
-<footer>Help content is under the terms of the <a href="../credits/fdl.htm">GNU Free Documentation License</a>.</footer>
+    <p>After you <a href="pcamitrans.htm">transferred</a> the files
+    to your PC, you have to merge them again. To do so in the DOS
+    prompt:</p>
+    <p>COPY /B DF0_1.adf+DF0_2.adf+DF0_3.adf+DF0_4.adf DF0.adf</p>
+    <h2>ADF to Disk</h2>
+    <p>It is possible to transfer an ADF disk image back to an
+    original Amiga disk. Copy the ADF to an original Amiga and
+    insert a disk into DF0. Then, you will also need transdisk in
+    order to transfer the data to the disk. Do the following:</p>
+    <p>transdisk -w filename.adf</p>
+    <p>If you do not have an Amiga to write to Amiga disks, then it
+    is suggested to get hold of the PCI Catweasel device which will
+    allow you to write ADF files to Amiga formatted disks on your
+    PC. See <a href="../links.htm#shops">Individual Computers</a>
+    for more information.</p>
+    <p>You can also get direct access to an Amiga's floppy drive if
+    you have your PC and Amiga networked and using the <a href=
+    "../links.htm#allinone">Amiga Explorer</a> supplied with
+    Cloanto's Amiga Forever software.</p>
+  </article>
+  <footer>
+    Help content is under the terms of the <a href=
+    "../credits/fdl.htm">GNU Free Documentation License</a>.
+  </footer>
 </body>
 </html>
