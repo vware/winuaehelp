@@ -1,67 +1,58 @@
 <html>
 <head>
 <title>Speed</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link href="../Style.css" type="text/css" rel="stylesheet">
+<link href="../Style.css" rel="stylesheet">
 </head>
-<body id="bodyID" class="dtBODY">
-<div id="nstext">
-  <p class="normal">On a sufficiently powerful PC, UAE will give you quite an authentic
+<body>
+<article>
+  <p>On a sufficiently powerful PC, UAE will give you quite an authentic
     flashback into the past. Thanks to DirectX, the raw drawing throughput of this
     version will be among the highest of all Intel ports.</p>
-  <p class="normal">Use the tips below to maximize the performance of your emulated
+  <p>Use the tips below to maximize the performance of your emulated
     Amiga.</p>
-  <p class="normal">&nbsp;</p>
-  <h2 class="dtH2">Memory</h2>
-  <p class="normal">As a rule of thumb, WinUAE needs 60+Z3+Chip+Fast+Picasso96 MB
-    of system memory.<br>
+  <h2>Memory</h2>
+  <p>As a rule of thumb, WinUAE needs 60+Z3+Chip+Fast+Picasso96 MB
+    of system memory.<br />
     Since WinUAE 0.8.17r1, memory is allocated dynamically. This means you can
     select 512MB Z3 Mem and find no difference in boot time, but if you work with
     UAE for a longer time, it may get very slow. So it is better that you calculate
     your RAM needs with the above formula and make sure that it is lower than the
     pysical limit. Windows has to store the data on the harddisk if it runs out
-    of RAM, which is a gigantic performance hit.<br>
+    of RAM, which is a gigantic performance hit.<br />
     Also try to activate &quot;Suspend to Disk&quot; mode. UAE and Windows will
     be ready to use within 30 seconds. Do not forget to use the <a href="../tips/amigaprogs.htm">timehack</a> to
     set the amigaclock to a correct value.</p>
-  <p class="normal">&nbsp;</p>
-  <h2 class="dtH2">Picasso96</h2>
-  <p class="normal">When using Workbench, it is strongly recommended to make use
+  <h2>Picasso96</h2>
+  <p>When using Workbench, it is strongly recommended to make use
     of WinUAE's Picasso96 support. Using this, you can utilize the power of your
     computer's graphics card to display higher resolutions, more colors, and give all graphics
     output a significant speedup.</p>
-  <p class="normal">Read more details about the correct usage on the <a href="picasso.htm">Picasso96
+  <p>Read more details about the correct usage on the <a href="picasso.htm">Picasso96
     page</a>.</p>
-  <p class="normal">&nbsp;</p>
-  <h2 class="dtH2">AHI</h2>
-  <p class="normal">Sound is a luxury in emulation. Because sound output is synchronized
+  <h2>AHI</h2>
+  <p>Sound is a luxury in emulation. Because sound output is synchronized
     with video DMA, you won't get clean sound unless your machine is capable of
     running at 50 fps at least internally. Again, if you are using the Workbench,
     it is recommended to use AHI as your preferred sound interface.</p>
-  <p class="normal">If you use programs that need no Paula, set sound output to &quot;Disabled,
+  <p>If you use programs that need no Paula, set sound output to &quot;Disabled,
     but emulated&quot;. To hear system sounds you can use ahisyssound found in
     Aminet.</p>
-  <p class="normal">For a further speedup, use <a href="../tips/amigaprogs.htm">ahitweak</a>. Increase
+  <p>For a further speedup, use <a href="../tips/amigaprogs.htm">ahitweak</a>. Increase
     the poll rate (the rate WinUAE checks for soundbuffers). Default is 40, but
     in most cases can be set to 60. Set the sound buffer 4 or 5 in the <a href="../gui/sound.htm">Sound</a> tab.</p>
-  <p class="normal">&nbsp;</p>
-  <h2 class="dtH2">Hardfiles</h2>
-  <p class="normal">Use hardfiles as your main drive to avoid
+  <h2>Hardfiles</h2>
+  <p>Use hardfiles as your main drive to avoid
     trouble and better speed during disk operations, for numerous reasons:</p>
   <ul>
-    <li class="normal">Amiga harddrives easily contain several 1000s of files. This is quite inefficient if you are using FAT/FAT32 as host file system.</li>
-    <li class="normal">Also, backing up a hardfile is much faster than thousands of individual files.</li>
+    <li>Amiga harddrives easily contain several 1000s of files. This is quite inefficient if you are using FAT/FAT32 as host file system.</li>
+    <li>Also, backing up a hardfile is much faster than thousands of individual files.</li>
   </ul>
-  <p class="normal">It is recommended to install the AmigaOS and programs on a hardfile,
+  <p>It is recommended to install the AmigaOS and programs on a hardfile,
     so the access and backup can be done quickly. To store pictures and other data,
-    you may use a Windows directory for easier data exchange with the PC.<br>
+    you may use a Windows directory for easier data exchange with the PC.<br />
     Transferring data from/to a hardfile can done by simply copying it, so you
     don't have to install all your Amiga stuff again.</p>
-  <p class="normal">&nbsp;</p>
-  <p class="normal">&nbsp;</p>
-</div>
-<div class="footer">
-  <hr>
-  Help content is under the terms of the <a href="../credits/fdl.htm">GNU Free Documentation License</a>.</div>
+</article>
+<footer>Help content is under the terms of the <a href="../credits/fdl.htm">GNU Free Documentation License</a>.</footer>
 </body>
 </html>

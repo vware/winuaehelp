@@ -1,83 +1,77 @@
 <html>
 <head>
 <title>WinUAE for First Time Users</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link href="../Style.css" type="text/css" rel="stylesheet">
+<link href="../Style.css" rel="stylesheet">
 </head>
-<body id="bodyID" class="dtBODY">
-<div id="nstext">
-  <p class="normal">Several Amiga models have been released over the years, hence
+<body>
+<article>
+  <p>Several Amiga models have been released over the years, hence
     the complexity of WinUAE, it can emulate everthing from the first A1000 right
     up to the A4000 with the popular A500 and A1200 in between. So you need to
     know a little about how to configure WinUAE to emulate an Amiga model with
     their small variations in specifications such as memory, CPU, custom chipset,
     and so on.</p>
-  <p class="normal">&nbsp;</p>
-  <p class="normal">This page will give you a quick overview how to get your first
+  <p>This page will give you a quick overview how to get your first
     installation up and running:</p>
   <ol>
-    <li class="normal">Double click WinUAE to run it.</li>
-    <li class="normal">The first screen is the Quickstart section, where WinUAE offers
+    <li>Double click WinUAE to run it.</li>
+    <li>The first screen is the Quickstart section, where WinUAE offers
       you an extremely easy way to configure your emulated Amiga. Just select the
       desired Amiga model you have a <a href="../background/kickst.htm">Kickstart
       ROM</a> for. For your convenience, a comparison table of popular Amiga models
       is available at the <a href="examples.htm">Examples page</a>.</li>
-    <li class="normal"> Programs and games are usually distributed on 880k floppy
+    <li> Programs and games are usually distributed on 880k floppy
       disks in an incompatible format called OFS (Original File System) or FFS
       (Fast File System), which PC's cannot read directly. So, these disks are
       copied into a file called an ADF (Amiga Disk Format), on some emulators these
       are called 'ROMs'. To load an ADF disk, click on <a href="../gui/floppies.htm">Floppy
       Drives</a> tab. Then click on the elipses ( ... ) opposite DF0 and select
       an ADF file from either your hard disk or other location.</li>
-    <li class="normal"> If a game came on multiple disks, you can insert them into
+    <li> If a game came on multiple disks, you can insert them into
       further floppy drives, named DF1, DF2 and DF3. Note that a few games assume
       there is only one floppy drive (DF0) and will only look there. If while playing
       a game you need to change disks, press <strong>F12</strong> to load the WinUAE
       GUI and click on Floppies, select <strong>Eject</strong> next to floppy drive
       and load the next disk. Alternatively, press END and F1, F2, F3 or F4 to
       change a disk in DF0-DF3.</li>
-    <li class="normal"> Amigas can also use <a href="../gui/hard-drives.htm">Hard
+    <li> Amigas can also use <a href="../gui/hard-drives.htm">Hard
       Drives</a> like the PC, you can either use a normal directory on a PC
       hard disk to store Amiga files or you can use a HardFile, which is one
       big file that stores all the Amiga files together. You can also use real
       Amiga formatted disks as well. To access data on PC volumes, tick <strong>Add
       PC Drives at Startup</strong>.
       <ul>
-        <li class="normal">To set up a Directory, click Hard Drives, click Add Directory,
+        <li>To set up a Directory, click Hard Drives, click Add Directory,
           then give the disk a device name e.g. DH0, a volume name e.g. System
           and the location of the directory e.g. C:\AmigaForever\System for example.</li>
-        <li class="normal">To set up a Hard File, click Hard Drives, click Add Hardfile,
-          under <strong>New Hard File, </strong>enter the size of the Hard file
-          in Megabytes, anything from 10MB to 2GB is possible, click on <strong>Create, </strong>select
+        <li>To set up a Hard File, click Hard Drives, click Add Hardfile,
+          under <strong>New Hard File,</strong> enter the size of the Hard file
+          in Megabytes, anything from 10MB to 2GB is possible, click on <strong>Create,</strong> select
           the location and name of the hard file and click <strong>Save</strong>.
           You can load an existing hard file via the <strong>Path</strong> ...
           button.</li>
-        <li class="normal">If you have a real Amiga Hard Disk, and it is connected
+        <li>If you have a real Amiga Hard Disk, and it is connected
           directly to your PC, you can select it from a list via the <strong>Add
           Harddrive</strong> button.</li>
       </ul>
     </li>
-    <li class="normal">To set up a CDROM drive for access via WinUAE, click on the <a href="../gui/misc.htm">Expansions</a> tab
+    <li>To set up a CDROM drive for access via WinUAE, click on the <a href="../gui/misc.htm">Expansions</a> tab
       and enable the <strong>uaescsi.device</strong>, when you load up Workbench,
       you need to install an Amiga compatible CDROM filesystem such as CacheCDFS,
       AmiCDFS, IDEFix and so on. The device name for the <strong>CD0</strong> DosDriver
-      should be UAEscsi.device and the unit number is usually 0 or 1 (if unsure, enable <strong>Create Log file </strong>on the Miscellaneous page and start WinUAE to create a log file and
+      should be UAEscsi.device and the unit number is usually 0 or 1 (if unsure, enable <strong>Create Log file</strong> on the Miscellaneous page and start WinUAE to create a log file and
       it will tell you what your CDROM unit numbers are), see the Icon Information
       and change the tooltypes to change these values.</li>
-    <li class="normal"> When your configuration is complete, click the <strong>Start</strong> button
+    <li> When your configuration is complete, click the <strong>Start</strong> button
       to start the emulation. If no hard disk or bootable floppy is found, you
       may see the Insert Disk screen, press F12 and click on Floppies to change
       the disk and click OK to restart. If the emulation crashes or fails to boot,
       press F12, goto Misc screen and click <strong>Reset Amiga</strong> and then
       OK.</li>
-    <li class="normal"> When finished with the emulation you can press <strong>Ctrl+F11, </strong>close
+    <li> When finished with the emulation you can press <strong>Ctrl+F11,</strong> close
       the window, or press F12 and click <strong>Quit</strong> on the bottom left of the window.</li>
   </ol>
-  <p class="normal">&nbsp;</p>
-  <p class="normal">&nbsp;</p>
-</div>
-<div class="footer">
-  <hr>
-  Help content is under the terms of the <a href="../credits/fdl.htm">GNU Free Documentation License</a>.</div>
+</article>
+<footer>Help content is under the terms of the <a href="../credits/fdl.htm">GNU Free Documentation License</a>.</footer>
 </body>
 </html>
