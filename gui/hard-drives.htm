@@ -7,13 +7,14 @@
 <body>
   <article>
     <p>This tab contains some very important options, because you
-    can configure harddisks for your "Amiga".</p><img class=
-    "center" src="hdd.png" alt="Winuae - Hard Drives">
-    <p>Since using diskfiles is awkward, it is necessary to emulate
-    harddisks. There are two ways how you can use large amounts of
-    data with UAE: harddisk files and mounted directories.</p>
-    <p>To stop the creatiom of _UAEFSDB_ files on the filesystem,
-    which stores amiga specific attributes (script), you can tick
+    can configure hard disks for your "Amiga".</p><img class=
+    "center" src="HDD.png" alt="WinUAE - Hard Drives">
+    <p>Since using disk files is awkward, it is necessary to
+    emulate hard disks. There are two ways how you can use large
+    amounts of data with UAE: hard disk files and mounted
+    directories.</p>
+    <p>To stop the creation of _UAEFSDB_ files on the file system,
+    which stores Amiga specific attributes (script), you can tick
     <strong>Disable UAEFSDB support</strong>.</p>
     <h2>Add Directory or Archive..</h2><img class="center" src=
     "harddirectory.png" alt="WinUAE - Add Directory">
@@ -27,16 +28,16 @@
       <li>It is more convenient</li>
       <li>It is much faster</li>
     </ul>
-    <p>You can also use native filesystems to mount Amiga CD-ROMs,
+    <p>You can also use native file systems to mount Amiga CD-ROMs,
     and you can abuse the hardfile emulation to mount floppy
     disks.<br>
     If you have a AmigaOS 3.9 CD you can boot from the
     <strong>Emergency-Boot</strong> directory to load Workbench (to
     read/write to it, copy the directory to your hard disk first
     and boot from that).</p>
-    <p>If you have Cloanto's Amiga Forever, you can boot from the
-    supplied shared directory in <strong>C:\Program
-    Files\Cloanto\Amiga Forever\Emulation\Shared\<br>
+    <p>If you have Amiga Forever, you can boot from the supplied
+    shared directory in <strong>C:\Program Files\Cloanto\Amiga
+    Forever\Emulation\Shared\<br>
     dir\System</strong> folder. Directory drives can be set to a
     limit of 1 GB.</p>
     <p>Use <strong>Select Archive or plain file</strong> to add an
@@ -60,20 +61,20 @@
     dialog box state where on your PC hard disk you want to save
     your file e.g. System.hdf. I suggest 100 MB or greater.<br>
     <br>
-    Harddisk files are large files that contain the image of an
-    Amiga filesystem. They work much the same way as a disk file.
+    Hard disk files are large files that contain the image of an
+    Amiga file system. They work much the same way as a disk file.
     You can simply create a large empty file and tell UAE to use it
     as a hardfile, but you will need to format it from the
     emulation before you can actually use it.</p>
     <p>If you are want to boot a hardfile under Kickstart 1.3, you
     need the FastFileSystem file from the L: directory to be placed
-    in the kickstart roms-directory where WinUAE is installed.<br>
+    in the Kickstart ROMs-directory where WinUAE is installed.<br>
     <br>
     If you are using WinUAE 0.8.22r1 or earlier and Kickstart 1.3
     or earlier, hardfiles can't currently be mounted at boot time,
     and therefore you can't boot from it either. You will have to
     boot either from a <a href="floppies.htm">Floppy Disk Image</a>
-    or from a Filesystem, and mount the hardfile.device later. To
+    or from a file system, and mount the hardfile.device later. To
     do this, add the following to "DEVS:mountlist":<br>
     <br>
     <em>UAE0:<br>
@@ -92,11 +93,11 @@
     You may need to adjust the values if you specified a different
     geometry, and/or your hardfile has a different size than 8MB,
     and/or the hardfile is not mounted as UAE0: because you mounted
-    other harddisks before it. Then, type "mount UAE0:" (or put
+    other hard disks before it. Then, type "mount UAE0:" (or put
     that command in your startup-sequence), and you should be able
     to access it. Don't forget to format it with the AmigaOS!</p>
     <p>If using HDToolbox to manage Hard files, then you must
-    create hardfile normally or use harddisk image from your real
+    create hardfile normally or use hard disk image from your real
     Amiga but clear all<br>
     hardfile parameters except block size.(sectors, surfaces and
     reserved)</p>
@@ -109,27 +110,27 @@
     about the cylinders, blocks, size and DOS type in the box.</p>
     <p>Settings:</p>
     <p><strong>Enable RDB mode</strong> - Enable Rigid Disk Block
-    mode, this stores the partition and filesystem information in a
-    special block of disk (similar to the Master Boot Record on
+    mode, this stores the partition and file system information in
+    a special block of disk (similar to the Master Boot Record on
     PCs).</p>
     <p><strong>RDB/OFS/FFS</strong> - Set file system to Rigid Disk
     Block mode, Original File System (WB 1.3) or Fast File System
-    (WB 2.x, 3.x). Newer filesystems include PFS3 (Professional
-    Filing System), PDS3, SFS (Smart File System) and Custom
-    filesystem.</p>
+    (WB 2.x, 3.x). Newer file systems include PFS3 (Professional
+    Filing System), PDS3, SFS (Smart File System) and Custom file
+    system.</p>
     <p><strong>Sparse file</strong> - Formats disk file as a file
-    which attemprs to use disk space more efficently when it is
+    which attempts to use disk space more efficiently when it is
     mostly empty by using metadata to represent empty space.</p>
     <p><strong>Dynamic HDF</strong> - Modern disk file format which
-    expands as more data is added to the disk file, minimises disk
+    expands as more data is added to the disk file, minimizes disk
     usage like Dynamic VHD files on PC.</p>
-    <p><strong>DOS type -</strong> Displays the filesystem name in
+    <p><strong>DOS type -</strong> Displays the file system name in
     Hexadecimal format.</p>
-    <h2>Add Harddrive...</h2><img class="center" src=
+    <h2>Add Hard Drive...</h2><img class="center" src=
     "harddrive.png" alt="Hard Drive Settings">
     <p><br>
-    You can now add complete Harddrives to WinUAE, select from a
-    dropdown list. This list will only pick up Amiga formatted
+    You can now add complete hard drives to WinUAE, select from a
+    drop-down list. This list will only pick up Amiga formatted
     drives, Amithlon partitions and empty partitions (not Windows
     partitions). Tick the <strong>Read/Write</strong> option if you
     wish to read and write to such a partition. The boxes below
@@ -138,15 +139,16 @@
     <p><strong>NOTE:</strong> Windows 2000, XP, 7, 8 or later is
     required for this feature! You must also possess administrator
     rights!</p>
-    <p><strong>Remove</strong> removes a harddisk from the
-    configuration. Simply select a harddisk and click "Remove".</p>
+    <p><strong>Remove</strong> removes a hard disk from the
+    configuration. Simply select a hard disk and click
+    "Remove".</p>
     <p><strong>Properties</strong> allows you to change the
     settings for your virtual HDD. To adjust, click your desired
     HDD and select properties.</p>
     <p><strong>Include removable drives</strong> allows you to
     include USB drives or compact flash cards etc.</p>
     <p><strong>Include CD/DVD Drives</strong> allows you to add
-    optical drives without needing a CDROM driver.</p>
+    optical drives without needing a CD-ROM driver.</p>
     <p><strong>Automount Removable drives</strong> allows you to
     add removable drives such as USB, Firewire, Zip drives when a
     disk is inserted.</p>
@@ -208,8 +210,8 @@
     mount compact discs and DVDS without having to install a CD
     filing system.</p>
     <h2>Add SCSI Tape Drive...</h2><img class="center" src=
-    "tapedrive.png" alt="Winuae - Tape Drive">
-    <p>You can now add Tape Drives to Winuae. Select a Path to a
+    "tapedrive.png" alt="WinUAE - Tape Drive">
+    <p>You can now add Tape Drives to WinUAE. Select a Path to a
     folder where data can be read or written to. It will work with
     Amix and any backup software that requires a tape drive.</p>
     <p><strong>Select directory</strong> Browse for an directory on
