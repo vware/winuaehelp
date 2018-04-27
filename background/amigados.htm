@@ -1,37 +1,38 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title>AmigaDOS Commands</title>
-<link href="../Style.css" rel="stylesheet">
+  <title>AmigaDOS Commands</title>
+  <link href="../Style.css" rel="stylesheet">
 </head>
 <body>
-<article>
-  <p>These are the AmigaDOS commands found in the C directory with
-    an explination of the command and an example.</p>
-  <pre><strong>Addbuffers</strong>
+  <article>
+    <p>These are the AmigaDOS commands found in the C directory
+    with an explination of the command and an example.</p>
+    <pre><strong>Addbuffers</strong>
 Format:  Addbuffers <em>Drive/A Buffers/N</em>
 Purpose: Add memory to floppy disk buffers to improve speed.
 Parameters: Drive = Name of drive, Buffers = Size of buffers to add.
 Example: Addbuffers DF0: 10
-<br />
+<br>
 <strong>AddDatatypes</strong>
 Format:  AddDataTypes <em>files/M QUIET/S REFRESH/S</em>
 Purpose: Activates datatypes or adds another datatype.
 Parameters: files = List of datatypes to add, Quiet = No output, Refresh = Update datatypes.
 Example: AddDataTypes gif.datatype REFRESH
-<br />
+<br>
 <strong>Alias</strong>
 Format:  Alias <em>Name String/F</em>
 Purpose: Assigns a short name to a command.
 Parameters: Name = Alias name, String = String or command to use for alias.
 Example: Alias Del Delete
-<br />
+<br>
 <strong>Ask</strong>
 Format:  Ask <em>Prompt/A</em>
 Purpose: Asks a question in a script (reply y/n). Use IF WARN
          to test for a yes.
 Parameters: Prompt = Text to be displayed.
-Example: Ask &quot;Are you sure? Y/n&quot;
-<br />
+Example: Ask "Are you sure? Y/n"
+<br>
 <strong>Assign</strong>
 Format:  Assign <em>Name Target/M LIST/S EXISTS/S DISMOUNT/S DEFER/S
          PATH/S ADD/S REMOVE/S VOLS/S DIRS/S DEVICES/S</em>
@@ -41,44 +42,44 @@ Parameters: Name = Name of the assign, Target = Directory path, List = Display l
  Add = Add a new target to existing path (like LIBS:), Remove = Remove an assign, Vols = List volumes,
  Dirs = List directories, Devices = List devices.
 Example: Assign PPaint: DH0:PPaint
-<br />
+<br>
 <strong>Avail</strong>
 Format:  Avail <em>CHIP/S FAST/S TOTAL/S FLUSH/S</em>
 Purpose: Memory availablility
 Parameters: Chip = Display chip memory, Fast = Display fast memory, Total = Display all memory, Flush = Free up
 memory.
 Example: Avail TOTAL
-<br />
+<br>
 <strong>Binddrivers</strong>
 Format:  BindDrivers
 Purpose: Load device drivers for old hardware.
 Example: BindDrivers
-<br />
+<br>
 <strong>Break</strong>
 Format:  Break <em>Process/A/N ALL/S C/S D/S E/S F/S</em>
 Purpose: Stop a program (see Status)
 Paramters: Process = Process name, All = Apply C,D,E and F, C = Apply Ctrl+C, D = Apply Ctrl+d, E = Apply Ctrl+E,
  F = Apply Ctrl+F.
 Example: Break 2 C
-<br />
+<br>
 <strong>CD</strong>
 Format:  CD <em>Dir/A</em>
 Purpose: Change directory
 Parameters: Dir = Directory to change to
 Example: CD Text_Files
-<br />
+<br>
 <strong>ChangeTaskPri</strong>
 Format:  ChangeTaskPri <em>Pri=Priority/A/N Process/K/N</em>
 Purpose: Changes program's execution priority (see Status)
 Parameters: Pri = Priority to apply (-128 to +127), Process = Process number (see Status).
 Example: ChangeTaskPri 2 1
-<br />
+<br>
 <strong>Conclip</strong>
 Format:  Conclip<em> Unit/N OFF/S</em>
 Purpose: Activates clipboard device
 Parameters: Unit = Clipboard unit, Off = Turn off clipboard.
 Example: Conclip 1
-<br />
+<br>
 <strong>Copy</strong>
 Format:  Copy <em>From/M To/A ALL/S QUIET/S BUF=BUFFER/K/N CLONE/S
          DATES/S NOPRO/S COM/S NOREQ/S</em>
@@ -87,7 +88,7 @@ Parameters: From = Files to copy, To = Directory or file to copy to, All = Copy 
  Buffer = Size of buffer (default = 100K), Clone = Copy file and datestamp, protect bits and comment, Dates = 
  Copy datestamp as well, NoPro = Set default protection bits, Com = Copy comment, NoReq = No requester popups.
 Example: Copy mydoc.txt docs: Dates
-<br />
+<br>
 <strong>CPU</strong>
 Format:  CPU <em>CACHE/S BURST/S NOCACHE/S NOBURST/S DATACACHE/S DATABURST/S
          NODATACACHE/S NODATABURST/S INSTCACHE/S INSTBURST/S NOINSTCACHE/S
@@ -99,53 +100,53 @@ Parameters: Cache|NoCache|DataCache|InstCache|NoDataCache|NoInstCache = Turn all
  CopyBack|NoCopyBack = Enable/disable copyback mode for 68040, ExternalCache|NoExternalCache = Enable/disable external
  cache for 68040, FastRom|NoFastRom = Copy ROM Fast memory or not, NoMMUTest = Don't check for MMU, Check = Check cpu. 
 Example: CPU INSTCACHE FASTROM
-<br />
+<br>
 <strong>Date</strong>
 Format:  Date <em>Day Date Time To=Ver/K</em>
 Purpose: Display/change date or time
 Parameters: Day = Day of the Week, Date = Date in dd-mmm-yy format, Time = Time in hh:mm[:ss] format, To = Save to 
 filename.
 Example: Date To=date.txt
-<br />
+<br>
 <strong>Delete</strong>
 Format:  Delete <em>File/M/A ALL/S QUIET/S FORCE/S</em>
 Purpose: Delete files and/or directories.
 Parameters: Files = One or more files, All = Delete all subfolders and files, Quiet = No output, Force = Ignore
  protection flags when deleting.
 Example: Delete OldFilesDir All
-<br />
+<br>
 <strong>Dir</strong>
 Format:  Dir <em>Dir Opt/K ALL/S DIRS/S FILES/S INTER/S</em>
 Purpose: List contents of a directory
 Parameters: Dir = Directory, Opt = Option, Dirs = List directories, Files = List Files, Inter = Interactive mode.
 Example: Dir S: Files
-<br />
+<br>
 <strong>Diskchange</strong>
 Format:  Diskchange <em>Device/A</em>
 Purpose: Tell Amigados that a disk has been swapped in a non-autosensing disk drive.
 Parameters: Device = Name of removable device.
 Example: Diskchange DF2:
-<br />
+<br>
 <strong>Diskcopy</strong>
 Format:  Diskcopy <em>From/A To/A Name/K NOVERIFY/S MULTI/S</em>
 Purpose: Duplicates disks 
-Parameters: From = Disk to copy from, To = Disk to copy to, Name = Volume name, NoVerify = Do not verify copy,<br />
+Parameters: From = Disk to copy from, To = Disk to copy to, Name = Volume name, NoVerify = Do not verify copy,<br>
 Multi = Make more than one copy.
 Example: Diskcopy DF0: to DF1:
-<br />
+<br>
 <strong>DiskDoctor</strong>
 Format:  Diskdoctor Drive/A
 Purpose: Repairs disk problems (in place). Deprecated in WB2.
 Parameters: Drive = Disk drive name.
 Example: DiskDoctor DF0:
-<br />
+<br>
 <strong>Echo</strong>
 Format:  Echo <em>String/M NOLINE/S FIRST/K/N LEN/K/N TO/K</em>
 Purpose: Display text in a script or part of a string of text.
 Parameters: String = Text to display, NoLine = Do not print a new line, First = Position of first character, Len = 
  Length of substring, To = Destination file.
-Example: Echo &quot;Enter your name: &quot; NoLine
-<br />
+Example: Echo "Enter your name: " NoLine
+<br>
 <strong>Ed</strong>
 Format:  ED <em>From/A Size/N With/K Window/K Tabs/N Width=Cols/N 
          Height=Rows/N</em>
@@ -153,78 +154,78 @@ Purpose: Edit text files (screen editor)
 Parameters: From = File to Edit, Size = Size of Memory for file, With = Extended commands file, Window = Console window 
  (e.g. * = current), Tabs = Tab size, Width = Number of columns, Height = Number of rows.
 Example: ED S:User-Startup
-<br />
+<br>
 <strong>Edit</strong>
 Format:  Edit <em>From/A To With/K Ver/K Opt/K Width/N Previous/N</em>
-Purpose: Edit text files (line editor)<br />
+Purpose: Edit text files (line editor)<br>
 Parameters: From = File to Edit, To = Destination file, With = Extended commands file, Opt = Options
 Width = Number of columns, Previous = Number of previous vesions.
 Example: Edit s:User-Startup With Ed-Script
-<br />
+<br>
 <strong>Else</strong>
 Format:  Else
 Purpose: Used with IF, if not true do these commands
 Example: If Exists s:User-Startup
-         Say &quot;User Startup already exists&quot;
+         Say "User Startup already exists"
          Else
          Ed s:User-Startup
          Endif
-<br />
+<br>
 <strong>Endcli</strong>
 Format:  Endcli
 Purpose: Close CLI console window
 Example: Endcli
-<br />
+<br>
 <strong>Endif</strong>
 Format:  Endif
 Purpose: End a IF..ELSE..ENDIF block
 Example: If $Age GT 65
-         Say &quot;You are a pensioner!&quot;
+         Say "You are a pensioner!"
          Endif
-<br />         
+<br>         
 <strong>Endskip</strong>
 Format:  Endskip
 Purpose: Stops a SKIP branch (for debugging)
 Example: Endskip
-<br />
+<br>
 <strong>Eval</strong>
 Format:  Eval <em>Value1/A Op Value2/M To/K LFormat/K</em>
 Purpose: Evaluate a simple arithmetic expression
 Parameters: Value1, Value2 = Values to evaluate (Decimal, Hex (0xn) or Octal (0nnn), Op = Operation (+,-,*,/,^,%),
  To = File to save result, LFormat = Output format string (use *n to give a line feed).
 Example: Eval $count + 1 to env:count
-<br />
+<br>
 <strong>Execute</strong>
 Format:  Execute <em>File/A</em>
 Purpose: Execute a script or batch file
 Parameters: File = Script file to execute
 Example: Execute PCD
-<br />
+<br>
 <strong>Failat</strong>
 Format:  Failat <em>RCLIM/A</em>
 Purpose: Change failure limit for scripts (0,5,10,20)
          (0 - Ok, 5 - Warn, 10 - Error, 20 - Fail)
 Parameters: RCLIM = Failat number (0-20)
 Example: Failat 20
-<br />
+<br>
 <strong>Fault</strong>
 Format:  Fault <em>Error/N/M</em>
 Purpose: Display error message from a code
 Parameters: Error = One or more error numbers
 Example: Fault 221
-         &quot;Fault 221: Disk is full&quot;
-<br />
+         "Fault 221: Disk is full"
+<br>
 <strong>FF</strong>
 Format:  FF
 Purpose: Turns on Fast Fonts
 Example: FF
-<br />
+<br>
 <strong>FileNote</strong>
 Format:  Filenote <em>File/A Comment ALL/S QUIET/S</em>       
 Purpose: Attach a comment to a file (see LIST)
 Parameters: File = File to add comment to, Comment = Text to apply, All = Apply to all files, Quiet = No output
-Example: FileNote List.txt &quot;A list of people's names&quot;
-<br />
+Example: FileNote List.txt "A list of people's names"
+<br>
 <strong>Format</strong>
 Format:  Format <em>Device=Drive/K/A Name/K/A OFS/S FFS/S 
          INTL=INTERNATIONAL/S NOINTL=NOINTERNATIONAL/S
@@ -233,27 +234,27 @@ Purpose: Initialises Amiga disks (in System drawer)
 Parameters: Device|Drive = Disk device or name to format, Name = New volume name, OFS = Old Filing System, 
  FFS = Fast File System, Intl|International = FFS International mode,  NoIntl|NoInternational = International mode
  off, DirCache|NoDirCache = Directory caching on or off, NoIcons = No disk or trash icons, Quick = Less thorough format
-Example: Format Drive DF0: Name &quot;Docs&quot; NOICONS FFS
-<br />
+Example: Format Drive DF0: Name "Docs" NOICONS FFS
+<br>
 <strong>Get</strong>
 Format:  Get <em>Name/A</em>
 Purpose: Returns contents of local env variable
 Parameters: Name = Enviornment variable name
 Example: Get RC
-<br />
+<br>
 <strong>Getenv</strong>
 Format:  Getenv <em>Name/A</em>
 Purpose: Return contents of a global environment variable
 Parameters: Name = Enviornment variable name
 Example: Getenv Workbench
-<br />
+<br>
 <strong>Iconx</strong>
 Format:  Iconx
 Purpose: Enables a script to be run from Workbench. The script
          must have a Project .info file and the Default Tool
          set to c:IconX to run it.
 Example: Iconx
-<br />
+<br>
 <strong>If</strong>
 Format:  If <em>NOT/S WARN/S ERROR/S FAIL/S EQ/K GT/K GE/K VAL/S EXISTS/K</em>
 Purpose: If condition is true execute following commands until
@@ -262,13 +263,13 @@ Parameters: Not = Reverse boolean result, Warn = Test warn flag from previous co
  previous command, Fail = Test fail flag from previous command, EQ = Equality test, GT = Greater than test, 
  GE = Greater or equal test, VAL = Input is a number, Exists = Test file exists.
 Example: IF WARN, IF $count GT 10, IF EXISTS C:List
-<br />
+<br>
 <strong>Info</strong> 
 Format:  Info <em>Device</em>
 Purpose: Displays information about disks
 Parameters: Device = Name of device to display
 Example: Info DH0:
-<br />
+<br>
 <strong>Install</strong>
 Format:  Install <em>Device/A NOBOOT/S CHECK/S FFS/S</em>
 Purpose: Saves a bootblock to a disk. If you have only one drive
@@ -277,24 +278,24 @@ Purpose: Saves a bootblock to a disk. If you have only one drive
 Parameters: Device = Disk to install bootblock, NoBoot = Erase bootblock, Check = Test for bootblock, FFS = Use
  Fast File System.
 Example: Install DF0:
-<br />
+<br>
 <strong>IPrefs</strong>
 Format:  IPrefs
 Purpose: Initialises preferences files on startup.
 Example: IPrefs
-<br />
+<br>
 <strong>Join</strong>
 Format:  Join <em>File/M/A AS=TO/K/A</em>
 Purpose: Join two or files together.
 Parameters: File = File(s) to join together, To|as = Destination file
 Example: Join File1 File2 File3 as FileFull
-<br />
+<br>
 <strong>Lab</strong>
 Format:  Lab <em>Label</em>
 Purpose: State a Label to Skip to in a script
 Parameters: Label = Name of label
 Example: Lab PROC2
-<br />
+<br>
 <strong>List</strong>
 Format:  List <em>Dir/M P=PAT/K KEYS/S DATES/S NODATES/S To/K Sub/K
          Since/K Upto/K QUICK/S BLOCK/S NOHEAD/S FILES/S DIRS/S
@@ -305,45 +306,45 @@ Parameters: Dir = One or more directory name(s), Keys = Display keys, NoDates = 
  Simple directory list, Block = List files in block sizes, NoHead = Do not display header lines, Files = Files only,
  Dirs = Directorys only, LFormat = Output list using this format string, All = All files.
 Example: List Workbench: Block Dates Since=01-Jul-00
-<br />
+<br>
 <strong>LoadWB</strong>
 Format:  Loadwb <em>-DEBUG/S DELAY/S CLEANUP/S NEWPATH/S</em>
 Purpose: Display workbench screen 
 Parameters: Debug = Activate debug menu, Delay = Wait 3 secs before loading, Cleanup = Clean up desktop,
  NewPath = Resnap current path settings.
 Example: LoadWB -Debug
-<br />
+<br>
 <strong>Lock</strong>
 Format:  Lock <em>Drive/A ON/S OFF/S Passkey</em>
 Purpose: Lock a device from writing.
 Parameters: Drive = Drive to lock, On|Off = Turn lock on or off, PassKey = Specify password.
 Example: Lock DH1: On GHK459
-<br />
+<br>
 <strong>MagTape</strong>
 Format:  MagTape <em>Device/K Unit/N/K RET=RETENSION/S REW=REWIND/S SKIP/N/K</em>
 Purpose: Controls magnetic tape device.
 Parameters: Device = Tape device, Unit = Unit number, Ret|Retension = Retension tape, Rew|Rewind = Rewind tape,
  Skip = Skip parts of tape by a value.
 Example: Magtape Device TAPE1: Unit 0 REWIND
-<br />
+<br>
 <strong>MakeDir</strong>
 Format:  Makedir <em>Name/M</em>
 Purpose: Create one or more new directories.
 Parameters: Name = One or more directories to create.
 Example: MakeDir DH1:Docs DH1:Basic DH0:TempFiles
-<br />
+<br>
 <strong>MakeLink</strong>
 Format:  MakeLink <em>From/A To/A HARD/S FORCE/S</em>
 Purpose: Creates a logical link between files
 Parameters: From = Link file, To = Actual file, Hard = Hard link, Force = Link to sub-directory
 Example: MakeLink T C:Type Hard
-<br />
+<br>
 <strong>Mount</strong>
 Format:  Mount <em>Device/M From/K</em>
 Purpose: Loads and mount a device
 Parameters: Device = Device to mount, From = Mount file
 Example: Mount DEVS:CD0
-<br />
+<br>
 <strong>Newcli</strong>
 Format:  Newcli <em>Window From</em>
 Purpose: Open a new CLI console (CON) window
@@ -355,27 +356,27 @@ Parameters: Window = Window config string, From = Alternative script to Shell-Sc
  bottom borders, NoDrag = No draggable title bar, Simple = Simple refresh, Smart = Smart refresh, Wait = Remain open 
  under window is close manually.
 Example: Newcli CON:0/10/400/200/Shell/CLOSE
-<br />
+<br>
 <strong>NewShell</strong>
 Format:  NewShell <em>Window From</em>
 Purpose: Open a new Shell console (CON) window
 Parameters: Window = Window config string, From = Alternative script to Shell-Script.
 Example: NewShell From S:Shell-Startup
-<br />
+<br>
 <strong>Path</strong>
 Format:  Path <em>Path/M ADD/S SHOW/S RESET/S REMOVE/S QUIET/S</em>
 Purpose: Set or change the program search path
 Parameters: Path = Directory path to change, Add = Add path, Show = Display path, Reset = Clear path, 
  Remove = Remove entry from path, Quiet = No output
 Example: Path SC:C Add
-<br />
+<br>
 <strong>Prompt</strong>
 Format:  Prompt <em>Prompt</em>
 Purpose: Change the prompt text (Codes: %R = last return code,
          %S = Current path, %N = CLI Number)
 Parameters: Prompt = Path format
-Example: Prompt &quot;%N.%S&gt; &quot;
-<br />
+Example: Prompt "%N.%S&gt; "
+<br>
 <strong>Protect</strong>
 Format:  Protect <em>File/A Flags ADD/S SUB/S ALL/S QUIET/S</em>
 Purpose: Change the 'rwedsp' flags of a file. (r=read,w=write,
@@ -383,39 +384,39 @@ Purpose: Change the 'rwedsp' flags of a file. (r=read,w=write,
 Parameters: File = File to change, Flags = One or more flags, Add = Add flag(s) to existing flags, Sub = Remove
  flags from file, All = Change all files, Quiet = No output
 Example: Protect Editor rwed
-<br />
+<br>
 <strong>Quit</strong>
 Format:  Quit <em>RC/N</em>
 Purpose: Quit a script with optional return code
 Parameters: RC = Return Code
 Example: Quit 5
-<br />
+<br>
 <strong>Relabel</strong> 
 Format:  Relabel <em>Drive/A Name/A</em>
 Purpose: Change name of a disk
 Parameters: Drive = Disk to change, Name = New volume name
-Example: Relabel DF0: &quot;Documents&quot;
-<br />
+Example: Relabel DF0: "Documents"
+<br>
 <strong>RemRAD</strong>
 Format:  RemRAD <em>Device FORCE/S</em>
 Purpose: Remove RAD device from memory
 Parameters: Device = RAD device, Force = Remove even if in use
 Example: RemRAD RAD:
-<br />
+<br>
 <strong>Rename</strong>
 Format:  Rename <em>From/A/M To=As/A QUIET/S</em>
 Purpose: Rename or move one or more files
 Parameters: From = Old filename, To|As = New filename, Quiet = No output
 Example: Rename MyDoc as MyDoc.doc
-<br />
+<br>
 <strong>RequestChoice</strong>
 Format:  RequestChoice  <em>Title/A Body/A Gadgets/M PubScreen/K</em>
 Purpose: Asks for input via a requester
 Parameters: Title = Title for dialog box, Body = Text for dialog box, Gadgets = List of buttons, Pubscreen = Screen
  to use.
-Example: RequestChoice &gt;ENV:RT &quot;Format&quot; &quot;About to format your hard
-         disk*nAre you sure?&quot; &quot;Go ahead&quot; &quot;No way!&quot;
-<br />
+Example: RequestChoice &gt;ENV:RT "Format" "About to format your hard
+         disk*nAre you sure?" "Go ahead" "No way!"
+<br>
 <strong>RequestFile</strong>
 Format:  RequestFile <em>Drawer File/K Pattern/K Title/K Positive/K
          Negative/K AcceptPattern/K RejectPattern/K SAVEMODE/S
@@ -426,8 +427,8 @@ Parameters: Drawer = Initial drawer to use, File = Initial file name, Pattern = 
  to indicate Save or other mode, MultiSelect = Allow multiple file selection, DrawersOnly = Display only directories,
  NoIcons = Suppress info files, PubScreen = Screen to use.
 Purpose: Asks for a filename via ASL file requester
-Example: RequestFile &gt;ENV:File Title &quot;Select a File&quot; Positive &quot;Load&quot; Noicons
-<br />
+Example: RequestFile &gt;ENV:File Title "Select a File" Positive "Load" Noicons
+<br>
 <strong>Resident</strong>
 Format:  Resident <em>Name File REMOVE/S ADD/S REPLACE/S PURE=FORCE/S SYSTEM/S</em>
 Purpose: Stores AmigaDOS command in memory (quicker then reloading
@@ -436,13 +437,13 @@ Purpose: Stores AmigaDOS command in memory (quicker then reloading
 Parameters: Name|File = File to be made resident, Remove = Remove file from resident list, Add = Add file to resident
  memory, Pure|Force = Force a non-pure file to be resident, System = Show system's resident code segments.
 Example: Resident C:Dir Pure
-<br />
+<br>
 <strong>Run</strong>
 Format:  Run <em>Command/F</em>
 Purpose: Execute a program in the background (multi-task)
 Parameters: Command = Program to run
 Example: Run Printfiles Doc1
-<br />
+<br>
 <strong>Search</strong>
 Format:  Search <em>From/M Search/A ALL/S NONUM/S QUIET/S QUICK/S
          FILE/S PATTERN/S</em>
@@ -450,33 +451,33 @@ Purpose: Search for a string in a file or a file on a disk
 Parameters: From = Directory to seach from, Search = Text to search for, All = Search sub-directories, NoNum = Line
  numbers are not displayed, Quiet = No Output, Quick = Reduce output listing, File = Search a file rather than
  content, Pattern = Search using a pattern.
-Example: Search SYS: &quot;List&quot; File All
-<br />
+Example: Search SYS: "List" File All
+<br>
 <strong>Set</strong>
 Format:  Set <em>Name String/F</em>
 Purpose: Sets or lists a local environment variable (local to current
          shell or current process)
 Parameters: Name = Variable name, String = Text or number for variable
-Example: Set MyName &quot;Peter&quot;
-<br />
+Example: Set MyName "Peter"
+<br>
 <strong>SetClock</strong>
 Format:  Setclock <em>LOAD/S SAVE/S RESET/S</em>
 Purpose: Load or set the date and time from battery-backed clock
 Parameters: Load = Load date from clock, Save = Save date and time to clock, Reset = Resets the click
 Example: Date 27-Nov-00 10:00, SetClock Save
-<br />
+<br>
 <strong>SetDate</strong>
 Format:  Setdate <em>File/A Weekday Date Time ALL/S</em>
 Purpose: Set date of a file or directory (see List)
 Parameters: File = File to change, Weekday = Day of week, Date = Date, Time = Time, All = All files
 Example: Setdate DEVS: Monday 10:30
-<br />
+<br>
 <strong>Setenv</strong> 
 Format:  Setenv <em>Name String/F</em>
 Purpose: Change the contents of a environment variable
 Parameters: Name = Variable name, String = Text or number for variable
-Example: Setenv Workbench &quot;3.1&quot;
-<br />
+Example: Setenv Workbench "3.1"
+<br>
 <strong>Setfont</strong>
 Format:  Setfont <em>Name/A Size/N/A SCALE/S PROP/S ITALIC/S
          BOLD/S UNDERLINE/S</em>
@@ -484,14 +485,14 @@ Purpose: Sets console font
 Parameters: Name = Font name, Size = Font size, Scale = Scale font to size, Prop = Specify if a Proportional font,
  Italic = Use italic font, Bold = Use bold font, Underline = Use underlined font
 Example: SetFont Courier 15 Bold
-<br />
+<br>
 <strong>SetKeyboard</strong>
 Format:  Setkeyboard <em>Keymap/A</em>
 Purpose: Sets keyboard layout using layouts in Devs:Keymaps.
 You can use the Input preferences instead.
 Parameters: Keymap = Keymap file to use
 Example: SetKeyboard USA0
-<br />
+<br>
 <strong>SetMap</strong>
 Format:  SetMap &lt;keymap id&gt;
 Purpose: Sets keyboard layout. Deprecated in WB2.
@@ -499,12 +500,12 @@ Keymaps include CDN,CH1,CH2,D,DK,E,F,GB,I,IS,N,S,USA0,USA1,USA2.
 Keymap can be set in icon using Tooltype: KEYMAP=&lt;map&gt;
 Parameters: Keymap = Keymap file to use
 Example: Setmap GB
-<br />
+<br>
 <strong>SetPatch</strong>
 Format:  Setpatch <em>QUIET/S NOCACHE/S REVERSE/S</em> NOAGA/S
 Purpose: Patch Operating System functions and remove bugs (43.4)
 Example: Setpatch Quiet
-<br />
+<br>
 <strong>SetPatch</strong>
 Format:  Setpatch <em>QUIET/S NOCACHE/S REVERSE/S</em> NONSD/S NOAGA/S PATCHCONFIGFILE=PCF/K
  PATCHCONFIGLINE=PCL/K PATCHINFO=PI/S FORCEUPDATE/S KILLUPDATE/S NOROMUPDATE/S
@@ -519,34 +520,34 @@ Parameters: Quiet = No output, NoCache = Cache off, Reverse = Reverse action of 
  crash), SkipRomUpdates = Skip following updates,WaitForValidate = Waits for all volumes to be
  validated, AvoidMemFKickForPatches = Ignore MemFKick for Patches.
 Example: Setpatch NOROMUPDATE NONSD QUIET
-<br />
+<br>
 <strong>Skip</strong>
 Format:  Skip <em>Label BACK/S</em>
 Purpose: Jump to a label in a script (see Lab). Use back if
          label occurs before Skip command.
 Parameters: Label = Label name to skip to, Back = Go back in script to label
 Example: Skip Lab2 Back
-<br />
+<br>
 <strong>Sort</strong>
 Format:  Sort <em>From/A To/A Colstart/K CASE/S NUMERIC/S</em>
 Purpose: Sort a file and output to new file
 Parameters: From = File to sort, To = Output file, Colstart = Column to sort from, Case = Upper
  case entries are done first, Numeric = Input treated as numbers.
 Example: Sort Figures To SortedFigures Numeric
-<br />
+<br>
 <strong>Stack</strong>
 Format:  Stack <em>Size/N</em>
 Purpose: Change/display amount of stack space in bytes.
 Parameters: Size = Stack size in bytes
 Example: Stack 10000
-<br />
+<br>
 <strong>Status</strong>
 Format:  Status <em>Process/N FULL/S TCB/S CLI=ALL/S COM=COMMAND/K</em>
 Purpose: Display status of running programs. TCB is Task Control Block
 Parameters: Process = Task number, Full = Full output of process info, TCB = Information except
  the command name, CLI|All = Command info only, COM|Command = Search for command.
 Example: Status 2 Full
-<br />
+<br>
 <strong>Type</strong>
 Format:  Type <em>From/A/M TO/K OPT H|N/K HEX/S NUMBER/S</em>
 Purpose: Display contents of text file on screen and binary files using
@@ -554,25 +555,25 @@ Purpose: Display contents of text file on screen and binary files using
 Parameters: From = Text file to display, To = Output file or device, Opt H | Hex = Display
  as hex values, Opt N | Number = Number the lines.
 Example: Type C:DIR HEX
-<br />
+<br>
 <strong>Unset</strong>
 Format:  Unset <em>Name</em>
 Purpose: Remove a local env variable
 Parameters: Name = Environment variable name
 Example: Unset MyName
-<br />
+<br>
 <strong>UnSetEnv</strong>
 Format:  UnSetEnv <em>Name</em>
 Purpose: Remove a global env variable
 Parameters: Name = Environment variable name
 Example: UnSetEnv Workbench
-<br />
+<br>
 <strong>Unalias</strong>
 Format:  Unalias <strong>Name</strong>
 Purpose: Remove a short name for a command
 Parameters: Name = Alias name
 Example: UnAlias MyDir
-<br />
+<br>
 <strong>Version</strong>
 Format:  Version <em>Name Version/N Revision/N FILE/S FULL/S
          Unit/N INTERNAL/S RES/S</em>
@@ -581,25 +582,25 @@ Parameters: Name = File, Version = Print Kickstart or Workbench number and sets 
  Warn flag, Revision = As Version but for Revision numer, File = Check file rather than memory, 
  Full = Display full information, Internal = Check internal files, Res = Check resident files.
 Example: Version kickstart Version=39 Revision=106
-<br />
+<br>
 <strong>Wait</strong>
 Format:  Wait <em>Time/N SEC=SECS/S MIN=MINS/S UNTIL/K</em>
 Purpose: Wait for a specified period of time
 Parameters: Time = Time period in either Sec (Seconds) or Mins (Minutes), Until = Wait until a time
 Example: Wait Until 12:00
-<br />
+<br>
 <strong>Which</strong>
 Format:  Which <em>File/A NORES/S RES/S ALL/S</em>
 Purpose: Find where a file is in command path (see Path) and sets Warn flag.
 Parameters: File = File to locate, NoRes = Resident list is not searched, Res = Only the resident
  list is searched, All = Search full path.
 Example: Which Multiview 
-<br />
+<br>
 <strong>Why</strong>
 Format:  Why
 Purpose: Display reason why a previous command failed
 Example: Why
-<br />
+<br>
 <strong>Key</strong>
 /A Required argument
 /F Final argument in list
@@ -607,8 +608,8 @@ Example: Why
 /M Multiple arguments
 /N Number
 /S Switch (optional)</pre>
-  <h2>Additional AmigaDOS commands</h2>
-  <pre>
+    <h2>Additional AmigaDOS commands</h2>
+    <pre>
 <strong>DMS</strong>
 Format: DMS Read file[.DMS] [FROM dev:] [TEXT filetext] [CMODE mode] [LOW lowtrack] [HIGH hightrack] [NOVAL] [NOZERO] [ENCRYPT password]
  DMS Write file[.DMS],,, [TO dev:] [LOW lowtrack] [HIGH hightrack] [NOVAL] [NOTEXT] [NOPAUSE [DECRYPT password]
@@ -617,14 +618,14 @@ Format: DMS Read file[.DMS] [FROM dev:] [TEXT filetext] [CMODE mode] [LOW lowtra
  DMS Test file[.DMS],,, DMS Help
 Purpose:  To read, write or view Disk Masher disk images of floppy disks.
 Example: DMS Write MyDisk.DMS FROM DF0:
-<br />
+<br>
 <strong>Installer</strong>
 Format:  Installer [SCRIPT] filename &lt;[APPNAME] name&gt; &lt;[MINIUSER] level&gt; &lt;[DEFUSER] default&gt; &lt;[LOGFILE] 
  logname&gt; &lt;[LANGUAGE] language&gt; &lt;NOPRETEND&gt; &lt;NOLOG&gt; &lt;NOPRINT&gt;
 Purpose: To install an application via a installer script. Usually provided as a default tool for script 
  files in icon.
 Example: Installer SCRIPT InstallApp APPNAME MyProgram LOGFILE DH0:MyProgram.log
-<br />
+<br>
 <strong>LHA</strong>
 Format:  LHA [-options] &lt;command&gt; &lt;archive[.LZH|LHA]&gt; [[homedir] &lt;filespec...] [@file] [destination]
 Purpose: To create, modify or list LHA or LZH files
@@ -632,36 +633,43 @@ Examples:
 LHA a pictures.lha #?.jpg (archives all jpg files into pictures.lha)
 LHA l pictures.lha        (lists all files in pictures.lha)
 LHA x pictures.lha        (extracts all files from pictures.lha)
-<br />
+<br>
 <strong>LZX</strong>
 Format:  LZX [-options] &lt;command&gt; &lt;archive&gt; [&lt;file&gt; ...] [&lt;destdir&gt;]
 Purpose: To create, modify or list LZX archive files.
 Examples:
 LZX a documents.lzx #?.doc (archives all doc files into documents.lzx)
 LZX l documents.lzx        (lists all files in documents.lzx)
-LZX x documents.lzx        (extracts all files from documents.lzx)</pre>
-<br />
-  <h2>Additional AmigaDOS Information</h2>
-  <p><strong>Clear Screen</strong><br />
-    Example: Echo &quot;*E[0;0H*E[J&quot;<br />
-    Purpose: Clears the AmigaOS screen. Uses printer commands to control text formatting in CLI, so *E is equivalent to ESC character.<br />
-    The command <strong>clear</strong> is normally defined using an <strong>Alias</strong> or an AmigaDOS 
-    script in S: folder.</p>
-  <p><strong>Text in Italics</strong><br />
-    Example: Echo &quot;*E[3mItalics*E[23m&quot;<br />
-    Purpose: *E[3m turns on italics and *E[23m turns off italics</p>
-  <p><strong>Text in Bold</strong><br />
-    Example: Echo &quot;*E[1mBold*E[22m&quot;<br />
+LZX x documents.lzx        (extracts all files from documents.lzx)</pre><br>
+
+    <h2>Additional AmigaDOS Information</h2>
+    <p><strong>Clear Screen</strong><br>
+    Example: Echo "*E[0;0H*E[J"<br>
+    Purpose: Clears the AmigaOS screen. Uses printer commands to
+    control text formatting in CLI, so *E is equivalent to ESC
+    character.<br>
+    The command <strong>clear</strong> is normally defined using an
+    <strong>Alias</strong> or an AmigaDOS script in S: folder.</p>
+    <p><strong>Text in Italics</strong><br>
+    Example: Echo "*E[3mItalics*E[23m"<br>
+    Purpose: *E[3m turns on italics and *E[23m turns off
+    italics</p>
+    <p><strong>Text in Bold</strong><br>
+    Example: Echo "*E[1mBold*E[22m"<br>
     Purpose: *E[1m turns on bold, and *E[22m turns off bold.</p>
-  <p><strong>Underline Text</strong> <br />
-    Example: Echo &quot;*E[4mUnderline*E[24m&quot;<br />
-    Purpose: *E[4m turns on underline, and *E24m turns off underline.</p>
-  <p><strong>Coloured Text</strong><br />
-    Example: Echo &quot;*E[32mRed Text*E[0m&quot;<br />
-    Purpose: *E[nm where n=30-39 for foreground color or n=40-49 for background 
-    colour.<br />
+    <p><strong>Underline Text</strong><br>
+    Example: Echo "*E[4mUnderline*E[24m"<br>
+    Purpose: *E[4m turns on underline, and *E24m turns off
+    underline.</p>
+    <p><strong>Coloured Text</strong><br>
+    Example: Echo "*E[32mRed Text*E[0m"<br>
+    Purpose: *E[nm where n=30-39 for foreground color or n=40-49
+    for background colour.<br>
     *E[0m resets to normal character set.</p>
-</article>
-<footer>Help content is under the terms of the <a href="../credits/fdl.htm">GNU Free Documentation License</a>.</footer>
+  </article>
+  <footer>
+    Help content is under the terms of the <a href=
+    "../credits/fdl.htm">GNU Free Documentation License</a>.
+  </footer>
 </body>
 </html>
