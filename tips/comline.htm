@@ -6,26 +6,207 @@
 </head>
 <body>
   <article>
-    <p>UAE's command line options are quite hidden in WinUAE, since
-    it features a mighty GUI to visualize the options and settings
-    that can be set in UAE from the command line.</p>
-    <p>There are these parameters available:</p>
-    <ul>
-      <li>-config=configfile.uae</li>
-      <li>-f configfile.uae</li>
-      <li>-0 &lt;path to image file for df0&gt;</li>
-      <li>-1 &lt;path to image file for df1&gt;</li>
-      <li>-2 &lt;path to image file for df2&gt;</li>
-      <li>-3 &lt;path to image file for df3&gt;</li>
-      <li>-cfgparam configentry=configvalue</li>
-      <li>-cdimage=&lt;image&gt;</li>
-      <li>-rawhid (raw input joystick/joypad)</li>
-      <li>-portable (portable USB mode)</li>
-    </ul>
-    <p>-config and -f will both do the same thing: they will cause
-    WinUAE to load the given <a href=
-    "../gui/configurations.htm">configuration file</a> during
-    WinUAE startup.</p>
+    <p>WinUAE offers many command line parameters to control its
+    startup behavior.</p>
+    <h1>Generic</h1>
+    <table>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td class="fixedwidth">-0 <em>disk.adf</em><br>
+        -1 <em>disk.adf</em><br>
+        -2 <em>disk.adf</em><br>
+        -3 <em>disk.adf</em></td>
+        <td>Insert specified ADF image into emulated floppy drive
+        0-3</td>
+      </tr>
+      <tr>
+        <td>-r <em>kick.rom</em></td>
+        <td>Load main ROM from the specified path.</td>
+      </tr>
+      <tr>
+        <td>-K <em>kick.rom</em></td>
+        <td>Load extended ROM from the specified path.</td>
+      </tr>
+      <tr>
+        <td>-p <em>value</em></td>
+        <td>Name for the parallel port to be configured, i.e.
+        LPT2:</td>
+      </tr>
+      <tr>
+        <td>-m <em>VOLNAME:mount_point</em><br>
+        -M <em>VOLNAME:mount_point</em></td>
+        <td>Attach a volume directly to the specified mount
+        point.</td>
+      </tr>
+      <tr>
+        <td>-W <em>value</em></td>
+        <td>Hardfile specification.</td>
+      </tr>
+      <tr>
+        <td>-S <em>value</em></td>
+        <td>Sound parameter specification</td>
+      </tr>
+      <tr>
+        <td>-R <em>value</em></td>
+        <td>Output framerate in frames per second.</td>
+      </tr>
+      <tr>
+        <td>-i</td>
+        <td>Enable illegal memory.</td>
+      </tr>
+      <tr>
+        <td>-J <em>xy</em></td>
+        <td>Specify joystick 0 (x) and 1 (y). Possible values: 0/1
+        for joystick 0/1, M for mouse, and a/b/c.</td>
+      </tr>
+      <tr>
+        <td>-w <em>value</em></td>
+        <td>CPU emulation speed. Possible values: 0 for cycle
+        exact, -1 for maximum speed.</td>
+      </tr>
+      <tr>
+        <td>-G</td>
+        <td>Don't show the GUI.</td>
+      </tr>
+      <tr>
+        <td>-D</td>
+        <td>Start the debugger.</td>
+      </tr>
+      <tr>
+        <td>-n</td>
+        <td>Enable immediate blits. Only available when illegal
+        memory is not enabled.</td>
+      </tr>
+      <tr>
+        <td>-v <em>value</em></td>
+        <td>Set chipset. Possible values: 0 (OCS), 1 (ECS Agnus), 2
+        (ECS Denise), 3 (Full ECS), 4 (AGA)</td>
+      </tr>
+      <tr>
+        <td>-C <em>value</em></td>
+        <td>Set CPU specs.</td>
+      </tr>
+      <tr>
+        <td>-Z <em>value</em></td>
+        <td>Z3 Fastmem size, value in 1MB blocks, i.e. 2=2MB.</td>
+      </tr>
+      <tr>
+        <td>-U <em>value</em></td>
+        <td>RTG memory size, value in 1MB blocks, i.e. 2=2MB.</td>
+      </tr>
+      <tr>
+        <td>-F <em>value</em></td>
+        <td>Fastmem size, value in 1MB blocks, i.e. 2=2MB.</td>
+      </tr>
+      <tr>
+        <td>-b <em>value</em></td>
+        <td>Bogomem size, value in 256kB blocks, i.e. 2=512kB.</td>
+      </tr>
+      <tr>
+        <td>-c <em>value</em></td>
+        <td>Chipmem size, value in 512kB blocks, i.e.
+        2=1024kB.</td>
+      </tr>
+      <tr>
+        <td>-l <em>value</em></td>
+        <td>Set keyboard layout language. Possible values: de, dk,
+        us, se, fr, it, es.</td>
+      </tr>
+      <tr>
+        <td>-O <em>value</em></td>
+        <td>Set graphics specs.</td>
+      </tr>
+      <tr>
+        <td>-d <em>value</em></td>
+        <td>Serial or parallel port on demand, insert <em>s</em> or
+        <em>p</em> as value.</td>
+      </tr>
+      <tr>
+        <td>-H <em>value</em></td>
+        <td>Color mode.</td>
+      </tr>
+    </table>
+    <h1>WinUAE Specific</h1>
+    <table>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td class="fixedwidth">
+        -diskswapper=<em>d1.adf,d2.adf</em></td>
+        <td>
+          Comma-separated list of disk images. Pre-loads disk
+          images into the <a href="../gui/disk.htm">Disk
+          Swapper</a> mechanism.
+        </td>
+      </tr>
+      <tr>
+        <td>-cfgparam=<br>
+        -cfgparam</td>
+        <td>Previously used to pass configuration parameters,
+        currently ignored - see the <em>-s parameter</em>.</td>
+      </tr>
+      <tr>
+        <td>-config=<em>configfile.uae</em></td>
+        <td>
+          Load the given <a href=
+          "../gui/configurations.htm">configuration file</a> during
+          startup.
+        </td>
+      </tr>
+      <tr>
+        <td>-statefile=<em>statefile.uss</em></td>
+        <td>Load a saved system state file.</td>
+      </tr>
+      <tr>
+        <td>-f <em>configfile.uae</em></td>
+        <td>Similar to -config, but without the equals sign: will
+        load a configuration file.</td>
+      </tr>
+      <tr>
+        <td>-s <em>option=value</em></td>
+        <td>Pass on one or more options from a configuration file
+        directly, without loading a file.</td>
+      </tr>
+      <tr>
+        <td>-h<br>
+        -help</td>
+        <td>Opens the help, if available (the one you are reading
+        right now).</td>
+      </tr>
+      <tr>
+        <td>-cdimage=<em>image.iso</em></td>
+        <td>Inserts the given image into the emulated CD-ROM
+        drive.</td>
+      </tr>
+    </table>
+    <p>If the last parameter entry is an orphan and nothing else
+    was loaded, WinUAE will check if it is a config file or
+    statefile and load it.</p>
+    <h1>Obsolete</h1>
+    <p>For the sake of completeness, these parameters are no longer
+    supported: accuracy, gfx_opengl, gfx_32bit_blits, 32bit_blits,
+    gfx_immediate_blits, gfx_ntsc, win32, gfx_filter_bits,
+    sound_pri_cutoff, sound_pri_time, sound_min_buff, sound_bits,
+    gfx_test_speed, gfxlib_replacement, enforcer, catweasel_io,
+    kickstart_key_file, fast_copper, sound_adjust, sound_latency,
+    serial_hardware_dtrdsr, gfx_filter_upscale, gfx_correct_aspect,
+    gfx_autoscale, parallel_sampler, parallel_ascii_emulation,
+    avoid_vid, avoid_dga, z3chipmem_size, state_replay_buffer,
+    state_replay, z3realmapping, force_0x10000000_z3,
+    fpu_arithmetic_exceptions,
+    gfx_filter_vert_zoom,gfx_filter_horiz_zoom,
+    gfx_filter_vert_zoom_mult, gfx_filter_horiz_zoom_mult,
+    gfx_filter_vert_offset, gfx_filter_horiz_offset, gfx_tearing,
+    gfx_tearing_rtg, uaehf0*, uaehf1*, uaehf2*, uaehf3*, uaehf4*,
+    uaehf5*, uaehf6*, uaehf7*, pcibridge_rom_file,
+    pcibridge_rom_options, cpuboard_ext_rom_file, uaeboard_mode,
+    comp_oldsegv, comp_midopt, comp_lowopt, avoid_cmov,
+    compforcesettings</p>
   </article>
   <footer>
     Help content is under the terms of the <a href=
