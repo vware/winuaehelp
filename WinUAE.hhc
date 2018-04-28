@@ -51,10 +51,6 @@
 				<param name="Local" value="started\firsttimeuser.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Creating a Boot Disk">
-				<param name="Local" value="started\bootdisk.htm">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Data Transfer Amiga &lt;-&gt; PC">
 				<param name="Local" value="started/pcamitrans.htm">
 				</OBJECT>
@@ -63,17 +59,17 @@
 				<param name="Local" value="started/examples.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Required files">
+				<param name="Name" value="Getting Required Files">
 				<param name="Local" value="started/requfiles.htm">
 				</OBJECT>
 			<UL>
 				<LI> <OBJECT type="text/sitemap">
-					<param name="Name" value="Transrom">
-					<param name="Local" value="started/transrom.htm">
-					</OBJECT>
-				<LI> <OBJECT type="text/sitemap">
 					<param name="Name" value="Transdisk">
 					<param name="Local" value="started/transdisk.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Transrom">
+					<param name="Local" value="started/transrom.htm">
 					</OBJECT>
 			</UL>
 		</UL>
@@ -125,7 +121,7 @@
 					<param name="Local" value="gui/floppies.htm">
 					</OBJECT>
 				<LI> <OBJECT type="text/sitemap">
-					<param name="Name" value="CD & Hard drives">
+					<param name="Name" value="CD &amp; Hard drives">
 					<param name="Local" value="gui/hard-drives.htm">
 					</OBJECT>
 				<LI> <OBJECT type="text/sitemap">
@@ -183,7 +179,7 @@
 					<param name="Local" value="gui/misc.htm">
 					</OBJECT>
 				<LI> <OBJECT type="text/sitemap">
-					<param name="Name" value="Pri. & Extensions">
+					<param name="Name" value="Pri. &amp; Extensions">
 					<param name="Local" value="gui\misc2.htm">
 					</OBJECT>
 			</UL>
@@ -276,6 +272,10 @@
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="FAQ">
 				<param name="Local" value="tips\faq.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Creating a Boot Disk">
+				<param name="Local" value="tips\bootdisk.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Installing AmigaOS 3.5/3.9">
