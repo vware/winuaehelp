@@ -6,17 +6,27 @@
 </head>
 <body>
   <article>
+    <h1>In Workbench</h1>
+    <p>Boot off your Workbench disk, insert a floppy disk in DF1:,
+    open a command Shell and type <strong>Install DF1:</strong>
+    which will copy the book block on to the disk. Then type
+    <strong>MakeDir DF1:S</strong> to create the Script directory.
+    Copy your program file(s) on the disk, preferably root or use
+    directories if you wanted to. Then change directory to DF1:S
+    and type <strong>Ed Startup-sequence</strong> and type in
+    commands to load your program, usually just the name of the
+    Program file will do. Test the disk by inserting the disk into
+    DF0: and reboot the Amiga.</p>
+    <h1>Create a boot disk manually</h1>
     <p>You can use the following procedure to create a fresh
-    Workbench boot disk:</p>
+    Workbench boot disk from within the emulator:</p>
     <ol>
       <li>Create a blank formatted disk using WinUAE
         <ul>
-          <li>Open WinUAE</li>
           <li>Click on Floppies tab</li>
           <li>Tick Bootblock to make it bootable.</li>
           <li>Click 'Create Standard Floppy'</li>
-          <li>Type a filename e.g. Workbench.adf</li>
-          <li>Click Save, then Cancel WinUAE</li>
+          <li>Type a filename and save it</li>
         </ul>
       </li>
       <li>Install <strong>ADFView</strong> and
@@ -24,67 +34,66 @@
       </li>
       <li>Locate Workbench files from either a CD, Hard file,
       Directory or hard disk or some other location</li>
-      <li>Open Workbench.adf to view contents of your new ADF
+      <li>Open the floppy to view the contents of your new ADF
       disk</li>
       <li>Create the following folders and copy any .info files
-      from source folder to your Workbench.adf folders:<br>
-      <strong>S, C, L, T, Devs, System, Utilities, Libs, Expansion,
-      Prefs, Classes, Rexxc, WBStartup</strong></li>
-      <li>Copy following files from the source <strong>S</strong>
-      directory to S on your Workbench.adf:<br>
-      <strong>startup-sequence, user-startup</strong> (other files
-      are optional)</li>
-      <li>Copy following files from the source <strong>C</strong>
-      directory to C on your Workbench.adf:<br>
-      <strong>addbuffers, adddatatypes, assign, avail, binddrivers,
-      break, conclip, copy, date, delete, dir, ed, eval,
-      execute,<br>
-      iconx, iprefs, list, loadwb, makedir, mount, protect,
-      relabel, rename, setclock, setdate, setfont, setkeyboard,<br>
-      setpatch, version, wait, which</strong> (other commands are
-      optional, if they are used in the startup-sequence or
-      user-startup then include them too)</li>
-      <li>Copy following files from the source
-      <strong>Libs</strong> directory to Libs on your
-      Workbench.adf:<br>
-      <strong>amigaguide.library, asl.library, bullet.library,
-      commodities.library, datatypes,library, diskfont.library,<br>
-      iffparse.library, locale.library, lowlevel.library,
-      mathieeedoubbas.library, mathieeedoubtrans.library,<br>
-      mathieeesingtrans.library, mathtrans.library,
-      realtime.library, rexxsupport.library,
-      rexxsyslib.library,<br>
-      version.library</strong></li>
-      <li>Copy following files from the source L directory to L on
-      your Workbench.adf<br>
-      <strong>aux-handler, CDFileSystem, CrossDosFileSystem,
-      port-handler, queue-handler, FileSystem_Trans (and
-      contents)</strong></li>
-      <li>Copy following files from the source
-      <strong>System</strong> directory to System on your
-      Workbench.adf (incl. .info files):<br>
+      from source folder to your floppy folders:
+        <ul>
+          <li><strong>S, C, L, T</strong></li>
+          <li><strong>Devs</strong></li>
+          <li><strong>System</strong></li>
+          <li><strong>Utilities</strong></li>
+          <li><strong>Libs</strong></li>
+          <li><strong>Expansion</strong></li>
+          <li><strong>Prefs</strong></li>
+          <li><strong>Classes</strong></li>
+          <li><strong>Rexxc</strong></li>
+          <li><strong>WBStartup</strong></li>
+        </ul>
+      </li>
+      <li>Copy these files from the source <strong>S</strong>
+      directory to S on your floppy: <strong>startup-sequence,
+      user-startup</strong> (other files are optional)</li>
+      <li>Copy these files from the source <strong>C</strong>
+      directory to C on your floppy: <strong>addbuffers,
+      adddatatypes, assign, avail, binddrivers, break, conclip,
+      copy, date, delete, dir, ed, eval, execute, iconx, iprefs,
+      list, loadwb, makedir, mount, protect, relabel, rename,
+      setclock, setdate, setfont, setkeyboard, setpatch, version,
+      wait, which</strong> (other commands are optional, if they
+      are used in the startup-sequence or user-startup then include
+      them too)</li>
+      <li>Copy these files from the source <strong>Libs</strong>
+      directory to Libs on your floppy: <strong>amigaguide.library,
+      asl.library, bullet.library, commodities.library,
+      datatypes,library, diskfont.library, iffparse.library,
+      locale.library, lowlevel.library, mathieeedoubbas.library,
+      mathieeedoubtrans.library, mathieeesingtrans.library,
+      mathtrans.library, realtime.library, rexxsupport.library,
+      rexxsyslib.library, version.library</strong></li>
+      <li>Copy these files from the source L directory to L on your
+      floppy: <strong>aux-handler, CDFileSystem,
+      CrossDosFileSystem, port-handler, queue-handler,
+      FileSystem_Trans (and contents)</strong></li>
+      <li>Copy these files from the source <strong>System</strong>
+      directory to System on your floppy (including .info files):
       <strong>CLI, DiskCopy, FixFonts, Format, NoFastMem, RexxMast,
       Shell</strong></li>
-      <li>Copy following files from the source
-      <strong>Prefs</strong> directory to Prefs on your
-      Workbench.adf:<br>
-      Contents of <strong>env-archive</strong> and
+      <li>Copy these files from the source <strong>Prefs</strong>
+      directory to Prefs on your floppy: Contents of
+      <strong>env-archive</strong> and
       <strong>Presets</strong></li>
-      <li>Copy the following files from the source
-      <strong>RexxC</strong> directory to RexxC on your
-      Workbench.adf<br>
-      <strong>HI, RX, RXC, RXLIB, RXSET, TCC, TCO, TE, TS,
-      WaitForPort</strong></li>
-      <li>Copy following files from the source
-      <strong>Devs</strong> directory to Devs on your
-      Workbench.adf<br>
-      Contents of <strong>Datatypes, DOSDrivers, Keymaps, Monitors
-      and Printers (</strong>contents should only contain what you
-      need as this<br>
-      can take up quite a bit of disk space). Also these files:
-      <strong>clipboard.device, mfm.device, parallel.device,
-      postscript_init.ps,<br>
-      printer.device, parallel.device</strong></li>
+      <li>Copy these files from the source <strong>RexxC</strong>
+      directory to RexxC on your floppy: <strong>HI, RX, RXC,
+      RXLIB, RXSET, TCC, TCO, TE, TS, WaitForPort</strong></li>
+      <li>Copy these files from the source <strong>Devs</strong>
+      directory to Devs on your floppy: Contents of
+      <strong>Datatypes, DOSDrivers, Keymaps, Monitors and
+      Printers</strong> (contents should only contain what you need
+      as this can take up quite a bit of disk space). Also these
+      files: <strong>clipboard.device, mfm.device, parallel.device,
+      postscript_init.ps, printer.device,
+      parallel.device</strong></li>
       <li>Copy any additional drivers or programs you require if
       there is still room</li>
     </ol>

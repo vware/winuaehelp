@@ -10,7 +10,7 @@
     supplied in the 'Amiga Programs' folder in the C:\Program
     Files\WinUAE folder. Here is an explanation of what these files
     are for and where to copy them to:</p>
-    <h2>MouseHack</h2>
+    <h1>MouseHack</h1>
     <p>Copy this program file to your C directory on your Workbench
     disk or hard disk. This program will hack your mouse connected
     to your PC to work with WinUAE. In most cases it may not be
@@ -18,18 +18,18 @@
     s:user-startup file on your Workbench disk. Needed when using
     tablets. Tablets only work properly if you select "mousehack
     mouse" and run mousehack on the Amiga side.</p>
-    <h2>Picasso96fix</h2>
+    <h1>Picasso96fix</h1>
     <p>Copy this program file to your C directory on your Workbench
     disk or hard disk. This program will fix Picasso 96 RTG screens
     greater than 1024 pixels when using your PC's graphics card
     with the uaegfx driver in WinUAE. Load it before LoadWB in the
     startup-sequence. The <strong>Picasso96fix.bb</strong> file is
     the source code to this program written in Blitz Basic.</p>
-    <h2>rtg.library</h2>
+    <h1>rtg.library</h1>
     <p>Retargetable Graphics Library. Copy this library file to
     your libs:picasso96. This library will increase the speed of
     WinUAE a lot.</p>
-    <h2>timehack</h2>
+    <h1>timehack</h1>
     <p>This tool synchronizes the Amiga time with the current
     Windows time every second. You need this when you use the
     hibernation feature of your PC and resume to get exact time. If
@@ -38,25 +38,25 @@
     seconds per hour.</p>
     <p>Copy it to the Amiga system directory c. Start it in your
     Userstartup with the command run &gt;nil: timehack.</p>
-    <h2>transdisk</h2>
+    <h1>transdisk</h1>
     <p>Copy this program file to your C directory on your Workbench
     disk or hard disk. This can Transfer Disk images to or from
     floppy disk to an image or vice versa in ADF (Amiga Disk
     Format). Type <em>transdisk ?</em> for more options. See
     <a href="../started/transdisk.htm">trandisk</a> page for more
     details on this program.</p>
-    <h2>transrom</h2>
+    <h1>transrom</h1>
     <p>Copy this program file to your C directory on your Workbench
     disk or hard disk. This can Transfer the Kickstart ROM image
     from a real Amiga to an image file to use with your Amiga
     Emulator. It will produce either a 256K or 512kB sized file.
     See <a href="../started/transrom.htm">transrom</a> page for
     more details on this program.</p>
-    <h2>UAE</h2>
+    <h1>UAE</h1>
     <p>Copy this file to the AHI driver drawer in Devs on your
     Workbench disk or hard disk. It is used to emulate the Amiga's
     sound system using AHI retargetable sound driver system.</p>
-    <h2>UAE.audio</h2>
+    <h1>UAE.audio</h1>
     <p>This is the AHI Driver for UAE. It enables support for
     recording and playback with a sampling rate up to 96 kHz in 16
     bit. Copy this file to the Devs:AHI driver drawer in Devs on
@@ -68,7 +68,7 @@
     system sounds.<br>
     If you installed the driver correctly, it should offer you only
     1 mode: UAE HiFi stereo++.</p>
-    <h2>UAE_German</h2>
+    <h1>UAE_German</h1>
     <p>This is a German keymap file for access to @\~{[]} with
     ALT-GR like windows. Copy it to devs/keymaps and select in
     Input prefs.</p>
@@ -77,27 +77,27 @@
     German_keymap_new.lha in this folder and choose anything other
     in input tab then Compatibility Mode and remap # Key to
     0x2b.</p>
-    <h2>uae_rcli</h2>
+    <h1>uae_rcli</h1>
     <p>Remote CLI. Usage: uae_rcli [?|-h] [-debug] [-nofifo]
     [&lt;delay&gt;]</p>
-    <h2>uae-control</h2>
+    <h1>uae-control</h1>
     <p>Copy this program file to your Utilities folder or some
     other folder on your Workbench disk or hard disk. It will
     provide you a user interface within the emulator to control the
     floppy drives, reset, quit and other features without having to
     press F12 to bring up the WinUAE interface.</p><img class=
     "center" src="uaecontrol.gif" alt="UAE-Control">
-    <h2>uaectrl</h2>
+    <h1>uaectrl</h1>
     <p>Copy this program file to your C directory on your Workbench
     disk or hard disk. This is the Shell equivalent of the
     uae-control program where you can change floppies, sound,
     joystick, reset or quit the emulator from a simple text
     menu.</p><img class="center" src="uaectrl.gif" alt=
     "UAE-Control Shell">
-    <h2>WinUAEclip</h2>
+    <h1>WinUAEclip</h1>
     <p>This program allows you to have access to Windows Clipboard
     so you can copy/paste files from/to WinUAE.</p>
-    <h2>WinUAEnforcer</h2>
+    <h1>WinUAEnforcer</h1>
     <p>This program allows Enforcer support to detect bad memory
     access when developing programs or debugging. For 100% safety,
     use <a href="../emulation/jit.htm">JIT</a> in Indirect Mode.
@@ -105,10 +105,10 @@
     or some other tools on Aminet do that. You can also use
     Segtracker from a real Amiga to find the program and offset of
     a hit.</p>
-    <h2>winxpprinthelper</h2>
+    <h1>winxpprinthelper</h1>
     <p>Not sure what this does yet. Need printer switched on before
     running this.</p>
-    <h2>p96_uae_tweak</h2>
+    <h1>p96_uae_tweak</h1>
     <p>It must run after P96 monitor drivers in user startup.<br>
     If you have copy this program to <em>c:</em>, then type
     <em>&gt;nil: c:p96_uae_tweak</em> in the CLI.<br>
@@ -133,7 +133,7 @@
     functions that exchange the data directly instead calling 3
     times EOR. It is faster and avoids the heavy flickering when
     moving a smart layer window underneath another window.</p>
-    <h2>ahitweak</h2>
+    <h1>ahitweak</h1>
     <p><strong>Usage: AHItweak posoffset,pollrate</strong></p>
     <p>This is a program you can start from the CLI or user-startup
     and allows you to tune the AHI driver for better latency,
@@ -148,7 +148,7 @@
     music software that lets you chose AHI block sizes less than 8
     ms (AHI uses 20ms by default) you can set this to a lower value
     if you hear crackle.</p>
-    <h2>p96refresh</h2>
+    <h1>p96refresh</h1>
     <p>Start this program to get higher mouse pointer redraw rates
     than 50Hz with P96. Results are seen immediately after call.You
     can start this in your user-startup for automatic load during
