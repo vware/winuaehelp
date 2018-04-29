@@ -233,7 +233,11 @@
 					<param name="Local" value="background/custchips.htm">
 					</OBJECT>
 				<LI> <OBJECT type="text/sitemap">
-					<param name="Name" value="RAM &amp; Kickstart">
+					<param name="Name" value="RAM">
+					<param name="Local" value="background/ram.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Kickstart">
 					<param name="Local" value="background/kickst.htm">
 					</OBJECT>
 				<LI> <OBJECT type="text/sitemap">

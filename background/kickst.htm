@@ -1,45 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>RAM & Kickstart</title>
+  <title>Kickstart</title>
   <link href="../Style.css" rel="stylesheet">
 </head>
 <body>
   <article>
-    <h2>RAM</h2>
-    <ul>
-      <li>The <strong>Fast RAM</strong> is for CPU's use only,
-      capacity are differentiated by different CPU.</li>
-      <li><strong>Chip RAM</strong> is shared between CPU and
-      specialized chips (up to 4MB). Equal to other computer's
-      Video RAM and Sound Buffer. In an Amiga, it can also be used
-      by the CPU. A500 or A600 had 512kB or 1MB or Chip RAM, A1200
-      or A4000 had 2MB Chip. 8MB can be set for Chip RAM (no real
-      Amiga had this!)</li>
-      <li><strong>Slow</strong> RAM is extra RAM added via the A500
-      trapdoor and is slower than Fast RAM, which is due to A500's
-      architecture.</li>
-      <li><strong>Z3-Fast</strong> is Fast RAM in Zorro 3 address
-      space and can be used instead of Fast RAM.</li>
-      <li><strong>RTG (graphics card)</strong> is memory for
-      ReTargetable Graphics cards needed for Picasso 96
-      support.</li>
-      <li><strong>Motherboard Fast RAM</strong> is memory fitted to
-      the motherboard.</li>
-      <li><strong>Processor Slot Fast RAM</strong> is memory fitted
-      to a board in processor slot.</li>
-      <li><strong>Second Z2 Fast RAM board</strong> is memory
-      fitted to a 2nd Zorro 2 board</li>
-    </ul>
-    <p>Z3-Fast and RTG RAM is supported on the 68020, 68020+FPU and
-    68040 only. PPC systems will use Processor slot Fast RAM.<br>
-    <br>
-    Depending on the processor variant, you can expand the RAM up
-    to 10 MB or theoretically up to 2 GB. The limit of 2 GB is
-    valid for the Amiga models A3000 and A4000. On the Motherboard
-    of these computers you can plug in up to 18 MB RAM, and for
-    every of the four Zorro-III bus expansion you can expand the
-    memory to the maximum!</p>
     <h2>Kickstart</h2>
     <p>Originally, the first Amiga (A1000) had a small bootstrap
     ROM, which contained code to load the basic operating system
@@ -48,13 +14,14 @@
     by disabling the write signal to this RAM. Of course, the
     contents of this pseudo-ROM was lost when the computer was
     turned off. The point of using RAM was that Commodore wanted to
-    be able to continue developing the operative system without
-    requiring people to change ROMs when the new version was
-    available; instead, they could just distribute new "Kickstart"
-    disks, which they did three times, upgrading version 1.0 to
-    1.1, 1.2. Version 2.0 was too large to fit into this
-    pseudo-ROM, and that's the reason why Amiga 1000s cannot run
-    the modern versions of the Amiga OS.</p>
+    be able to continue developing the operating system without
+    requiring people to change ROMs when a version was available;
+    instead, they could just distribute new "Kickstart" disks,
+    which they did three times, upgrading version 1.0 to 1.1 and
+    later 1.2.<br>
+    Version 2.0 was too large to fit into this pseudo-ROM, and
+    that's the reason why Amiga 1000s cannot run modern versions of
+    AmigaOS.</p>
   </article>
   <footer>
     Help content is under the terms of the <a href=
