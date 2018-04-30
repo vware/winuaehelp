@@ -6,15 +6,10 @@
 </head>
 <body>
   <article>
-    <p>UAE has always been hampered by being somewhat lacking in
-    CPU performance.<br>
-    Undoubtedly, it was amazingly fast for what it did, but it
-    never really was an alternative to a decked out, no expense
-    spared Amiga. The Just In Time compiler should help change
-    that.</p>
-    <p>UAE can now emulate the CPU at considerably more than 060
-    speeds. That should do for a while - although further speedups
-    are still possible.</p>
+    <p>UAE can now emulate the CPU at considerably more than what
+    any classic Amiga was capable of. A huge speedup can be
+    achieved by activating the JIT compiler in the <a href=
+    "../gui/cpu.htm">CPU tab</a>.</p>
     <p>A description of what the settings will cause the JIT
     compiler to do:</p>
     <p><strong>Cache Size:</strong> The size (in kB) the JIT
@@ -22,48 +17,37 @@
     full, or when the OS issues a flush icache instruction, this
     gets completely emptied, and then refilled during execution.
     Setting it to 0 will disable the JIT compiler.</p>
-    <p><strong>Const Jump:</strong> If this enabled, unconditional
-    branches will not end a block. Effectively, UAE-JIT compiles
-    "through" them. Generally, that's a good idea, as it improves
-    performance.<br>
-    However, it makes soft cache flushing impossible for some
-    blocks, so if you experience lots and lots of soft cache
-    flushes (e.g. when using a Mac emulator), you might try "no"
-    and see whether it does any better.</p>
     <p><strong>FPU Support:</strong> If this is enabled, the JIT
     compiler will be used for the most commonly used FPU
     instructions. Unchecking this option will disable JIT-compiling
     for the FPU.</p>
-    <p><strong>Force Settings:</strong> Will force the JIT compiler
-    to work with the method the user chooses.</p>
-    <p><strong>Direct, Indirect, After Picasso:</strong> These
-    describe how aggressive to be when it comes to accessing Amiga
-    memory. If you choose "Direct", the emulation will be very
-    aggressive. If you choose "Indirect", the emulation will always
-    use the slower but safe method. "AfterPic" uses the safe method
-    until the first time a Picasso96 mode is switched on, and the
-    aggressive method<br>
-    from then on. Unless you are not using P96 graphics, there
-    isn't much point setting this to "direct". During the startup,
-    weird and wonderful things happen in the Amiga, and only having
-    faith in the aggressive method once that difficult time is over
-    is certainly a wise thing to do.</p>
-    <p><strong>No Flags:</strong> Whether to optimize away flag
-    generation when it isn't needed. There really shouldn't be any
-    reason why you'd want to disable this option. If you find
-    something that<br>
-    works with "no" and doesn't with "yes", it most likely is a bug
-    and you should <a href="../credits/contrib.htm">report</a>
-    it.</p>
+    <p><strong>Constant Jump:</strong> If this enabled,
+    unconditional branches will not end a block. Effectively,
+    UAE-JIT compiles "through" them. Generally, that's a good idea,
+    as it improves performance.<br>
+    However, it makes soft cache flushing impossible for some
+    blocks, so if you experience lots and lots of soft cache
+    flushes (e.g. when using a Mac emulator), you might try "no"
+    and see whether it does any better.</p>
     <p><strong>Hard Flush:</strong> If this is unchecked, an OS
     induced icache flush doesn't actually empty the cache, but
     instead checksumming will be used to check whether blocks have
     to be discarded. You'll probably want to leave this at its
     default (otherwise lots of stuff, like the OS, gets translated
     over and over).</p>
-    <p>The JIT patch was developed by Bernd "Bernie" Meyer, this
-    description is a slightly edited and very shortened version of
-    his documentation.</p>
+    <p><strong>Direct, Indirect:</strong> These describe how
+    aggressive to be when it comes to accessing Amiga memory. If
+    you choose "Direct", the emulation will be very aggressive. If
+    you choose "Indirect", the emulation will always use the slower
+    but safe method.<br>
+    Unless you are not using P96 graphics, there isn't much point
+    setting this to "Direct".</p>
+    <p><strong>No Flags:</strong> Whether to optimize away flag
+    generation when it isn't needed. There really shouldn't be any
+    reason why you'd want to disable this option. If you find
+    something that works with "no" and doesn't with "yes", it most
+    likely is a bug and you should <a href=
+    "../credits/contrib.htm">report</a> it.</p>
   </article>
   <footer>
     Help content is under the terms of the <a href=
