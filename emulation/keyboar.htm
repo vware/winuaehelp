@@ -6,105 +6,109 @@
 </head>
 <body>
   <article>
-    <p>Most of your keyboard retains its regular functionality
-    under UAE, but there are a few notable exceptions:</p>
+    <p>Amigas had different keyboard layouts, so WinUAE re-purposes
+    a couple of keys. Some to control emulation, some to emulate
+    keys on Amiga keyboards that other systems do not have. Below
+    is a description of standard mappings, but keys can be
+    configured freely in the <a href="../gui/input.htm">Input
+    Configuration</a>.</p>
+    <h1>Shortcut Keys</h1>
+    <table>
+      <tr>
+        <th>Key/Combination</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td class="fixedwidth">F12</td>
+        <td>Show the WinUAE GUI</td>
+      </tr>
+      <tr>
+        <td>Shift + F12<br>
+        End + F12</td>
+        <td>Bring up the GUI based debugger</td>
+      </tr>
+      <tr>
+        <td>Ctrl + F12</td>
+        <td>Switch to full-screen display</td>
+      </tr>
+      <tr>
+        <td>PrintScreen</td>
+        <td>Copy WinUAE's current screen to clipboard</td>
+      </tr>
+      <tr>
+        <td>End + PrintScreen</td>
+        <td>Save screenshot to a file</td>
+      </tr>
+      <tr>
+        <td>End + F5</td>
+        <td>Restore a machine snapshot file</td>
+      </tr>
+      <tr>
+        <td>Shift + End + F5</td>
+        <td>Save a machine snapshot file</td>
+      </tr>
+      <tr>
+        <td>Pause</td>
+        <td>Halt emulation</td>
+      </tr>
+      <tr>
+        <td>End + F1<br>
+        End + F2<br>
+        End + F3<br>
+        End + F4</td>
+        <td>Select a ADF to be loaded into one of the four emulated
+        disk drives</td>
+      </tr>
+      <tr>
+        <td>Shift + End + F1<br>
+        Shift + End + F2<br>
+        Shift + End + F3<br>
+        Shift + End + F4</td>
+        <td>Eject a disk from one of the four emulated drives</td>
+      </tr>
+      <tr>
+        <td>End + J</td>
+        <td>Swap joystick ports</td>
+      </tr>
+      <tr>
+        <td>End + Insert</td>
+        <td>Insert text from host clipboard</td>
+      </tr>
+    </table>
+    <h1>Amiga Keys</h1>
+    <table>
+      <tr>
+        <th>Amiga Key</th>
+        <th>Mapped To Key(s)</th>
+      </tr>
+      <tr>
+        <td class="fixedwidth">Left AMIGA</td>
+        <td>Left Windows<br>
+        Insert</td>
+      </tr>
+      <tr>
+        <td>Right AMIGA</td>
+        <td>Right Windows<br>
+        App Menu / Context Menu<br>
+        Home</td>
+      </tr>
+      <tr>
+        <td>HELP</td>
+        <td>Page Down on numerical keypad</td>
+      </tr>
+    </table>
+    <h2>Action Replay</h2>
+    <p>If a ActionReplay module is configured, the FREEZE button
+    will be mapped to Page Up on the numerical keypad</p>
+    <h1>CDTV</h1>
+    <p>If the host keyboard has multimedia keys, they will be used
+    for their equivalent functions in CDTV emulation:</p>
     <ul>
-      <li>If you don't have a Win95 keyboard, you will have to use
-      Ins/Home as a replacement for Left Amiga/Right Amiga. Also,
-      if you are using WinNT with a Windows keyboard, you will
-      STILL have to use Insert/Home as your "Amiga" keys.</li>
-      <li>HELP has been remapped to Page-Down.</li>
-      <li>F12 brings up the GUI.</li>
-      <li>SHIFT + F12 brings up the GUI based debugger.</li>
-      <li>PRINTSCREEN copies WinUAE's current screen to
-      clipboard</li>
-      <li>END + PrintScreen: save screenshot file (was F11 in older
-      versions)</li>
-      <li>END + F5: restore state</li>
-      <li>SHIFT + END + F5: save state</li>
-      <li>PAGE UP: Action Replay "freeze"-button</li>
-      <li>SCROLL LOCK toggles screen refresh, speeding up the
-      emulation.</li>
-      <li>PAUSE toggle sound</li>
-      <li>PAUSE+END sets turbo speed</li>
-      <li>END+F1, F2, F3 or F4 allows you to change disks in one of
-      the four Amiga disk drives.</li>
-      <li>SHIFT+END+F1...F4 ejects the disk.</li>
+      <li>Stop</li>
+      <li>Pause</li>
+      <li>Previous Track</li>
+      <li>Next Track</li>
     </ul>
-    <h2>Replacements for an Amiga</h2>
-    <table>
-      <tr>
-        <th>&nbsp;</th>
-        <th>Configuration A</th>
-        <th>Configuration B</th>
-        <th>Configuration C</th>
-      </tr>
-      <tr>
-        <td>Up</td>
-        <td>Keypad 8</td>
-        <td>Cursor up</td>
-        <td>T</td>
-      </tr>
-      <tr>
-        <td>Down</td>
-        <td>Keypad 2</td>
-        <td>Cursor down</td>
-        <td>B</td>
-      </tr>
-      <tr>
-        <td>Left</td>
-        <td>Keypad 4</td>
-        <td>Cursor left</td>
-        <td>F</td>
-      </tr>
-      <tr>
-        <td>Right</td>
-        <td>Keypad 6</td>
-        <td>Cursor right</td>
-        <td>H</td>
-      </tr>
-      <tr>
-        <td>Fire</td>
-        <td>Keypad 0</td>
-        <td>Right Control</td>
-        <td>Left ALT</td>
-      </tr>
-    </table>
-    <h2>CD32 Joypad Emulation</h2>
-    <table>
-      <tr>
-        <th>Keyboard button</th>
-        <th>CD32 equivalent</th>
-      </tr>
-      <tr>
-        <td>/</td>
-        <td>Rewind</td>
-      </tr>
-      <tr>
-        <td>*</td>
-        <td>Play</td>
-      </tr>
-      <tr>
-        <td>-</td>
-        <td>Fast Forward</td>
-      </tr>
-      <tr>
-        <td>7</td>
-        <td>Green</td>
-      </tr>
-      <tr>
-        <td>9</td>
-        <td>Yellow</td>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>Red</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>Blue</td>
-      </tr>
-    </table>
   </article>
   <footer>
     Help content is under the terms of the <a href=
