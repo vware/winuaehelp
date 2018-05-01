@@ -194,6 +194,10 @@
 				<param name="Local" value="emulation\actionreplay.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Drives">
+				<param name="Local" value="emulation/drives.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="JIT">
 				<param name="Local" value="emulation/jit.htm">
 				</OBJECT>
