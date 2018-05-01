@@ -6,10 +6,10 @@
 </head>
 <body>
   <article>
-    <p>These settings control the type of Motorola 680x0 CPU which
-    will be emulated.</p><img class="center" src="cpu.png" alt=
-    "CPU">
-    <h2>CPU (Central Processing Unit)</h2>
+    <p>These settings control the type of processor to
+    emulate.</p><img class="center" src="cpu.png" alt="CPU">
+    <h1>CPU</h1>
+    <p>Choose between the classic Motorola processors:</p>
     <ul>
       <li><strong>68000</strong> is the basic CPU type, as found in
       the Amiga 500, 1000, and 2000 models.</li>
@@ -29,23 +29,21 @@
       68060.library installed before using.</li>
     </ul>
     <p><strong>24 bit addressing</strong> is used mainly by the
-    <strong>68EC020</strong> CPU such as the A1200.</p>
-    <p><strong>More compatible</strong> is only available when the
-    CPU type is a <strong>68000</strong>. Some games and demos
-    require this setting for proper compatibility.</p>
-    <p class="normal"><strong>Data cache emulation</strong> Besides
-    the instruction cache, you can also emulate the data cache on
-    the CPU.</p>
-    <p><strong>JIT</strong> can be enabled to access the Advanced
-    JIT settings if the 68030 or better is selected (See
-    below).</p>
-    <p><strong>68040 MMU</strong> enables the Memory Management
-    Unit of the 68040 for operating systems like Linux on the
-    Amiga. It is not compatible with JIT.</p>
-    <p><strong>Unimplemented CPU emu</strong> emulates the full
-    68060 CPU (in case you forget to load Setpatch and
-    68040.library and 68060.library).</p>
-    <h2>FPU (Floating Point Unit)</h2>
+    <strong>68EC020</strong> CPU such as the A1200.<br>
+    <strong>More compatible</strong> is only available when the CPU
+    type is a <strong>68000</strong>. Some games and demos require
+    this setting for proper compatibility.<br>
+    <strong>Data cache emulation</strong> Besides the instruction
+    cache, you can also emulate the data cache on the CPU.<br>
+    <strong>JIT</strong> can be enabled to access the Advanced JIT
+    settings if the 68030 or better is selected (See below).<br>
+    <strong>68040 MMU</strong> enables the Memory Management Unit
+    of the 68040 for operating systems like Linux on the Amiga. It
+    is not compatible with JIT.<br>
+    <strong>Unimplemented CPU emu</strong> emulates the full 68060
+    CPU (in case you forget to load Setpatch and 68040.library and
+    68060.library).</p>
+    <h1>FPU (Floating Point Unit)</h1>
     <ul>
       <li><strong>None</strong> No FPU is provided, this is the
       only option for the 68000 and 68010.</li>
@@ -58,59 +56,48 @@
     </ul>
     <p><strong>More Compatible</strong> is available if a FPU is
     selected. Some applications require this for proper
-    compatibility.</p>
-    <p><strong>Unimplemented FPU emu</strong> emulates the full
-    68881 FPU (in case you forget to load Setpatch and
-    68040.library and 68060.library).</p>
-    <p><strong>Softfloat FPU emulation</strong> emulates a software
+    compatibility.<br>
+    <strong>Unimplemented FPU emu</strong> emulates the full 68881
+    FPU (in case you forget to load Setpatch and 68040.library and
+    68060.library).<br>
+    <strong>Softfloat FPU emulation</strong> emulates a software
     version of the FPU.</p>
-    <h2>Cycle-Exact CPU Emulation Speed</h2>
-    <ul>
-      <li><strong>CPU Frequency</strong> Set CPU frequency
-      here.</li>
-    </ul>
-    <h2>PPC CPU Settings</h2>
-    <ul>
-      <li><strong>PPC CPU Emulation (Blizzard PPC / Cyperstorm
-      PPC)</strong>. Enables Power (PPC) CPU emulation using
-      Blizzard PPC (A1200) or Cyberstorm PPC (A4000).</li>
-      <p>The Blizzard PPC has a 68040/060 and PowerPC 603e at 160,
-      200 or 240 MHz with up to 256 MB RAM. The Cyberstorm PPC has
-      a 68040/060 and a PowerPC 604e at 150, 180 or 200 MHz with up
-      to 128MB RAM. A separate plugin is required for PPC
-      emulation.</p>
-      <li><strong>Stopped M68K CPU idle mode</strong>.</li>
-      <p>Sets level of idle mode for the 680x0 processor.</p>
-    </ul>
-    <h2>x86 Bridgeboard CPU options</h2>
-    <ul>
-      <li><strong>CPU Speed</strong>. Speed set between 0 and 100%
-      CPU speed.</li>
-    </ul>
-    <h2>CPU Emulation Speed</h2>
+    <h1>CPU Emulation Speed</h1>
     <ul>
       <li><strong>Fastest possible</strong> lets the CPU section of
       the emulation run as many cycles as possible, while still
-      maintaining emulation of the custom-chips at the appropriate
+      maintaining emulation of the custom chips at the appropriate
       rate. It is important to keep sound and graphics
-      synchronized, no matter how fast the PC is.</li>
+      synchronized, no matter how fast the PC is</li>
       <li><strong>Approximate A500/A1200 or cycle exact</strong>
       limits the CPU emulation to run the same number of cycles per
       vertical-blank as a standard A500 or A1200 would. In other
       words, for every 50Hz refresh of the graphics, the same
       number of CPU instructions will be executed as on a real A500
       or A1200 computer.</li>
-      <li><strong>CPU Speed</strong> lets you tweak the balance of
-      power between custom-chip emulation, and CPU speed. Some
-      games and demos require this setting to be adjusted. This
-      setting is the only CPU setting which can be changed once
-      WinUAE is running.</li>
     </ul>
-    <p><strong>CPU Idle</strong> You can adjust the idle status of
-    the CPU with this slider. This feature can be useful on
-    notebooks to keep the CPU cooler. See the <a href=
+    <p><strong>CPU Speed</strong> lets you tweak the balance of
+    power between custom-chip emulation, and CPU speed. Some games
+    and demos require this setting to be adjusted. This setting is
+    the only CPU setting which can be changed once WinUAE is
+    running.<br>
+    <strong>CPU Idle</strong> You can adjust the idle status of the
+    CPU with this slider. This feature can be useful on notebooks
+    to keep the CPU cooler. See the <a href=
     "../tips/generaltips.htm">Hints For Power Users</a> page.</p>
-    <h2>JIT (Just in time) Settings</h2>
+    <h1>Cycle-Exact CPU Emulation Speed</h1>
+    <p><strong>CPU Frequency</strong> will change the frequency
+    multiplies for the CPU</p>
+    <h1>PPC CPU Settings</h1>
+    <p><strong>PPC CPU Emulation (Blizzard PPC / Cyperstorm
+    PPC)</strong> Enables the PPC emulation; A separate plugin is
+    required<br>
+    <strong>Stopped M68K CPU idle mode</strong> Sets level of idle
+    mode for the 680x0 processor</p>
+    <h1>x86 Bridgeboard CPU options</h1>
+    <p><strong>CPU Speed</strong> set between 0 and 100% CPU speed
+    of the brigde to a x86 board</p>
+    <h1>JIT (Just in time) Settings</h1>
     <p>Due to the importance of the JIT engine and its complexity,
     it has its own <a href="../emulation/jit.htm">page</a> where
     you will find a description of its possibilities.</p>

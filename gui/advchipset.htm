@@ -6,18 +6,20 @@
 </head>
 <body>
   <article>
-    <p>This page allows you to set specific chip parameters when
-    emulating specific hardware such as clocks, CD drives, memory,
-    and so on.</p><img class="center" src="advchipset.png" alt=
-    "Adv. Chipset">
-    <p><strong>Compatible Settings</strong> - If disabled, then it
-    will allow you to change any settings below.</p>
-    <p><strong>Battery Backed Up Read Time Clock</strong> -
-    configures the clock type used in the Amiga or a custom clock.
-    The RF5C01A is used in the A1200.</p>
-    <p><strong>CIA-A TOD Clock Source</strong> - Complex Interface
-    Adapter click settings used to time the clock. The Vertical
-    Sync is the default.</p>
+    <p>This page allows you to set advanced parameters for the
+    <a href="../custchips.htm">Custom Chipset</a>.</p><img class=
+    "center" src="advchipset.png" alt="Adv. Chipset">
+    <p><strong>Compatible Settings</strong> - removing the check
+    will enable changing options on this page. It should be left
+    checked, as the settings are for advanced users.</p>
+    <h1>Battery Backed Up Read Time Clock</h1>
+    <p>Configures the clock type used in the Amiga or a custom
+    clock. The RF5C01A is used in the A1200.</p>
+    <h1>CIA-A TOD Clock Source</h1>
+    <p>These options allow changing the TOD (Time Of Day) clock
+    source. The Amiga 500 used the Vertical Sync as signal for the
+    real time clock, which is not precise. It is the default
+    setting for compatibility reasons.</p>
     <h1>Chipset Features</h1>
     <p><strong>CIA ROM Overlay</strong> - CIA/Gayle overlay
     emulation<br>
@@ -42,7 +44,7 @@
     <strong>A4000/A4000T IDE</strong> - Enable use of the Amiga
     4000 internal IDE port(s).<br>
     <strong>CDTV-CR</strong> - CDTV Cost Reduced or MkII clone
-    (never publicily released)<br>
+    (never publicly released)<br>
     <strong>ROM Mirror (E0)</strong> - 1 MB ROM image support<br>
     <strong>ROM Mirror(A8)</strong> - 2 MB ROM image support<br>
     <strong>PCMCIA</strong> - Enable use of PCMCIA port featured on
@@ -52,7 +54,8 @@
     Denise chip found on A1000.<br>
     <strong>C00000 is Fast RAM</strong> - Forces memory address
     into Fast RAM area.<br>
-    <strong>CIA TOD Bug</strong> - CIA bug.<br>
+    <strong>CIA TOD Bug</strong> - Emulate the CIA Time of Day
+    bug.<br>
     <strong>Z3 Autoconfig</strong> - Enable Zorro3
     Autoconfiguration.<br>
     <strong>A1000 Agnus (8361/8367)</strong> - A1000's Agnus
@@ -68,8 +71,8 @@
     <strong>KS ROM has Chip RAM speed</strong> Set speed of
     Kickstart ROM to Chip RAM speed.<br>
     <strong>CIA 391078-01</strong> - Enable CIA chip which has a
-    bug in IO port output mode, reading output mode port<br>
-    will always read output mode data state.<br>
+    bug in IO port output mode, reading output mode port will
+    always read output mode data state.<br>
     <strong>Unmapped address space</strong> - Set unmapped address
     space to Floating, all zeros or all ones.</p>
     <h1>Internal SCSI Hardware</h1>
