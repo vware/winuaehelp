@@ -206,6 +206,10 @@
 				<param name="Local" value="emulation/picasso.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Printing">
+				<param name="Local" value="emulation\printing.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Keyboard">
 				<param name="Local" value="emulation/keyboar.htm">
 				</OBJECT>
@@ -296,10 +300,6 @@
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Amiga Programs">
 				<param name="Local" value="tips/amigaprogs.htm">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Hints For Power Users">
-				<param name="Local" value="tips\generaltips.htm">
 				</OBJECT>
 		</UL>
 		<LI> <OBJECT type="text/sitemap">
