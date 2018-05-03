@@ -1,17 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Transdisk</title>
+  <title>Create Image Files</title>
   <link href="../Style.css" rel="stylesheet">
 </head>
 <body>
   <article>
+    <p>In the <a href="../emulation/amigaprogs.htm">Amiga
+    Programs</a> subdirectory you will find two small Amiga
+    programs that will help you generate the necessary image
+    files.</p>
+    <h1>ROM Images</h1>
+    <p>Transrom will dump the contents of your Kickstart ROM to a
+    file.</p>
+    <p>To create a file called "kick.rom" in the RAM disk, use the
+    following syntax:</p>
+    <p><em>transrom &gt;RAM:kick.rom</em></p>
+    <p>This will create a 524288 Byte ROM image in the RAM disk.
+    The file has to be <a href="pcamitrans.htm">transferred</a> to
+    the PC.</p>
+    <h1>Disk Images</h1>
     <p>A disk file is an image of the raw data on an Amiga floppy
     disk, it contains 901120 bytes (880kB), which is the standard
     capacity of an Amiga disk. Transdisk will dump an image of a
     floppy in one of the drives, or write an image to an Amiga
     disk.</p>
-    <h1>Disk to ADF</h1>
+    <h2>Disk to ADF</h2>
     <p>transdisk &gt;RAM:DF0.adf</p>
     <p>This command will create a file called "DF0.adf" in the RAM
     disk. Such a file is 901120 bytes of size for one disk.</p>
@@ -25,7 +39,7 @@
     to your PC, you have to merge them again. To do so in the DOS
     prompt:</p>
     <p>COPY /B DF0_1.adf+DF0_2.adf+DF0_3.adf+DF0_4.adf DF0.adf</p>
-    <h1>ADF to Disk</h1>
+    <h2>ADF to Disk</h2>
     <p>It is possible to transfer an ADF disk image back to an
     original Amiga disk. Copy the ADF to an original Amiga and
     insert a disk into DF0. Then, you will also need transdisk in
