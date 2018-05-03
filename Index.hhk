@@ -27,7 +27,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="ADF">
 		<param name="Name" value="Transfer an ADF to an Amiga floppy">
-		<param name="Local" value="started/transdisk.htm">
+		<param name="Local" value="howto/imagefiles.htm">
 		<param name="Name" value="Floppies">
 		<param name="Local" value="gui/floppies.htm">
 		</OBJECT>
@@ -94,7 +94,7 @@
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Bernd Schmidt">
-		<param name="Local" value="background/berndschmidt.htm">
+		<param name="Local" value="credits/berndschmidt.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Blitter">
@@ -106,18 +106,18 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Boot disk">
 		<param name="Name" value="Making a boot disk">
-		<param name="Local" value="started/bootdisk.htm">
+		<param name="Local" value="howto/bootdisk.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Brian King">
-		<param name="Local" value="background/brianking.htm">
+		<param name="Local" value="credits/brianking.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Bridgeboard">
 		<param name="Name" value="Expansions">
 		<param name="Local" value="gui/expansions.htm">
 		<param name="Name" value="RTG Board">
-		<param name="Local" value="gui/RTGboard.htm">
+		<param name="Local" value="gui/rtgboard.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="BSD">
@@ -203,8 +203,8 @@
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Command">
-		<param name="Name" value="Command-Line Parameters">
-		<param name="Local" value="tips/comline.htm">
+		<param name="Name" value="Command Line Parameters">
+		<param name="Local" value="emulation/comline.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Compat">
@@ -213,12 +213,12 @@
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Configuration">
-		<param name="Name" value="Command-Line Parameters">
-		<param name="Local" value="tips/comline.htm">
+		<param name="Name" value="Command Line Parameters">
+		<param name="Local" value="emulation/comline.htm">
 		<param name="Name" value="Input">
 		<param name="Local" value="gui/input.htm">
 		<param name="Name" value="Configurations">
-		<param name="Local" value="gui/configuration.htm">
+		<param name="Local" value="gui/configurations.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Configurations">
@@ -230,7 +230,7 @@
 		<param name="Name" value="Features">
 		<param name="Local" value="features.htm">
 		<param name="Name" value="Picasso96 Emulation">
-		<param name="Local" value="emulation/picasso.htm">
+		<param name="Local" value="howto/picasso.htm">
 		<param name="Name" value="RAM">
 		<param name="Local" value="gui/ram.htm">
 		<param name="Name" value="JIT - Just In Time">
@@ -238,8 +238,8 @@
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="CrossDOS">
-		<param name="Name" value="Transfer data between Amiga and PC">
-		<param name="Local" value="started/pcamitrans.htm">
+		<param name="Name" value="Data Transfer to/from Amiga">
+		<param name="Local" value="howto/pcamitrans.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Denise">
@@ -312,10 +312,10 @@
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Explorer">
-		<param name="Name" value="Data Transfer Amiga <-> PC">
-		<param name="Local" value="started/pcamitrans.htm">
+		<param name="Name" value="Transfer Data from/to Amiga">
+		<param name="Local" value="howto/pcamitrans.htm">
 		<param name="Name" value="Transdisk">
-		<param name="Local" value="started/transdisk.htm">
+		<param name="Local" value="emulation/amigaprogs.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Fast RAM">
@@ -351,14 +351,14 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Floppy">
 		<param name="Name" value="Transfer an ADF to an Amiga floppy">
-		<param name="Local" value="started/adftodisk.htm">
+		<param name="Local" value="howto/imagefiles.htm">
 		<param name="URL" value="gui/sound.htm">
 		<param name="Name" value="Floppies">
 		<param name="Local" value="gui/floppies.htm">
 		<param name="Name" value="Required files">
-		<param name="Local" value="started/requfiles.htm">
+		<param name="Local" value="started/require.htm">
 		<param name="Name" value="Transdisk">
-		<param name="Local" value="started/transdisk.htm">
+		<param name="Local" value="emulation/amigaprogs.htm">
 		<param name="Name" value="Floppy Drive Sound">
 		<param name="Local" value="gui/sound.htm">
 		</OBJECT>
@@ -511,15 +511,15 @@
 		<param name="Name" value="Help file credits">
 		<param name="Local" value="credits/about.htm">
 		<param name="Name" value="Compatibility">
-		<param name="Local" value="emulation/compat.htm">
+		<param name="Local" value="bugs.htm">
 		<param name="Name" value="Hard Drives">
 		<param name="Local" value="gui/harddrives.htm">
 		<param name="Name" value="Picasso96 Emulation">
-		<param name="Local" value="emulation/picasso.htm">
+		<param name="Local" value="howto/picasso.htm">
 		<param name="Name" value="Required files">
-		<param name="Local" value="started/requfiles.htm">
+		<param name="Local" value="started/require.htm">
 		<param name="Name" value="Transrom">
-		<param name="Local" value="started/transrom.htm">
+		<param name="Local" value="emulation/amigaprogs.htm">
 		<param name="Name" value="Requirements">
 		<param name="Local" value="started/require.htm">
 		<param name="Name" value="ROM">
@@ -559,8 +559,8 @@
 		<param name="Name" value="Load">
 		<param name="Name" value="Misc">
 		<param name="Local" value="gui/misc.htm">
-		<param name="Name" value="Command-Line Parameters">
-		<param name="Local" value="tips/comline.htm">
+		<param name="Name" value="Command Line Parameters">
+		<param name="Local" value="emulation/comline.htm">
 		<param name="Local" value="gui/configurations.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
@@ -584,12 +584,12 @@
 		<param name="Name" value="Expansions">
 		<param name="Local" value="gui/expansions.htm">
 		<param name="Name" value="RTG Board">
-		<param name="Local" value="gui/RTGboard.htm">
+		<param name="Local" value="gui/rtgboard.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="MessyDOS">
 		<param name="Name" value="Transfer data between Amiga and PC">
-		<param name="Local" value="started/pcamitrans.htm">
+		<param name="Local" value="howto/pcamitrans.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Microsoft">
@@ -627,7 +627,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="mousehack">
 		<param name="Name" value="Amiga Programs">
-		<param name="Local" value="tips/amigaprogs.htm">
+		<param name="Local" value="emulation/amigaprogs.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="MMU">
@@ -703,7 +703,7 @@
 		<param name="Name" value="Links">
 		<param name="Local" value="links.htm">
 		<param name="Name" value="Picasso96">
-		<param name="Local" value="emulation/picasso.htm">
+		<param name="Local" value="howto/picasso.htm">
 		<param name="Name" value="RAM">
 		<param name="Local" value="gui/ram.htm">
 		<param name="Name" value="Speed">
@@ -712,9 +712,9 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="picasso96fix">
 		<param name="Name" value="Amiga Programs">
-		<param name="Local" value="tips/amigaprogs.htm">
+		<param name="Local" value="emulation/amigaprogs.htm">
 		<param name="Name" value="Picasso96">
-		<param name="Local" value="emulation/picasso.htm">
+		<param name="Local" value="howto/picasso.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Postscript">
@@ -762,13 +762,13 @@
 		<param name="Name" value="Kickstart">
 		<param name="Local" value="background/kickst.htm">
 		<param name="Name" value="Required files">
-		<param name="Local" value="started/requfiles.htm">
+		<param name="Local" value="started/require.htm">
 		<param name="Name" value="Requirements">
 		<param name="Local" value="started/require.htm">
 		<param name="Name" value="ROM">
 		<param name="Local" value="gui/rom.htm">
 		<param name="Name" value="Transrom">
-		<param name="Local" value="started/transrom.htm">
+		<param name="Local" value="emulation/amigaprogs.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="RTC">
@@ -782,7 +782,7 @@
 		<param name="Name" value="Display">
 		<param name="Local" value="gui/display.htm">
 		<param name="Name" value="RTG Board">
-		<param name="Local" value="gui/RTGboard.htm">
+		<param name="Local" value="gui/rtgboard.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Save">
@@ -811,7 +811,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Serial">
 		<param name="Name" value="Transfer data between Amiga and PC">
-		<param name="Local" value="started/pcamitrans.htm">
+		<param name="Local" value="howto/pcamitrans.htm">
 		<param name="Name" value="IO Ports">
 		<param name="Local" value="gui/ports.htm">
 		</OBJECT>
@@ -846,35 +846,35 @@
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Toni Wilen">
-		<param name="Local" value="background/toniwilen.htm">
+		<param name="Local" value="credits/toniwilen.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Transdisk">
 		<param name="Name" value="Transfer an ADF to an Amiga floppy">
-		<param name="Local" value="started/adftodisk.htm">
+		<param name="Local" value="howto/imagefiles.htm">
 		<param name="Name" value="Required files">
-		<param name="Local" value="started/requfiles.htm">
+		<param name="Local" value="started/require.htm">
 		<param name="Name" value="Transdisk">
-		<param name="Local" value="started/transdisk.htm">
+		<param name="Local" value="emulation/amigaprogs.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Transrom">
 		<param name="Name" value="Required files">
-		<param name="Local" value="started/requfiles.htm">
+		<param name="Local" value="started/require.htm">
 		<param name="Name" value="Transrom">
-		<param name="Local" value="started/transrom.htm">
+		<param name="Local" value="emulation/amigaprogs.htm">
 		<param name="Name" value="ROM">
 		<param name="Local" value="gui/rom.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="uae-control">
 		<param name="Name" value="Amiga Programs">
-		<param name="Local" value="tips/amigaprogs.htm">
+		<param name="Local" value="emulation/amigaprogs.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="uaectrl">
 		<param name="Name" value="Amiga Programs">
-		<param name="Local" value="tips/amigaprogs.htm">
+		<param name="Local" value="emulation/amigaprogs.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="UAEFSDB">
@@ -907,12 +907,12 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="winuaeclip">
 		<param name="Name" value="Amiga Programs">
-		<param name="Local" value="tips/amigaprogs.htm">
+		<param name="Local" value="emulation/amigaprogs.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="winuaeenforcer">
 		<param name="Name" value="Amiga Programs">
-		<param name="Local" value="tips/amigaprogs.htm">
+		<param name="Local" value="emulation/amigaprogs.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Workbench">
