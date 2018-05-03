@@ -34,6 +34,10 @@
 			<param name="Local" value="glossary.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FAQ">
+			<param name="Local" value="faq.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Getting Started">
 			<param name="Local" value="started/main.htm">
 			</OBJECT>
@@ -51,27 +55,9 @@
 				<param name="Local" value="started\firsttimeuser.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Data Transfer Amiga &lt;-&gt; PC">
-				<param name="Local" value="started/pcamitrans.htm">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Example Configurations">
 				<param name="Local" value="started/examples.htm">
 				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Getting Required Files">
-				<param name="Local" value="started/requfiles.htm">
-				</OBJECT>
-			<UL>
-				<LI> <OBJECT type="text/sitemap">
-					<param name="Name" value="Transdisk">
-					<param name="Local" value="started/transdisk.htm">
-					</OBJECT>
-				<LI> <OBJECT type="text/sitemap">
-					<param name="Name" value="Transrom">
-					<param name="Local" value="started/transrom.htm">
-					</OBJECT>
-			</UL>
 		</UL>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="The GUI">
@@ -190,20 +176,12 @@
 			</OBJECT>
 		<UL>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Action Replay">
-				<param name="Local" value="emulation\actionreplay.htm">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Drives">
 				<param name="Local" value="emulation/drives.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="JIT">
 				<param name="Local" value="emulation/jit.htm">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Picasso96">
-				<param name="Local" value="emulation/picasso.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Printing">
@@ -214,12 +192,16 @@
 				<param name="Local" value="emulation/keyboar.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Compatibility">
-				<param name="Local" value="emulation/compat.htm">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Speed">
 				<param name="Local" value="emulation/speed.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Command Line Parameters">
+				<param name="Local" value="emulation/comline.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Amiga Programs">
+				<param name="Local" value="emulation/amigaprogs.htm">
 				</OBJECT>
 		</UL>
 		<LI> <OBJECT type="text/sitemap">
@@ -228,78 +210,58 @@
 			</OBJECT>
 		<UL>
 			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Custom Chips">
+				<param name="Local" value="background/custchips.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="RAM">
+				<param name="Local" value="background/ram.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Kickstart">
+				<param name="Local" value="background/kickst.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Zorro Bus">
+				<param name="Local" value="background/zorro.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Autoconfig">
+				<param name="Local" value="background/autoconfig.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="AmigaDOS Commands">
 				<param name="Local" value="background\amigados.htm">
 				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Amiga Hardware">
-				<param name="Local" value="background/hardware.htm">
-				</OBJECT>
-			<UL>
-				<LI> <OBJECT type="text/sitemap">
-					<param name="Name" value="Custom Chips">
-					<param name="Local" value="background/custchips.htm">
-					</OBJECT>
-				<LI> <OBJECT type="text/sitemap">
-					<param name="Name" value="RAM">
-					<param name="Local" value="background/ram.htm">
-					</OBJECT>
-				<LI> <OBJECT type="text/sitemap">
-					<param name="Name" value="Kickstart">
-					<param name="Local" value="background/kickst.htm">
-					</OBJECT>
-				<LI> <OBJECT type="text/sitemap">
-					<param name="Name" value="Zorro Bus">
-					<param name="Local" value="background/zorro.htm">
-					</OBJECT>
-				<LI> <OBJECT type="text/sitemap">
-					<param name="Name" value="Autoconfig">
-					<param name="Local" value="background/autoconfig.htm">
-					</OBJECT>
-			</UL>
-			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="UAE People">
-				<param name="Local" value="background/uaepeople.htm">
-				</OBJECT>
-			<UL>
-				<LI> <OBJECT type="text/sitemap">
-					<param name="Name" value="Bernd Schmidt">
-					<param name="Local" value="background/berndschmidt.htm">
-					</OBJECT>
-				<LI> <OBJECT type="text/sitemap">
-					<param name="Name" value="Toni Wilen">
-					<param name="Local" value="background/toniwilen.htm">
-					</OBJECT>
-				<LI> <OBJECT type="text/sitemap">
-					<param name="Name" value="Brian King">
-					<param name="Local" value="background/brianking.htm">
-					</OBJECT>
-			</UL>
 		</UL>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Tips">
-			<param name="Local" value="tips\main.htm">
+			<param name="Name" value="How-To">
+			<param name="Local" value="howto\main.htm">
 			</OBJECT>
 		<UL>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="FAQ">
-				<param name="Local" value="tips\faq.htm">
+				<param name="Name" value="Create Image Files">
+				<param name="Local" value="howto/imagefiles.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Creating a Boot Disk">
-				<param name="Local" value="tips\bootdisk.htm">
+				<param name="Name" value="Transfer Data from/to Amiga">
+				<param name="Local" value="howto/pcamitrans.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Installing AmigaOS 3.5/3.9">
-				<param name="Local" value="tips\newos.htm">
+				<param name="Name" value="Set Up Action Replay">
+				<param name="Local" value="howto\actionreplay.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Command-Line Parameters">
-				<param name="Local" value="tips/comline.htm">
+				<param name="Name" value="Set Up Picasso96">
+				<param name="Local" value="howto/picasso.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Amiga Programs">
-				<param name="Local" value="tips/amigaprogs.htm">
+				<param name="Name" value="Create a Boot Disk">
+				<param name="Local" value="howto\bootdisk.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Install AmigaOS 3.5/3.9">
+				<param name="Local" value="howto\newos.htm">
 				</OBJECT>
 		</UL>
 		<LI> <OBJECT type="text/sitemap">
@@ -327,6 +289,24 @@
 				<param name="Name" value="FDL">
 				<param name="Local" value="credits\fdl.htm">
 				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="UAE People">
+				<param name="Local" value="credits/uaepeople.htm">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Bernd Schmidt">
+					<param name="Local" value="credits/berndschmidt.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Toni Wilen">
+					<param name="Local" value="credits/toniwilen.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Brian King">
+					<param name="Local" value="credits/brianking.htm">
+					</OBJECT>
+			</UL>
 		</UL>
 	</UL>
 </UL>
