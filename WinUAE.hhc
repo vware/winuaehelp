@@ -43,10 +43,6 @@
 			</OBJECT>
 		<UL>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Legal Notes">
-				<param name="Local" value="started\legal.htm">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Requirements">
 				<param name="Local" value="started/require.htm">
 				</OBJECT>
