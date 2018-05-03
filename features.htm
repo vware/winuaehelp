@@ -8,41 +8,200 @@
   <article>
     <p>WinUAE is a very feature-rich implementation of an
     Amiga:</p>
+    <h1>Chipsets</h1>
     <ul>
-      <li>Picasso96 RTG support, so that your Amiga can make use of
-      all available display modes of your PC graphics-card. P96-RTG
-      is implemented as a Zorro-III graphics-card to the
-      Amiga.</li>
-      <li>CD-ROM, CDTV and CD32 drive support, for accessing Amiga
-      CD-ROM discs.</li>
-      <li>Windows file-system support, so that your Amiga can use
-      your PC HDD's file-system directly. Makes it easy to share
-      files between Windows and the Amiga.</li>
-      <li>Full hard disk support, for maximum compatibility, and
-      reduced risk. HDToolbox, RDB and custom file systems
-      supported. Able to mount real hard disks with RDB and
-      Amithlon partitions. Kickstart 1.3 hardfiles now supported
-      with FastFileSystem in KS ROMs directory.</li>
-      <li>Zorro-III memory-expansion support, so that you can
-      emulate an Amiga with up to 2GB of RAM.</li>
-      <li>Super-Alice custom-chip, with up to 8 MB of Chip
-      Memory.</li>
-      <li>Virtual networking support, through either your Ethernet
-      or Dial-Up Networking connection to the world.</li>
-      <li>MIDI output support.</li>
-      <li>JIT CPU emulation.</li>
-      <li>Action Replay 1/2/3 support.</li>
-      <li>Compressed Kickstart ROM support.</li>
-      <li>All keys now usable as Amiga keys including Windows keys
-      and are usable in Input-tab configuration.</li>
-      <li>Floppy disk speed slider and configurable floppy drive
-      types.</li>
-      <li>Quickstart mode allows you to select pre-configured Amiga
-      models</li>
-      <li>Emulation of Motorola 68000 to 68030 CPU and from WinUAE
-      v3.0.0 the PowerPC CPU using QEmu.</li>
-      <li>Wide range of accelerator boards and expansions.</li>
-      <li>And many, many more!</li>
+      <li>A1000 original chipset</li>
+      <li>OCS</li>
+      <li>ECS (Agnus and/or Denise)</li>
+      <li>AGA</li>
+    </ul>
+    <p>PAL and NTSC chipset support.<br>
+    All chipsets types have optional cycle-exact emulation
+    mode.</p>
+    <h1>CPU</h1>
+    <ul>
+      <li>68000</li>
+      <li>68010</li>
+      <li>68EC020</li>
+      <li>68020</li>
+      <li>68030</li>
+      <li>68040 (including EC/LC)</li>
+      <li>68060 (including EC/LC)</li>
+    </ul>
+    <p>68000 has optional more compatible prefetch and cycle-exact
+    modes.<br>
+    68020 and higher CPU: optional JIT (Very fast x86 just in time
+    translation) emulation mode available.<br>
+    68030, 040 and 060 have optional MMU emulation support. MMU
+    emulation is not JIT compatible.<br>
+    68060 has optional exception emulation for unimplemented
+    integer instructions.</p>
+    <p>All CPUs also have user adjustable and fastest possible
+    speed options and optional FPU support.</p>
+    <h1>FPU</h1>
+    <ul>
+      <li>68881</li>
+      <li>68882</li>
+      <li>68040</li>
+      <li>68060</li>
+    </ul>
+    <p>FPU speed is not restricted, it is always fastest
+    possible.<br>
+    Optional accurate softfloat mode (v3.4.1) that also emulates
+    all arithmetic exceptions.<br>
+    68040 and 68060 has optional emulation for unimplemented FPU
+    instruction/datatype exceptions.</p>
+    <h1>Memory</h1>
+    <ul>
+      <li>Chip memory max 2M (real chipset limit), 8M (UAE only,
+      24-bit CPU), max 512M (UAE only, 32-bit CPU)</li>
+      <li>Fast memory. 24-bit CPU max 8M, 32-bit CPU max 2G/3.5G
+      (*)</li>
+      <li>Model specific memory regions supported (“Slow RAM”,
+      A3000/A4000 mainboard RAM etc)</li>
+    </ul>
+    <p>*) 64-bit Windows required, 3.5G only possible with 64-bit
+    WinUAE. 32-bit max is 512M.</p>
+    <h1>Floppy drives</h1>
+    <ul>
+      <li>0 to 4 floppy drives supported.</li>
+      <li>Multiple floppy speed options, compatible, 2x/4x/8x or
+      turbo mode (floppy rotation not emulated, as fast as
+      possible).</li>
+      <li>DD and HD drives supported.</li>
+      <li>PC Bridgeboard floppy drives (SD/DD 5.25″ and DD/HD
+      3.5″)</li>
+    </ul>
+    <h1>Parallel port printer</h1>
+    <ul>
+      <li>Passthrough. Data from Amiga is sent directly to printer.
+      Only works if Amiga native printer driver is available for
+      selected printer.</li>
+      <li>PostScript passthrough. Amiga PostScript printer driver
+      and PostScript printer required.</li>
+      <li>PostScript emulation. Amiga PostScript printer driver,
+      Windows GhostScript installation. Any Windows compatible
+      printer.</li>
+      <li>Epson matrix printer emulation. Emulates 1980/90s
+      de-facto Epson control codes (fonts, positioning, colors,
+      graphics etc..) supported by nearly all programs that had
+      printer support. Any Windows compatible printer.</li>
+    </ul>
+    <h1>Serial port</h1>
+    <ul>
+      <li>Amiga native serial port to host serial port option. Only
+      supports standard 7/8-bit serial protocols, 9-bit serial
+      protocol is not supported by PC hardware.</li>
+      <li>Supports all host serial-port like serial ports,
+      bluetooth adapters etc.</li>
+      <li>Connect two running WinUAE instances with emulated null
+      modem cable.</li>
+      <li>Serial port to TCP socket support.</li>
+      <li>Telnet-like serial port to WinUAE log window
+      support.</li>
+    </ul>
+    <h1>MIDI</h1>
+    <ul>
+      <li>Amiga native serial port to host MIDI device option.
+      Automatically used when serial port is programmed to 31200
+      bps speed.</li>
+      <li>Optional MIDI in to MIDI out routing.</li>
+    </ul>
+    <h1>UAEGFX Picasso96 compatible RTG (Retargetable graphics)
+    board</h1>
+    <ul>
+      <li>Configurable 24-bit CPU ZorroII (max 8M) or 32-bit CPU
+      ZorroIII (max 512M) VRAM.</li>
+      <li>Full color depth support, including modes that host
+      OS/hardware don’t support (for example 8-bit, 24-bit and
+      big-endian RGB modes)</li>
+      <li>All native hardware resolutions available.</li>
+      <li>Also supports Amiga common modes that host OS/hardware
+      may not support, for example 320×256.</li>
+    </ul>
+    <h1>Miscellaneous emulator expansions</h1>
+    <ul>
+      <li>Host harddrive directory mounted as Amiga harddrive.</li>
+      <li>uaehf.device. Hard disk image support and direct block
+      device support (Physical HD, CF card etc..)</li>
+      <li>bsdsocket.library. Amiga TCP/IP stack that uses host’s
+      TCP/IP stack.</li>
+      <li>uaenet.device SANA-II device driver. SLIRP or WinPCap
+      backends supported.</li>
+      <li>uaeserial.device. Multiport serial device, Amiga side
+      unit x = host serial port COMx:.</li>
+      <li>uaescsi.device. Access host PC optical drives. SCSI
+      emulation and CD audio supported.</li>
+    </ul>
+    <p>All above harddrive options support Amiga automount and
+    autoboot, even under Kickstart 1.2 and older.</p>
+    <h1>CD support</h1>
+    <ul>
+      <li>Most popular CD images are directly supported: iso,
+      cue/bin, cue/iso/wav, cue/iso/mp3, cue/iso/flac, mds, chd,
+      nrg. (All sector sizes supported, automatic conversion)</li>
+      <li>Compressed images supported, transparent on the fly
+      decompression, no temporary files used.</li>
+      <li>Physical CD/DVD/BD drives supported, including CD
+      emulators that emulate CD/DVD/BD drives.</li>
+      <li>Physical drive audio tracks supported, uses real time
+      digital audio extraction, does not require analog audio
+      cables.</li>
+      <li>SCSI command emulation, including audio track support
+      using digital audio extraction.</li>
+      <li>Hardware ATAPI and SCSI emulation, CD image or drive
+      connected to any hardware emulated IDE or SCSI
+      controller.</li>
+    </ul>
+    <h1>CDTV/CD32 special CD features</h1>
+    <ul>
+      <li>Hardware subchannel (CD+G/CD+MIDI audio CD)
+      emulation.</li>
+      <li>Autodetects CDTV/CD32 media in any physical or virtual
+      drive.</li>
+      <li>CD32 FMV module (VCD player).</li>
+    </ul>
+    <h1>File support</h1>
+    <ul>
+      <li>Transparent decompression of popular compression formats,
+      supported by all file types, including disk and CD images
+      (zip, 7zip, lzx, lha, lzx, rar)</li>
+      <li>Floppy disk image formats supported: adf, adz, dms, ipf,
+      fdi, scp, dsq, st, img.</li>
+    </ul>
+    <h1>Amiga models emulated</h1>
+    <p>Very high compatibility and accuracy:</p>
+    <ul>
+      <li>A500</li>
+      <li>A500+</li>
+      <li>A600</li>
+      <li>A1000</li>
+      <li>A2000</li>
+      <li>CDTV</li>
+    </ul>
+    <p>A500 emulation in cycle-exact mode has practically 100%
+    compatibility.</p>
+    <p>Good compatibility (Cycle-exact chipset emulation, CPU
+    memory accesses are cycle-exact, CPU internal instruction
+    execution speed is not exact):</p>
+    <ul>
+      <li>A1200</li>
+      <li>CD32</li>
+    </ul>
+    <p>Fast CPU emulation only, chipset/chip ram CPU accesses
+    optionally cycle-exact:</p>
+    <ul>
+      <li>A3000</li>
+      <li>A3000T</li>
+      <li>A4000</li>
+      <li>A4000T</li>
+    </ul>
+    <h1>Customized Amiga based hardware emulated</h1>
+    <ul>
+      <li>Arcadia (A500)</li>
+      <li>American Laser Games, including light gun(s) and
+      laserdisc player (A500)</li>
+      <li>Cubo (CD32)</li>
     </ul>
   </article>
   <footer>
