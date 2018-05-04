@@ -31,20 +31,21 @@
     disk. Such a file is 901120 bytes of size for one disk.</p>
     <p>You can also create disk images in several parts. To create
     4 parts of the disk in DF0: do the following:</p>
-    <p>transdisk &gt;ram:DF0_1.adf -s 0 -e 19<br>
+    <p><em>transdisk &gt;ram:DF0_1.adf -s 0 -e 19<br>
     transdisk &gt;ram:DF0_2.adf -s 20 -e 39<br>
     transdisk &gt;ram:DF0_3.adf -s 40 -e 59<br>
-    transdisk &gt;ram:DF0_4.adf -s 60 -e 79</p>
-    <p>After you <a href="pcamitrans.htm">transferred</a> the files
-    to your PC, you have to merge them again. To do so in the DOS
+    transdisk &gt;ram:DF0_4.adf -s 60 -e 79</em></p>
+    <p>After <a href="pcamitrans.htm">transferring the files</a> to
+    a PC, they need to be merged again. To do so in a command
     prompt:</p>
-    <p>COPY /B DF0_1.adf+DF0_2.adf+DF0_3.adf+DF0_4.adf DF0.adf</p>
+    <p><em>COPY /B DF0_1.adf+DF0_2.adf+DF0_3.adf+DF0_4.adf
+    DF0.adf</em></p>
     <h2>ADF to Disk</h2>
     <p>It is possible to transfer an ADF disk image back to an
     original Amiga disk. Copy the ADF to an original Amiga and
     insert a disk into DF0. Then, you will also need transdisk in
     order to transfer the data to the disk. Do the following:</p>
-    <p>transdisk -w filename.adf</p>
+    <p><em>transdisk -w filename.adf</em></p>
     <p>If you do not have an Amiga to write to Amiga disks, then it
     is suggested to get hold of the PCI Catweasel device which will
     allow you to write ADF files to Amiga formatted disks on your
