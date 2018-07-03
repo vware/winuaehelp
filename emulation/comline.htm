@@ -8,6 +8,64 @@
   <article>
     <p>WinUAE offers many command line parameters to control its
     startup behavior.</p>
+    <h1>WinUAE Specific</h1>
+    <table>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td class="fixedwidth">
+        -diskswapper=<em>d1.adf,d2.adf</em></td>
+        <td>
+          Comma-separated list of disk images. Pre-loads disk
+          images into the <a href="../gui/diskswapper.htm">Disk
+          Swapper</a> mechanism.
+        </td>
+      </tr>
+      <tr>
+        <td>-cfgparam=<br>
+        -cfgparam</td>
+        <td>Previously used to pass configuration parameters,
+        currently ignored - see the <em>-s parameter</em>.</td>
+      </tr>
+      <tr>
+        <td>-config=<em>configfile.uae</em></td>
+        <td>
+          Load the given <a href=
+          "../gui/configurations.htm">configuration file</a> during
+          startup.
+        </td>
+      </tr>
+      <tr>
+        <td>-statefile=<em>statefile.uss</em></td>
+        <td>Load a saved system state file.</td>
+      </tr>
+      <tr>
+        <td>-f <em>configfile.uae</em></td>
+        <td>Similar to -config, but without the equals sign: will
+        load a configuration file.</td>
+      </tr>
+      <tr>
+        <td>-s <em>option=value</em></td>
+        <td>Pass on one or more options from a configuration file
+        directly, without loading a file.</td>
+      </tr>
+      <tr>
+        <td>-h<br>
+        -help</td>
+        <td>Opens the help, if available (the one you are reading
+        right now).</td>
+      </tr>
+      <tr>
+        <td>-cdimage=<em>image.iso</em></td>
+        <td>Inserts the given image into the emulated CD-ROM
+        drive.</td>
+      </tr>
+    </table>
+    <p>If the last parameter entry is an orphan and nothing else
+    was loaded, WinUAE will check if it is a config file or
+    statefile and load it.</p>
     <h1>Generic</h1>
     <table>
       <tr>
@@ -129,64 +187,6 @@
         <td>Color mode.</td>
       </tr>
     </table>
-    <h1>WinUAE Specific</h1>
-    <table>
-      <tr>
-        <th>Parameter</th>
-        <th>Description</th>
-      </tr>
-      <tr>
-        <td class="fixedwidth">
-        -diskswapper=<em>d1.adf,d2.adf</em></td>
-        <td>
-          Comma-separated list of disk images. Pre-loads disk
-          images into the <a href="../gui/diskswapper.htm">Disk
-          Swapper</a> mechanism.
-        </td>
-      </tr>
-      <tr>
-        <td>-cfgparam=<br>
-        -cfgparam</td>
-        <td>Previously used to pass configuration parameters,
-        currently ignored - see the <em>-s parameter</em>.</td>
-      </tr>
-      <tr>
-        <td>-config=<em>configfile.uae</em></td>
-        <td>
-          Load the given <a href=
-          "../gui/configurations.htm">configuration file</a> during
-          startup.
-        </td>
-      </tr>
-      <tr>
-        <td>-statefile=<em>statefile.uss</em></td>
-        <td>Load a saved system state file.</td>
-      </tr>
-      <tr>
-        <td>-f <em>configfile.uae</em></td>
-        <td>Similar to -config, but without the equals sign: will
-        load a configuration file.</td>
-      </tr>
-      <tr>
-        <td>-s <em>option=value</em></td>
-        <td>Pass on one or more options from a configuration file
-        directly, without loading a file.</td>
-      </tr>
-      <tr>
-        <td>-h<br>
-        -help</td>
-        <td>Opens the help, if available (the one you are reading
-        right now).</td>
-      </tr>
-      <tr>
-        <td>-cdimage=<em>image.iso</em></td>
-        <td>Inserts the given image into the emulated CD-ROM
-        drive.</td>
-      </tr>
-    </table>
-    <p>If the last parameter entry is an orphan and nothing else
-    was loaded, WinUAE will check if it is a config file or
-    statefile and load it.</p>
     <h1>Obsolete</h1>
     <p>For the sake of completeness, these parameters are no longer
     supported: accuracy, gfx_opengl, gfx_32bit_blits, 32bit_blits,
