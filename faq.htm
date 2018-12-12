@@ -62,7 +62,7 @@
       <li>Seems to be a bug in AsimCDFS, because it happens on real
       Amigas as well</li>
     </ul>
-    <p>cacheCDFS:</p>
+    <p>CacheCDFS:</p>
     <ul>
       <li>Set the MaxTransfer size to 0x10000 (65 kb) in the
       mountfile</li>
@@ -118,7 +118,7 @@
     really. WinUAE exceeds the capabilities of most hardware
     Amigas.</p>
     <h1>Can I use the mouse wheel?</h1>
-    <p>Yes, but like on a real Amiga, you need the tool Freewheel
+    <p>Yes, but like on a real Amiga, you need the Freewheel tool
     from AmiNet.</p>
     <h1>How do I create a blank disk for saving files or
     games?</h1>
@@ -165,8 +165,8 @@
     <h1>Can I access the Internet through WinUAE?</h1>
     <p>Yes, you can through the PC's Internet connection by
     enabling the <strong>BSD socket library support</strong>
-    feature on the <a href="gui/misc.htm">Misc</a> page in
-    configuration.</p>
+    feature on the <a href="gui/expansions.htm">Expansions</a> page
+    in configuration.</p>
     <h1>How can I make or see inside ADF files without using an
     emulator?</h1>
     <p>You need ADFOpus or ADFView which will allow you to create
@@ -198,7 +198,9 @@
     which includes Scalos (Workbench replacement), MUI 3.8,
     Picasso96, NewIcons, VisualPrefs, MCP, MUI tools and Screentab.
     There are add-ons for Music, Internet, Languages and
-    Shapeshifter.</p>
+    Shapeshifter. Also, try the latest <a href=
+    "links.htm#tools">AmiKit</a>, which includes Directory Ops and
+    many other useful tools.</p>
     <h1>When I run WinUAE, I get an error DINPUT8.DLL not
     found?</h1>
     <p>Please update your OS and WinUAE. If you are intentionally
@@ -221,8 +223,14 @@
     <h1>Is there an emulator for the AmigaOne or PPC
     processor?</h1>
     <p>There is a Classic Amiga emulator for the AmigaOne that
-    comes with AmigaOS 4. There is a PPC emulator for x86 systems
-    from <a href="links.htm#emulators">PearPC</a>.</p>
+    comes with AmigaOS 4. Winuae 4.0 or later now supports PowerPC
+    (PPC) processors using the CyberStorm PPC or Blizzard PPC
+    expansion accelerator boards, along with Picasso IV Zorro for
+    graphics, Blizzard PPC SCSI-2 HD Controller for Hard disk
+    support.<br>
+    Unfortunately, you cannot use uaescsi.device, uaenet.device,
+    bsdsocket.library, PC drives or removable drive options as they
+    are not compatible with PPC emulation.</p>
     <h1>What is the folder "displaydrivers" for?</h1>
     <p>These are the picasso96 UAE drivers. It is usually safe to
     ignore the drawer. The latest Picasso96 installer has working
