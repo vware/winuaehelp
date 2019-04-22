@@ -22,7 +22,7 @@
 			<param name="Local" value="features.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Known Bugs">
+			<param name="Name" value="Bugs">
 			<param name="Local" value="bugs.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
