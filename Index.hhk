@@ -62,6 +62,15 @@
 		<param name="Local" value="background/amigados.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="AmiKit">
+		<param name="Name" value="Links">
+		<param name="Local" value="links.htm">
+		<param name="Name" value="New OS">
+		<param name="Local" value="howto/newos.htm">
+		<param name="Name" value="FAQ">
+		<param name="Local" value="faq.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Aminet">
 		<param name="Name" value="Links">
 		<param name="Local" value="links.htm">
@@ -79,9 +88,23 @@
 		<param name="Local" value="gui/harddrives.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Aspect">
+		<param name="Name" value="Filter">
+		<param name="Local" value="gui/filter.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="ASPI">
 		<param name="Name" value="Misc">
 		<param name="Local" value="gui/misc.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Audio">
+		<param name="Name" value="Output">
+		<param name="Local" value="gui/output.htm">
+		<param name="Name" value="Sound">
+		<param name="Local" value="gui/sound.htm">
+		<param name="Name" value="Expansions">
+		<param name="Local" value="gui/expansions.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Autoconfig">
@@ -138,6 +161,11 @@
 		<param name="Local" value="bugs.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Cartridge">
+		<param name="Name" value="ROM">
+		<param name="Local" value="gui/rom.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Catweasel">
 		<param name="Name" value="Expansions">
 		<param name="Local" value="gui/expansions.htm">
@@ -154,6 +182,8 @@
 		<param name="Local" value="gui/advchipset.htm">
 		<param name="Name" value="ROM">
 		<param name="Local" value="gui/rom.htm">
+		<param name="Name" value="Expansions">
+		<param name="Local" value="gui/expansions.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="CDROM">
@@ -227,14 +257,14 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Controllers">
 		<param name="Name" value="Expansions">
-		<param name="Local" value="gui\expansions.htm">
+		<param name="Local" value="gui/expansions.htm">
 		<param name="Name" value="RTG Board">
-		<param name="Local" value="gui\rtgboard.htm">
+		<param name="Local" value="gui/rtgboard.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Copper">
 		<param name="Name" value="Custom Chips">
-		<param name="Local" value="background\custchips.htm">
+		<param name="Local" value="background/custchips.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="CPU">
@@ -301,6 +331,11 @@
 		<param name="Local" value="gui/display.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Dongle">
+		<param name="Name" value="IO Ports">
+		<param name="Local" value="gui/ports.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="ECS">
 		<param name="Name" value="Chipset">
 		<param name="Local" value="gui/chipset.htm">
@@ -364,7 +399,7 @@
 		<param name="Name" value="Floppy">
 		<param name="Name" value="Transfer an ADF to an Amiga floppy">
 		<param name="Local" value="howto/imagefiles.htm">
-		<param name="URL" value="gui/sound.htm">
+		<param name="URL" value="gui/quickstart.htm">
 		<param name="Name" value="Floppies">
 		<param name="Local" value="gui/floppies.htm">
 		<param name="Name" value="Required files">
@@ -373,6 +408,13 @@
 		<param name="Local" value="emulation/amigaprogs.htm">
 		<param name="Name" value="Floppy Drive Sound">
 		<param name="Local" value="gui/sound.htm">
+		<param name="Name" value="Quickstart">
+		<param name="Local" value="gui/quickstart.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Video">
+		<param name="Name" value="Output">
+		<param name="Local" value="gui/output.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Flush print job">
@@ -418,6 +460,13 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="GPL">
 		<param name="Local" value="credits/gpl.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Graphics">
+		<param name="Name" value="Expansions">
+		<param name="Local" value="gui/expansions.htm">
+		<param name="Name" value="Misc">
+		<param name="Local" value="gui/misc.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="GUI">
@@ -627,7 +676,7 @@
 		<param name="Name" value="Expansions">
 		<param name="Local" value="gui/expansions.htm">
 		<param name="Name" value="RTG Board">
-		<param name="Local" value="gui\rtgboard.htm">
+		<param name="Local" value="gui/rtgboard.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Mouse">
@@ -647,6 +696,15 @@
 		<param name="Name" value="MMU">
 		<param name="Name" value="CPU">
 		<param name="Local" value="gui/cpu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Native">
+		<param name="Name" value="Display">
+		<param name="Local" value="gui/display.htm">
+		<param name="Name" value="Misc">
+		<param name="Local" value="gui/misc.htm">
+		<param name="Name" value="Filter">
+		<param name="Local" value="gui/filter.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Network">
@@ -700,6 +758,11 @@
 		<param name="Local" value="gui/sound.htm">
 		<param name="Name" value="Custom Chips">
 		<param name="Local" value="background/custchips.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="PCI">
+		<param name="Name" value="Expansions">
+		<param name="Local" value="gui/expansions.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="PCMCIA">
@@ -757,6 +820,11 @@
 		<param name="Local" value="gui/output.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Protection">
+		<param name="Name" value="IO Ports">
+		<param name="Local" value="gui/ports.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Quickstart">
 		<param name="Local" value="gui/quickstart.htm">
 		</OBJECT>
@@ -799,6 +867,11 @@
 		<param name="Local" value="gui/rtgboard.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SASI">
+		<param name="Name" value="Expansions">
+		<param name="Local" value="gui/expansions.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Save">
 		<param name="Name" value="Misc">
 		<param name="Local" value="gui/misc.htm">
@@ -836,8 +909,9 @@
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Sound">
-		<param name="Name" value="Expansions">
+		<param name="Name" value="Sound">
 		<param name="Local" value="gui/sound.htm">
+		<param name="Name" value="Expansions">
 		<param name="Local" value="gui/expansions.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
@@ -857,6 +931,11 @@
 		<param name="Name" value="State">
 		<param name="Name" value="Misc">
 		<param name="Local" value="gui/misc.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Tablet">
+		<param name="Name" value="Game Ports">
+		<param name="Local" value="gui/gameports.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Toni Wilen">
@@ -927,6 +1006,11 @@
 		<param name="Name" value="winuaeenforcer">
 		<param name="Name" value="Amiga Programs">
 		<param name="Local" value="emulation/amigaprogs.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="x86">
+		<param name="Name" value="Expansions">
+		<param name="Local" value="gui/expansions.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Workbench">
