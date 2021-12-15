@@ -48,8 +48,8 @@ encouraged to let one of the authors know.
 ----------
 Contact:  Georg Veichtlbauer
 E-Mail:   georg@vware.at
-Web:      http://www.vware.at
+Web:      https://www.vware.at
 
 Contact:  Peter Hutchison
 E-Mail:   pjhutch17@talktalk.net
-Web:      http://www.pjhutchison.org
+Web:      https://www.pjhutchison.org
