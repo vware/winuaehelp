@@ -815,6 +815,15 @@
 		<param name="Local" value="gui/extensions.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Processor">
+		<param name="Name" value="CPU">
+		<param name="Local" value="gui\cpu.htm">
+		<param name="Name" value="Expansions">
+		<param name="Local" value="gui\expansions.htm">
+		<param name="Name" value="RAM">
+		<param name="Local" value="gui\ram.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Pro Wizard">
 		<param name="Name" value="Output">
 		<param name="Local" value="gui/output.htm">
