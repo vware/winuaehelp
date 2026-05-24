@@ -46,7 +46,7 @@ Example: Assign PPaint: DH0:PPaint
 <br>
 <strong>Avail</strong>
 Format:  Avail <em>CHIP/S FAST/S TOTAL/S FLUSH/S</em>
-Purpose: Memory availablility
+Purpose: Memory availability
 Parameters: Chip = Display chip memory, Fast = Display fast memory, Total = Display all memory, Flush = Free up
 memory.
 Example: Avail TOTAL
@@ -59,7 +59,7 @@ Example: BindDrivers
 <strong>Break</strong>
 Format:  Break <em>Process/A/N ALL/S C/S D/S E/S F/S</em>
 Purpose: Stop a program (see Status)
-Paramters: Process = Process name, All = Apply C,D,E and F, C = Apply Ctrl+C, D = Apply Ctrl+d, E = Apply Ctrl+E,
+Parameters: Process = Process name, All = Apply C,D,E and F, C = Apply Ctrl+C, D = Apply Ctrl+d, E = Apply Ctrl+E,
  F = Apply Ctrl+F.
 Example: Break 2 C
 <br>
@@ -124,7 +124,7 @@ Example: Dir S: Files
 <br>
 <strong>Diskchange</strong>
 Format:  Diskchange <em>Device/A</em>
-Purpose: Tell Amigados that a disk has been swapped in a non-autosensing disk drive.
+Purpose: Tell AmigaDOS that a disk has been swapped in a non-autosensing disk drive.
 Parameters: Device = Name of removable device.
 Example: Diskchange DF2:
 <br>
@@ -160,7 +160,7 @@ Example: ED S:User-Startup
 Format:  Edit <em>from/A To With/K Ver/K Opt/K Width/N Previous/N</em>
 Purpose: Edit text files (line editor)<br>
 Parameters: from = File to Edit, To = Destination file, With = Extended commands file, Opt = Options
-Width = Number of columns, Previous = Number of previous vesions.
+Width = Number of columns, Previous = Number of previous versions.
 Example: Edit s:User-Startup With Ed-Script
 <br>
 <strong>Else</strong>
@@ -240,13 +240,13 @@ Example: Format Drive DF0: Name "Docs" NOICONS FFS
 <strong>Get</strong>
 Format:  Get <em>Name/A</em>
 Purpose: Returns contents of local env variable
-Parameters: Name = Enviornment variable name
+Parameters: Name = Environment variable name
 Example: Get RC
 <br>
 <strong>Getenv</strong>
 Format:  Getenv <em>Name/A</em>
 Purpose: Return contents of a global environment variable
-Parameters: Name = Enviornment variable name
+Parameters: Name = Environment variable name
 Example: Getenv Workbench
 <br>
 <strong>Iconx</strong>
