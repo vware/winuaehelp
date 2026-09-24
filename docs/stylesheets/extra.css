@@ -1,0 +1,16 @@
+/* without a logo Material falls back to a stock icon; show just the title instead */
+.md-logo {
+  display: none;
+}
+
+img.center {
+  display: block;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+}
+
+/* the logo has an opaque white background and no margin, so frame it as a card for dark mode */
+img.center[src$="logo.png"] {
+  padding: 0.75rem 1rem;
+  background: #fff;
+}

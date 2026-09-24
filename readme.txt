@@ -3,7 +3,7 @@ WinUAE Help Readme
 
 0. License
 1. Introduction
-2. Installation
+2. Building
 3. Errors
 4. Contact
 
@@ -27,13 +27,14 @@ Experienced users can find valuable tips for better speed and functionality
 of WinUAE at the Hints For Power Users page.
 
 
-2. Installation
----------------
-To make the help file available in WinUAE, simply copy the WinUAE.chm file
-into the directory where you installed WinUAE. This is typically C:\Program
-Files\WinUAE for English Windows installations. Restart WinUAE after you
-copied the file into the directory, and the "Help" button will be available
-in the main program.
+2. Building
+-----------
+The help is written in Markdown (docs/) and built with MkDocs Material.
+Page structure and navigation are defined in mkdocs.yml.
+
+    pip install -r requirements.txt
+    mkdocs serve      (live preview at http://127.0.0.1:8000)
+    mkdocs build      (static site in site/, PDF in site/winuaehelp.pdf)
 
 
 3. Errors
