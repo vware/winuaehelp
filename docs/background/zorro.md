@@ -1,0 +1,25 @@
+# Zorro Bus
+
+The Zorro bus is the standard for expansion cards on the
+bigger Amiga models. One of the main features of the Zorro bus
+is [Autoconfig](autoconfig.md).
+
+## Zorro
+
+The Zorro bus was introduced with the Amiga 1000. Cards
+based on the original Zorro bus are not compatible with the
+later versions.
+
+## Zorro-II
+
+The 16 bit wide Zorro-II was introduced with the A2000.
+
+## Zorro-III
+
+Zorro-III had its premiere with the A3000. This 32 bit wide
+bus was one of the fastest bus systems at the time it was
+released. It's also backward compatible with the Zorro-II bus.
+By multiplexing signal lines, the connectors between the two
+latest Zorro versions remained unchanged. The Amiga could
+automatically detect if a 32 bit enabled card was in a slot,
+and then use the faster Zorro-III mode.

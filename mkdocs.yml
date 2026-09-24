@@ -1,0 +1,128 @@
+site_name: WinUAE Help 4.0
+site_url: https://winuaehelp.vware.at/
+site_description: Official help for WinUAE, the Amiga emulator for Windows
+copyright: Help content is released under the terms of the GNU Free Documentation License.
+
+use_directory_urls: false
+
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.indexes
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - toc.follow
+
+extra:
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
+  - to-pdf:
+      output_path: winuaehelp.pdf
+      cover_subtitle: Official help for WinUAE, the Amiga emulator for Windows
+      cover_logo: logo.png
+      toc_level: 3
+
+markdown_extensions:
+  - attr_list
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+nav:
+  - "Welcome!": index.md
+  - Features: features.md
+  - Bugs: bugs.md
+  - Links: links.md
+  - Glossary: glossary.md
+  - FAQ: faq.md
+  - Getting Started:
+      - started/index.md
+      - Requirements: started/require.md
+      - Info For First Time Users: started/firsttimeuser.md
+      - Example Configurations: started/examples.md
+  - The GUI:
+      - gui/index.md
+      - Paths: gui/paths.md
+      - Quickstart: gui/quickstart.md
+      - Configurations: gui/configurations.md
+      - Hardware:
+          - Overview: gui/hardware.md
+          - CPU and FPU: gui/cpu.md
+          - Chipset: gui/chipset.md
+          - Adv. Chipset: gui/advchipset.md
+          - ROM: gui/rom.md
+          - RAM: gui/ram.md
+          - Floppy Drives: gui/floppies.md
+          - "CD & Hard Drives": gui/harddrives.md
+          - Expansions: gui/expansions.md
+          - RTG board: gui/rtgboard.md
+          - Hardware info: gui/hardwareinfo.md
+      - Host:
+          - Overview: gui/host.md
+          - Display: gui/display.md
+          - Sound: gui/sound.md
+          - Game ports: gui/gameports.md
+          - IO ports: gui/ports.md
+          - Input: gui/input.md
+          - Output: gui/output.md
+          - Filter: gui/filter.md
+          - Disk Swapper: gui/diskswapper.md
+          - Miscellaneous: gui/misc.md
+          - "Pri. & Extensions": gui/extensions.md
+  - The Emulation:
+      - emulation/index.md
+      - Drives: emulation/drives.md
+      - JIT: emulation/jit.md
+      - Printing: emulation/printing.md
+      - Keyboard: emulation/keyboar.md
+      - Speed: emulation/speed.md
+      - Command Line Parameters: emulation/comline.md
+      - Amiga Programs: emulation/amigaprogs.md
+  - Background Information:
+      - background/index.md
+      - Custom Chips: background/custchips.md
+      - RAM: background/ram.md
+      - Kickstart: background/kickst.md
+      - Zorro Bus: background/zorro.md
+      - Autoconfig: background/autoconfig.md
+      - AmigaDOS Commands: background/amigados.md
+  - How-To:
+      - howto/index.md
+      - Create Image Files: howto/imagefiles.md
+      - Transfer Data from/to Amiga: howto/pcamitrans.md
+      - Set Up Action Replay: howto/actionreplay.md
+      - Set Up Picasso96: howto/picasso.md
+      - Create a Boot Disk: howto/bootdisk.md
+      - Install AmigaOS 3.5/3.9: howto/newos.md
+  - Credits:
+      - credits/index.md
+      - About WinUAE: credits/contrib.md
+      - About this Help: credits/about.md
+      - Changelog: credits/changelog.md
+      - GPL: credits/gpl.md
+      - FDL: credits/fdl.md
+      - UAE People:
+          - Overview: credits/uaepeople.md
+          - Bernd Schmidt: credits/berndschmidt.md
+          - Toni Wilen: credits/toniwilen.md
+          - Brian King: credits/brianking.md
+  - Index: keywords.md
