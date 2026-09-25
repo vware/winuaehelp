@@ -11,7 +11,11 @@ Each slider controls the amount of respective memory to be
 used. For an explanation of types of RAM, please see the
 [RAM](../background/ram.md) page.  
 **32-bit Chip** allows to add additional Chip RAM
-in the 32-bit address space.
+in the 32-bit address space. If the maximum of 1GB is
+selected, UAE Z3 mapping is always used.  
+If a slider's memory is also used as accelerator board RAM,
+changing it here adjusts the [accelerator board memory](expansions.md#accelerator-board-settings)
+as well.
 
 ## Advanced Memory Settings
 

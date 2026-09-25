@@ -146,6 +146,8 @@ autoboot, even under Kickstart 1.2 and older.
   decompression, no temporary files used.
 - Physical CD/DVD/BD drives supported, including CD
   emulators that emulate CD/DVD/BD drives.
+- Multiple emulated CD drives, each with its own CD image,
+  can be used simultaneously.
 - Physical drive audio tracks supported, uses real time
   digital audio extraction, does not require analog audio
   cables.

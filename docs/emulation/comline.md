@@ -15,10 +15,14 @@ startup behavior.
 | -s *option=value* | Pass on one or more options from a configuration file directly, without loading a file. |
 | -h<br> -help | Opens the help, if available (the one you are reading right now). |
 | -cdimage=*image.iso* | Inserts the given image into the emulated CD-ROM drive. |
+| -version | Outputs the header lines of winuaebootlog.txt (version and build information), then exits. |
 
 If the last parameter entry is an orphan and nothing else
 was loaded, WinUAE will check if it is a config file or
 statefile and load it.
+
+If standard output is redirected (e.g. `winuae.exe >log.txt`),
+all logging is redirected to that file in UTF-8 format.
 
 ## Generic
 

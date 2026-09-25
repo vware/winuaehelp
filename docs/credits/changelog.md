@@ -3,6 +3,7 @@
 ## Version 4.0
 
 - Complete conversion to Markdown / Mkdocs
+- Updates for WinUAE 6.0.3
 
 ## Version 3.1.1
 

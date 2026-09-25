@@ -114,6 +114,7 @@ just that
 ## Optical media options
 
 Similar to virtual floppies, a CD image can be inserted or
-injected in this section.  
+injected in this section. Multiple emulated CD drives can be
+connected, each with its own CD image, and used at the same time.  
 **CDTV/CDTV-CR/CD32 turbo CD read speed** will
 emulate the CD drive at maximum speed
