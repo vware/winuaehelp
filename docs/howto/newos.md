@@ -38,10 +38,6 @@ bit and 44.1 kHz; change the CPU settings to adjustable and
 level 1. Alternatively, remove the references to playing sounds
 (such as the clapping noise) from the installer script if you
 know what you are doing.  
-There is an update available for AmigaOS 3.9 called a *Boing
-Bag* and to get it to install on WinUAE you need a patch
-available from [Amiga,
-Inc](../links.md#original).
 
 ## Installing OS3.9 using an AmiKit installation
 
