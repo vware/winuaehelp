@@ -6,11 +6,7 @@ Have a look at our collection of [official UAE sites](links.md#official).
 
 ## What version of Windows is supported?
 
-You need Windows 7 SP1 or later for WinUAE 3.6.0 or later,
-which includes support for DirectX 11, also hardware level 9.1
-or higher (most Windows 7 capable GPUs are supported), all
-Direct3D9 mode features are supported, variable sync is
-supported. However, the CPU must support SSE2!
+Windows 7 SP1 is the absolute minimum. See [Requirements](started/require.md).
 
 ## Can a PC read Amiga floppy disks?
 
