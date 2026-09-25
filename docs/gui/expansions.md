@@ -32,7 +32,8 @@ accelerator board.
 **Accelerator board ROM file**. Select the
 Blizzard PPC or Cyberstorm accelerator board ROMs.  
 **Accelerator board memory** amount of memory for
-the board (0-256 MB).
+the board (0-256 MB). This is kept in sync with the
+matching memory size on the [RAM](ram.md) page.
 
 ## Miscellaneous Expansions
 

@@ -50,3 +50,7 @@ rather than a shorter log file is created.
 name.  
 **Save All** Saves the log file.  
 **Open** Opens the current log file.
+
+Logging can also be captured by redirecting standard output
+on the [command line](../emulation/comline.md), e.g.
+`winuae.exe >log.txt`. The output is written in UTF-8 format.
