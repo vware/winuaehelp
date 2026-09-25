@@ -4,6 +4,7 @@
 
 - Complete conversion to Markdown / Mkdocs
 - Updates for WinUAE 6.0.3
+- Update sytem requirements
 
 ## Version 3.1.1
 

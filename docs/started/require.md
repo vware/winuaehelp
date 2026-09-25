@@ -2,19 +2,21 @@
 
 ## Introduction
 
-Like all emulators, WinUAE requires a lot of computing power
-to accurately emulate the Amiga. The following system is a
-recommended minimum for running WinUAE:
+WinUAE runs on any reasonably current Windows PC:
 
-- Pentium IV 2GHz
-- 1GB of RAM
-- WinUAE 3.6: Windows 7 with SP1 or higher
-- WinUAE 3.5: Windows 2000
+- Windows 7 or newer, 32-bit or 64-bit (64-bit is recommended)
+- A CPU with SSE2 support
 
-The last version to support Windows NT 4.0 was WinUAE 0.8.8
-(see **winuae-compat.exe**). If short on memory or
-CPU performance, please use **winuae-mini.exe**
-(0.8.22r8).
+Memory is rarely a concern: the emulated Amiga needs only as
+much RAM as you configure for it.
+Accurate emulation, especially cycle-exact A1200 or other AGA
+setups, depends heavily on single-core performance, so a fast
+modern CPU gives the best results. On weaker machines, using the
+[JIT](../emulation/jit.md) compiler will help with performance.
+
+WinUAE 4.2.1 was the last version to support Windows XP SP3
+(32-bit only). Users of older Windows versions have to stay
+with even older WinUAE releases.
 
 ## Emulation Requirements
 
