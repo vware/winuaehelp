@@ -17,8 +17,8 @@ through the null modem cable. This speed is achieved with the
 standard serial.device or the new baudbandit.device. There are
 some tools available which can speed up the connection speed up
 to 5500cps. For more help on how to set up a serial transfer
-see [ADF Sender Terminal FAQ](../links.md) and
-[WarTrans](../links.md#tools). The [Aminet](../links.md#original) is a great source for such
+see the ADF Sender Terminal FAQ and
+WarTrans. The [Aminet](../links.md#original) is a great source for such
 tools such as TwinExpress and AmiTrans.
 
 All you need is the following:
@@ -46,7 +46,7 @@ Then, do the following:
 - Start binary transmit on the other and load the file to
   be transmitted, it should then transfer to the other end in
   seconds/minutes depending on size.
-- Further details of networking can be found at [Amiga Emulation FAQ](../links.md#help)
+- Further details of networking can be found on the [Helpful Sites](../links.md#help)
 
 ## Floppy Disks
 
@@ -85,5 +85,4 @@ rest of the world. You may use [Cloanto's](../links.md#allinone) Amiga Explorer 
 set up a PC to Amiga link and use a friendly front end program
 to transfer programs to and from your PC and your Amiga.  
 You can also use AmigaToPC, which is a professional network
-software setup, and can be found at our links page in the
-[tools section](../links.md#tools).
+software setup.
