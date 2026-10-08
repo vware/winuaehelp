@@ -13,7 +13,7 @@ EGS-28/24, Picasso II, II+, IV, x86 Bridgeboard VGA Cybervision
 **VRAM size.** Video ram is for graphics card use
 such as the Picasso96 RTG so that you can use your PC's
 graphics card rather than the custom chips for extra speed.
-Upto 512 MB  
+Up to 512 MB  
 **Scale if smaller than display size setting**
 Rescale display if current window is smaller than the display
 size setting given  
@@ -36,7 +36,7 @@ It will be grayed out if only one screen is detected
 
 **Refresh Rate** This can be Disabled, Chipset,
 Real or 50, 60, 70 or 75 Hz.  
-**Buffer Mode** This can be Double or Tripe
+**Buffer Mode** This can be Double or Triple
 Buffering for graphics.  
 **Aspect Ratio** This can be Disabled, Automatic,
 4:3, 5:4, 15:9, 16:10, 27:16, 128:75, 16:9, 256:135, 21:9 or

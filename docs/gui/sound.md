@@ -1,6 +1,6 @@
 # Sound
 
-Here you can select, if (and how) UAE will provide sound
+Here you can select if (and how) UAE will provide sound
 emulation.
 
 ![WinUAE - Sound](sound.png){ .center }
@@ -28,7 +28,7 @@ between sound modes automatically.
 0% (silent) to 100% (loud).  
 **Paula,CD,AHI Audio, MIDI, Genlock**. Set audio
 from either Paula, direct CD, AHI sound between 0% (silent) to
-100% (loud), MIDI Or Genlock.
+100% (loud), MIDI or Genlock.
 
 ## Sound Buffer Size
 
@@ -42,7 +42,7 @@ Cloned Stereo or 4 Channel and 5.1 Channels. Stereo will use
 more CPU time.  
 **Stereo Separation** can be set to improve stereo
 sound.  
-**Interpolation** improved quality by smoothing
+**Interpolation** improves quality by smoothing
 calculation results, but needs more computing power.  
 **Frequency** higher Frequency and/or Sample Type,
 the higher the sound quality will be, but the slower the

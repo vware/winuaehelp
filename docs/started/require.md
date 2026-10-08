@@ -24,7 +24,7 @@ WinUAE requires some Amiga software in order to work
 properly. This software is not included for legal reasons:
 
 - A copy of a [Kickstart](../background/kickst.md) ROM. Sometimes
-  referred as a ROM-image, ROM-file, KickFile, or KickROM - has
+  referred to as a ROM-image, ROM-file, KickFile, or KickROM - has
   to be loaded by WinUAE on startup, just like a real Amiga
   would. It can be extracted from an original Amiga with the
   [transrom](../emulation/amigaprogs.md).

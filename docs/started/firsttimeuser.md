@@ -33,7 +33,7 @@ When your configuration is complete, click the
 hard disk or bootable floppy is found, you may see the Insert
 Disk screen, press F12 and click on Floppies to change the disk
 and click OK to restart. If the emulation crashes or fails to
-boot, press F12, goto Misc screen and click **Reset
+boot, press F12, go to the Misc screen and click **Reset
 Amiga** and then OK.
 
 When finished with the emulation you can either press
@@ -46,7 +46,7 @@ window.
 ### Floppy Disks
 
 - Programs and games are usually distributed on floppy
-  disks in a format which PC's cannot read directly. So, these
+  disks in a format which PCs cannot read directly. So, these
   disks are copied into a file called an ADF (Amiga Disk
   Format). To load an ADF disk, use the [Floppy Drives](../gui/floppies.md) menu entry.
 

@@ -4,7 +4,7 @@ Over the years, WinUAE has been improved to the point where
 almost all Amiga software ever created runs without
 problems.
 
-If you have problems to get a certain program working, look
+If you have problems getting a certain program working, look
 at the [links page](links.md#help), there are some
 great resources online which are also frequented by
 developers.

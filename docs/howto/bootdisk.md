@@ -4,7 +4,7 @@
 
 Boot off your Workbench disk, insert a floppy disk in DF1:,
 open a command Shell and type **Install DF1:**
-which will copy the book block on to the disk. Then type
+which will copy the boot block on to the disk. Then type
 **MakeDir DF1:S** to create the Script directory.
 Copy your program file(s) on the disk, preferably root or use
 directories if you wanted to. Then change directory to DF1:S
@@ -56,7 +56,7 @@ Workbench boot disk from within the emulator:
 8. Copy these files from the source **Libs**
    directory to Libs on your floppy: **amigaguide.library,
    asl.library, bullet.library, commodities.library,
-   datatypes,library, diskfont.library, iffparse.library,
+   datatypes.library, diskfont.library, iffparse.library,
    locale.library, lowlevel.library, mathieeedoubbas.library,
    mathieeedoubtrans.library, mathieeesingtrans.library,
    mathtrans.library, realtime.library, rexxsupport.library,

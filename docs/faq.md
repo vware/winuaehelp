@@ -39,7 +39,7 @@ Archivers for use within WinUAE or try X-Arc from [Aminet](links.md#original) fo
 Yes, that is possible. You can either specify a directory on
 the PC's hard disk e.g. C:\UAE\AmigaHD or you can specify a
 hard file. The advantage of a directory is that you can copy
-files directly from the PC site into the directory for
+files directly from the PC side into the directory for
 immediate access by the Emulator. For hardfiles you can use the
 Amiga's long filenames, file comments and protection flags. For
 a hard disk to be bootable, make sure you copy the whole
@@ -72,7 +72,7 @@ CacheCDFS:
 
 - Set the MaxTransfer size to 0x10000 (65 kb) in the
   mountfile
-- This makes cacheCDFS work and not display read/write
+- This makes CacheCDFS work and not display read/write
   error Requesters
 
 ## Why does WinUAE not accept my hardfiles or show only CLI with my standard configuration?
@@ -133,7 +133,7 @@ Amigas.
 ## Can I use the mouse wheel?
 
 Yes, but like on a real Amiga, you need the Freewheel tool
-from AmiNet.
+from Aminet.
 
 ## How do I create a blank disk for saving files or games?
 
@@ -211,7 +211,7 @@ Get the latest [AmiKit](links.md#allinone) which
 includes Directory Opus and many utilities including AmiStart,
 AMPlifier, Antiword, Apdf, AWeb, ClassAct, Eagleplayer,
 EvenMore, FFmpeg, FreeDB, HippoPlayer, Hollywood Player,
-HomeBank, IBrowse, ixemil, KingCON, MagicASL, MagicMenu, MCP,
+HomeBank, IBrowse, ixemul, KingCON, MagicASL, MagicMenu, MCP,
 Midiplay, MUI, NetSurf, MUIBase, NewsCoaster, PerfectPaint,
 Picasso96, PFS III, Scalos theme, ScummVM, ShowAmiga96,
 StormMesa, SysInfo, TTEngine, twittAmiga, Warp3D, XPKMaster,
@@ -243,7 +243,7 @@ online.
 ## Is there an emulator for the AmigaOne or PPC processor?
 
 There is a Classic Amiga emulator for the AmigaOne that
-comes with AmigaOS 4. Winuae 4.0 or later now supports PowerPC
+comes with AmigaOS 4. WinUAE 4.0 or later now supports PowerPC
 (PPC) processors using the CyberStorm PPC or Blizzard PPC
 expansion accelerator boards, along with Picasso IV Zorro for
 graphics, Blizzard PPC SCSI-2 HD Controller for Hard disk
@@ -254,6 +254,6 @@ are not compatible with PPC emulation.
 
 ## What is the folder "displaydrivers" for?
 
-These are the picasso96 UAE drivers. It is usually safe to
+These are the Picasso96 UAE drivers. It is usually safe to
 ignore the drawer. The latest Picasso96 installer has working
 display drivers included.

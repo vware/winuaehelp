@@ -1,10 +1,10 @@
 # Welcome to WinUAE
 
 [WinUAE](credits/contrib.md) is an Amiga
-Emulator for the Windows platform. It started out as port of
+Emulator for the Windows platform. It started out as a port of
 the Ubiquitous Amiga Emulator (UAE) and has evolved since then.
 It is the collaborative effort of a number of Amiga enthusiasts
-to create a portable Amiga emulator under the [GNU Public License](credits/gpl.md). Source code for all
+to create a portable Amiga emulator under the [GNU General Public License](credits/gpl.md). Source code for all
 UAE versions is available so it can be studied, and help is
 always appreciated.
 

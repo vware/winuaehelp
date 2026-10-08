@@ -1,7 +1,7 @@
 # Output
 
-The Output tab allows you record video and
-audio
+The Output tab allows you to record video and
+audio.
 
 ![WinUAE - Output](output.png){ .center }
 
@@ -15,7 +15,7 @@ create/compress the audio data.
 **Disable frame rate limit** removes any limits
 when recording certain types of screen  
 **Disable sound output** - removes sound when
-record videos if not required  
+recording videos if not required  
 **Capture before filtering -** Capture audio or
 video before filtering output  
 **Disable sound sync** disables sound sync with
@@ -37,15 +37,13 @@ screen contents before any of the configured [filters](filter.md) have been appl
 possible**  
 **Autoclip screenshot** will trim the picture to
 output format  
-**Create 256 color palette index screenshot if
-possible**  
-**Continous screenshots** Screen shot taken on
+**Continuous screenshots** Screen shot taken on
 every frame.
 
 ## Re-recorder
 
 This can allow you to **Record** and
-**Playback** recorder input events saved with
+**Playback** recorded input events saved with
 WinUAE. They are saved as **.inp** files.  
 **Automatic replay** Allow auto-replay of the
 recording.  

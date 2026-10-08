@@ -10,7 +10,7 @@ Chipset](../background/custchips.md).
 will enable changing options on this page. It should be left
 checked, as the settings are for advanced users.
 
-## Battery Backed Up Read Time Clock
+## Battery Backed Up Real Time Clock
 
 Configures the clock type used in the Amiga or a custom
 clock. The RF5C01A is used in the A1200.
@@ -75,8 +75,8 @@ Kickstart ROM to Chip RAM speed.
 **Power up memory pattern** Chip RAM and Slow RAM
 power up pattern emulation, enabled by default.  
 **Toshiba Gary** - Optional Toshiba Gary (Gate
-Array) slow (chip ram like) Z2 IO.Gary looks after bus control
-and functions for floppy drivers.  
+Array) slow (chip ram like) Z2 IO. Gary looks after bus control
+and functions for floppy drives.  
 **Unmapped address space** Set unmapped address
 space to Floating, all zeros or all ones.  
 **CIA E-Clock Sync** - Set to AutoSelect, 68000,

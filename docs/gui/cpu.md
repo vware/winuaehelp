@@ -15,7 +15,7 @@ Choose between the classic Motorola processors:
   member, but never actually shipped in a real Amiga.
 - **68020** is a much more advanced 68K CPU,
   with some new instructions, and it has a fully 32-bit engine.
-  Used in the A2500 for brief period on the A2520 card. If 24
+  Used in the A2500 for a brief period on the A2520 card. If 24
   bit addressing is enabled, it is the same as the 68EC020 chip
   in the A1200.
 - **68030** This is a mid range CPU used in
@@ -89,12 +89,12 @@ to save battery.
 ## Cycle-Exact CPU Emulation Speed
 
 **CPU Frequency** will change the frequency
-multiplies for the CPU
+multiplier for the CPU
 
 ## PPC CPU Settings
 
 **PPC CPU Emulation (Blizzard PPC / Cyberstorm
-PPC)** Enables the PPC emulation; A separate plugin is
+PPC)** Enables the PPC emulation; a separate plugin is
 required - see [Expansions](expansions.md).  
 **Stopped M68K CPU idle mode** Sets level of idle
 mode for the 680x0 processor
@@ -102,7 +102,7 @@ mode for the 680x0 processor
 ## x86 Bridgeboard CPU options
 
 **CPU Speed** set between 0 and 100% CPU speed
-of the bridge to a x86 board
+of the bridge to an x86 board
 
 ## JIT (Just in time) Settings
 

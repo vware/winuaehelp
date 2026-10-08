@@ -11,10 +11,10 @@ emulation.
   OCS chipset but no Extra Half Bright mode.
 - **A1000:** A1000 with OCS chipset.
 - **OCS Agnus + OCS Denise**: This was the
-  first or original chipset, used in the Amiga : Agnus 512M,
+  first or original chipset, used in the Amiga: Agnus 512M,
   Denise (32 color graphics, HAM mode).
-- **OCS Agnus + ECS Denise**: This is mixed
-  chipset, used in the Amiga : Agnus 512M/1M, ECS Denise (Prod
+- **OCS Agnus + ECS Denise**: This is a mixed
+  chipset, used in the Amiga: Agnus 512M/1M, ECS Denise (Prod
   VGA, SuperHiRes modes)
 - **ECS Agnus + OCS Denise:** Uses enhanced Fat
   [Agnus](../background/custchips.md) which

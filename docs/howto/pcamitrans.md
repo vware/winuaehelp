@@ -14,7 +14,7 @@ If you are using a null modem cable, you will need a
 terminal program on your Windows machine and your Amiga. 68000
 equipped Amigas are only able to reach approximately 3000cps
 through the null modem cable. This speed is achieved with the
-standard serial.device or the new baudbandit.device There are
+standard serial.device or the new baudbandit.device. There are
 some tools available which can speed up the connection speed up
 to 5500cps. For more help on how to set up a serial transfer
 see [ADF Sender Terminal FAQ](../links.md) and
@@ -23,7 +23,7 @@ tools such as TwinExpress and AmiTrans.
 
 All you need is the following:
 
-- Terminal software for Amiga and PC, preferably ones than
+- Terminal software for Amiga and PC, preferably ones that
   can do Binary Transfers using common protocols such as Kermit
   and X/Y/ZModem. Amiga term programs include NComm, JRComm,
   and Term. PC term programs include Terminal and

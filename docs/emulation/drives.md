@@ -18,7 +18,7 @@ Amiga file system. They work much the same way as a disk file.
 You can simply create a large empty file and tell UAE to use it
 as a hardfile, but you will need to format it from the
 emulation before you can actually use it.  
-If you are want to boot a hardfile under Kickstart 1.3, you
+If you want to boot a hardfile under Kickstart 1.3, you
 need the FastFileSystem file from the L: directory to be placed
 in the Kickstart ROMs-directory where WinUAE is installed.  
 
@@ -52,7 +52,7 @@ that command in your startup-sequence), and you should be able
 to access it. Don't forget to format it with the AmigaOS!  
 If using HDToolbox to manage Hard files, you must create
 hardfile normally or use hard disk image from your real Amiga
-but clear all hardfile parameters except block size.(sectors,
+but clear all hardfile parameters except block size (sectors,
 surfaces and reserved). HDToolBox must be run with
 "uaehf.device"-parameter ("tools/hdtoolbox uaehf.device")
 

@@ -20,7 +20,7 @@
 
 ## B
 
-- **Beginner**: [Winuae for First Time Users](started/firsttimeuser.md)
+- **Beginner**: [WinUAE for First Time Users](started/firsttimeuser.md)
 - **Blitter**: [Chipset](gui/chipset.md), [Custom Chips](background/custchips.md)
 - **Boot disk**: [Making a boot disk](howto/bootdisk.md)
 - **Bridgeboard**: [Expansions](gui/expansions.md), [RTG Board](gui/rtgboard.md)
@@ -71,7 +71,7 @@
 - **Fast RAM**: [RAM](gui/ram.md)
 - **File Association**: [Priority and Extensions](gui/extensions.md)
 - **File-System**: [Hard Drives](gui/harddrives.md)
-- **First Time**: [Winuae for First Time Users](started/firsttimeuser.md)
+- **First Time**: [WinUAE for First Time Users](started/firsttimeuser.md)
 - **Flash**: [ROM](gui/rom.md)
 - **Floppy**: [Transfer an ADF to an Amiga floppy](howto/imagefiles.md), [Floppies](gui/floppies.md), [Required files](started/require.md), [Transdisk](emulation/amigaprogs.md), [Floppy Drive Sound](gui/sound.md), [Quickstart](gui/quickstart.md)
 - **Flush print job**: [Game and I/O Ports](gui/ports.md)
@@ -155,7 +155,7 @@
 - **Picasso96**: [Known Bugs](bugs.md), [Display](gui/display.md), [Features](features.md), [Links](links.md), [Picasso96](howto/picasso.md), [RAM](gui/ram.md), [Speed](emulation/speed.md)
 - **picasso96fix**: [Amiga Programs](emulation/amigaprogs.md), [Picasso96](howto/picasso.md)
 - **Postscript**: [IO Ports](gui/ports.md)
-- **PPC**: [PPC CPU](gui/cpu.md), [RAM Accerator boards](gui/ram.md)
+- **PPC**: [PPC CPU](gui/cpu.md), [RAM Accelerator boards](gui/ram.md)
 - **Printer**: [IO Ports](gui/ports.md)
 - **Pro Wizard**: [Output](gui/output.md)
 - **Processor**: [CPU](gui/cpu.md), [Expansions](gui/expansions.md), [RAM](gui/ram.md)

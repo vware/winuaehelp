@@ -66,7 +66,7 @@ drives, Amithlon partitions and empty partitions (no Windows
 partitions). Tick the **Read/Write** option if you
 wish to read and write to such a partition. The boxes below
 will display details about the hard drive selected, such as
-size. You can select the device used (uaehd.device). Manual
+size. You can select the device used (uaehf.device). For
 some drives you can select Manual geometry for Surfaces,
 Sectors, Cylinders and Block size.  
 **NOTE:** Administrator rights are required for
@@ -79,12 +79,12 @@ this feature!
 Select a Path to a folder where data can be read or written
 to. It will work with Amix and any backup software that
 requires a tape drive.  
-**Select directory** Browse for an directory on
+**Select directory** Browse for a directory on
 hard disk to emulate tape drive.  
 **Select archive or plain file** Browse for an
 archive or normal backup file.  
 **Eject** Remove the tape from the drive.  
-**HD Controller**Specify controller to emulate
+**HD Controller** Specify controller to emulate
 e.g. UAE, IDE, SCSI, PCMCIA SRAM, PCMCIA IDE.  
 **Read / write** Enable read and write mode for
 tape drive otherwise it will use Read only mode.  
@@ -100,14 +100,14 @@ removable drives, such as CD-ROM, USB drives, SD cards
 **Include network drives** also mounts all mapped
 network drives  
 **Disable CDFS automount CD/DVD drives** will
-disable mounting compact discs and DVDS without having to
+disable mounting compact discs and DVDs without having to
 install a CD file system  
 **Disable UAEFSDB Support** disable creating
 UAEFSDB files when a directory is mounted as drive  
 **Don't use Windows Recycle Bin** - Excludes
 Windows Recycle Bin from emulation.  
 **Automount Removable drives** will mount a
-removable drive such as soon as the media is inserted  
+removable drive as soon as the media is inserted  
 **Limit size of directory drives to 1GB** will do
 just that
 

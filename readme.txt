@@ -21,7 +21,7 @@ Welcome to the official help file for WinUAE! It has been designed to aid
 you in using WinUAE, and is integrated into the main WinUAE program.
 This will give you information on how to get started with WinUAE, a
 description of all the GUI Settings, information about the emulation itself,
-and some additonal information about real Amigas in the Background
+and some additional information about real Amigas in the Background
 Information section.
 Experienced users can find valuable tips for better speed and functionality
 of WinUAE at the Hints For Power Users page.

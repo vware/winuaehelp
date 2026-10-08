@@ -1,7 +1,7 @@
 # Kickstart
 
-The Kickstart, a ROM chip which contains essential parts of
-the Operating System and an Amiga can not boot without it.
+The Kickstart is a ROM chip which contains essential parts of
+the Operating System; an Amiga cannot boot without it.
 
 ## Kickstart Disk
 
@@ -10,7 +10,7 @@ ROM, which contained code to load the basic operating system
 from a disk, known as the "**Kickstart disk**"
 into 256 kilobytes of RAM, which was then transformed into ROM
 by disabling the write signal to this RAM. Of course, the
-contents of this pseudo-ROM was lost when the computer was
+contents of this pseudo-ROM were lost when the computer was
 turned off. The point of using RAM was that Commodore wanted to
 be able to continue developing the operating system without
 requiring people to change ROMs when a version was available;

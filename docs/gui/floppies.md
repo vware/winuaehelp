@@ -21,7 +21,7 @@ a disk image.
 
 ## Floppy Drive Emulation Speed
 
-The slider will allows changing the emulated disk access
+The slider allows changing the emulated disk access
 speed, from **Turbo, 100%, 200%, 400% or 800%**.
 **Turbo**-floppy speed enables fast writing, and
 uses the maximum transfer rate from the media that the floppy
@@ -38,7 +38,7 @@ ADF.
 special ADF file for saving games onto if the Standard floppy
 does not work.  
 **Disk Label** will label the new disk image
-without having to in Workbench.  
+without having to do so in Workbench.  
 **Bootblock** will make the disk bootable.  
 **FFS** will format the disk using the Fast File
 System.
