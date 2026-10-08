@@ -8,17 +8,18 @@ emulated Amiga.
 
 ## Memory
 
-As a rule of thumb, WinUAE needs 60+Z3+Chip+Fast+Picasso96
-MB of system memory. Memory is allocated dynamically. This
-means you can select 512MB Z3 memory, which will only be used
-when needed.  
+As a rule of thumb, WinUAE needs the sum of the configured
+Amiga memory (Chip, Fast, Z3 and RTG) plus some overhead of
+its own. Memory is allocated dynamically. This means you can
+select 512MB Z3 memory, which will only be used when needed.  
 Make sure that the used RAM on your computer is always well
 below the amount of physical memory it has, otherwise the
 operating system has to swap the data to the hard disk if it
 runs out of RAM, which is a huge performance hit.  
-Also try to activate "Suspend to Disk" mode. If you do, do not
-forget to use the [timehack](amigaprogs.md) to set
-the Amiga clock to a correct value.
+If you suspend or hibernate the PC while the emulation is
+running, the Amiga clock will be behind afterwards. Enable
+**Synchronize clock** on the [Misc](../gui/misc.md) page or
+use [timehack](amigaprogs.md) to keep it correct.
 
 ## Picasso96
 
@@ -33,9 +34,9 @@ Read more details about the correct usage on the [Picasso96 page](../howto/picas
 ## AHI
 
 Again, if you are using the Workbench, it is recommended to
-use AHI as your preferred sound interface.  
-For a further speedup, use [ahitweak](amigaprogs.md). Increase the poll rate (the rate
-WinUAE checks for sound buffers). You may also try to adjust
+use AHI as your preferred sound interface. The AHI driver for
+UAE can be found in the [Amiga Programs](amigaprogs.md)
+folder. You may also try to adjust
 the sound buffer size in the [Sound](../gui/sound.md) tab.
 
 ## Hardfiles
