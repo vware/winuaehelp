@@ -13,7 +13,7 @@ Configuration](../gui/input.md).
 | --- | --- |
 | F12 | Show the WinUAE GUI |
 | Shift + F12<br> End + F12 | Bring up the GUI based debugger |
-| Ctrl + F12 | Switch to full-screen display |
+| Ctrl + F12 | Toggle between windowed and full-screen display |
 | PrintScreen | Copy WinUAE's current screen to clipboard |
 | End + PrintScreen | Save screenshot to a file |
 | End + F5 | Restore a machine snapshot file |
@@ -30,12 +30,12 @@ Configuration](../gui/input.md).
 | --- | --- |
 | Left AMIGA | Left Windows<br> Insert |
 | Right AMIGA | Right Windows<br> App Menu / Context Menu<br> Home |
-| HELP | Page Down on numerical keypad |
+| HELP | Page Down |
 
 ### Action Replay
 
 If an ActionReplay module is configured, the FREEZE button
-will be mapped to Page Up on the numerical keypad
+will be mapped to Page Up
 
 ## CDTV
 
