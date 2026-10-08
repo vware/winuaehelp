@@ -41,7 +41,7 @@ know what you are doing.
 
 ## Installing OS3.9 using an AmiKit installation
 
-If you don't have [AmiKit](../links.md#tools),
+If you don't have [AmiKit](../links.md#allinone),
 it is recommended to install it. This is the fastest way to get
 a working OS 3.9 installation.
 

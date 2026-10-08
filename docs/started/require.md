@@ -29,7 +29,7 @@ properly. This software is not included for legal reasons:
   would. It can be extracted from an original Amiga with the
   [transrom](../emulation/amigaprogs.md).
   Alternatively, a legal copy can be obtained with the
-  [Amiga Forever](../credits/about.md) software
+  [Amiga Forever](../links.md#allinone) software
   package. Kickstarts are supplied on the **Amiga
   Forever** CD in *\Emulation\shared\ROM*. If
   you have the **Amiga Classix CD**, you can

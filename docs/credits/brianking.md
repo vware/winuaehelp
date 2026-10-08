@@ -6,7 +6,7 @@ one of the main guys behind WinUAE, which he maintained for
 more than 5 years. He gave up due to a lack of time and handed
 over to [Toni Wilen](toniwilen.md).
 
-Brian was interviewed by Malc Jennings from [Amiga Legal Emulation](../links.md#help).
+Brian was interviewed by Malc Jennings from Amiga Legal Emulation.
 
 ## Interview:
 

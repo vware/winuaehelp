@@ -31,8 +31,8 @@ that may cause the problem.
 Compression or disk image file formats. Please check our
 [Glossary](glossary.md) for explanations of these
 acronyms.  
-You can download all the Amiga (de)archivers from here: Amiga
-Archivers for use within WinUAE or try X-Arc from [Aminet](links.md#original) for use in Workbench.
+You can download Amiga (de)archivers such as X-Arc from
+[Aminet](links.md#original) for use in Workbench.
 
 ## Can I emulate a Hard Disk?
 

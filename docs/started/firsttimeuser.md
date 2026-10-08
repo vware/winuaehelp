@@ -86,7 +86,7 @@ PC Drives at Startup**.
 ### CD-ROMs
 
 To set up a CD-ROM drive for access via WinUAE, click on the
-[Expansions](../gui/misc.md) tab and enable the
+[Expansions](../gui/expansions.md) tab and enable the
 **uaescsi.device**, when you load up Workbench,
 you need to install an Amiga compatible CD-ROM file system such
 as CacheCDFS, AmiCDFS, IDEFix and so on. The device name for
