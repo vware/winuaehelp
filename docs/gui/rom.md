@@ -33,15 +33,15 @@ loaded.
 
 ## Miscellaneous
 
-**Cartridge ROM File** will allow to add Action
+**Cartridge ROM File** allows adding Action
 Replay ROM files  
 **Flash RAM or A2286/A2386SX BIOS CMOS RAM File**
 will allow you to save to NVRAM (Non-Volatile RAM) like the
 CD32  
-**Real Time Clock file** allow you to specify a
+**Real Time Clock file** allows you to specify an
 RTC file.
 
 ## Advanced UAE expansion board/Boot ROM Settings
 
 **Board type**: Original or new UAE, 64K or
-128K , Direct or Indirect board types.
+128K, Direct or Indirect board types.

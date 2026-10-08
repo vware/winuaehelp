@@ -1,7 +1,7 @@
 # Quickstart
 
 Setting up WinUAE can be an extremely complex task,
-especially for users who are not tech affine. That's where
+especially for users who are not tech-savvy. That's where
 Quickstart comes in: it will quickly get you going if all you
 want is to emulate a certain model of Amiga.  
 It is entirely optional.
@@ -37,7 +37,7 @@ These options are identical between **Disk drive DF0:
 / Disk drive DF1:**:  
 **Select image file** - To load an ADF file to the
 emulated drive.  
-**3.5" DD / 3.5" HDD** - Allows to select the
+**3.5" DD / 3.5" HD** - Allows selecting the
 emulated floppy drive density.  
 **?** - Open the disk image information.  
 **Write protect** - Write protect the disk

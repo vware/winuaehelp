@@ -34,8 +34,8 @@ saver feature for the display when using WinUAE
 **Synchronize clock** Synchronizes Amiga [clock](advchipset.md) with the PC clock.  
 **One second reboot pause** introduces a short
 pause before a reboot.  
-**Faster RTG.** Disables non needed emulation
-features such as internal bitplace emulation and copper, when
+**Faster RTG.** Disables unneeded emulation
+features such as internal bitplane emulation and copper, when
 [RTG](rtgboard.md) (P96) is in use.  
 **Clipboard sharing** allows you to share the
 contents of your clipboard between the Amiga and Windows if
@@ -108,13 +108,13 @@ Default mapping in the GUI:
 | Left stick | Move (requires a XInput compatible pad) |
 
 Pad button 4 is default mapped to open/close on screen
-keyboard inuput event.  
+keyboard input event.  
 Pad button/d-pad that normally controls Amiga Joystick moves
 keyboard selection.
 
 ## Miscellaneous Options
 
-**SCSI and CD/DVD access .** Select type
+**SCSI and CD/DVD access.** Select type
 of [ASPI layer](harddrives.md) to use, e.g. SCSI
 Emulation, SPTI, SPTI + SCSI Scan.  
 **Windowed style.** Select the following styles:
@@ -154,7 +154,7 @@ disk, to a USS file.
 (NumLock) Sets which LED to emulate e.g. Power, HD, CD,
 DFx  
 (CapsLock) Set which LED to emulate e.g. Power, HD, CD, DFx  
-(ScrollLock) Set whichLED to emulate e.g. Power, HD, CD,
+(ScrollLock) Set which LED to emulate e.g. Power, HD, CD,
 DFx  
 **USB-Mode** Add support for Multimedia
 keyboards.  

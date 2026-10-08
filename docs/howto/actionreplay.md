@@ -10,12 +10,12 @@
   built-in state save option instead, it is much faster and
   more compatible.
 - WARNING: Action Replay may have problems with fast Amigas
-  or 68020+ CPUs, and the max supported FastRAM ram is
+  or 68020+ CPUs, and the max supported Fast RAM is
   4MB.
 
 ## ROM ripping instructions
 
-Find an A500 with an Action replay-cartridge, press the
+Find an A500 with an Action Replay cartridge, press the
 'freeze'-button, and enter the correct codes for the version of
 AR you have.
 

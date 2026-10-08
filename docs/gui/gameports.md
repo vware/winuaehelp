@@ -22,7 +22,7 @@ and connected to your PC.
 If you move your mouse over **X-Arcade layout
 information**, you can view the buttons and so on and
 what keys they are mapped to.  
-For the **Parallel port joystick adapter**you can
+For the **Parallel port joystick adapter** you can
 select an X-Arcade device, Keyboard layout or other installed
 joystick.  
 Use the **Remap** button for an easy way to remap
@@ -30,12 +30,12 @@ directions and buttons for the device.
 Press **F12** to exit remap or test modes. Press
 **F11** to skip an event in the window.
 
-## **Mouse extra settings**
+## Mouse extra settings
 
 Mouse speed controls the speed of the mouse pointer across
 the screen. 100 is max speed, 50 is half speed etc.  
 Magic mouse allows you to move Amiga mouse outside borders
-(requires. HD installation, window mode using Picasso96).  
+(requires HD installation, window mode using Picasso96).  
 A Virtual mouse driver can be installed for other features.  
 Cursor mode can be Show both cursors, show native cursor only
 or show host cursor only.  

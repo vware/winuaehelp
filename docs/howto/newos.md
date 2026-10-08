@@ -21,7 +21,7 @@ Here we go:
 1. Boot your emulated Amiga with WinUAE and "insert" the ADF
    in a floppy drive
 2. Open the file devs/dosdrivers/emergency\_CD on the disk
-   with a texteditor
+   with a text editor
 3. Change the line device = "xxxxxx" to device =
    "uaescsi.device"
 4. Change UnitNum if needed
@@ -54,6 +54,6 @@ a working OS 3.9 installation.
    AmigaOS files
 6. Select 1366x768 32bit screen mode
 
-**Hint:** If you get CD read errors you need
+**Hint:** If you get CD read errors you need to
 reduce the max transfer rate in your CD-ROM driver
 settings.

@@ -18,7 +18,7 @@ compiler will be used for the most commonly used FPU
 instructions. Unchecking this option will disable JIT-compiling
 for the FPU.
 
-**Constant Jump:** If this enabled,
+**Constant Jump:** If this is enabled,
 unconditional branches will not end a block. Effectively,
 UAE-JIT compiles "through" them. Generally, that's a good idea,
 as it improves performance.  

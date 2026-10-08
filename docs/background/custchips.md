@@ -2,7 +2,7 @@
 
 The so-called "Custom Chips" are arguably the most famous
 and differentiating feature of Amigas, compared to other
-computing architectures. They allowed the - for it's time -
+computing architectures. They allowed the - for its time -
 very advanced capabilities.  
 In the first one, the A1000, the chips "Agnus", "Paula", and
 "Denise" did the hard work. Together, they formed a specialized

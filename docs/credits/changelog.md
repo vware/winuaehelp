@@ -5,6 +5,7 @@
 - Complete conversion to Markdown / Mkdocs
 - Updates for WinUAE 6.0.3
 - Update system requirements
+- Fix lots of typos and grammatical errors
 
 ## Version 3.1.1
 
@@ -196,7 +197,7 @@ Peter:
 - GUI changes for Paths, CPU, Adv. Chipset, ROM, RAM, CD
   and HD, Expansion, Sound, Game port, Filters, Misc
 - New features: Portable mode, Expansion ROMs, CDTV/CD32
-  turbo, Toccota, Sound volume, Table.library, Native or RTF
+  turbo, Toccata, Sound volume, Tablet.library, Native or RTF
   filters.
 - Web links updates
 - Setup screen updated

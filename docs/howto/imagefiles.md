@@ -32,7 +32,7 @@ disk.
 transdisk >RAM:DF0.adf
 
 This command will create a file called "DF0.adf" in the RAM
-disk. Such a file is 901120 bytes of size for one disk.
+disk. Such a file is 901120 bytes in size for one disk.
 
 You can also create disk images in several parts. To create
 4 parts of the disk in DF0: do the following:

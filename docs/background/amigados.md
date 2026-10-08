@@ -128,10 +128,10 @@ Format:  CPU CACHE/S BURST/S NOCACHE/S NOBURST/S DATACACHE/S DATABURST/S
          NOINSTBURST/S COPYBACK/S NOCOPYBACK/S EXTERNALCACHE/S
          NOEXTERNALCACHE/S FASTROM/S NOFASTROM/S NOMMUTEST/S CHECK/K
 Purpose: Change or display CPU settings e.g. caches, burst, fastrom. Useful for some backward compatibility.
-Parameters: Cache|NoCache|DataCache|InstCache|NoDataCache|NoInstCache = Turn all or some caches on of off,
+Parameters: Cache|NoCache|DataCache|InstCache|NoDataCache|NoInstCache = Turn all or some caches on or off,
  Burst|NoBurst|DataBurst|InstBurst|NoDataBurst|NoInstBurst = Turn all or some burst modes on or off,
  CopyBack|NoCopyBack = Enable/disable copyback mode for 68040, ExternalCache|NoExternalCache = Enable/disable external
- cache for 68040, FastRom|NoFastRom = Copy ROM Fast memory or not, NoMMUTest = Don't check for MMU, Check = Check cpu.
+ cache for 68040, FastRom|NoFastRom = Copy ROM to Fast memory or not, NoMMUTest = Don't check for MMU, Check = Check cpu.
 Example: CPU INSTCACHE FASTROM
 ```
 
@@ -403,7 +403,7 @@ Example: IPrefs
 
 ```text
 Format:  Join File/M/A AS=TO/K/A
-Purpose: Join two or files together.
+Purpose: Join two or more files together.
 Parameters: File = File(s) to join together, To|as = Destination file
 Example: Join File1 File2 File3 as FileFull
 ```
@@ -427,7 +427,7 @@ Purpose: List file details in a directory.
 Parameters: Dir = One or more directory name(s), Keys = Display keys, NoDates = Do not display dates, To = Destination
  file, Sub = Subdirectories included, Since = List files since date given, Upto = List files up to given date, Quick =
  Simple directory list, Block = List files in block sizes, NoHead = Do not display header lines, Files = Files only,
- Dirs = Directorys only, LFormat = Output list using this format string, All = All files.
+ Dirs = Directories only, LFormat = Output list using this format string, All = All files.
 Example: List Workbench: Block Dates Since=01-Jul-00
 ```
 
@@ -498,7 +498,7 @@ Purpose: Open a new CLI console (CON) window
 Parameters: Window = Window config string, from = Alternative script to Shell-Script.
  Options. Auto = Open only when output sent to it, Backdrop = Open as a backdrop behind other windows, NoBorder = No left or
  bottom borders, NoDrag = No draggable title bar, Simple = Simple refresh, Smart = Smart refresh, Wait = Remain open
- under window is close manually.
+ until window is closed manually.
 Example: Newcli CON:0/10/400/200/Shell/CLOSE
 ```
 
@@ -608,7 +608,7 @@ Example: RequestFile >ENV:File Title "Select a File" Positive "Load" Noicons
 
 ```text
 Format:  Resident Name File REMOVE/S ADD/S REPLACE/S PURE=FORCE/S SYSTEM/S
-Purpose: Stores AmigaDOS command in memory (quicker then reloading
+Purpose: Stores AmigaDOS command in memory (quicker than reloading
          from disk each time it is executed). To ensure a
          command can be made resident check the pure flag (see List).
 Parameters: Name|File = File to be made resident, Remove = Remove file from resident list, Add = Add file to resident
@@ -631,7 +631,7 @@ Example: Run Printfiles Doc1
 Format:  Search from/M Search/A ALL/S NONUM/S QUIET/S QUICK/S
          FILE/S PATTERN/S
 Purpose: Search for a string in a file or a file on a disk
-Parameters: from = Directory to seach from, Search = Text to search for, All = Search sub-directories, NoNum = Line
+Parameters: from = Directory to search from, Search = Text to search for, All = Search sub-directories, NoNum = Line
  numbers are not displayed, Quiet = No Output, Quick = Reduce output listing, File = Search a file rather than
  content, Pattern = Search using a pattern.
 Example: Search SYS: "List" File All
@@ -652,7 +652,7 @@ Example: Set MyName "Peter"
 ```text
 Format:  Setclock LOAD/S SAVE/S RESET/S
 Purpose: Load or set the date and time from battery-backed clock
-Parameters: Load = Load date from clock, Save = Save date and time to clock, Reset = Resets the click
+Parameters: Load = Load date from clock, Save = Save date and time to clock, Reset = Resets the clock
 Example: Date 27-Nov-00 10:00, SetClock Save
 ```
 
@@ -722,7 +722,7 @@ Format:  Setpatch QUIET/S NOCACHE/S REVERSE/S NONSD/S NOAGA/S PATCHCONFIGFILE=PC
  DISABLEROMMODULES/S SKIPROMUPDATES=SKIPROMMODULES/K WAITFORVALIDATE/S
  AVOIDMEMFKICKFORPATCHES/S
 Purpose: Patch Operating System functions, enable/disable ROM updates, disable
- HD NDS mode, wait for disk validation and remove bugs (44.38)
+ HD NSD mode, wait for disk validation and remove bugs (44.38)
 Parameters: Quiet = No output, NoCache = Cache off, Reverse = Reverse action of setpatch, NoNSD = No New Style
  Device (Large HD support), PatchConfigFile = Specify a patch config file, PatchConfigLine = Specify a Patch
  Config line, PatchInfo = Show patch info, ForceUpdate = Install updates despite something installed
@@ -816,7 +816,7 @@ Format:  Version Name Version/N Revision/N FILE/S FULL/S
          Unit/N INTERNAL/S RES/S
 Purpose: Display workbench, library or device version information.
 Parameters: Name = File, Version = Print Kickstart or Workbench number and sets env variables and sets
- Warn flag, Revision = As Version but for Revision numer, File = Check file rather than memory,
+ Warn flag, Revision = As Version but for Revision number, File = Check file rather than memory,
  Full = Display full information, Internal = Check internal files, Res = Check resident files.
 Example: Version Kickstart Version=39 Revision=106
 ```
@@ -865,7 +865,7 @@ Example: Why
 
 ```text
 Format: DMS Read file[.DMS] [from dev:] [TEXT filetext] [CMODE mode] [LOW lowtrack] [HIGH hightrack] [NOVAL] [NOZERO] [ENCRYPT password]
- DMS Write file[.DMS],,, [TO dev:] [LOW lowtrack] [HIGH hightrack] [NOVAL] [NOTEXT] [NOPAUSE [DECRYPT password]
+ DMS Write file[.DMS],,, [TO dev:] [LOW lowtrack] [HIGH hightrack] [NOVAL] [NOTEXT] [NOPAUSE] [DECRYPT password]
  DMS Repack file[.DMS] [TO dev:] [LOW lowtrack] [HIGH hightrack] [CMODE mode]
  DMS View file[.DMS],,, [FULL] DMS Text file[.DMS],,,
  DMS Test file[.DMS],,, DMS Help
@@ -876,7 +876,7 @@ Example: DMS Write MyDisk.DMS from DF0:
 ### Installer
 
 ```text
-Format:  Installer [SCRIPT] filename <[APPNAME] name> <[MINIUSER] level> <[DEFUSER] default> <[LOGFILE]
+Format:  Installer [SCRIPT] filename <[APPNAME] name> <[MINUSER] level> <[DEFUSER] default> <[LOGFILE]
  logname> <[LANGUAGE] language> <NOPRETEND> <NOLOG> <NOPRINT>
 Purpose: To install an application via an installer script. Usually provided as a default tool for script
  files in icon.
@@ -928,7 +928,7 @@ Purpose: \*E[1m turns on bold, and \*E[22m turns off bold.
 
 **Underline Text**  
 Example: Echo "\*E[4mUnderline\*E[24m"  
-Purpose: \*E[4m turns on underline, and \*E24m turns off
+Purpose: \*E[4m turns on underline, and \*E[24m turns off
 underline.
 
 **Colored Text**  

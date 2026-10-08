@@ -95,7 +95,7 @@ WinUAE. 32-bit max is 512M.
   supports standard 7/8-bit serial protocols, 9-bit serial
   protocol is not supported by PC hardware.
 - Supports all host serial-port like serial ports,
-  bluetooth adapters etc.
+  Bluetooth adapters etc.
 - Connect two running WinUAE instances with emulated null
   modem cable.
 - Serial port to TCP socket support.
@@ -169,7 +169,7 @@ autoboot, even under Kickstart 1.2 and older.
 
 - Transparent decompression of popular compression formats,
   supported by all file types, including disk and CD images
-  (zip, 7zip, lzx, lha, lzx, rar)
+  (zip, 7zip, lha, lzx, rar)
 - Floppy disk image formats supported: adf, adz, dms, ipf,
   fdi, scp, dsq, st, img.
 

@@ -7,7 +7,7 @@ Currently, there are 3 ways to print with WinUAE:
   detection and Post Script Printer Emulation are not checked.
   Now you can save your config and can start WinUAE and do the
   rest on the Amiga. If you use turboprint, do not use the
-  turboprint spooler and chose parallel port or turbopar for
+  turboprint spooler and choose parallel port or turbopar for
   the print device. If you print something you should see an
   entry in the Windows printer spooler.
 - If you have a printer that the Amiga does not support,
@@ -19,14 +19,14 @@ Currently, there are 3 ways to print with WinUAE:
   Boot your emulated Amiga. There is a large probability that
   turboprint does not work with these printer settings, and
   prints out an empty page instead.  
-  Remove turbostart if you have it and chose the Workbench
+  Remove turbostart if you have it and choose the Workbench
   Postscript Printer. Please note that the OS3.5 and OS3.9
   drivers crash when you use grayscale or black and white, this
   function also does not work on real Amigas. So either use an
   older driver or choose color instead. Set it on all printer
-  preferences pages. You can chose the real output format in
+  preferences pages. You can choose the real output format in
   the Windows printer driver. The printer must dither colors,
-  so it is important to chose 600 or 1200 dpi on the Windows
+  so it is important to choose 600 or 1200 dpi on the Windows
   side.
 - TurboPrint, GhostScript etc. are no longer required, or
   at least the EpsonQ emulator is the easiest way to

@@ -13,7 +13,7 @@ technology - called Plug&Play - was released by Microsoft
 with the introduction of Windows 95.
 
 When the Amiga is switched on, the Kickstart begins to
-search for an expansion card every expansion slot. When a card
+search for an expansion card in every expansion slot. When a card
 is found, information about its type and needed resources is
 read from that card. The Kickstart then automatically allocates
 all necessary resources. The important difference to

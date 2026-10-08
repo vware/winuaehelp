@@ -18,8 +18,8 @@ selection.
 the same series.  
 **SCSI Controller ID:** Specify a SCSI controller
 ID (0-7).  
-**SCSI/IDE/Boot ROM file.** allow you to specify a
-expansion card and ROM file and model. Upto 4 separate files
+**SCSI/IDE/Boot ROM file.** allows you to specify an
+expansion card and ROM file and model. Up to 4 separate files
 can be selected.
 
 ## Accelerator Board Settings

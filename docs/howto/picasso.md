@@ -1,7 +1,7 @@
 # Picasso96
 
 Emulating the [Custom
-Chipset](../background/custchips.md) is comparatively slow, instead, you can use the
+Chipset](../background/custchips.md) is comparatively slow; instead, you can use the
 PC's graphics card. This also gives access to higher
 resolutions and better color modes.
 
@@ -31,7 +31,7 @@ drive: *libs:picasso96*.
 Start the program p96\_uae\_tweak from the Amiga Programs folder
 if you notice large slowdown when 16bit AHI is activated.
 
-## Trouble Shooting
+## Troubleshooting
 
 - Currently only Permedia 2 and Voodoo cards are compatible
   with the Warp3D driver software for 3D games on the

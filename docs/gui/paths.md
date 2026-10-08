@@ -2,7 +2,7 @@
 
 Here are the default paths for where WinUAE will store
 configurations, save states, logs and screenshots, but also
-search for, ROMs. By default, WinUAE stores this in the public
+search for ROMs. By default, WinUAE stores this in the public
 documents folder.
 
 ![WinUAE - Paths](paths.png){ .center }
@@ -12,7 +12,7 @@ documents folder.
 ROMs.  
 **Configuration files** Location of .uae [configuration](configurations.md) files for different
 models or configurations of Amigas.  
-**NVRAM files** Non-Volataile memory files.  
+**NVRAM files** Non-volatile memory files.  
 **Screenshots** Saves screenshots of the Amiga
 screen, see the [Output](output.md) tab.  
 **State files** Saves memory to a [state file](misc.md). Useful for saving game
@@ -27,7 +27,7 @@ here.
 **Set Path** Resets changes to all paths back to
 the AmigaForever, WinUAE defaults (User or EXE) or Custom
 paths.  
-**Data path** Path for Winuae data files.  
+**Data path** Path for WinUAE data files.  
 **Rescan ROMs** Look for Kickstart ROMs on hard
 disk.  
 **Clear disk history** Remove history of disks
@@ -36,7 +36,7 @@ used previously.
 paths to WinUAE program location for running via USB e.g.
 .\Configurations, .\Screenshots, those will be relative to the
 path where WinUAE.exe is located  
-**Portable mode** will prevent settings to be
+**Portable mode** will prevent settings from being
 written to the system's registry
 
 ## Debug logging

@@ -9,7 +9,7 @@ RAM is used.
   [Custom Chips](custchips.md) (up to 4MB),
   similar to other computers' Video RAM and Sound Buffer. In
   an Amiga, it can also be used by the CPU. A500 or A600 had
-  512kB or 1MB or Chip RAM, A1200 or A4000 had 2MB Chip. In
+  512kB or 1MB of Chip RAM, A1200 or A4000 had 2MB Chip. In
   WinUAE, up to 8MB can be configured (no real Amiga had
   this!)
 - **Slow** RAM is extra RAM added via the A500
@@ -34,5 +34,5 @@ Depending on the processor variant, you can expand the RAM
 up to 10 MB or theoretically up to 2 GB. The limit of 2 GB is
 valid for the Amiga models A3000 and A4000. On the Motherboard
 of these computers you can plug in up to 18 MB RAM, and for
-every of the four Zorro-III bus expansion you can expand memory
+each of the four Zorro-III bus expansions you can expand memory
 to the maximum.

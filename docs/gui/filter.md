@@ -48,5 +48,5 @@ level or offset and ratios from 1:1 to 3:3.
 
 Filter settings can be saved as a **Preset** if
 you wish to reuse Filter settings in other configurations.  
-Previous saved settings can be **Load**ed or
+Previously saved settings can be **Load**ed or
 **Deleted,** if not required.

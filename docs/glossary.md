@@ -1,7 +1,7 @@
 # Glossary
 
 Computer sciences have spawned many awkward terms and
-acronyms which are often hindering novice users to understand
+acronyms which often hinder novice users from understanding
 how-tos and manuals. Emulation has some terms of its own, as
 does the Amiga, due to its unique hardware design. This page
 aims to explain the most common terms.
@@ -15,7 +15,7 @@ aims to explain the most common terms.
 | CPU | Central Processing Unit. Also referred to as the "processor", all calculations are done in this unit. |
 | FPU | Floating Point Unit. In the early days, this was a separate unit used for floating point calculations. Nowadays integrated in the main CPU. |
 | RAM | Random Access Memory. Main type of storage for a computer to work with. It is by nature volatile memory, i.e. it gets cleared when the computer is shut down. For WinUAE RAM emulation, see [RAM & Kickstart](background/kickst.md). |
-| ROM | Read Only Memory. Most commonly used to store Firmware, Kickstart, and BIOS programs. In contrary to RAM, it is not volatile. |
+| ROM | Read Only Memory. Most commonly used to store Firmware, Kickstart, and BIOS programs. In contrast to RAM, it is not volatile. |
 | ZIP | The world's most-used compression format, tools for handling these files can be found almost on any computer system. |
 
 ## Amiga Specific
@@ -34,7 +34,7 @@ aims to explain the most common terms.
 | LHA | The most common compressed file format on the Amiga and Aminet. |
 | LZX | File archiver and format for the Amiga, released in 1995. |
 | OCS | Original Chip Set, see [Custom Chips](background/custchips.md). |
-| Paula | Amiga custom hardware, See [Custom Chips](background/custchips.md). |
+| Paula | Amiga custom hardware, see [Custom Chips](background/custchips.md). |
 | Zorro | Zorro is the standard bus for expansions in Amigas. See [Zorro Bus](background/zorro.md). |
 
 ## Emulation Specific

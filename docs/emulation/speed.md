@@ -44,6 +44,6 @@ It is recommended to install the AmigaOS and programs on a
 hardfile, so the access and backup can be done quickly. To
 store pictures and other data, you may use a Windows directory
 for easier data exchange with the PC.  
-Transferring data from/to a hardfile can done by simply copying
+Transferring data from/to a hardfile can be done by simply copying
 it, so you don't have to install all your Amiga stuff
 again.
