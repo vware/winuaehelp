@@ -6,6 +6,7 @@
 - Updates for WinUAE 6.0.3
 - Update system requirements
 - Fix lots of typos and grammatical errors
+- Fix internal and external links
 
 ## Version 3.1.1
 
