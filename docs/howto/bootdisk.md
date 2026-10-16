@@ -21,7 +21,7 @@ Workbench boot disk from within the emulator:
 1. Create a blank formatted disk using WinUAE
    - Click on Floppies tab
    - Tick Bootblock to make it bootable.
-   - Click 'Create Standard Floppy'
+   - Click 'Create Standard Disk'
    - Type a filename and save it
 2. Install **ADFView** and
    **ADFOpus** (see [Links](../links.md))

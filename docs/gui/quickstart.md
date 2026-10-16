@@ -11,9 +11,11 @@ It is entirely optional.
 ## Emulated Hardware
 
 **Model** - Select the model of Amiga you want
-to emulate e.g. Amiga 500, 2000, 500+, 600, 1000, 1200, 3000,
-4000, CD32, CDTV, Arcadia or Expanded UAE example
-configuration.  
+to emulate: A500, A500+, A600, A1000, A1200, A3000, A4000,
+CD32, CDTV, American Laser Games / Picmatic, Arcadia,
+Macrosystem or the Expanded WinUAE example configuration.  
+**NTSC** - Emulate an NTSC (60Hz) machine instead of a PAL
+(50Hz) one.  
 **Configuration** - Select the common types of
 Kickstart, chipset and memory configurations you require from
 this list. This list changes depending on the model of Amiga
@@ -21,20 +23,21 @@ you selected.
 
 ## Compatibility vs required CPU power
 
-**Best - Low compatibility -** Select whether
+**Best compatibility - Low compatibility -** Select whether
 you want more Amiga chipset compatibility or faster CPU speeds
 from this slider.
 
 ## Host Configuration
 
-**Configuration** - Select a default, Full
-screen 640x480, Full screen 800 x 600 or windowed
-configuration.
+**Configuration** - Select which display, sound and input
+settings to use: the current ones, the defaults, or one of
+the saved host configurations (for example Windowed or
+Fullscreen).
 
 ## Emulated Drives
 
-These options are identical between **Disk drive DF0:
-/ Disk drive DF1:**:  
+These options are identical between **Floppy drive DF0:
+/ Floppy drive DF1:**:  
 **Select image file** - To load an ADF file to the
 emulated drive.  
 **3.5" DD / 3.5" HD** - Allows selecting the
@@ -44,7 +47,12 @@ emulated floppy drive density.
 image.  
 **Eject** - Eject the disk image.
 
+For CD32 and CDTV, a CD drive or CD image is selected here
+instead.
+
 ## Mode
 
 **Start in Quickstart mode** - If enabled, then
-the Quickstart mode is the default.
+the Quickstart mode is the default.  
+**Set configuration** - Applies the selected Quickstart
+configuration.

@@ -8,8 +8,9 @@ Network, and SCSI cards.
 ## Expansion Board Settings
 
 **Controller or Bridgeboard selection** for
-Built-in, SCSI, IDE, SASI, Custom, PCI, x86 Bridgeboards,
-Graphics, Sound, Network or Disk boards.  
+Built-in expansions, SCSI, IDE, SASI and Custom controllers,
+PCI and x86 Bridgeboards, Graphics boards, Sound cards,
+Network adapters or Disk controllers.  
 **Controller model selection** for the make and
 model of required controller or bridgeboard. Click
 **Enabled** to enable/disable this controller
@@ -20,13 +21,23 @@ the same series.
 ID (0-7).  
 **SCSI/IDE/Boot ROM file.** allows you to specify an
 expansion card and ROM file and model. Up to 4 separate files
-can be selected.
+can be selected.  
+**Autoboot disabled** The Amiga will not start from the
+drives of this board on its own.  
+**PCMCIA inserted** Whether the PCMCIA card is plugged
+in.  
+**24-bit DMA** Limits the controller to the memory a real
+Zorro II card could reach.  
+These three are only available for boards that support
+them.
 
 ## Accelerator Board Settings
 
 **Accelerator make selection.** Select ACT,
-Commodore, DKB, GVP, Kupke, Macrosystem, M-Tec, Phase 5, RCS,
-Interactive Video makes.  
+Commodore, DCE, DKB, GVP, Kupke, MacroSystem, M-Tec, Phase 5,
+RCS Management, Interactive Video Systems, Progressive
+Peripherals & Software, Computer System Associates, Hardital
+or Harms.  
 **Accelerator board selection.** Select the actual
 accelerator board.  
 **Accelerator board ROM file**. Select the
@@ -42,5 +53,6 @@ the network connection of the host.
 **uaescsi.device** Adds support for IDE/SCSI
 CD-ROM drives on the Amiga side.  
 **uaenet.device** Enable SANA2 compatible network
-devices. Requires [WinPCap](../links.md#essential)
-(Windows Packet Capture Library).
+devices. It works out of the box by sharing the internet
+connection of the PC. To give the Amiga direct access to
+your network adapter, install [Npcap](../links.md#essential).

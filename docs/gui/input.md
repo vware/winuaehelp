@@ -34,8 +34,8 @@ do
 **Joystick dead zone** can be specified for a
 percentage of the Joystick's movement to prevent unwanted
 movement.  
-**Autofire rate (frames)** specifies how often
-firing occurs over a number of frames, if enabled.  
+**Autofire rate (lines)** specifies how often
+firing occurs, measured in screen lines, if enabled.  
 **Digital joy-mouse speed** can be specified for
 how fast response is for digital input devices (e.g. USB).  
 **Analog joy-mouse speed** can be specified for
@@ -43,6 +43,8 @@ how fast response is for analogue input devices (e.g. MIDI
 port).  
 **Swap Backslash/F11** allows swapping these keys
 for compatibility.  
+**Page Up = End** swaps the Page Up and End keys, so Page
+Up is used for the WinUAE keyboard shortcuts.  
 **Copy from** option allows you to copy a
 configuration from another configuration into the current
 configuration to save time.  

@@ -119,11 +119,12 @@ of [ASPI layer](harddrives.md) to use, e.g. SCSI
 Emulation, SPTI, SPTI + SCSI Scan.  
 **Windowed style.** Select the following styles:
 Borderless, Minimal, Standard or Extended  
-**Graphics API** to specify API to use for
-graphics e.g. Direct3D 9, Direct3D 11 or DirectDraw.  
-**DirectDraw** Specify type of ram for display
-buffer system as Default RAM, Local VRAM, Non Local VRAM or
-System RAM.  
+**Graphics API** selects how the picture is drawn:
+Direct3D 11 (the default), Direct3D 9, Direct3D 11 HDR
+(experimental) or GDI. Use GDI only if Direct3D does not work
+on your PC.  
+**Hardware D3D** allows switching between hardware and
+software Direct3D modes.  
 
 ## GUI
 
@@ -133,14 +134,19 @@ of the host system if it is available, or default to
 English.  
 **GUI Font.** Select a font for GUI, select a font
 using Windows font selection window.  
+**OSD Font.** Select the font for the on-screen messages
+and the status bar.  
 **Set default.** Set the default font.  
-**Select** font size from 60% to 140%.  
+**Select** GUI size from 60% to 200%.  
 **Reset list customizations** sets all list
 customizations back to defaults.  
-**Resizable GUI** option to allow you expand or
+**Resizeable GUI** option to allow you expand or
 shrink the WinUAE Window.  
 **Fullscreen GUI** option to expand the WinUAE
 window to fill the screen.  
+**Dark mode** Follows the Windows setting by default, but
+can also be switched on or off. Requires Windows 10 or
+newer.  
 
 ## State Files
 

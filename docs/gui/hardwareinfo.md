@@ -10,8 +10,8 @@ accelerator boards, and others.
 **Type** is the interface type. Z2 = Zorro 2,
 Z3 = Zorro 3  
 **Name** name of the hardware  
-**Start** starting memory address of the
-device  
+**Start** and **End** first and last memory address of
+the device  
 **Size** memory size used  
 **ID** ID number used by AutoConfig.  
 

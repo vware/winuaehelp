@@ -37,7 +37,7 @@ Chipset).
 Zorro 3 mapping mode.  
 **Manufacturer, Product, Autoconfig Data** Display
 data about memory board.  
-**Memory board** Select a UAE, DKB, Kupke or Supra
-memory board.  
+**Memory board** Select a UAE, DKB, GVP, Kupke, or 2
+different Supra memory boards.  
 **Address range** Set address range for
 memory.

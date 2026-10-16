@@ -32,14 +32,14 @@ from either Paula, direct CD, AHI sound between 0% (silent) to
 
 ## Sound Buffer Size
 
-Gives access to the level of the used Direct Sound buffer.
+Sets the size of the sound buffer.
 If sound output is choppy, this should be changed.
 
 ## Settings
 
-**Channel mode** can be set to Mono, Stereo,
-Cloned Stereo or 4 Channel and 5.1 Channels. Stereo will use
-more CPU time.  
+**Channel mode** can be set to Mono, Stereo, 4
+Channels, 5.1 or 7.1 Channels, or Cloned Stereo for 4, 5.1 or
+7.1 speakers.  
 **Stereo Separation** can be set to improve stereo
 sound.  
 **Interpolation** improves quality by smoothing

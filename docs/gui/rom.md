@@ -16,7 +16,7 @@ support (supplied with [Amiga
 Forever](../links.md#allinone)).  
 
 **MapROM Emulation** will provide support for
-BlitzKick type tools.  
+BlizKick type tools.  
 **ShapeShifter support** will enable the [ShapeShifter](../links.md#emulators) 'PrepareEmul'
 support, so you don't have to KickShift your ROM-images. This
 also allows Amiga Forever users (encrypted ROM-images can't be
@@ -43,5 +43,5 @@ RTC file.
 
 ## Advanced UAE expansion board/Boot ROM Settings
 
-**Board type**: Original or new UAE, 64K or
-128K, Direct or Indirect board types.
+**Board type**: ROM disabled, Original UAE, or one of the
+New UAE types (64k, 128k Direct or 128k Indirect).

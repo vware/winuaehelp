@@ -13,7 +13,8 @@ checked, as the settings are for advanced users.
 ## Battery Backed Up Real Time Clock
 
 Configures the clock type used in the Amiga or a custom
-clock. The RF5C01A is used in the A1200.
+clock. The RF5C01A is used in the A3000 and A4000, the
+MSM6242B in most other models and clock expansions.
 
 ## CIA-A TOD Clock Source
 
@@ -66,8 +67,6 @@ state.
 Adapter (CIA) Time of Day bug.  
 **Custom register byte write bug** - Enable a
 custom register byte write bug feature.  
-**Power up memory pattern** - Chip and Slow RAM
-power up pattern emulation.  
 **1MB Chip / 0.5M+0.5M** Enable 1MB Chip RAM made
 of two 512KB chips.  
 **KS ROM has Chip RAM speed** Set speed of
@@ -97,9 +96,9 @@ array Dynamic-static RAM controller.
 **Fat Gary revision** - Specify the specific
 version of the Fat Gary chip (default is 00). This is the gate
 array system address decoding chip.  
-**Agnus/Alice revision** - Specify the specific
+**Agnus/Alice model** - Specify the specific
 version of the Agnus/Alice chip (default is 21). Memory: Auto,
 512K, 1M, or 2M.  
-**Denise/Lisa revision** - Specify the specific
+**Denise/Lisa model** - Specify the specific
 version of the Denise/Lisa chip (default is F). This is the
 graphics chip. Type: Auto, Velvet, A1000-No EHB, or A1000.

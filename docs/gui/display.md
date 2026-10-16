@@ -19,8 +19,10 @@ used for the Amiga displayed in a Window on the PC screen.
 **Window resize** allows window to be resized
 after starting emulation. *Hint:* to keep the aspect
 ratio, press CTRL while resizing the window.  
-**Refresh rate** can be set to default, 56Hz, 60Hz
-NTSC, 72Hz or 75Hz.  
+**Refresh rate** can be set to default or one of the
+rates your monitor supports.  
+**VRR monitor** Experimental option for variable refresh
+rate monitors. Leave it unticked.  
 **Buffering**. Select type of buffering required:
 No buffering, double or triple buffering.
 
@@ -31,12 +33,17 @@ with VSync setting.
 **RTG** Windowed, Fullscreen or Full-Window with
 VSync setting.
 
-**Blacker than black**  
-**Remove interlace artifacts**  
+**Blacker than black** shows the blanked border darker
+than black parts of the picture.  
+**Remove interlace artifacts** removes the flicker of
+interlaced screens. Not compatible with all software.  
 **Monochrome video out**  
-**Filtered Low Resolution** will fix incorrect
-colors used in games that use the super hires trick.  
-**VGA mode Resolution Autoswitch**  
+**Filtered low resolution** gives a smoother picture when
+the Amiga screen is shown at a lower resolution, instead of
+dropping every other pixel.  
+**VGA mode resolution autoswitch** picks the right
+resolution for VGA-like screen modes, keeping the picture in
+shape.  
 **Display resync blanking**  
 **Resolution** can be set to Lores, Hires or Super
 Hires.  
@@ -52,9 +59,9 @@ out mode
 Second to the display to speed up or slow down the display
 (default is 50 fps)
 
-**Brightness** levels can be set for the
-correct display set up (-200 to 200).  
-**Reset to defaults** is used to update brightness
+**Brightness**, Contrast, Gamma and Dark palette fix can
+be adjusted with the slider.  
+**Reset to defaults** is used to set these
 settings back to defaults.
 
 ## Centering
@@ -70,8 +77,9 @@ centered on the configured screen
   you also need a display that is twice as high.
 - **Scanlines** will not draw certain lines,
   leaving them black.
-- **Double, frames or fields [+]**
+- **Double, fields** and **Double, fields+**
 
 ## Interlaced line mode
 
-Line mode when output is interlaced.
+Line mode when output is interlaced: Single, Double, frames,
+Double, fields or Double, fields+.
