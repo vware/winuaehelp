@@ -11,10 +11,10 @@ emulation.
   OCS chipset but no Extra Half Bright mode.
 - **A1000:** A1000 with OCS chipset.
 - **OCS Agnus + OCS Denise**: This was the
-  first or original chipset, used in the Amiga: Agnus 512M,
+  first or original chipset, used in the Amiga: Agnus 512K,
   Denise (32 color graphics, HAM mode).
 - **OCS Agnus + ECS Denise**: This is a mixed
-  chipset, used in the Amiga: Agnus 512M/1M, ECS Denise (Prod
+  chipset, used in the Amiga: Agnus 512K/1M, ECS Denise (Prod
   VGA, SuperHiRes modes)
 - **ECS Agnus + OCS Denise:** Uses enhanced Fat
   [Agnus](../background/custchips.md) which
@@ -24,32 +24,38 @@ emulation.
   resolutions, but no expansion of the color palette.
 - **AGA**: This is the latest and most
   advanced chipset with 256 colors, HAM-8 mode (262K
-  colors).  
-  **NOTE:** AGA modes do not work with 8-bit color
-  depth screen modes
+  colors).
 
 **NTSC** Enables US NTSC screen mode (200
 lines). The default is PAL (256 lines).  
 
-**Cycle-exact** Enables cycle exact chipsets as
-the real hardware for some games.  
+**Cycle-exact (Full)** The most compatible A500/A1200
+emulation mode, needed by some games and demos. It requires
+a fast PC.  
 **Cycle-exact (DMA/Memory accesses).** Enables
 cycle exact chipsets just for Direct Memory Accesses or normal
 memory accesses.  
 
-**Chipset extra:** List of Amiga models to choose
-to select appropriate chipset automatically.
+## Keyboard
+
+**Keyboard** Selects the emulated keyboard: none (Keyboard
+disconnected), the default UAE High level emulation, or an
+exact emulation of the keyboard of a specific Amiga model,
+which needs the matching keyboard ROM.  
+**Keyboard N-key rollover** Lets you press many keys at
+once, even if the selected keyboard model could not handle
+that.  
 
 ## Options
 
-**Keyboard connected** Sets whether a keyboard
-is connected to the machine  
-**Subpixel display emulation** Support
-hires/superhires pixel positioning and borderblank horizontal
-hires pixel offset fully emulated. Requires more CPU power.  
 **Immediate Blitter** Does requested [blits](../background/custchips.md) immediately.  
 **Wait for Blitter** Wait for the Blitter to
 complete operations.  
+**Optimizations** Full, Partial or None. Leave this at
+Full, the other settings are slower and only meant for
+testing.  
+**Chipset extra:** List of Amiga models to choose
+to select appropriate chipset automatically.  
 
 **Monitor sync source** Selection of Combined,
 Composite Sync or H/V Sync.  

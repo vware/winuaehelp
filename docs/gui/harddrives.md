@@ -1,4 +1,4 @@
-# Hard Drives
+# CD & Hard Drives
 
 This tab contains some very important and complex options,
 please make sure to read the [Drive Emulation](../emulation/drives.md) page for
@@ -30,8 +30,7 @@ the hdf file. If you want to add a new file, skip over to "New
 hard disk image file".  
 
 **HD Controller** changes which controller to use
-such as **UAE, IDE, SCSI, PCMCIA SRAM or
-IDE**.  
+such as **UAE, IDE, SCSI or PCMCIA**.  
 Once you have selected a hardfile, it will display details
 about the cylinders, blocks, size and DOS type in the box.  
 Settings:  
@@ -72,6 +71,13 @@ Sectors, Cylinders and Block size.
 **NOTE:** Administrator rights are required for
 this feature!
 
+## Add SCSI/IDE CD Drive
+
+Adds another emulated CD drive. Choose the **HD
+Controller** it is connected to; the CD image or drive it
+uses is selected under [Optical media
+options](#optical-media-options).
+
 ## Add SCSI/IDE Tape Drive...
 
 ![WinUAE - Add SCSI/IDE Tape Drive](tapedrive.png){ .center }
@@ -99,17 +105,17 @@ available fixed drives for the Amiga to use
 removable drives, such as CD-ROM, USB drives, SD cards  
 **Include network drives** also mounts all mapped
 network drives  
-**Disable CDFS automount CD/DVD drives** will
-disable mounting compact discs and DVDs without having to
-install a CD file system  
+**CDFS automount CD/DVD drives** makes CDs and DVDs
+show up on the Amiga without having to install a CD file
+system  
 **Disable UAEFSDB Support** disable creating
 UAEFSDB files when a directory is mounted as drive  
 **Don't use Windows Recycle Bin** - Excludes
 Windows Recycle Bin from emulation.  
 **Automount Removable drives** will mount a
 removable drive as soon as the media is inserted  
-**Limit size of directory drives to 1GB** will do
-just that
+**Limit size of directory drives to 1G** helps with old
+installers that miscalculate the free space on large drives
 
 ## Optical media options
 

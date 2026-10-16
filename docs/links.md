@@ -25,7 +25,7 @@ Internet.
 
 ## Essential Programs { #essential }
 
-| [WinPCap](https://www.winpcap.org) | Required for SANA2 networking capability in WinUAE |
+| [Npcap](https://npcap.com) | Gives uaenet.device and emulated network cards direct access to your network adapter |
 | --- | --- |
 | [Picasso 96](https://aminet.net/package/driver/video/Picasso96.lha) | Get the latest version of Picasso96 |
 

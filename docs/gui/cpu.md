@@ -15,7 +15,7 @@ Choose between the classic Motorola processors:
   member, but never actually shipped in a real Amiga.
 - **68020** is a much more advanced 68K CPU,
   with some new instructions, and it has a fully 32-bit engine.
-  Used in the A2500 for a brief period on the A2520 card. If 24
+  Used in the A2500 for a brief period on the A2620 card. If 24
   bit addressing is enabled, it is the same as the 68EC020 chip
   in the A1200.
 - **68030** This is a mid range CPU used in
@@ -28,20 +28,26 @@ Choose between the classic Motorola processors:
 
 **24 bit addressing** is used mainly by the
 **68EC020** CPU such as the A1200.  
-**More compatible** is only available when the CPU
-type is a **68000**. Some games and demos require
-this setting for proper compatibility.  
+**More compatible** emulates the CPU more exactly. Some
+games and demos require this setting for proper
+compatibility, but it is slower.  
 **Data cache emulation** Besides the instruction
-cache, you can also emulate the data cache on the CPU.  
+cache, you can also emulate the data cache of the 68030 and
+higher. Requires More compatible.  
 **JIT** can be enabled to access the Advanced Just
-In Time settings if the 68030 or better is selected (see
+In Time settings if the 68020 or better is selected (see
 below).  
-**68040 MMU** enables the Memory Management Unit
-of the 68040 for operating systems like Linux on the Amiga. It
-is not compatible with JIT.  
-**Unimplemented CPU emu** emulates the full 68060
-CPU (in case you forget to load Setpatch and 68040.library and
-68060.library).
+**Unimplemented CPU emu** lets the 68060 run the few
+instructions a real 68060 does not have. On a real Amiga,
+68060.library takes care of these.
+
+## MMU
+
+**MMU** enables the Memory Management Unit of the 68030,
+68040 or 68060 for operating systems like Linux on the
+Amiga. **EC** emulates the cheaper EC variants of these
+CPUs, which have no full MMU.  
+Neither is compatible with JIT.
 
 ## FPU (Floating Point Unit)
 
@@ -57,11 +63,12 @@ CPU (in case you forget to load Setpatch and 68040.library and
 **More Compatible** is available if a FPU is
 selected. Some applications require this for proper
 compatibility.  
-**Unimplemented FPU emu** emulates the full 68881
-FPU (in case you forget to load Setpatch and 68040.library and
-68060.library).  
-**Host** FPU precision size: 64 bit, 80 bit or
-Soft float (80 bit).
+**Unimplemented FPU emu** does the same for FPU
+instructions that the built-in FPUs of the 68040 and 68060
+do not have.  
+**FPU mode** Host (64-bit), Host (80-bit) or Softfloat
+(80-bit). Softfloat is the most accurate, but also the
+slowest.
 
 ## CPU Emulation Speed
 
@@ -89,9 +96,10 @@ to save battery.
 ## Cycle-Exact CPU Emulation Speed
 
 **CPU Frequency** will change the frequency
-multiplier for the CPU
+multiplier for the CPU: 1x, 2x (A500), 4x (A1200), 8x, 16x
+or Custom.
 
-## PPC CPU Settings
+## PPC CPU Options
 
 **PPC CPU Emulation (Blizzard PPC / Cyberstorm
 PPC)** Enables the PPC emulation; a separate plugin is

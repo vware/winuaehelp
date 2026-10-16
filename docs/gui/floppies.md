@@ -16,6 +16,9 @@ some memory (vital for old games). Note that
 **DF0** is the default drive to boot from, so
 please use this before other drives.  
 **Eject** removes the disk from the drive.  
+**Delete save image** deletes the separate file in which
+WinUAE keeps changes to disk images that it cannot write to
+directly.  
 **...** buttons will show a file picker to insert
 a disk image.
 
@@ -29,13 +32,13 @@ image is accessed from, i.e. the host hard disk.
 
 ## New Floppy Disk Image
 
-**Disk image size.** 3.5" DD = 800KB, 3.5" HD =
+**Disk image size.** 3.5" DD = 880KB, 3.5" HD =
 1.76MB, 3.5" DD (PC) = 720kB, 3.5" HD (PC) = 1.44MB, 5.25" SD =
 440kB.  
-**Create Standard "Floppy"** creates a blank
+**Create Standard Disk** creates a blank
 ADF.  
-**Create Custom "Floppy"** allows you to create a
-special ADF file for saving games onto if the Standard floppy
+**Create Custom Disk** allows you to create a
+special ADF file for saving games onto if the Standard disk
 does not work.  
 **Disk Label** will label the new disk image
 without having to do so in Workbench.  

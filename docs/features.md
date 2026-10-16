@@ -127,7 +127,7 @@ WinUAE. 32-bit max is 512M.
   device support (Physical HD, CF card etc..)
 - bsdsocket.library. Amiga TCP/IP stack that uses host’s
   TCP/IP stack.
-- uaenet.device SANA-II device driver. SLIRP or WinPCap
+- uaenet.device SANA-II device driver. SLIRP or Npcap
   backends supported.
 - uaeserial.device. Multiport serial device, Amiga side
   unit x = host serial port COMx:.

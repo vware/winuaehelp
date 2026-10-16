@@ -12,6 +12,10 @@ documents folder.
 ROMs.  
 **Configuration files** Location of .uae [configuration](configurations.md) files for different
 models or configurations of Amigas.  
+**Cache Configuration files** Remembers the list of
+configurations, so the GUI opens faster.  
+**Cache Boxart files** Does the same for the box art and
+screenshot pictures shown for configurations.  
 **NVRAM files** Non-volatile memory files.  
 **Screenshots** Saves screenshots of the Amiga
 screen, see the [Output](output.md) tab.  

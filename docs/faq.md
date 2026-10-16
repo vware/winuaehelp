@@ -138,8 +138,8 @@ from Aminet.
 ## How do I create a blank disk for saving files or games?
 
 Go to the [Floppy Drives](gui/floppies.md) and
-click the button "Create Standard Floppy" for use in Workbench
-or use "Create Custom Floppy" for some games to save files
+click the button "Create Standard Disk" for use in Workbench
+or use "Create Custom Disk" for some games to save files
 to.
 
 ## I have all my floppy drives full, how do I change disks?

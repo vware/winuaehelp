@@ -1,30 +1,33 @@
 # Filter
 
-In this section, filters can be applied to the graphics
-output, useful for example in games with limited
-resolutions.
+In this section, the picture can be scaled, moved and run
+through filters, for example to make it look like an old
+CRT monitor.
 
 ![WinUAE - Filter](filter.png){ .center }
 
 ## Filter Settings
 
 Set to either **Native**, **Native
-(Interlaced)** or **RTG** mode.  
-You can specify whether to use **Null Filter, Direct3D,
-OpenGL, Scale2X, hq2x, SuperEagle, Super2XSal, 2xSal**
-or **PAL** graphics support with
-**Point** or **Bilinear** graphics in
-either 16 or 32 bit modes.  
-The **Horizontal and Vertical Sizes** can be
-specified from -50 to 50 or 1x to 8x if using filters except
-Direct3D or OpenGL.  
-The **Horizontal and Vertical Positions** can be
-specified from -50 to 50.
+(Interlaced)** or **RTG** mode. Each has its own set of
+filter settings.  
+The filter list offers **None** and the Direct3D shader
+filters found in the filtershaders folder of WinUAE. The
+built-in filters of older versions (Scale2X, hq2x,
+SuperEagle and so on) no longer exist.  
+Scaling can be **Point** (sharp pixels) or
+**Bilinear** (smooth).  
+The scaling mode decides how the picture is fitted to the
+window or screen, for example Automatic scaling, Integer
+scaling or Fullscreen (TV).  
+The **Horizontal and Vertical Sizes** and
+**Positions** can be fine-tuned with the sliders.  
+Masks and overlays can be selected if any are installed.
 
 ## Aspect Ratio Correction
 
-You can specify the aspect ratio such as Disabled,
-Automatic, 4:3, 5:4, 15:9, 16:9, 16:10.  
+You can specify the aspect ratio: Disabled, Automatic, or
+a fixed one such as 4:3, 5:4, 16:9, 16:10 or 21:9.  
 **Keep autoscale aspect** ensures that any filter
 will ensure display keeps its autoscale ratio correct to avoid
 distortions.  
@@ -32,8 +35,8 @@ distortions.
 ensure display keeps its aspect ratio correct to avoid
 distortions.  
 **Monitor type** can be Disabled, VGA or TV.  
-**Always stretch NTSC mode** expands the NTSC mode
-to fit the window or screen.
+**Always stretch NTSC mode** stretches NTSC screens to
+the height of PAL screens.
 
 ## Extra Settings
 

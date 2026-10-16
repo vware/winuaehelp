@@ -33,7 +33,7 @@ the same.
 
 **Take screenshot before filtering** will capture
 screen contents before any of the configured [filters](filter.md) have been applied.  
-**Create 256 color palette index screenshot if
+**Create 256 color palette indexed screenshot if
 possible**  
 **Autoclip screenshot** will trim the picture to
 output format  

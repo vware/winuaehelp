@@ -7,16 +7,22 @@ port emulations work.
 
 ## Parallel Port
 
-This lets you specify which PC installed printer you want to
-use for printing on the Amiga side.  
-**Type** can be ASCII-Only for text only printing,
-Epson Matrix Printer Emulation for older dot matrix type
-printers, The Postscript (Passthrough) for the postscript
-language. NOTE: The Postscript printer emulator will use
-Ghostscript.  
+**Printer** lets you specify which PC installed printer you
+want to use for printing on the Amiga side.  
+**Type** can be Passthrough (the data is sent to the
+printer unchanged), ASCII-Only for text only printing, Epson
+Matrix Printer Emulation (9pin or 48pin), PostScript
+(Passthrough) or PostScript (Emulation), which uses
+Ghostscript. See [Printing](../emulation/printing.md) for
+details.  
+**Flush print job** sends what has been printed so far to
+the printer right away.  
+**Autoflush** is the time in seconds after which this
+happens automatically.  
 **Ghostscript extra parameters** are additional
 command line parameters to open Ghostscript with.  
-**Sampler** can be None or DSound.  
+**Sampler** can be None or one of the recording devices
+of your PC.  
 **Stereo sampler** is available if the sound
 sampler has been selected.
 
@@ -26,7 +32,7 @@ The drop down menu allows which host port to use. All ports
 including virtual ports on your PC will be available.  
 **Shared** will keep the port available for other
 programs  
-**RTS/CTS** handshaking can be enabled if it's
+**Host RTS/CTS** handshaking can be enabled if it's
 required for modems or similar devices  
 **Direct** will fix PC to PC Lotus 2 serial link
 problems  
@@ -34,7 +40,7 @@ problems
 of serial ports if a program requires it including multiple
 ports and unit numbers.  
 **Serial Status** for handshake/status pin
-emulation of RTS, CTS, DTS, DTR, DTE and CD modes.  
+emulation of RTS, CTS, DTR, DTE and CD.  
 **Serial Status** for handshake/status pin
 emulation of Ring Indicator.
 
