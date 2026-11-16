@@ -18,13 +18,12 @@ Credits section.
 1. Introduction
 ---------------
 Welcome to the official help file for WinUAE! It has been designed to aid
-you in using WinUAE, and is integrated into the main WinUAE program.
+you in using WinUAE.
 This will give you information on how to get started with WinUAE, a
 description of all the GUI Settings, information about the emulation itself,
 and some additional information about real Amigas in the Background
 Information section.
-Experienced users can find valuable tips for better speed and functionality
-of WinUAE at the Hints For Power Users page.
+The How-To section has step by step guides for some common tasks.
 
 
 2. Building
