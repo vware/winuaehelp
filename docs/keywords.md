@@ -25,19 +25,19 @@
 - **Boot disk**: [Making a boot disk](howto/bootdisk.md)
 - **Bridgeboard**: [Expansions](gui/expansions.md), [RTG Board](gui/rtgboard.md)
 - **BSD**: [Expansions](gui/expansions.md)
-- **Buffer**: [Expansions](gui/display.md), [Misc](gui/expansions.md)
+- **Buffer**: [Display](gui/display.md), [Sound](gui/sound.md), [RTG Board](gui/rtgboard.md)
 - **Bugs**: [Known Bugs](bugs.md)
 
 ## C
 
 - **Cartridge**: [ROM](gui/rom.md)
 - **Catweasel**: [Expansions](gui/expansions.md)
-- **CD Drive or Image**: [Adv.Chipset](gui/harddrives.md)
+- **CD Drive or Image**: [Hard Drives](gui/harddrives.md), [Adv.Chipset](gui/advchipset.md)
 - **CD32**: [Adv.Chipset](gui/advchipset.md), [ROM](gui/rom.md), [Expansions](gui/expansions.md)
 - **CDROM**: [Features](features.md), [Hard Drives](gui/harddrives.md)
 - **CDTV**: [Adv.Chipset](gui/advchipset.md), [ROM](gui/rom.md)
 - **Chip RAM**: [RAM](gui/ram.md), [Advanced Chipset](gui/advchipset.md)
-- **Chipset**: [CPU](gui/chipset.md), [Custom Chips](gui/cpu.md), [Advanced Chipset](background/custchips.md)
+- **Chipset**: [Chipset](gui/chipset.md), [Custom Chips](background/custchips.md), [Advanced Chipset](gui/advchipset.md)
 - **CIA**: [Advanced Chipset](gui/advchipset.md)
 - **Cloanto**: [Help file credits](credits/about.md)
 - **Clock**: [Misc](gui/misc.md)
@@ -46,7 +46,7 @@
 - **Configuration**: [Command Line Parameters](emulation/comline.md), [Input](gui/input.md), [Configurations](gui/configurations.md)
 - **Controllers**: [Expansions](gui/expansions.md), [RTG Board](gui/rtgboard.md)
 - **Copper**: [Custom Chips](background/custchips.md)
-- **CPU**: [Features](gui/cpu.md), [Picasso96 Emulation](features.md), [RAM](howto/picasso.md), [JIT - Just In Time](gui/ram.md)
+- **CPU**: [CPU](gui/cpu.md), [Features](features.md), [Picasso96 Emulation](howto/picasso.md), [RAM](gui/ram.md), [JIT - Just In Time](emulation/jit.md)
 - **CrossDOS**: [Data Transfer to/from Amiga](howto/pcamitrans.md)
 
 ## D
@@ -54,7 +54,7 @@
 - **Denise**: [Chipset](gui/chipset.md), [Adv.Chipset](gui/advchipset.md), [Custom Chips](background/custchips.md)
 - **Direct3D**: [Filter](gui/filter.md)
 - **Directory**: [Hard Drives](gui/harddrives.md)
-- **DirectX**: [Help file credits](credits/about.md), [Display](gui/display.md), [Links](links.md), [Requirements](started/require.md), [Speed](emulation/speed.md)
+- **DirectX**: [Help file credits](credits/about.md), [Known Bugs](bugs.md), [FAQ](faq.md)
 - **Disable**: [Floppies](gui/floppies.md), [Sound](gui/sound.md)
 - **Dongle**: [IO Ports](gui/ports.md)
 
@@ -118,7 +118,7 @@
 - **Lightgun**: [Input](gui/input.md)
 - **Lightpen**: [Input](gui/input.md)
 - **Lisa**: [Custom Chips](background/custchips.md)
-- **Load**: [Misc](gui/misc.md), [Command Line Parameters](emulation/comline.md)
+- **Load**: [Misc](gui/misc.md), [Command Line Parameters](emulation/comline.md), [Configurations](gui/configurations.md)
 - **Logging**: [Misc](gui/misc.md), [Paths](gui/paths.md)
 
 ## M
@@ -132,7 +132,6 @@
 - **MMU**: [CPU](gui/cpu.md)
 - **Monitor**: [Display](gui/display.md), [Expansions](gui/expansions.md), [RTG Board](gui/rtgboard.md)
 - **Mouse**: [Misc](gui/misc.md), [Game Ports](gui/gameports.md), [Input](gui/input.md)
-- **mousehack**: [Amiga Programs](emulation/amigaprogs.md)
 
 ## N
 
@@ -143,7 +142,6 @@
 ## O
 
 - **OCS**: [Chipset](gui/chipset.md), [Custom Chips](background/custchips.md)
-- **OpenGL**: [Filter](gui/filter.md)
 
 ## P
 
@@ -153,7 +151,6 @@
 - **PCI**: [Expansions](gui/expansions.md)
 - **PCMCIA**: [Advanced Chipset](gui/advchipset.md)
 - **Picasso96**: [Known Bugs](bugs.md), [Display](gui/display.md), [Features](features.md), [Links](links.md), [Picasso96](howto/picasso.md), [RAM](gui/ram.md), [Speed](emulation/speed.md)
-- **picasso96fix**: [Amiga Programs](emulation/amigaprogs.md), [Picasso96](howto/picasso.md)
 - **Postscript**: [IO Ports](gui/ports.md)
 - **PPC**: [PPC CPU](gui/cpu.md), [RAM Accelerator boards](gui/ram.md)
 - **Printer**: [IO Ports](gui/ports.md)
@@ -178,7 +175,7 @@
 - **Serial**: [Transfer data between Amiga and PC](howto/pcamitrans.md), [IO Ports](gui/ports.md)
 - **Shapeshifter**: [ROM](gui/rom.md)
 - **Sound**: [Sound](gui/sound.md), [Expansions](gui/expansions.md)
-- **Speed**: [Floppies](emulation/speed.md)
+- **Speed**: [Speed](emulation/speed.md), [Floppies](gui/floppies.md)
 - **Sprites**: [Known Bugs](bugs.md), [Chipset](gui/chipset.md)
 - **State**: [Misc](gui/misc.md)
 
