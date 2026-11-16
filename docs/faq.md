@@ -118,7 +118,7 @@ There are two ways to access Amiga CDs:
   CDs (type Info for list of devices).
 - You can install the CacheCDFS CD-ROM drivers from either
   AmigaOS3.9 CD or a third party driver such as AmiCDFS. You
-  need to enable uaescsi.device on the Misc tab before starting
+  need to enable uaescsi.device on the Expansions tab before starting
   WinUAE and enable Logging to determine the Unit numbers (see
   WinUAElog.txt file) for your CD-ROM drive. When you install
   the drive make sure the device is uaescsi.device and the unit
@@ -151,9 +151,9 @@ this task much less tedious.
 
 ## How do I save the current "State" of a game?
 
-Press F12, go to the Misc screen and click 'Save current
-state' which will save the state as a .USS file. Use 'Load a
-save-state snapshot' to load state file. There are also
+Press F12, go to the Misc screen and click 'Save State'
+which will save the state as a .USS file. Use 'Load State' to
+load a state file. There are also
 [keyboard shortcuts](emulation/keyboar.md)
 available.
 

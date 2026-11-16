@@ -33,8 +33,8 @@ When your configuration is complete, click the
 hard disk or bootable floppy is found, you may see the Insert
 Disk screen, press F12 and click on Floppies to change the disk
 and click OK to restart. If the emulation crashes or fails to
-boot, press F12, go to the Misc screen and click **Reset
-Amiga** and then OK.
+boot, press F12 and click **Reset** on the bottom left of
+the window.
 
 When finished with the emulation you can either press
 **Ctrl+F11,** close the window, or press F12 and
