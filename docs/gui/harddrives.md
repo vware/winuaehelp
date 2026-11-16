@@ -73,6 +73,8 @@ this feature!
 
 ## Add SCSI/IDE CD Drive
 
+![WinUAE - Add SCSI/IDE CD Drive](cddrive.png){ .center }
+
 Adds another emulated CD drive. Choose the **HD
 Controller** it is connected to; the CD image or drive it
 uses is selected under [Optical media
