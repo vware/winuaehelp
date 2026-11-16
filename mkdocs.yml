@@ -8,6 +8,7 @@ use_directory_urls: false
 theme:
   name: material
   language: en
+  font: false
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
